@@ -16,6 +16,7 @@ android {
     namespace = "moe.shizuku.manager"
     defaultConfig {
         applicationId = "moe.shizuku.privileged.api"
+        buildConfigField "String", "NFX_API_URL", '"https://nfxlocationpro.amarlo.online/"'
         versionCode = rootProject.ext.versionCode
         versionName = rootProject.ext.versionName
         externalNativeBuild {
@@ -162,7 +163,7 @@ afterEvaluate {
 
 android.applicationVariants.configureEach { variant ->
     variant.outputs.configureEach {
-        outputFileName = "shizuku-pro-v${variant.versionName}-${variant.name}.apk"
+        outputFileName = "nfx-location-pro-v${variant.versionName}-${variant.name}.apk"
 
         variant.assembleProvider.get().doLast {
             def outDir = new File(rootDir, "out")

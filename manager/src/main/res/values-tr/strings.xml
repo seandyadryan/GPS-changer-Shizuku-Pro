@@ -16,7 +16,6 @@
     <string name="home_wireless_adb_summary">Kablosuz hata ayıklama kullanılarak başlatılır.</string>
     <string name="home_usb_adb_title"><![CDATA[USB hata ayıklama ile başlat]]></string>
     <string name="home_usb_adb_summary">USB hata ayıklama ile başlatılır.</string>
-    <string name="home_support_body">Shizuku-Next ücretsizdir ve reklam içermez. Bir kahve, bakım için harcanan zamana katkı sağlar.</string>
     <string name="diagnostics_title">Tanılama</string>
     <string name="diagnostics_copy">Tanılamayı kopyala</string>
     <string name="diagnostics_copied">Tanılama kopyalandı</string>
@@ -738,8 +737,6 @@
     <string name="settings_translate_note">Crowdin\'de uygulamayı çevirin.</string>
     <string name="crowdin_url">https://crowdin.com/project/Shizuku-Next</string>
     <string name="settings_report_bug">Bir hata bildirin</string>
-    <string name="settings_support_coffee">Bana bir kahve ısmarlayın</string>
-    <string name="settings_support_coffee_note">Shizuku-Next geliştirmesini destekleyin</string>
     <string name="settings_contributors">Katkıda bulunanlar</string>
     <string name="settings_contributors_hint">Keşfetmek için sürükle · Yakınlaştırmak için sıkıştır · Detaylar için dokun</string>
     <!--

@@ -87,12 +87,6 @@ The app requests permissions for features such as notifications, background serv
 
 Help translate Shizuku-Next on [Crowdin](https://crowdin.com/project/Shizuku-Next). See [`docs/translations.md`](translations.md) for translation details.
 
-## Support the project
-
-Shizuku-Next is free and contains no ads. If you'd like to support development, you can [buy me a coffee](https://www.buymeacoffee.com/rushiranpise).
-
-Please also consider supporting the upstream projects: [thedjchi](https://www.buymeacoffee.com/thedjchi) and [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku).
-
 ## Developer guide
 
 ### API

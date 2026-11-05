@@ -16,7 +16,6 @@
     <string name="home_wireless_adb_summary">ワイヤレスデバッグを使用して開始します。</string>
     <string name="home_usb_adb_title"><![CDATA[USBデバッグ経由で開始]]></string>
     <string name="home_usb_adb_summary">USBデバッグを使用して開始します。</string>
-    <string name="home_support_body">Shizuku-Next は無料で、広告はありません。コーヒーは維持にかかる時間の一部となります。</string>
     <string name="diagnostics_title">診断</string>
     <string name="diagnostics_copy">診断情報をコピー</string>
     <string name="diagnostics_copied">診断情報をコピーしました</string>
@@ -662,8 +661,6 @@
     <string name="settings_translate_note">Crowdin でアプリを翻訳。</string>
     <string name="crowdin_url">https://crowdin.com/project/Shizuku-Next</string>
     <string name="settings_report_bug">バグを報告する</string>
-    <string name="settings_support_coffee">コーヒーをおごる</string>
-    <string name="settings_support_coffee_note">Shizuku-Nextの開発を支援する</string>
     <string name="settings_contributors">貢献者</string>
     <string name="settings_contributors_hint">ドラッグして探索・ピンチでズーム · 詳細はタップ</string>
     <!--

@@ -16,7 +16,6 @@
     <string name="home_wireless_adb_summary">Запускается через беспроводную отладку.</string>
     <string name="home_usb_adb_title"><![CDATA[Запуск через отладку по USB]]></string>
     <string name="home_usb_adb_summary">Запускается через отладку по USB.</string>
-    <string name="home_support_body">Shizuku-Next бесплатен и не содержит рекламы. Чашка кофе помогает возместить время, затрачиваемое на поддержку проекта.</string>
     <string name="diagnostics_title">Диагностика</string>
     <string name="diagnostics_copy">Копировать диагностику</string>
     <string name="diagnostics_copied">Диагностика скопирована</string>
@@ -699,8 +698,6 @@
     <string name="settings_translate">Участвовать в переводе</string>
     <string name="settings_translate_note">Переводите приложение на Crowdin.</string>
     <string name="settings_report_bug">Сообщить об ошибке</string>
-    <string name="settings_support_coffee">Поддержать автора</string>
-    <string name="settings_support_coffee_note">Поддержите разработку Shizuku-Next</string>
     <string name="settings_contributors">Участники</string>
     <string name="settings_contributors_hint">Перетаскивайте для навигации · изменяйте масштаб щипком · коснитесь для подробностей</string>
     <!--

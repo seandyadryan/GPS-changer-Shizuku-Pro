@@ -16,7 +16,6 @@
     <string name="home_wireless_adb_summary">Începe să utilizezi depanarea fără fir.</string>
     <string name="home_usb_adb_title"><![CDATA[Pornește prin depanare USB]]></string>
     <string name="home_usb_adb_summary">Pornește folosind depanarea USB.</string>
-    <string name="home_support_body">Shizuku-Next este gratuit și nu are reclame. O cafea este folosită pentru timpul necesar întreținerii.</string>
     <string name="diagnostics_title">Diagnostică</string>
     <string name="diagnostics_copy">Copiere informații pentru diagnoză</string>
     <string name="diagnostics_copied">Diagnostice copiate</string>
@@ -725,8 +724,6 @@
     <string name="settings_translate_note">Tradu aplicația pe Crowdin.</string>
     <string name="crowdin_url">https://crowdin.com/project/Shizuku-Next</string>
     <string name="settings_report_bug">Raportează o eroare</string>
-    <string name="settings_support_coffee">Cumpără-mi o cafea</string>
-    <string name="settings_support_coffee_note">Sprijină dezvoltarea Shizuku-Next</string>
     <string name="settings_contributors">Contribuitori</string>
     <string name="settings_contributors_hint">Trage pentru a explora · Ciupește pentru a mări · Atinge pentru detalii</string>
     <!--

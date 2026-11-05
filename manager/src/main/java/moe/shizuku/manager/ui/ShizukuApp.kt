@@ -252,7 +252,7 @@ private val tabs = listOf(
 )
 
 @Composable
-fun ShizukuApp() {
+fun ShizukuApp(onOpenAccount: () -> Unit) {
     ShizukuTheme {
         // Detail screens are shown outside the Scaffold, so wrap everything in a
         // Surface otherwise LocalContentColor falls back to black and plain
@@ -409,6 +409,7 @@ fun ShizukuApp() {
                         pages = pages,
                         focusPageFirst = tvDetailWasOpen,
                         returnFocus = tvReturn,
+                        onOpenAccount = onOpenAccount,
                         onOpenDetail = {
                             tvReturn.detail = it
                             detail = it
@@ -419,6 +420,7 @@ fun ShizukuApp() {
                         MainTabs(
                             pagerState = pagerState,
                             pill = pill,
+                            onOpenAccount = onOpenAccount,
                             onOpenDetail = { detail = it }
                         )
                     }
@@ -468,6 +470,7 @@ internal fun afterSettling(visited: List<Int>, page: Int): List<Int> = when {
 private fun MainTabs(
     pagerState: PagerState,
     pill: TabPill,
+    onOpenAccount: () -> Unit,
     onOpenDetail: (Detail) -> Unit
 ) {
     val scope = rememberCoroutineScope()
@@ -564,7 +567,7 @@ private fun MainTabs(
                         onFullscreenChange = { modulesFullscreen = it }
                     )
                     3 -> LabsScreen(bottomPadding = bottomPadding, onOpenDetail = onOpenDetail)
-                    4 -> SettingsScreen(bottomPadding = bottomPadding, onOpenDetail = onOpenDetail)
+                    4 -> SettingsScreen(bottomPadding = bottomPadding, onOpenDetail = onOpenDetail, onOpenAccount = onOpenAccount)
                 }
             }
         }
@@ -793,6 +796,7 @@ private fun TelevisionTabs(
     pages: SaveableStateHolder,
     focusPageFirst: Boolean,
     returnFocus: TelevisionReturn,
+    onOpenAccount: () -> Unit,
     onOpenDetail: (Detail) -> Unit
 ) {
     var grantedCount by remember { mutableIntStateOf(0) }
@@ -983,7 +987,7 @@ private fun TelevisionTabs(
                         onFullscreenChange = {}
                     )
                     3 -> LabsScreen(bottomPadding = 0.dp, onOpenDetail = onOpenDetail)
-                    4 -> SettingsScreen(bottomPadding = 0.dp, onOpenDetail = onOpenDetail)
+                    4 -> SettingsScreen(bottomPadding = 0.dp, onOpenDetail = onOpenDetail, onOpenAccount = onOpenAccount)
                 }
                 }
             }

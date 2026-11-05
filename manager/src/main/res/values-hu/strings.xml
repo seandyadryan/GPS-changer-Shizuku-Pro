@@ -16,7 +16,6 @@
     <string name="home_wireless_adb_summary">Indítás vezeték nélküli hibakeresés használatával.</string>
     <string name="home_usb_adb_title"><![CDATA[Indítás USB hibakereséssel]]></string>
     <string name="home_usb_adb_summary">Indítás USB hibakeresés használatával.</string>
-    <string name="home_support_body">A Shizuku Next ingyenes, és nem tartalmaz hirdetéseket. Egy kávé fedezi a fenntartásához szükséges időt.</string>
     <string name="diagnostics_title">Diagnosztika</string>
     <string name="diagnostics_copy">Diagnosztika másolása</string>
     <string name="diagnostics_copied">Diagnosztika másolva</string>
@@ -498,8 +497,6 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="settings_help">Segítség</string>
     <string name="settings_translate">Közreműködés a fordításban</string>
     <string name="settings_report_bug">Hiba jelentése</string>
-    <string name="settings_support_coffee">Vegyen nekem egy kávét</string>
-    <string name="settings_support_coffee_note">Támogassa a Shizuku Next fejlesztését</string>
     <string name="settings_contributors">Közreműködők</string>
     <string name="settings_contributors_hint">Húzással felfedezheti · Két ujjal nagyíthat · Érintéssel megtekintheti a részleteket</string>
     <!--

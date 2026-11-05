@@ -17,6 +17,9 @@ __pycache__/
 /.kotlin
 /local-build.log
 /local-*.log
+/backend/node_modules/
+/backend/.env
+/backend/.env.*
 
 # Release signing material never commit these.
 /key.jks

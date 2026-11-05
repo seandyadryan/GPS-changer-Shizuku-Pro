@@ -1,8 +1,8 @@
-# Build Shizuku Pro
+# Build NFX Location PRO
 
 ## GitHub Actions
 
-Open **Actions > Build Shizuku Pro > Run workflow**, choose `main`, and run it.
+Open **Actions > Build NFX Location PRO > Run workflow**, choose `main`, and run it.
 Enable **Publish the signed APK to GitHub Releases** to also publish a release.
 Ordinary pushes, pull requests and schedules never start a runner in this fork.
 There is one Linux job, a 45-minute limit, a Gradle cache, and seven-day artifact retention.

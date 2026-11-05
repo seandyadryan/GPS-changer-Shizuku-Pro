@@ -4,7 +4,7 @@
       docs/translations.md. Uploading this file is also what applies its settings over there, so
       a change here reaches translators on the next push and not before.
     -->
-    <string name="app_name" translatable="false">Shizuku Pro</string>
+    <string name="app_name" translatable="false">NFX Location PRO</string>
 
     <!-- To translators: you can leave your here -->
     <string name="home_status_adb_wireless">adb</string>
@@ -19,7 +19,6 @@
     <string name="home_wireless_adb_summary">Starts using wireless debugging.</string>
     <string name="home_usb_adb_title"><![CDATA[Start via USB debugging]]></string>
     <string name="home_usb_adb_summary">Starts using USB debugging.</string>
-    <string name="home_support_body">Shizuku-Next is free and has no ads. A coffee goes towards the time it takes to maintain.</string>
     <string name="diagnostics_title">Diagnostics</string>
     <string name="diagnostics_copy">Copy diagnostics</string>
     <string name="diagnostics_copied">Diagnostics copied</string>
@@ -747,8 +746,6 @@
     <string name="settings_translate_note">Translate the app on Crowdin.</string>
     <string name="crowdin_url">https://crowdin.com/project/Shizuku-Next</string>
     <string name="settings_report_bug">Report a bug</string>
-    <string name="settings_support_coffee">Buy me a coffee</string>
-    <string name="settings_support_coffee_note">Support the development of Shizuku-Next</string>
     <string name="settings_contributors">Contributors</string>
     <string name="settings_contributors_hint">Drag to explore · Pinch to zoom · Tap for details</string>
     <!--

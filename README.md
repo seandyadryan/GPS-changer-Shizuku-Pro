@@ -1,7 +1,7 @@
 <div align="center">
-<img src="docs/logo.png" width="132" alt="Shizuku Pro">
+<img src="docs/nfx-logo.svg" width="132" alt="NFX Location PRO">
 
-# Shizuku Pro
+# NFX Location PRO
 
 Fork lengkap [Shizuku-Next](https://github.com/rushiranpise/Shizuku-Next), dikelola di repositori seandyadryan.
 
@@ -10,7 +10,7 @@ Fork lengkap [Shizuku-Next](https://github.com/rushiranpise/Shizuku-Next), dikel
 
 Aplikasi Android untuk memberikan akses API sistem kepada aplikasi yang mendukung Shizuku melalui ADB atau root. Seluruh modul dan riwayat kode upstream dipertahankan, termasuk Home, Apps, Modules, Labs, Settings, shell, file manager, installer, pengelolaan izin, dan metode startup upstream.
 
-Sesuai pilihan cakupan proyek, ini adalah fork manajer Shizuku lengkap. Nama repositori `GPS-changer-Shizuku-Pro` tidak menambahkan fitur pengubah koordinat GPS.
+Pengguna masuk dengan nomor HP dan kata sandi. Admin masuk sebagai `admin` untuk membuat akun, menambah hari langganan, dan meninjau permintaan pindah perangkat. Server mengikat akun ke perangkat pertama yang berhasil masuk. Pengguna dapat membuka **Settings → Account** untuk melihat akun dan keluar.
 
 ## Persyaratan
 
@@ -23,11 +23,13 @@ Package ID tetap `moe.shizuku.privileged.api` agar kompatibel dengan klien Shizu
 
 ## Build dan runner hemat
 
-Buka **Actions → Build Shizuku Pro → Run workflow**. Aktifkan **Publish the signed APK to GitHub Releases** untuk menerbitkan APK. Push biasa, pull request, dan jadwal tidak menjalankan runner.
+Buka **Actions → Build NFX Location PRO → Run workflow**. Aktifkan **Publish the signed APK to GitHub Releases** untuk menerbitkan APK. Workflow berjalan secara manual.
 
 Workflow memakai satu runner Ubuntu, Java 21, cache Gradle, unit test, lint kompatibilitas Android, dan satu build release. APK memakai kunci penandatanganan tetap dari Actions secrets. Artefak disimpan tujuh hari; APK yang diterbitkan tersedia di Releases.
 
 Instruksi lokal, signing, dan pemutakhiran upstream: [docs/BUILDING.md](docs/BUILDING.md).
+
+Petunjuk database, deployment API, dan pemulihan akses admin tersedia di [backend/README.md](backend/README.md).
 
 ## Lisensi dan kredit
 

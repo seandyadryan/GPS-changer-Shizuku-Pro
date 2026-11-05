@@ -14,7 +14,6 @@
     <string name="home_wireless_adb_summary">Bắt đầu bằng cách sử dụng gỡ lỗi không dây.</string>
     <string name="home_usb_adb_title"><![CDATA[Khởi chạy qua gỡ lỗi USB]]></string>
     <string name="home_usb_adb_summary">Bắt đầu sử dụng gỡ lỗi USB\".\".</string>
-    <string name="home_support_body">Shizuku-Next miễn phí và không có quảng cáo. Một ly cà phê sẽ giúp nhà phát triển có thêm thời gian duy trì ứng dụng.</string>
     <string name="diagnostics_title">Chẩn đoán</string>
     <string name="diagnostics_copy">Sao chép chẩn đoán</string>
     <string name="diagnostics_wireless_debugging">Gỡ lỗi không dây</string>
@@ -216,8 +215,6 @@
     <string name="settings_translate">Tham gia dịch thuật</string>
     <string name="settings_translate_note">Dịch ứng dụng trên Crowdin.</string>
     <string name="settings_report_bug">Báo cáo lỗi</string>
-    <string name="settings_support_coffee">Tặng nhà phát triển một ly cà phê</string>
-    <string name="settings_support_coffee_note">Hãy ủng hộ sự phát triển của Shizuku-Next</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
       so the singular is read more often than the plural is.

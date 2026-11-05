@@ -16,7 +16,6 @@
     <string name="home_wireless_adb_summary">بدأ التشغيل باستخدام تصحيح الأخطاء اللاسلكي.</string>
     <string name="home_usb_adb_title"><![CDATA[بدء التشغيل عبر تصحيح أخطاء USB]]></string>
     <string name="home_usb_adb_summary">بدأ التشغيل عبر تصحيح أخطاء USB.</string>
-    <string name="home_support_body">\"Shizuku-Next\" مجاني تمامًا وبدون إعلانات. مساهمتك بـ\"شراء فنجان قهوة\" تساعد في تغطية الوقت اللازم لصيانة المشروع وتطويره.</string>
     <string name="diagnostics_title">التشخيص</string>
     <string name="diagnostics_copy">انسخ التشخيص</string>
     <string name="diagnostics_copied">تم نسخ التشخيص</string>

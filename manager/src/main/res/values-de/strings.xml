@@ -14,7 +14,6 @@
     <string name="home_wireless_adb_summary">Startet mit Debugging über WLAN.</string>
     <string name="home_usb_adb_title"><![CDATA[Mit USB-Debugging starten]]></string>
     <string name="home_usb_adb_summary">Startet mit USB-Debugging.</string>
-    <string name="home_support_body">Shizuku-Next ist kostenlos und werbefrei. Ein Kaffee hilft, die Zeit für die Pflege der App aufzubringen.</string>
     <string name="diagnostics_title">Diagnose</string>
     <string name="diagnostics_copy">Diagnose kopieren</string>
     <string name="diagnostics_copied">Diagnose kopiert</string>
@@ -608,8 +607,6 @@
     <string name="settings_translate">Bei der Übersetzung mitwirken</string>
     <string name="settings_translate_note">Die App auf Crowdin übersetzen.</string>
     <string name="settings_report_bug">Fehler melden</string>
-    <string name="settings_support_coffee">Einen Kaffee spendieren</string>
-    <string name="settings_support_coffee_note">Die Entwicklung von Shizuku-Next unterstützen</string>
     <string name="settings_contributors">Mitwirkende</string>
     <string name="settings_contributors_hint">Ziehen zum Erkunden · Mit zwei Fingern zoomen · Tippen für Details</string>
     <!--

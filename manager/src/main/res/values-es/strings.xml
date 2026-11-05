@@ -16,7 +16,6 @@
     <string name="home_wireless_adb_summary">Iniciar usando depuración inalambrica.</string>
     <string name="home_usb_adb_title"><![CDATA[Iniciar por depuración USB]]></string>
     <string name="home_usb_adb_summary">Iniciar usando depuración USB.</string>
-    <string name="home_support_body">Shizuku-Next es gratuito y no tiene anuncios. Un café va hacia el tiempo que tarda en mantenerse.</string>
     <string name="diagnostics_title">Diagnostico</string>
     <string name="diagnostics_copy">Copiar diagnostico</string>
     <string name="diagnostics_copied">Diagnóstico copiado</string>
@@ -723,8 +722,6 @@
     <string name="settings_translate_note">Traducir la aplicación en Crowdin.</string>
     <string name="crowdin_url">https://crowdin.com/project/Shizuku-Next</string>
     <string name="settings_report_bug">Informar de un error</string>
-    <string name="settings_support_coffee">Cómprame un café</string>
-    <string name="settings_support_coffee_note">Apoyar el desarrollo de Shizuku-Next</string>
     <string name="settings_contributors">Contribuidor</string>
     <string name="settings_contributors_hint">Arrastre para explorar · Pinch para acercar · Toque para ver detalles</string>
     <!--

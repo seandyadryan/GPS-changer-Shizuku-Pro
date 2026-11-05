@@ -11,6 +11,10 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.activity.viewModels
+import androidx.compose.runtime.LaunchedEffect
+import moe.shizuku.manager.account.NfxGate
+import moe.shizuku.manager.account.NfxSessionModel
 import moe.shizuku.manager.adb.AdbPairingService
 import moe.shizuku.manager.home.showAccessibilityDialog
 import moe.shizuku.manager.receiver.ShizukuReceiverStarter
@@ -18,6 +22,9 @@ import moe.shizuku.manager.ui.ShizukuApp
 import moe.shizuku.manager.utils.AppLocale
 
 class MainActivity : ComponentActivity() {
+    private val nfxSession by viewModels<NfxSessionModel>()
+    private var pendingLaunchIntent: Intent? = null
+    private var askedForNotifications = false
 
     /**
      * Starting Shizuku is announced in a notification, which also carries the buttons to
@@ -61,17 +68,27 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        handleIntent(intent)
-        requestNotificationPermission()
+        pendingLaunchIntent = intent
         setContent {
-            ShizukuApp()
+            NfxGate(nfxSession) { openAccount ->
+                LaunchedEffect(Unit) {
+                    pendingLaunchIntent?.let(::handleIntent)
+                    pendingLaunchIntent = null
+                    if (!askedForNotifications) {
+                        askedForNotifications = true
+                        requestNotificationPermission()
+                    }
+                }
+                ShizukuApp(onOpenAccount = openAccount)
+            }
         }
     }
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
         setIntent(intent)
-        handleIntent(intent)
+        if (nfxSession.state.value.session != null) handleIntent(intent)
+        else pendingLaunchIntent = intent
     }
 
     private fun handleIntent(intent: Intent?) {

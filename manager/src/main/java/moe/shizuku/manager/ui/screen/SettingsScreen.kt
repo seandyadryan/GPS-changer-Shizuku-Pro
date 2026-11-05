@@ -28,7 +28,6 @@ import androidx.compose.material.icons.outlined.AdminPanelSettings
 import androidx.compose.material.icons.outlined.Bolt
 import androidx.compose.material.icons.outlined.BugReport
 import androidx.compose.material.icons.outlined.Code
-import androidx.compose.material.icons.outlined.Coffee
 import androidx.compose.material.icons.outlined.Contrast
 import androidx.compose.material.icons.outlined.DarkMode
 import androidx.compose.material.icons.outlined.DeveloperMode
@@ -126,7 +125,7 @@ private const val FOTA_AGENT_PACKAGE = "com.sdet.fotaagent"
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SettingsScreen(bottomPadding: Dp, onOpenDetail: (Detail) -> Unit) {
+fun SettingsScreen(bottomPadding: Dp, onOpenDetail: (Detail) -> Unit, onOpenAccount: () -> Unit) {
     val context = LocalContext.current
 
     var startOnBoot by remember { mutableStateOf(ShizukuSettings.getStartOnBoot(context)) }
@@ -282,6 +281,17 @@ fun SettingsScreen(bottomPadding: Dp, onOpenDetail: (Detail) -> Unit) {
                 contentPadding = PaddingValues(start = 16.dp, top = 16.dp, end = 16.dp, bottom = bottomPadding),
                 verticalArrangement = Arrangement.spacedBy(13.dp)
             ) {
+            item {
+                SegmentedColumn(modifier = Modifier.fillMaxWidth()) {
+                    item {
+                        SegmentedListItem(
+                            headlineContent = { Text(stringResource(R.string.nfx_account)) },
+                            trailingContent = { Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null) },
+                            onClick = onOpenAccount
+                        )
+                    }
+                }
+            }
             item {
                 SettingsSectionHeader(R.string.settings_section_startup)
             }
@@ -906,29 +916,6 @@ fun SettingsScreen(bottomPadding: Dp, onOpenDetail: (Detail) -> Unit) {
                                 CustomTabsHelper.launchUrlOrCopy(
                                     context,
                                     context.getString(R.string.crowdin_url)
-                                )
-                            }
-                        )
-                    }
-                    item {
-                        SegmentedListItem(
-                            centerSlots = true,
-                            leadingContent = { SettingsIcon(Icons.Outlined.Coffee) },
-                            headlineContent = {
-                                Text(stringResource(R.string.settings_support_coffee))
-                            },
-                            // Says what the tap does, because the row is a link out of the app
-                            // rather than another screen of it.
-                            supportingContent = {
-                                Text(stringResource(R.string.settings_support_coffee_note))
-                            },
-                            trailingContent = {
-                                Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null)
-                            },
-                            onClick = {
-                                CustomTabsHelper.launchUrlOrCopy(
-                                    context,
-                                    context.getString(R.string.buymeacoffee_url)
                                 )
                             }
                         )

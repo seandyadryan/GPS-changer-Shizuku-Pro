@@ -16,7 +16,6 @@
     <string name="home_wireless_adb_summary">Démarrer l\'utilisation du débogage sans fil.</string>
     <string name="home_usb_adb_title"><![CDATA[Démarrer via le débogage USB]]></string>
     <string name="home_usb_adb_summary">Démarrer via le débogage USB.</string>
-    <string name="home_support_body">Shizuku-Next est gratuit et n\'a pas de publicité. Un café contribue au temps nécessaire à sa maintenance.</string>
     <string name="diagnostics_title">Diagnostiques</string>
     <string name="diagnostics_copy">Copier les diagnostiques</string>
     <string name="diagnostics_copied">Diagnostiques copiés</string>

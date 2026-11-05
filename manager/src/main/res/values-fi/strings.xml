@@ -16,7 +16,6 @@
     <string name="home_wireless_adb_summary">Aloittaa langattoman käytön.</string>
     <string name="home_usb_adb_title"><![CDATA[Aloita USB kautta]]></string>
     <string name="home_usb_adb_summary">Aloittaa USB käytön.</string>
-    <string name="home_support_body">Shizuku-Next on ilmainen eikä sisällä on mainoksia. Kahvikupillinen auttaa kattamaan Shizuku-Next ylläpitoon kuluvan ajan.</string>
     <string name="diagnostics_title">Diagnostia</string>
     <string name="diagnostics_copy">Kopioi Diagnostii tiedot</string>
     <string name="diagnostics_copied">Kopioi diagnostiikka-tiedot</string>

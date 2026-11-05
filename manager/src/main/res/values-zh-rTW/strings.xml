@@ -16,7 +16,6 @@
     <string name="home_wireless_adb_summary">透過無線偵錯啟動。</string>
     <string name="home_usb_adb_title"><![CDATA[透過 USB 偵錯啟動]]></string>
     <string name="home_usb_adb_summary">透過 USB 偵錯啟動。</string>
-    <string name="home_support_body">Shizuku-Next 免費且無廣告。請作者喝杯咖啡，就是對我們維護的動力。</string>
     <string name="diagnostics_title">診斷</string>
     <string name="diagnostics_copy">複製診斷資訊</string>
     <string name="diagnostics_copied">診斷資訊已複製</string>
@@ -707,8 +706,6 @@
     <string name="settings_translate_note">在 Crowdin 上翻譯這個應用程式。</string>
     <string name="crowdin_url">https://crowdin.com/project/Shizuku-Next</string>
     <string name="settings_report_bug">回報錯誤</string>
-    <string name="settings_support_coffee">請我喝杯咖啡</string>
-    <string name="settings_support_coffee_note">支持 Shizuku-Next 的開發</string>
     <string name="settings_contributors">貢獻者</string>
     <string name="settings_contributors_hint">拖曳瀏覽 · 雙指縮放 · 點按查看詳情</string>
     <!--
