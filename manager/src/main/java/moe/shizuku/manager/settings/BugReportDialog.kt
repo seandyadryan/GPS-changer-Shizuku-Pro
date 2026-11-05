@@ -29,13 +29,13 @@ class BugReportDialog : DialogFragment() {
         // Releases and issues are this fork's; the wiki belongs to the fork this is based on,
         // because it documents the behaviour that came from there.
         val updateLink = getString(R.string.bug_report_dialog_link_update)
-            .asLink("https://github.com/rushiranpise/Shizuku-Next/releases/latest")
+            .asLink("https://github.com/seandyadryan/GPS-changer-Shizuku-Pro/releases/latest")
 
         val wikiLink = getString(R.string.bug_report_dialog_link_wiki)
             .asLink("https://github.com/thedjchi/Shizuku/wiki#troubleshooting")
 
         val issuesLink = getString(R.string.bug_report_dialog_link_issues)
-            .asLink("https://github.com/rushiranpise/Shizuku-Next/issues")
+            .asLink("https://github.com/seandyadryan/GPS-changer-Shizuku-Pro/issues")
 
         binding.apply {
             updateText.applyTemplateArgs(updateLink)
@@ -93,6 +93,6 @@ class BugReportDialog : DialogFragment() {
 
     private companion object {
         /** The repository's issue templates, which is where a report should start. */
-        const val ISSUES_NEW = "https://github.com/rushiranpise/Shizuku-Next/issues/new/choose"
+        const val ISSUES_NEW = "https://github.com/seandyadryan/GPS-changer-Shizuku-Pro/issues/new/choose"
     }
 }

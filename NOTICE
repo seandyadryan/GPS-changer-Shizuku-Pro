@@ -1,0 +1,11 @@
+Shizuku Pro is derived from rushiranpise/Shizuku-Next.
+Upstream: https://github.com/rushiranpise/Shizuku-Next
+Base commit: 6e350d79641fb7f1a838832e8c0db8e4331e7090
+
+Shizuku-Next derives from thedjchi/Shizuku and RikkaApps/Shizuku.
+Copyright notices and Apache License 2.0 are retained in the source tree.
+See docs/UPSTREAM_README.md for the original feature descriptions and full credits.
+
+Fork modifications: application display name, version and APK naming,
+update and bug-report destinations, portable build configuration, and
+manual GitHub Actions release pipeline.

@@ -310,7 +310,7 @@ object UpdateHelper {
         }
 
     private fun requestLatestRelease(): Release {
-        val url = "https://api.github.com/repos/rushiranpise/Shizuku-Next/releases"
+        val url = "https://api.github.com/repos/seandyadryan/GPS-changer-Shizuku-Pro/releases"
         val request =
             Request.Builder()
                 .url(url)
