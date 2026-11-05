@@ -25,7 +25,7 @@
     <string name="dialog_adb_pairing_paring_code">Koppelkode</string>
     <string name="paring_code_is_wrong">Paringskode is verkeerd.</string>
     <string name="cannot_connect_port">Kan nie aan draadlose ontfoutingsdiens koppel nie.\n\nMaak
-        asseblief seker dat Shizuku op die witlys is in alle firewall-, advertensieblokkerings-,
+        asseblief seker dat NFX op die witlys is in alle firewall-, advertensieblokkerings-,
         VPN- of soortgelyke programme wat netwerktoegang kan beperk.</string>
     <string name="dialog_adb_pairing_message">Begin asseblief met paring deur die volgende stappe
         uit te voer:\n- Navigeer na \"Ontwikkelaaropsies\"\n- Aktiveer \"USB-ontfouting\" en
@@ -38,7 +38,7 @@
     <string name="dialog_adb_pairing_accessibility_navigate">Begin asseblief met paring deur die
         volgende stappe uit te voer:\n- Navigeer na \"Ontwikkelaaropsies\"\n- Aktiveer
         \"USB-ontfouting\" en \"Draadlose ontfouting\"\n- Tik die linkerkant van \"Draadlose
-        ontfouting\"\n- Tik \"Koppel toestel met paringskode.\" Shizuku sal outomaties die
+        ontfouting\"\n- Tik \"Koppel toestel met paringskode.\" NFX sal outomaties die
         paringskode opspoor.</string>
     <string name="adb_pairing_requires_multi_window">Gaan asseblief eers na die verdeelskerm-modus
         (multivenstermodus).</string>
@@ -52,7 +52,7 @@
     <string name="enable">Aktiveer</string>
     <string name="development_settings">Ontwikkelaaropsies</string>
     <string name="notification_settings">Kennisgewingopsies</string>
-    <string name="adb_pairing_tutorial_content_notification">\'n Kennisgewing van Shizuku sal jou
+    <string name="adb_pairing_tutorial_content_notification">\'n Kennisgewing van NFX sal jou
         help om die paring te voltooi.</string>
     <string name="adb_pairing_tutorial_content_steps">Navigeer na \"Ontwikkelaaropsies\" en aktiveer
         dan \"USB-ontfouting\" en \"Draadlose ontfouting\".</string>
@@ -60,23 +60,23 @@
         \"Draadlose ontfouting\" en tik dan op \"Koppel toestel met koppelkode\". Voer die kode in
         die kennisgewing in om die koppelproses te voltooi.</string>
     <string name="adb_pairing_tutorial_content_notification_blocked">Die paringsproses vereis dat jy
-        met \'n kennisgewing van Shizuku interaksie het. Laat asseblief Shizuku toe om kennisgewings
+        met \'n kennisgewing van NFX interaksie het. Laat asseblief NFX toe om kennisgewings
         te plaas.</string>
     <string name="adb_pairing_tutorial_content_miui">MIUI-gebruikers moet dalk die kennisgewingstyl
         na \"Android\" oorskakel vanaf \"Kennisgewing\" - \"Kennisgewingskerm\" in
         stelselinstellings.</string>
     <string name="adb_pairing_tutorial_content_miui_2">Andersins kan jy dalk nie die paringskode
         vanaf die kennisgewing invoer nie.</string>
-    <string name="adb_pairing_tutorial_content_finish">Gaan terug na Shizuku en begin Shizuku.</string>
-    <string name="adb_pairing_tutorial_content_network">Shizuku benodig toegang tot die plaaslike
+    <string name="adb_pairing_tutorial_content_finish">Gaan terug na NFX en begin NFX.</string>
+    <string name="adb_pairing_tutorial_content_network">NFX benodig toegang tot die plaaslike
         netwerk. Dit word beheer deur die netwerktoestemming.</string>
     <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Sommige stelsels
         (soos MIUI) verbied programme om toegang tot die netwerk te verkry wanneer hulle nie sigbaar
         is nie, selfs al gebruik die program \'n voorgronddiens. Deaktiveer asseblief
-        battery-optimaliseringskenmerke vir Shizuku op sulke stelsels.</string>
+        battery-optimaliseringskenmerke vir NFX op sulke stelsels.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[Begin (vir gewortelde toestelle)]]></string>
-    <string name="home_root_description"><![CDATA[As jy Magisk gebruik, kan jy %1$sprobeer. Vir root-gebruikers sal dit uiteindelik Shizuku vervang. Let wel, bestaande toepassings moet \'n bietjie verander om %2$ste gebruik.]]></string>
+    <string name="home_root_description"><![CDATA[As jy Magisk gebruik, kan jy %1$sprobeer. Vir root-gebruikers sal dit uiteindelik NFX vervang. Let wel, bestaande toepassings moet \'n bietjie verander om %2$ste gebruik.]]></string>
     <string name="home_root_button_start">Begin</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -89,7 +89,7 @@
     <!-- Home - Adb permissions limited -->
     <!-- Home - Dialogs -->
     <!-- The same two states, said on the Home screen instead of in a dialog that only exits. Shizuku works either way; what is affected is what other apps find when they look Shizuku up. -->
-    <string name="home_permission_not_registered">تبحث التطبيقات عن Shizuku استناداً إلى الأذونات المرتبطة به، لكن نظام Android قد لا يكون قد سجّل هذه الأذونات بعد؛ وهي مشكلة قد تظل قائمة حتى بعد إعادة تثبيت التطبيق، ولا تُحل إلا بإعادة تشغيل الجهاز. تجدر الإشارة إلى أن Shizuku بحد ذاته لا يتأثر بذلك، وإنما قد تواجه التطبيقات الأخرى صعوبة في العثور عليه.</string>
+    <string name="home_permission_not_registered">تبحث التطبيقات عن NFX استناداً إلى الأذونات المرتبطة به، لكن نظام Android قد لا يكون قد سجّل هذه الأذونات بعد؛ وهي مشكلة قد تظل قائمة حتى بعد إعادة تثبيت التطبيق، ولا تُحل إلا بإعادة تشغيل الجهاز. تجدر الإشارة إلى أن NFX بحد ذاته لا يتأثر بذلك، وإنما قد تواجه التطبيقات الأخرى صعوبة في العثور عليه.</string>
     <!-- Application management -->
     <string name="app_management_dialog_adb_is_limited_title">Die toestemming van adb is beperk</string>
     <string name="app_management_dialog_adb_is_limited_message"><![CDATA[Dit is hoogs moontlik dat jou toestelvervaardiger die toestemming van adb beperk.<p>Daar mag dalk \'n oplossing vir jou stelsel wees in <b><a href=\"%1$s\">hierdie dokument</a></b>.]]></string>
@@ -105,7 +105,7 @@
     <string name="terminal_tutorial_miui">Gebruikers het berig dat MIUI die Storage Access
         Framework, wat deur die uitvoerfunksie gebruik word, oortree.</string>
     <string name="terminal_tutorial_miui_2">As jy MIUI gebruik, moet jy dalk die lêer uit die
-        bate-lêergids in Shizuku se APK onttrek.</string>
+        bate-lêergids in NFX se APK onttrek.</string>
     <string name="terminal_tutorial_1">Voer die lêers na \'n nuwe vouer uit.</string>
     <string name="terminal_tutorial_1_description">Twee lêers sal uitgevoer word: %1$s en %2$s.
         Indien die lêers reeds in die gekose vouer bestaan, sal hulle uitgevee word.</string>
@@ -120,25 +120,24 @@
     <!-- Settings -->
     <string name="settings_start_on_boot">Begin met opstart</string>
     <string name="settings_watchdog">Waghond</string>
-    <string name="settings_watchdog_summary">Herbegin Shizuku outomaties as dit vasval</string>
+    <string name="settings_watchdog_summary">Herbegin NFX outomaties as dit vasval</string>
     <string name="transport_adb"></string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
     <string name="settings_tcp_mode">TCP-modus</string>
-    <string name="settings_tcp_mode_summary">"Laat Shizuku toe om te herbegin sonder Wi-Fi. (Shizuku
+    <string name="settings_tcp_mode_summary">"Laat NFX toe om te herbegin sonder Wi-Fi. (NFX
         moes een keer sedert herbegin begin het)"</string>
     <string name="settings_tcp_mode_dialog_close_port">"Die TCP-poort sal onmiddellik gesluit word.
         Jy sal Wi-Fi nodig hê om TCP-modus weer aan te skakel. Gaan voort?"</string>
     <string name="settings_restart_dialog_title">Herbegin Vereis</string>
-    <string name="settings_restart_dialog_message">Shizuku moet herbegin om hierdie instelling toe
+    <string name="settings_restart_dialog_message">NFX moet herbegin om hierdie instelling toe
         te pas.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Wi-Fi word vereis. Shizuku sal aanhou loop en wag vir \'n Wi-Fi-verbinding voordat dit in die agtergrond herbegin.</b>]]></string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Wi-Fi word vereis. NFX sal aanhou loop en wag vir \'n Wi-Fi-verbinding voordat dit in die agtergrond herbegin.</b>]]></string>
     <string name="settings_tcp_port">TCP-poort</string>
     <string name="settings_language">Taal</string>
     <string name="settings_black_night_theme">Swart nag tema</string>
     <string name="settings_black_night_theme_summary">Gebruik die suiwer swart tema as nagmodus
         geaktiveer is</string>
-    <string name="settings_help">Hulp</string>
     <string name="settings_report_bug">Rapporteer \'n fout</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
@@ -155,21 +154,13 @@
     <string name="settings_legacy_pairing_summary">Voer die paringskode in \'n dialoog in plaas van
         \'n kennisgewing in</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">Doen eers die volgende:</string>
-    <string name="bug_report_dialog_update">Maak seker dat jy die ^1 gebruik.</string>
-    <string name="bug_report_dialog_link_update">nuutste weergawe</string>
-    <string name="bug_report_dialog_wiki">Lees die ^1 en volg alle relevante
-        probleemoplossingstappe.</string>
-    <string name="bug_report_dialog_issues">Soek deur al ^1 om te sien of jou fout reeds aangemeld
-        is.</string>
-    <string name="bug_report_dialog_link_issues">bestaande probleme</string>
     <!-- Snackbar -->
     <string name="snackbar_battery_optimization_settings">Deaktiveer asseblief batteryoptimalisering
         om hierdie kenmerk te gebruik.</string>
     <string name="snackbar_action_fix">Herstel</string>
     <!-- Updates -->
     <!-- Toast -->
-    <string name="toast_pairing_timeout">Shizuku-paringsdiens het \'n tydsverloop gehad.</string>
+    <string name="toast_pairing_timeout">NFX-paringsdiens het \'n tydsverloop gehad.</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme_off">Altyd lig</string>
     <string name="dark_theme_on">Altyd donker</string>
@@ -184,12 +175,12 @@
     <string name="notification_adb_pairing_stop_searching">Hou op soek</string>
     <string name="notification_adb_pairing_working_title">Paring aan die gang</string>
     <string name="notification_adb_pairing_succeed_title">Paring suksesvol</string>
-    <string name="notification_adb_pairing_succeed_text">Jy kan nou Shizuku-diens begin.</string>
+    <string name="notification_adb_pairing_succeed_text">Jy kan nou NFX-diens begin.</string>
     <string name="notification_adb_pairing_failed_title">Paring het misluk</string>
     <string name="notification_adb_pairing_retry">Probeer weer</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">toegang tot Shizuku</string>
-    <string name="permission_description">Laat die program toe om Shizuku te gebruik.</string>
+    <string name="permission_label">toegang tot NFX</string>
+    <string name="permission_description">Laat die program toe om NFX te gebruik.</string>
     <string name="permission_warning_template"><![CDATA[Laat <b>%1$s</b> tot %2$stoe?]]></string>
     <string name="grant_dialog_button_allow_always">Laat heeltyd toe</string>
     <string name="grant_dialog_button_deny">"Weier"</string>
@@ -198,20 +189,20 @@
     <string name="start_with_root_failed">Kan nie diens begin nie, want worteltoestemming is nie
         toegestaan nie of hierdie toestel is nie gewortel nie.</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">Begin Shizuku…</string>
+    <string name="wadb_notification_title">Begin NFX…</string>
     <string name="wadb_notification_wifi_required">Wag tans vir Wi-Fi-verbinding voordat voortgegaan
         word</string>
     <string name="wadb_notification_retry">Wag om weer te probeer</string>
     <string name="wadb_error_title">Fout tydens opstart</string>
     <string name="wadb_error_notify_dev">Tik om die ontwikkelaar in kennis te stel.</string>
     <string name="wadb_permission_error_notification_title">Toestemmingsfout</string>
-    <string name="wadb_permission_error_notification_content">Shizuku benodig WRITE_SECURE_SETTINGS
+    <string name="wadb_permission_error_notification_content">NFX benodig WRITE_SECURE_SETTINGS
         om met selflaai te begin. Tik om te leer hoe om dit toe te staan.</string>
     <!-- Shell -->
     <!-- Watchdog -->
     <string name="watchdog_running">Waghond loop</string>
     <string name="watchdog_turn_off">Skakel Af</string>
-    <string name="watchdog_shizuku_crashed_title">Shizuku het onlangs neergestort</string>
+    <string name="watchdog_shizuku_crashed_title">NFX het onlangs neergestort</string>
     <string name="watchdog_shizuku_crashed_text">Waghond het die diens herbegin. Tik om meer te wete
         te kom oor moontlike oplossings om toekomstige ineenstortings te voorkom.</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">Skakel waarskuwings af</string>
@@ -221,14 +212,14 @@
     <string name="toast_copied_to_clipboard">Na knipbord gekopieer</string>
     <string name="accessibility_service_description">Verskaf paringsondersteuning vir toestelle (bv.
         TV\'s met Android 14+) waar kennisgewings of \'n gesplete skerm nie gebruik kan word
-        nie.\n\nStel Shizuku in staat om die paringskode uit die draadlose ontfouting-paringskerm te
+        nie.\n\nStel NFX in staat om die paringskode uit die draadlose ontfouting-paringskerm te
         onttrek. Dit sal homself deaktiveer sodra die paringskode gevind is.</string>
     <!-- Messages for legacy -->
-    <string name="dialog_legacy_not_support_title">%1$s ondersteun nie moderne Shizuku nie</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[Legacy Shizuku is sedert Maart 2019 afgekeur. Legacy Shizuku werk ook nie op nuwer Android-stelsels nie.<p>Vra asseblief die ontwikkelaar van <b>%1$s</b> om op te dateer.]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s versoek nalatenskap Shizuku</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> het moderne Shizuku-ondersteuning, maar dit versoek ouer Shizuku. Dit kan wees omdat Shizuku nie loop nie, kyk asseblief in die Shizuku-app.<p>Ouderdoms-Shizuku is sedert Maart 2019 afgekeur.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">Maak Shizuku oop</string>
+    <string name="dialog_legacy_not_support_title">%1$s ondersteun nie moderne NFX nie</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[Legacy NFX is sedert Maart 2019 afgekeur. Legacy NFX werk ook nie op nuwer Android-stelsels nie.<p>Vra asseblief die ontwikkelaar van <b>%1$s</b> om op te dateer.]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s versoek nalatenskap NFX</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> het moderne NFX-ondersteuning, maar dit versoek ouer NFX. Dit kan wees omdat NFX nie loop nie, kyk asseblief in die NFX-app.<p>Ouderdoms-NFX is sedert Maart 2019 afgekeur.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Maak NFX oop</string>
     <string name="wadb_notification_attempt_now">Probeer weer</string>
     <!-- Manage tab -->
     <string name="permissions_action_deny">Weier</string>

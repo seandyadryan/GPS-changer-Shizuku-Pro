@@ -22,7 +22,7 @@
     <string name="dialog_adb_pairing_paring_code">დაწყვილების კოდი</string>
     <string name="paring_code_is_wrong">დაწყვილების კოდი არასწორია.</string>
     <string name="cannot_connect_port">უსადენო გამართვის სერვისთან დაკავშირება
-        შეუძლებელია.\n\nგთხოვთ, დარწმუნდეთ, რომ Shizuku შეტანილია ყველა firewall-ში, რეკლამის
+        შეუძლებელია.\n\nგთხოვთ, დარწმუნდეთ, რომ NFX შეტანილია ყველა firewall-ში, რეკლამის
         ბლოკირების, VPN-ის ან მსგავსი აპლიკაციის თეთრ სიაში, რომელსაც შეუძლია ქსელზე წვდომის
         შეზღუდვა.</string>
     <string name="dialog_adb_pairing_message">გთხოვთ, დაიწყოთ დაწყვილება შემდეგი ნაბიჯების
@@ -36,7 +36,7 @@
     <string name="dialog_adb_pairing_accessibility_navigate">დაწყვილება დაიწყეთ შემდეგი ნაბიჯების
         შესრულებით:\n- გადადით „დეველოპერის პარამეტრებზე“\n- ჩართეთ „USB გამართვა“ და „უკაბელო
         გამართვა“\n- შეეხეთ „უკაბელო გამართვის“ მარცხენა მხარეს\n- შეეხეთ „მოწყობილობის დაწყვილების
-        კოდით დაწყვილების“ ღილაკს. Shizuku ავტომატურად ამოიცნობს დაწყვილების კოდს.</string>
+        კოდით დაწყვილების“ ღილაკს. NFX ავტომატურად ამოიცნობს დაწყვილების კოდს.</string>
     <string name="adb_pairing_requires_multi_window">გთხოვთ, ჯერ შეხვიდეთ გაყოფილი ეკრანის
         (მრავალფანჯრის) რეჟიმში.</string>
     <string name="adb_pairing_requires_multi_window_reason">სისტემა მოითხოვს, რომ დაწყვილების
@@ -57,7 +57,7 @@
         მარცხენა მხარეს, შემდეგ შეეხეთ „მოწყობილობის დაწყვილება დაწყვილების კოდით“. დაწყვილების
         დასასრულებლად შეიყვანეთ შეტყობინებაში მითითებული კოდი.</string>
     <string name="adb_pairing_tutorial_content_notification_blocked">დაწყვილების პროცესს სჭირდება
-        ურთიერთობა შიზუკუს შეტყობინებასთან. გთხოვთ, ნება მიეცით Shizuku-ს გამოაქვეყნოს
+        ურთიერთობა შიზუკუს შეტყობინებასთან. გთხოვთ, ნება მიეცით NFX-ს გამოაქვეყნოს
         შეტყობინებები.</string>
     <string name="adb_pairing_tutorial_content_miui">MIUI-ის მომხმარებლებს შეიძლება დასჭირდეთ
         შეტყობინების სტილის გადართვა \"Android\"-ზე \"შეტყობინებიდან\" - \"შეტყობინებების
@@ -70,10 +70,10 @@
     <string name="adb_pairing_tutorial_content_network_limation_not_foreground">ზოგიერთი სისტემა
         (მაგალითად, MIUI) კრძალავს აპლიკაციებს ქსელზე წვდომას, როდესაც ისინი არ არიან ხილული,
         მაშინაც კი, თუ აპლიკაცია იყენებს წინა პლანის სერვისს. გთხოვთ, გამორთოთ ბატარეის ოპტიმიზაციის
-        ფუნქციები Shizuku-სთვის ასეთ სისტემებზე.</string>
+        ფუნქციები NFX-სთვის ასეთ სისტემებზე.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[დაწყება (rooted მოწყობილობებისთვის)]]></string>
-    <string name="home_root_description"><![CDATA[თუ Magisk-ს იყენებთ, შეგიძლიათ სცადოთ %1$s. root მომხმარებლებისთვის ის საბოლოოდ ჩაანაცვლებს Shizuku-ს. გაითვალისწინეთ, რომ არსებული აპლიკაციები %2$s-ის გამოსაყენებლად ცოტა უნდა შეიცვალოს.]]></string>
+    <string name="home_root_description"><![CDATA[თუ Magisk-ს იყენებთ, შეგიძლიათ სცადოთ %1$s. root მომხმარებლებისთვის ის საბოლოოდ ჩაანაცვლებს NFX-ს. გაითვალისწინეთ, რომ არსებული აპლიკაციები %2$s-ის გამოსაყენებლად ცოტა უნდა შეიცვალოს.]]></string>
     <string name="home_root_button_start">დაწყება</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -100,7 +100,7 @@
     <!-- Terminal -->
     <string name="terminal_tutorial_miui">მომხმარებლებმა განაცხადეს, რომ MIUI არღვევს Storage Access
         Framework-ს, რომელსაც ექსპორტის ფუნქცია იყენებს.</string>
-    <string name="terminal_tutorial_miui_2">თუ MIUI-ს იყენებთ, შესაძლოა ფაილის ამოღება Shizuku-ს APK
+    <string name="terminal_tutorial_miui_2">თუ MIUI-ს იყენებთ, შესაძლოა ფაილის ამოღება NFX-ს APK
         ფაილის assets საქაღალდიდან დაგჭირდეთ.</string>
     <string name="terminal_tutorial_1">ფაილების ექსპორტი ახალ საქაღალდეში.</string>
     <string name="terminal_tutorial_1_description">ექსპორტირებული იქნება ორი ფაილი: %1$s და %2$s. თუ
@@ -116,24 +116,23 @@
     <!-- Settings -->
     <string name="settings_start_on_boot">ჩატვირთვისას დაწყება</string>
     <string name="settings_watchdog">მაკონტროლებელი</string>
-    <string name="settings_watchdog_summary">ავტომატური გადატვირთვა Shizuku-სთვის, თუ ის გაითიშება</string>
+    <string name="settings_watchdog_summary">ავტომატური გადატვირთვა NFX-სთვის, თუ ის გაითიშება</string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
     <string name="settings_tcp_mode">TCP რეჟიმი</string>
-    <string name="settings_tcp_mode_summary">"საშუალებას აძლევს Shizuku-ს გადატვირთოს Wi-Fi-ის
+    <string name="settings_tcp_mode_summary">"საშუალებას აძლევს NFX-ს გადატვირთოს Wi-Fi-ის
         გარეშე. (შიზუკუ გადატვირთვის შემდეგ ერთხელ უნდა დაიწყოს)"</string>
     <string name="settings_tcp_mode_dialog_close_port">"TCP პორტი დაუყოვნებლივ დაიხურება. TCP
         რეჟიმის ხელახლა ჩასართავად Wi-Fi დაგჭირდებათ. გსურთ გაგრძელება?"</string>
     <string name="settings_restart_dialog_title">გადატვირთვა აუცილებელია</string>
-    <string name="settings_restart_dialog_message">ამ პარამეტრის გამოსაყენებლად Shizuku-ს
+    <string name="settings_restart_dialog_message">ამ პარამეტრის გამოსაყენებლად NFX-ს
         გადატვირთვაა საჭირო.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>საჭიროა Wi-Fi. Shizuku გააგრძელებს მუშაობას და დაელოდება Wi-Fi კავშირს, სანამ ფონურ რეჟიმში გადაიტვირთება.</b>]]></string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>საჭიროა Wi-Fi. NFX გააგრძელებს მუშაობას და დაელოდება Wi-Fi კავშირს, სანამ ფონურ რეჟიმში გადაიტვირთება.</b>]]></string>
     <string name="settings_tcp_port">TCP პორტი</string>
     <string name="settings_language">ენა</string>
     <string name="settings_black_night_theme">შავი ღამის თემა</string>
     <string name="settings_black_night_theme_summary">გამოიყენეთ სუფთა შავი თემა, თუ ღამის რეჟიმი
         ჩართულია</string>
-    <string name="settings_help">დახმარება</string>
     <string name="settings_report_bug">შეატყობინეთ ხარვეზს</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
@@ -150,15 +149,6 @@
     <string name="settings_legacy_pairing_summary">შეიყვანეთ დაწყვილების კოდი დიალოგში შეტყობინების
         ნაცვლად</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">პირველ რიგში, გთხოვთ, გააკეთოთ შემდეგი:</string>
-    <string name="bug_report_dialog_update">შეამოწმეთ, რომ იყენებთ ^1-ს.</string>
-    <string name="bug_report_dialog_link_update">უახლესი ვერსია</string>
-    <string name="bug_report_dialog_wiki">წაიკითხეთ ^1 და მიჰყევით ყველა შესაბამის პრობლემის
-        გადაჭრის ნაბიჯს.</string>
-    <string name="bug_report_dialog_link_wiki">ვიკი</string>
-    <string name="bug_report_dialog_issues">მოძებნეთ ყველა ^1, რომ ნახოთ, უკვე შეტყობინებულია თუ არა
-        თქვენი შეცდომა.</string>
-    <string name="bug_report_dialog_link_issues">არსებული პრობლემები</string>
     <!-- Snackbar -->
     <string name="snackbar_battery_optimization_settings">გთხოვთ, გამორთოთ ბატარეის ოპტიმიზაცია ამ
         ფუნქციის გამოსაყენებლად.</string>
@@ -180,13 +170,13 @@
     <string name="notification_adb_pairing_stop_searching">ძიების შეწყვეტა</string>
     <string name="notification_adb_pairing_working_title">დაწყვილება მიმდინარეობს</string>
     <string name="notification_adb_pairing_succeed_title">დაწყვილება წარმატებით</string>
-    <string name="notification_adb_pairing_succeed_text">თქვენ შეგიძლიათ დაიწყოთ Shizuku სერვისი
+    <string name="notification_adb_pairing_succeed_text">თქვენ შეგიძლიათ დაიწყოთ NFX სერვისი
         ახლავე.</string>
     <string name="notification_adb_pairing_failed_title">დაწყვილება ვერ მოხერხდა</string>
     <string name="notification_adb_pairing_retry">ხელახლა სცადეთ</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">წვდომა Shizuku</string>
-    <string name="permission_description">მიეცით აპს საშუალება გამოიყენოს Shizuku.</string>
+    <string name="permission_label">წვდომა NFX</string>
+    <string name="permission_description">მიეცით აპს საშუალება გამოიყენოს NFX.</string>
     <string name="permission_warning_template"><![CDATA[ნება დართეთ <b>%1$s</b> მდე %2$s?]]></string>
     <string name="grant_dialog_button_allow_always">ნება დართეთ ყველა დროის</string>
     <string name="grant_dialog_button_deny">"უარყოფა"</string>
@@ -217,15 +207,15 @@
     <string name="toast_copied_to_clipboard">კოპირებულია ბუფერში</string>
     <string name="accessibility_service_description">უზრუნველყოფს დაწყვილების მხარდაჭერას
         მოწყობილობებისთვის (მაგ., ტელევიზორები, რომლებიც მუშაობს Android 14+), სადაც შეტყობინებების
-        ან გაყოფილი ეკრანის გამოყენება შეუძლებელია.\n\nსაშუალებას აძლევს Shizuku-ს ამოიღოს
+        ან გაყოფილი ეკრანის გამოყენება შეუძლებელია.\n\nსაშუალებას აძლევს NFX-ს ამოიღოს
         დაწყვილების კოდი უკაბელო გამართვის დაწყვილების ეკრანიდან. ის გამორთავს დაწყვილების კოდის
         პოვნის შემდეგ.</string>
     <!-- Messages for legacy -->
     <string name="dialog_legacy_not_support_title">%1$s არ უჭერს მხარს თანამედროვე შიზუკუს</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[Legacy Shizuku მოძველებულია 2019 წლის მარტიდან. ასევე, მემკვიდრეობითი Shizuku არ მუშაობს ახალ Android სისტემებზე.<p>გთხოვთ, ჰკითხოთ დეველოპერს <b>%1$s</b> განახლება.]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s ითხოვს მემკვიდრეობას Shizuku</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> აქვს თანამედროვე შიზუკუს მხარდაჭერა, მაგრამ ის ითხოვს მემკვიდრეობას შიზუკუს. ეს შეიძლება იმის გამო, რომ Shizuku არ მუშაობს, გთხოვთ, შეამოწმოთ Shizuku აპლიკაციაში.<p>Legacy Shizuku მოძველებულია 2019 წლის მარტიდან.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">გახსენით Shizuku</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[Legacy NFX მოძველებულია 2019 წლის მარტიდან. ასევე, მემკვიდრეობითი NFX არ მუშაობს ახალ Android სისტემებზე.<p>გთხოვთ, ჰკითხოთ დეველოპერს <b>%1$s</b> განახლება.]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s ითხოვს მემკვიდრეობას NFX</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> აქვს თანამედროვე შიზუკუს მხარდაჭერა, მაგრამ ის ითხოვს მემკვიდრეობას შიზუკუს. ეს შეიძლება იმის გამო, რომ NFX არ მუშაობს, გთხოვთ, შეამოწმოთ NFX აპლიკაციაში.<p>Legacy NFX მოძველებულია 2019 წლის მარტიდან.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">გახსენით NFX</string>
     <string name="wadb_notification_attempt_now">ხელახლა სცადეთ</string>
     <!-- Manage tab -->
     <string name="permissions_action_deny">უარყოფა</string>

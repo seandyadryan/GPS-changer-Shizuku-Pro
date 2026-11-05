@@ -21,7 +21,7 @@
     <string name="dialog_adb_pairing_paring_code">Kód za uparivanje</string>
     <string name="paring_code_is_wrong">Kód za uparivanje je pogrešan.</string>
     <string name="cannot_connect_port">Ne mogu da se povežem sa bežičnom uslugom otklanjanje
-        grešaka.\n\nUverite se da je Shizuku na beloj listi u svim zaštitnim zidovima, ad-block, VPN
+        grešaka.\n\nUverite se da je NFX na beloj listi u svim zaštitnim zidovima, ad-block, VPN
         ili sličnim aplikacijama koje mogu ograničiti pristup mreži.</string>
     <string name="dialog_adb_pairing_message">Почните упаривање пратећи следеће кораке:\n- Идите на
         „Опције за програмере“\n- Омогућите „USB отклањање грешака“ и „Бежично отклањање грешака“\n-
@@ -34,7 +34,7 @@
     <string name="dialog_adb_pairing_accessibility_navigate">Почните упаривање пратећи следеће
         кораке:\n- Идите на „Опције за програмере“\n- Омогућите „USB отклањање грешака“ и „Бежично
         отклањање грешака“\n- Додирните леву страну „Бежично отклањање грешака“\n- Додирните „Упари
-        уређај са кодом за упаривање“. Шизуку ће аутоматски детектовати код за упаривање.</string>
+        уређај са кодом за упаривање“. NFX ће аутоматски детектовати код за упаривање.</string>
     <string name="adb_pairing_requires_multi_window">Molim Vas, najpre izaberite režim podeljenog
         ekrana, odnosno režim više prozora.</string>
     <string name="adb_pairing_requires_multi_window_reason">Sistem zahteva dijalog uparivanja da
@@ -47,7 +47,7 @@
     <string name="enable">Омогући</string>
     <string name="development_settings">Razvojne opcije programera</string>
     <string name="notification_settings">Opcije obaveštenja</string>
-    <string name="adb_pairing_tutorial_content_notification">Notifikacija iz Shizuku aplikacije će
+    <string name="adb_pairing_tutorial_content_notification">Notifikacija iz NFX aplikacije će
         Vam pomoći da dovršite uparivanje.</string>
     <string name="adb_pairing_tutorial_content_steps">Идите на „Опције за програмере“, затим
         омогућите „USB дебаговање“ и „Бежично дебаговање“.</string>
@@ -55,21 +55,21 @@
         отклањање грешака“, а затим додирните „Упари уређај са кодом за упаривање“. Унесите код из
         обавештења да бисте завршили упаривање.</string>
     <string name="adb_pairing_tutorial_content_notification_blocked">Процес упаривања захтева вашу
-        интеракцију са обавештењем од Шизукуа. Дозволите Шизукуу да објављује обавештења.</string>
+        интеракцију са обавештењем од NFXа. Дозволите NFXу да објављује обавештења.</string>
     <string name="adb_pairing_tutorial_content_miui">Корисници MIUI-ја ће можда морати да промене
         стил обавештења на „Android“ из „Обавештења“ - „Тањир обавештења“ у системским подешавањима.</string>
     <string name="adb_pairing_tutorial_content_miui_2">U suprotnom, možda nećete moći da unesete kod
         za uparivanje iz obaveštenja.</string>
-    <string name="adb_pairing_tutorial_content_finish">Vratite se u Shizuku i počnite Shizuku.</string>
-    <string name="adb_pairing_tutorial_content_network">Shizuku treba da pristupi lokalnoj mreži.
+    <string name="adb_pairing_tutorial_content_finish">Vratite se u NFX i počnite NFX.</string>
+    <string name="adb_pairing_tutorial_content_network">NFX treba da pristupi lokalnoj mreži.
         Kontroliše se mrežnom dozvolom.</string>
     <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Neki sistemi (kao
         što je MIUI) ne dozvoljavaju aplikacijama pristup mreži kada nisu vidljive, čak i ako
         aplikacija koristi uslugu u prvom planu. Molimo Vas da onemogućite funkcije optimizacije
-        baterije za Shizuku na takvim sistemima.</string>
+        baterije za NFX na takvim sistemima.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[Покрени (за рутоване уређаје)]]></string>
-    <string name="home_root_description"><![CDATA[Ако користите Magisk, можете испробати %1$s. За root кориснике, на крају ће заменити Shizuku. Имајте на уму да постојеће апликације треба мало да се промене да би користиле %2$s.]]></string>
+    <string name="home_root_description"><![CDATA[Ако користите Magisk, можете испробати %1$s. За root кориснике, на крају ће заменити NFX. Имајте на уму да постојеће апликације треба мало да се промене да би користиле %2$s.]]></string>
     <string name="home_root_button_start">Почетак</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -98,7 +98,7 @@
     <string name="terminal_tutorial_miui">Корисници су пријавили да MIUI крши Storage Access
         Framework, који користи функција извоза.</string>
     <string name="terminal_tutorial_miui_2">Ако користите MIUI, можда ћете морати да извучете
-        датотеку из фасцикле assets у Shizuku-овом APK-у.</string>
+        датотеку из фасцикле assets у NFX-овом APK-у.</string>
     <string name="terminal_tutorial_1">Извезите датотеке у нову фасциклу.</string>
     <string name="terminal_tutorial_1_description">Биће извезене две датотеке: %1$s и %2$s. Ако
         датотеке већ постоје у изабраној фасцикли, биће обрисане.</string>
@@ -113,24 +113,23 @@
     <!-- Settings -->
     <string name="settings_start_on_boot">Покрени при покретању</string>
     <string name="settings_watchdog">Чувар</string>
-    <string name="settings_watchdog_summary">Аутоматски поново покрените Шизуку ако се сруши</string>
+    <string name="settings_watchdog_summary">Аутоматски поново покрените NFX ако се сруши</string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
     <string name="settings_tcp_mode">TCP режим</string>
-    <string name="settings_tcp_mode_summary">"Омогућава Шизукуу да се поново покрене без Wi-Fi-ја.
-        (Шизуку се морао једном покренути од поновног покретања)"</string>
+    <string name="settings_tcp_mode_summary">"Омогућава NFXу да се поново покрене без Wi-Fi-ја.
+        (NFX се морао једном покренути од поновног покретања)"</string>
     <string name="settings_tcp_mode_dialog_close_port">"TCP порт ће бити одмах затворен. Биће вам
         потребан Wi-Fi да бисте поново укључили TCP режим. Желите ли да наставите?"</string>
     <string name="settings_restart_dialog_title">Потребно је поновно покретање</string>
-    <string name="settings_restart_dialog_message">Shizuku treba da se ponovo pokrene da bi se
+    <string name="settings_restart_dialog_message">NFX treba da se ponovo pokrene da bi se
         primenila ova postavka.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Vi-Fi je potreban. Shizuku će nastaviti da radi i čekati Vi-Fi vezu pre ponovnog pokretanja u pozadini.</b>]]></string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Vi-Fi je potreban. NFX će nastaviti da radi i čekati Vi-Fi vezu pre ponovnog pokretanja u pozadini.</b>]]></string>
     <string name="settings_tcp_port">ТЦП порт</string>
     <string name="settings_language">Језик</string>
     <string name="settings_black_night_theme">Тема црне ноћи</string>
     <string name="settings_black_night_theme_summary">Користите чисто црну тему ако је омогућен
         ноћни режим</string>
-    <string name="settings_help">Помоћ</string>
     <string name="settings_report_bug">Пријави грешку</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
@@ -147,22 +146,13 @@
     <string name="settings_legacy_pairing_summary">Унесите код за упаривање у дијалогу уместо у
         обавештењу</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">Прво, урадите следеће:</string>
-    <string name="bug_report_dialog_update">Проверите да ли користите ^1.</string>
-    <string name="bug_report_dialog_link_update">најновија верзија</string>
-    <string name="bug_report_dialog_wiki">Прочитајте ^1 и пратите све релевантне кораке за решавање
-        проблема.</string>
-    <string name="bug_report_dialog_link_wiki">вики</string>
-    <string name="bug_report_dialog_issues">Претражите све ^1 да бисте видели да ли је ваша грешка
-        већ пријављена.</string>
-    <string name="bug_report_dialog_link_issues">постојећи проблеми</string>
     <!-- Snackbar -->
     <string name="snackbar_battery_optimization_settings">Онемогућите оптимизацију батерије да бисте
         користили ову функцију.</string>
     <string name="snackbar_action_fix">Поправи</string>
     <!-- Updates -->
     <!-- Toast -->
-    <string name="toast_pairing_timeout">Shizuku uparivanje servis je isteklo.</string>
+    <string name="toast_pairing_timeout">NFX uparivanje servis je isteklo.</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme_off">Увек светло</string>
     <string name="dark_theme_on">Увек мрачно</string>
@@ -177,12 +167,12 @@
     <string name="notification_adb_pairing_stop_searching">Престани претрагу</string>
     <string name="notification_adb_pairing_working_title">Упаривање у току</string>
     <string name="notification_adb_pairing_succeed_title">Упаривање је успешно</string>
-    <string name="notification_adb_pairing_succeed_text">Сада можете покренути Шизуку услугу.</string>
+    <string name="notification_adb_pairing_succeed_text">Сада можете покренути NFX услугу.</string>
     <string name="notification_adb_pairing_failed_title">Упаривање није успело</string>
     <string name="notification_adb_pairing_retry">Покушај поново</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">приступ Шизуку</string>
-    <string name="permission_description">Дозволите апликацији да користи Шизуку.</string>
+    <string name="permission_label">приступ NFX</string>
+    <string name="permission_description">Дозволите апликацији да користи NFX.</string>
     <string name="permission_warning_template"><![CDATA[Дозволити <b>%1$s</b> до %2$s?]]></string>
     <string name="grant_dialog_button_allow_always">Дозволи све време</string>
     <string name="grant_dialog_button_deny">"Одбиј"</string>
@@ -191,19 +181,19 @@
     <string name="start_with_root_failed">Не могу да покренем услугу јер није одобрена root дозвола
         или овај уређај није рутован.</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">Почетак игре Шизуку…</string>
+    <string name="wadb_notification_title">Почетак игре NFX…</string>
     <string name="wadb_notification_wifi_required">Чека се Wi-Fi веза пре него што се настави</string>
     <string name="wadb_notification_retry">Чекање на поновни покушај</string>
     <string name="wadb_error_title">Грешка при покретању система</string>
     <string name="wadb_error_notify_dev">Додирните да бисте обавестили програмера.</string>
     <string name="wadb_permission_error_notification_title">Грешка дозволе</string>
-    <string name="wadb_permission_error_notification_content">Шизуку захтева WRITE_SECURE_SETTINGS
+    <string name="wadb_permission_error_notification_content">NFX захтева WRITE_SECURE_SETTINGS
         да би се покренуо при покретању система. Додирните да бисте сазнали како да га одобрите.</string>
     <!-- Shell -->
     <!-- Watchdog -->
     <string name="watchdog_running">Чуварски орган ради</string>
     <string name="watchdog_turn_off">Ugasi</string>
-    <string name="watchdog_shizuku_crashed_title">Шизуку се недавно срушио</string>
+    <string name="watchdog_shizuku_crashed_title">NFX се недавно срушио</string>
     <string name="watchdog_shizuku_crashed_text">Watchdog је поново покренуо услугу. Додирните да
         бисте сазнали више о потенцијалним решењима за спречавање будућих падова.</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">Искључи упозорења</string>
@@ -213,14 +203,14 @@
     <string name="toast_copied_to_clipboard">Копирано у међуспремник</string>
     <string name="accessibility_service_description">Пружа подршку за упаривање уређаја (нпр.
         телевизора са Андроидом 14+) где обавештења или подељени екран не могу да се
-        користе.\n\nОмогућава Шизуку-у да издвоји код за упаривање са екрана за упаривање за бежично
+        користе.\n\nОмогућава NFX-у да издвоји код за упаривање са екрана за упаривање за бежично
         отклањање грешака. Сам ће се деактивирати када се пронађе код за упаривање.</string>
     <!-- Messages for legacy -->
-    <string name="dialog_legacy_not_support_title">%1$s не подржава модерни Шизуку</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[Застарели Шизуку је застарео од марта 2019. Такође, застарели Шизуку не ради на новијим Андроид системима.<p>Замолите програмера <b>%1$s</b> да ажурира.]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s захтева старију верзију Шизукуа</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> има подршку за модерни Шизуку, али захтева старији Шизуку. То би могло бити зато што Шизуку не ради, проверите у апликацији Шизуку.<p>Старији Шизуку је застарео од марта 2019.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">Отвори Шизуку</string>
+    <string name="dialog_legacy_not_support_title">%1$s не подржава модерни NFX</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[Застарели NFX је застарео од марта 2019. Такође, застарели NFX не ради на новијим Андроид системима.<p>Замолите програмера <b>%1$s</b> да ажурира.]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s захтева старију верзију NFXа</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> има подршку за модерни NFX, али захтева старији NFX. То би могло бити зато што NFX не ради, проверите у апликацији NFX.<p>Старији NFX је застарео од марта 2019.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Отвори NFX</string>
     <string name="wadb_notification_attempt_now">Покушај поново</string>
     <!-- Manage tab -->
     <string name="permissions_action_deny">Одбиј</string>

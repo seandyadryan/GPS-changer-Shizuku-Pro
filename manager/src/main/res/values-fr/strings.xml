@@ -58,7 +58,7 @@
     <string name="dialog_adb_pairing_paring_code">Code d\'association</string>
     <string name="paring_code_is_wrong">Le code d\'association n\'est pas le bon.</string>
     <string name="cannot_connect_port">Impossible de se connecter au service de débogage sans
-        fil.\n\nVeuillez vous assurer que Shizuku est autorisé dans tous les pare-feu, bloqueurs de
+        fil.\n\nVeuillez vous assurer que NFX est autorisé dans tous les pare-feu, bloqueurs de
         publicités, VPN ou applications similaires susceptibles de restreindre l\'accès au réseau.</string>
     <string name="dialog_adb_pairing_message">Veuillez commencer le jumelage en suivant les étapes
         suivantes :\n- Accédez aux « Options pour les développeurs »\n- Activez le « Débogage USB »
@@ -73,7 +73,7 @@
     <string name="dialog_adb_pairing_accessibility_navigate">Veuillez commencer le jumelage en
         suivant les étapes suivantes :\n- Accédez à « Options pour les développeurs »\n- Activez
         « Débogage USB » et « Débogage sans fil »\n- Appuyez sur le côté gauche de « Débogage sans
-        fil »\n- Appuyez sur « Jumeler l\'appareil avec le code de jumelage ». Shizuku détectera
+        fil »\n- Appuyez sur « Jumeler l\'appareil avec le code de jumelage ». NFX détectera
         automatiquement le code de jumelage.</string>
     <string name="adb_pairing_requires_multi_window">Merci d\'activer le mode écran partagé (mode
         multi-fenêtres) d\'abord.</string>
@@ -85,11 +85,11 @@
     <string name="adb_error_stop_tcp">Une erreur est survenue lors de l\'arrêt d\'\ADB via TCP</string>
     <string name="adb_pair_required">Veuillez suivre les étapes d\'association d\'abord.</string>
     <string name="enable">Activer</string>
-    <string name="auto_pair_instructions">Appairez sans taper de code :\n\n1. Options développeur → Débogage sans fil\n2. Associer l\'appareil avec le code d\'appairage\n\nShizuku lit le code et le port directement de cette boîte de dialogue et se démarre. Garder la boîte de dialogue ouverte jusqu\'à la fin de l\'appareillage.</string>
+    <string name="auto_pair_instructions">Appairez sans taper de code :\n\n1. Options développeur → Débogage sans fil\n2. Associer l\'appareil avec le code d\'appairage\n\nNFX lit le code et le port directement de cette boîte de dialogue et se démarre. Garder la boîte de dialogue ouverte jusqu\'à la fin de l\'appareillage.</string>
     <string name="auto_pair_manual">Manuel</string>
     <string name="development_settings">Options pour les développeurs</string>
     <string name="notification_settings">Options des notifications</string>
-    <string name="adb_pairing_tutorial_content_notification">Une notification de Shizuku vous aidera
+    <string name="adb_pairing_tutorial_content_notification">Une notification de NFX vous aidera
         à compléter l\'association.</string>
     <string name="adb_pairing_tutorial_content_steps">Accédez à « Options pour les développeurs »,
         puis activez « Débogage USB » et « Débogage sans fil ».</string>
@@ -97,23 +97,23 @@
         Débogage sans fil », puis sur « Associer l\'appareil avec le code d\'association ».
         Saisissez le code affiché dans la notification pour terminer l\'association.</string>
     <string name="adb_pairing_tutorial_content_notification_blocked">Le processus d\'association
-        requiert que vous interagissez avec une notification de Shizuku. Merci d\'autoriser Shizuku
+        requiert que vous interagissez avec une notification de NFX. Merci d\'autoriser NFX
         à envoyer les notifications.</string>
     <string name="adb_pairing_tutorial_content_miui">Les utilisateurs de MIUI pourraient devoir
         changer le style de notifications vers \"Android\" dans \"Notifications\" - \"Style de
         notification\" dans les paramètres système.</string>
     <string name="adb_pairing_tutorial_content_miui_2">Sinon, vous risquez de ne pas pouvoir saisir
         le code d\'appairage figurant dans la notification.</string>
-    <string name="adb_pairing_tutorial_content_finish">Retournez à Shizuku et démarrez Shizuku.</string>
-    <string name="adb_pairing_tutorial_content_network">Shizuku a besoin d\'accéder au réseau local.
+    <string name="adb_pairing_tutorial_content_finish">Retournez à NFX et démarrez NFX.</string>
+    <string name="adb_pairing_tutorial_content_network">NFX a besoin d\'accéder au réseau local.
         Cet accès est contrôlé par les autorisations réseau.</string>
     <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Certains systèmes
         (comme MIUI) interdisent aux applications d\'accéder au réseau lorsqu\'elles ne sont pas
         visibles, même si l\'application utilise un service de premier plan. Veuillez désactiver les
-        fonctions d\'optimisation de la batterie pour Shizuku sur ces systèmes.</string>
+        fonctions d\'optimisation de la batterie pour NFX sur ces systèmes.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[Démarrer (pour les appareils rootés)]]></string>
-    <string name="home_root_description"><![CDATA[Si vous utilisez Magisk, vous pouvez essayer %1$s. Pour les utilisateurs root, cette commande remplacera à terme Shizuku. Notez que les applications existantes devront être légèrement modifiées pour utiliser %2$s.]]></string>
+    <string name="home_root_description"><![CDATA[Si vous utilisez Magisk, vous pouvez essayer %1$s. Pour les utilisateurs root, cette commande remplacera à terme NFX. Notez que les applications existantes devront être légèrement modifiées pour utiliser %2$s.]]></string>
     <string name="home_root_button_start">Démarrer</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -126,7 +126,7 @@
     <!-- Home - Adb permissions limited -->
     <!-- Home - Dialogs -->
     <string name="home_dialog_reboot_required_title">Redémarrage requis</string>
-    <string name="home_dialog_reboot_required_message">Un redémarrage de l\'appareil est nécessaire pour que Shizuku fonctionne correctement. Pour continuer, veuillez redémarrer votre appareil.</string>
+    <string name="home_dialog_reboot_required_message">Un redémarrage de l\'appareil est nécessaire pour que NFX fonctionne correctement. Pour continuer, veuillez redémarrer votre appareil.</string>
     <string name="home_dialog_duplicate_app_detected_title">Application en double détectée</string>
     <string name="home_dialog_duplicate_app_detected_message">Une autre version de cette application est installée sur votre appareil. Pour continuer, veuillez désinstaller toutes les versions dupliquées et redémarrer votre appareil.</string>
     <!-- The same two states, said on the Home screen instead of in a dialog that only exits. Shizuku works either way; what is affected is what other apps find when they look Shizuku up. -->
@@ -153,7 +153,7 @@
     <string name="tab_activities">Lanceur d\'activités</string>
     <string name="tab_power">Alimentation</string>
     <string name="power_description">Redémarrer ou éteindre l\'écran sans utiliser les boutons du téléphone.</string>
-    <string name="power_needs_shizuku">Lancez Shizuku d\'abord pour utiliser ces options.</string>
+    <string name="power_needs_shizuku">Lancez NFX d\'abord pour utiliser ces options.</string>
     <string name="intent_start">Démarrer</string>
     <string name="device_watchdog">Chien de garde</string>
     <string name="log_capture_start">Démarrer</string>
@@ -165,7 +165,7 @@
     <string name="terminal_tutorial_miui">Des utilisateurs ont signalé que MIUI endommage le Storage
         Access Framework, utilisé par la fonction d\'exportation.</string>
     <string name="terminal_tutorial_miui_2">Si vous utilisez MIUI, vous devrez peut-être extraire le
-        fichier du dossier assets de l\'APK de Shizuku.</string>
+        fichier du dossier assets de l\'APK de NFX.</string>
     <string name="terminal_tutorial_1">Exportez les fichiers vers un nouveau dossier.</string>
     <string name="terminal_tutorial_1_description">Deux fichiers seront exportés : %1$s et %2$s. Si
         ces fichiers existent déjà dans le dossier sélectionné, ils seront supprimés.</string>
@@ -181,25 +181,24 @@
     <!-- Settings -->
     <string name="settings_start_on_boot">Démarrez au démarrage</string>
     <string name="settings_watchdog">Chien de garde</string>
-    <string name="settings_watchdog_summary">Redémarrage automatique de Shizuku en cas de plantage</string>
+    <string name="settings_watchdog_summary">Redémarrage automatique de NFX en cas de plantage</string>
     <string name="transport_adb">adb</string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
     <string name="settings_tcp_mode">Mode TCP</string>
-    <string name="settings_tcp_mode_summary">"Permet à Shizuku de redémarrer sans Wi-Fi. (Shizuku a
+    <string name="settings_tcp_mode_summary">"Permet à NFX de redémarrer sans Wi-Fi. (NFX a
         dû commencer une fois depuis le reboot)"</string>
     <string name="settings_tcp_mode_dialog_close_port">"Le port TCP sera immédiatement fermé. Vous
         aurez besoin du Wi-Fi pour réactiver le mode TCP. Continuer ?"</string>
     <string name="settings_restart_dialog_title">Redémarrage requis</string>
-    <string name="settings_restart_dialog_message">Shizuku doit redémarrer pour que ce paramètre
+    <string name="settings_restart_dialog_message">NFX doit redémarrer pour que ce paramètre
         soit appliqué.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Une connexion Wi-Fi est requise. Shizuku continuera de fonctionner et attendra une connexion Wi-Fi avant de redémarrer en arrière-plan.</b>]]></string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Une connexion Wi-Fi est requise. NFX continuera de fonctionner et attendra une connexion Wi-Fi avant de redémarrer en arrière-plan.</b>]]></string>
     <string name="settings_tcp_port">Port TCP</string>
     <string name="settings_language">Langue</string>
     <string name="settings_black_night_theme">Thème sombre noir</string>
     <string name="settings_black_night_theme_summary">Utilise le thème noir pur si le thème sombre
         est activé</string>
-    <string name="settings_help">Aide</string>
     <string name="settings_report_bug">Signaler un bug</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
@@ -217,21 +216,13 @@
     <string name="settings_legacy_pairing_summary">Saisissez le code d’appairement dans une boîte de
         dialogue au lieu d’une notification</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">Veuillez tout d\'abord procéder comme suit :</string>
-    <string name="bug_report_dialog_update">Vérifiez que vous utilisez bien ^1.</string>
-    <string name="bug_report_dialog_link_update">dernière version</string>
-    <string name="bug_report_dialog_wiki">Lisez le ^1 et suivez toutes les étapes de dépannage
-        pertinentes.</string>
-    <string name="bug_report_dialog_issues">Parcourez tous les ^1 pour voir si votre bogue a déjà
-        été signalé.</string>
-    <string name="bug_report_dialog_link_issues">problèmes existants</string>
     <!-- Snackbar -->
     <string name="snackbar_battery_optimization_settings">Veuillez désactiver l’optimisation de la
         batterie pour utiliser cette fonctionnalité.</string>
     <string name="snackbar_action_fix">Réparer</string>
     <!-- Updates -->
     <!-- Toast -->
-    <string name="toast_pairing_timeout">Le service de jumelage Shizuku a expiré</string>
+    <string name="toast_pairing_timeout">Le service de jumelage NFX a expiré</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme_off">Toujours léger</string>
     <string name="dark_theme_on">Toujours sombre</string>
@@ -246,13 +237,13 @@
     <string name="notification_adb_pairing_stop_searching">Arrêter de chercher</string>
     <string name="notification_adb_pairing_working_title">Association en cours</string>
     <string name="notification_adb_pairing_succeed_title">Association terminée</string>
-    <string name="notification_adb_pairing_succeed_text">Vous pouvez démarrer le service de Shizuku
+    <string name="notification_adb_pairing_succeed_text">Vous pouvez démarrer le service de NFX
         maintenant.</string>
     <string name="notification_adb_pairing_failed_title">L\'association a échoué</string>
     <string name="notification_adb_pairing_retry">Réessayer</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">accéder à Shizuku</string>
-    <string name="permission_description">Autorise l\'appli à utiliser Shizuku.</string>
+    <string name="permission_label">accéder à NFX</string>
+    <string name="permission_description">Autorise l\'appli à utiliser NFX.</string>
     <string name="permission_warning_template"><![CDATA[Autoriser <b>%1$s</b> à %2$s \?]]></string>
     <string name="grant_dialog_button_allow_always">Autoriser tout le temps</string>
     <string name="grant_dialog_button_deny">"Refuser"</string>
@@ -261,19 +252,19 @@
     <string name="start_with_root_failed">Impossible de lancer le service parce que la permission
         root n\'est pas accordée ou que cet appareil n\'est pas rooté.</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">Début de Shizuku…</string>
+    <string name="wadb_notification_title">Début de NFX…</string>
     <string name="wadb_notification_wifi_required">En attente de connexion Wi-Fi avant de poursuivre</string>
     <string name="wadb_notification_retry">En attente de nouvelle tentative</string>
     <string name="wadb_error_title">Erreur au démarrage</string>
     <string name="wadb_error_notify_dev">Appuyez pour informer le promoteur.</string>
     <string name="wadb_permission_error_notification_title">Erreur de permission</string>
-    <string name="wadb_permission_error_notification_content">Shizuku a besoin de
+    <string name="wadb_permission_error_notification_content">NFX a besoin de
         WRITE_SECURE_SETTINGS pour commencer le démarrage. Appuyez pour apprendre à l’accorder.</string>
     <!-- Shell -->
     <!-- Watchdog -->
     <string name="watchdog_running">Le chien de garde est en fuite</string>
     <string name="watchdog_turn_off">Éteindre</string>
-    <string name="watchdog_shizuku_crashed_title">Shizuku s’est récemment écrasée</string>
+    <string name="watchdog_shizuku_crashed_title">NFX s’est récemment écrasée</string>
     <string name="watchdog_shizuku_crashed_text">Watchdog a relancé le service. Appuyez pour
         connaître les solutions potentielles afin d’éviter de futurs plantages.</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">Désactivez les alertes</string>
@@ -283,16 +274,16 @@
     <string name="toast_copied_to_clipboard">Copié dans le presse-papiers</string>
     <string name="accessibility_service_description">Offre un support de l’appairage pour les
         appareils (par exemple, les téléviseurs sous Android 14+) où les notifications ou l’écran
-        partagé ne peuvent pas être utilisés.\n\nPermet à Shizuku d’extraire le code d’appairage de
+        partagé ne peuvent pas être utilisés.\n\nPermet à NFX d’extraire le code d’appairage de
         l’écran de débogage sans fil. Il se désactivera lui-même une fois le code d’appariement
         trouvé.</string>
     <!-- Messages for legacy -->
     <string name="dialog_legacy_not_support_title">%1$s ne supporte pas les versions plus récentes
-        de Shizuku</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[Les anciennes versions de Shizuku sont obsolètes depuis mars 2019. Aussi, elles ne fonctionnent pas sur les versions plus récentes d\'Android.<p>Merci de demander au développeur de <b>%1$s</b> de mettre à jour.]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s requiert l\'ancien Shizuku</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> supporte les versions récentes de Shizuku, mais demande l\'accès à l\'ancien Shizuku. C\'est peut être parce que Shizuku n\'est pas en cours de fonctionnement, merci de vérifier dans l\'appli Shizuku.<p>L\'ancien Shizuku est obsolète depuis mars 2019.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">Ouvrir Shizuku</string>
+        de NFX</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[Les anciennes versions de NFX sont obsolètes depuis mars 2019. Aussi, elles ne fonctionnent pas sur les versions plus récentes d\'Android.<p>Merci de demander au développeur de <b>%1$s</b> de mettre à jour.]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s requiert l\'ancien NFX</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> supporte les versions récentes de NFX, mais demande l\'accès à l\'ancien NFX. C\'est peut être parce que NFX n\'est pas en cours de fonctionnement, merci de vérifier dans l\'appli NFX.<p>L\'ancien NFX est obsolète depuis mars 2019.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Ouvrir NFX</string>
     <string name="wadb_notification_attempt_now">Réessayer</string>
     <!-- Manage tab -->
     <string name="permissions_action_deny">Refuser</string>

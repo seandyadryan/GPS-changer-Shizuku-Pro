@@ -5,7 +5,7 @@
 
 Fork lengkap [Shizuku-Next](https://github.com/rushiranpise/Shizuku-Next), dikelola di repositori seandyadryan.
 
-[Unduh APK](https://github.com/seandyadryan/GPS-changer-Shizuku-Pro/releases) · [Build manual](https://github.com/seandyadryan/GPS-changer-Shizuku-Pro/actions/workflows/build.yml) · [Laporkan bug](https://github.com/seandyadryan/GPS-changer-Shizuku-Pro/issues)
+[Unduh APK](https://github.com/seandyadryan/GPS-changer-Shizuku-Pro/releases) · [Build manual](https://github.com/seandyadryan/GPS-changer-Shizuku-Pro/actions/workflows/build.yml) · [Laporkan bug](mailto:seandyadryan2@gmail.com)
 </div>
 
 Aplikasi Android untuk memberikan akses API sistem kepada aplikasi yang mendukung Shizuku melalui ADB atau root. Seluruh modul dan riwayat kode upstream dipertahankan, termasuk Home, Apps, Modules, Labs, Settings, shell, file manager, installer, pengelolaan izin, dan metode startup upstream.

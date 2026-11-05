@@ -57,7 +57,7 @@
     <string name="dialog_adb_pairing_discovery">Поиск службы сопряжения</string>
     <string name="dialog_adb_pairing_paring_code">Код сопряжения</string>
     <string name="paring_code_is_wrong">Неверный код сопряжения.</string>
-    <string name="cannot_connect_port">Не удаётся подключиться к службе беспроводной отладки.\n\nУбедитесь, что Shizuku добавлен в белый список во всех брандмауэрах, блокировщиках рекламы, VPN и подобных приложениях, способных ограничивать доступ к сети.</string>
+    <string name="cannot_connect_port">Не удаётся подключиться к службе беспроводной отладки.\n\nУбедитесь, что NFX добавлен в белый список во всех брандмауэрах, блокировщиках рекламы, VPN и подобных приложениях, способных ограничивать доступ к сети.</string>
     <string name="dialog_adb_pairing_message">Начните сопряжение, выполнив следующие шаги:\n- Откройте «Параметры разработчика»\n- Включите «Отладку по USB» и «Беспроводную отладку»\n- Нажмите на левую часть пункта «Беспроводная отладка»\n- Нажмите «Сопряжение с устройством по коду»\n- Введите код сопряжения в уведомлении</string>
     <!-- Goes after dialog_adb_pairing_accessibility_enable in the same dialog: what the greyed-out
          row means, and both ways to open it. The App info menu is the only one available on a
@@ -65,30 +65,30 @@
          outside the app, and both are named because either reader may be the one holding it. -->
     <string name="dialog_adb_pairing_accessibility_permission">Android блокирует этот переключатель для приложений, установленных не из магазина приложений. Разрешите операцию ^1, чтобы включить службу специальных возможностей. В списке специальных возможностей это отображается как «Контролируется ограниченной настройкой».\n\nОткройте «О приложении» и выберите в меню «Разрешить ограниченные настройки» либо выполните на компьютере команду:\n\n^2\n\nПодойдёт любой из вариантов. После этого переключатель заработает.</string>
     <string name="dialog_adb_pairing_open_app_info">О приложении</string>
-    <string name="dialog_adb_pairing_accessibility_enable">Автосопряжение считывает код из системного диалога через службу специальных возможностей Shizuku, поэтому она должна быть включена, и лишь на время: служба отключается сама, когда код найден, или через минуту, чтобы не тратить заряд. Обычно Shizuku включает её сам, а для этого нужно разрешение WRITE_SECURE_SETTINGS, которое при свежей установке ещё не выдано.\n\nВключите её на следующем экране, введите код сами в разделе «Вручную» или один раз выдайте разрешение:\n\nadb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</string>
-    <string name="dialog_adb_pairing_accessibility_navigate">Начните сопряжение, выполнив следующие шаги:\n- Откройте «Параметры разработчика»\n- Включите «Отладку по USB» и «Беспроводную отладку»\n- Нажмите на левую часть пункта «Беспроводная отладка»\n- Нажмите «Сопряжение с устройством по коду». Shizuku автоматически определит код сопряжения.</string>
+    <string name="dialog_adb_pairing_accessibility_enable">Автосопряжение считывает код из системного диалога через службу специальных возможностей NFX, поэтому она должна быть включена, и лишь на время: служба отключается сама, когда код найден, или через минуту, чтобы не тратить заряд. Обычно NFX включает её сам, а для этого нужно разрешение WRITE_SECURE_SETTINGS, которое при свежей установке ещё не выдано.\n\nВключите её на следующем экране, введите код сами в разделе «Вручную» или один раз выдайте разрешение:\n\nadb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="dialog_adb_pairing_accessibility_navigate">Начните сопряжение, выполнив следующие шаги:\n- Откройте «Параметры разработчика»\n- Включите «Отладку по USB» и «Беспроводную отладку»\n- Нажмите на левую часть пункта «Беспроводная отладка»\n- Нажмите «Сопряжение с устройством по коду». NFX автоматически определит код сопряжения.</string>
     <string name="adb_pairing_requires_multi_window">Сначала включите режим разделённого экрана.</string>
     <string name="adb_pairing_requires_multi_window_reason">Система требует, чтобы диалог сопряжения постоянно оставался видимым. Разделённый экран — единственный способ одновременно видеть это приложение и системный диалог.</string>
     <string name="adb_error_key_store">Не удалось сгенерировать ключ для беспроводной отладки.\nВозможно, механизм KeyStore на этом устройстве неисправен.</string>
     <string name="adb_error_stop_tcp">Не удалось остановить ADB по TCP</string>
     <string name="adb_pair_required">Сначала выполните сопряжение устройства.</string>
     <string name="enable">Включить</string>
-    <string name="auto_pair_instructions">Сопряжение без ввода кода:\n\n1. Параметры разработчика → Беспроводная отладка\n2. Сопряжение с устройством по коду\n\nShizuku считывает код и порт прямо из этого диалога и запускается сам. Не закрывайте диалог, пока сопряжение не завершится.</string>
+    <string name="auto_pair_instructions">Сопряжение без ввода кода:\n\n1. Параметры разработчика → Беспроводная отладка\n2. Сопряжение с устройством по коду\n\nNFX считывает код и порт прямо из этого диалога и запускается сам. Не закрывайте диалог, пока сопряжение не завершится.</string>
     <string name="auto_pair_manual">Вручную</string>
     <string name="development_settings">Автоматически</string>
     <string name="notification_settings">Настройки уведомлений</string>
-    <string name="adb_pairing_tutorial_content_notification">Уведомление от Shizuku поможет вам завершить сопряжение.</string>
+    <string name="adb_pairing_tutorial_content_notification">Уведомление от NFX поможет вам завершить сопряжение.</string>
     <string name="adb_pairing_tutorial_content_steps">Откройте «Параметры разработчика», затем включите «Отладку по USB» и «Беспроводную отладку».</string>
     <string name="adb_pairing_tutorial_content_enter_pairing_code">Нажмите на левую часть пункта «Беспроводная отладка», затем выберите «Сопряжение с устройством по коду». Введите код в уведомлении, чтобы завершить сопряжение.</string>
-    <string name="adb_pairing_tutorial_content_notification_blocked">В процессе сопряжения вам нужно будет взаимодействовать с уведомлением от Shizuku. Разрешите Shizuku показывать уведомления.</string>
+    <string name="adb_pairing_tutorial_content_notification_blocked">В процессе сопряжения вам нужно будет взаимодействовать с уведомлением от NFX. Разрешите NFX показывать уведомления.</string>
     <string name="adb_pairing_tutorial_content_miui">Пользователям MIUI может понадобиться переключить стиль уведомлений на «Android» в разделе «Уведомления» → «Шторка уведомлений» системных настроек.</string>
     <string name="adb_pairing_tutorial_content_miui_2">В противном случае вы не сможете ввести код сопряжения из уведомления.</string>
-    <string name="adb_pairing_tutorial_content_finish">Вернитесь в Shizuku и запустите его.</string>
-    <string name="adb_pairing_tutorial_content_network">Для работы Shizuku нужен доступ к локальной сети. Он контролируется разрешением на доступ к сети.</string>
-    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Некоторые системы (например, MIUI) запрещают приложениям доступ к сети, когда те не видны на экране, даже если приложение использует сервис переднего плана. На таких системах отключите для Shizuku оптимизацию расхода батареи.</string>
+    <string name="adb_pairing_tutorial_content_finish">Вернитесь в NFX и запустите его.</string>
+    <string name="adb_pairing_tutorial_content_network">Для работы NFX нужен доступ к локальной сети. Он контролируется разрешением на доступ к сети.</string>
+    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Некоторые системы (например, MIUI) запрещают приложениям доступ к сети, когда те не видны на экране, даже если приложение использует сервис переднего плана. На таких системах отключите для NFX оптимизацию расхода батареи.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[Запуск через root]]></string>
-    <string name="home_root_description"><![CDATA[Если вы используете Magisk, можете попробовать %1$s. Для root-пользователей он со временем заменит Shizuku. Обратите внимание: чтобы использовать %2$s, существующим приложениям потребуются небольшие изменения.]]></string>
+    <string name="home_root_description"><![CDATA[Если вы используете Magisk, можете попробовать %1$s. Для root-пользователей он со временем заменит NFX. Обратите внимание: чтобы использовать %2$s, существующим приложениям потребуются небольшие изменения.]]></string>
     <string name="home_root_button_start">Старт</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -103,12 +103,12 @@
     <!-- Home - Adb permissions limited -->
     <!-- Home - Dialogs -->
     <string name="home_dialog_reboot_required_title">Требуется перезагрузка</string>
-    <string name="home_dialog_reboot_required_message">Для корректной работы Shizuku нужна перезагрузка устройства. Чтобы продолжить, перезагрузите его.</string>
+    <string name="home_dialog_reboot_required_message">Для корректной работы NFX нужна перезагрузка устройства. Чтобы продолжить, перезагрузите его.</string>
     <string name="home_dialog_duplicate_app_detected_title">Обнаружен дубликат приложения</string>
     <string name="home_dialog_duplicate_app_detected_message">На устройстве установлена ещё одна версия этого приложения. Чтобы продолжить, удалите все дубликаты и перезагрузите устройство.</string>
     <!-- The same two states, said on the Home screen instead of in a dialog that only exits. Shizuku works either way; what is affected is what other apps find when they look Shizuku up. -->
-    <string name="home_permission_owned_by">Приложения находят Shizuku по его разрешению, и Android сообщает, что его объявляет %1$s — копия Shizuku или то, что от неё осталось. Эти приложения будут обращаться именно к ней, пока она не будет удалена и устройство не перезагрузится.</string>
-    <string name="home_permission_not_registered">Приложения находят Shizuku по его разрешению, а Android пока его не зарегистрировал — после переустановки такое может сохраняться до перезагрузки устройства. Сам Shizuku работает как обычно; другие приложения могут его не найти.</string>
+    <string name="home_permission_owned_by">Приложения находят NFX по его разрешению, и Android сообщает, что его объявляет %1$s — копия NFX или то, что от неё осталось. Эти приложения будут обращаться именно к ней, пока она не будет удалена и устройство не перезагрузится.</string>
+    <string name="home_permission_not_registered">Приложения находят NFX по его разрешению, а Android пока его не зарегистрировал — после переустановки такое может сохраняться до перезагрузки устройства. Сам NFX работает как обычно; другие приложения могут его не найти.</string>
     <string name="home_dialog_button_exit">Выйти</string>
     <!-- Application management -->
     <string name="app_management_dialog_adb_is_limited_title">Права ADB ограничены</string>
@@ -116,7 +116,7 @@
     <string name="app_management_toggle_all">Переключить все</string>
     <string name="app_management_search_hint">Поиск приложений</string>
     <string name="app_management_sort">Сортировка</string>
-    <string name="apps_needs_shizuku">Запустите Shizuku, чтобы увидеть приложения</string>
+    <string name="apps_needs_shizuku">Запустите NFX, чтобы увидеть приложения</string>
     <string name="apps_empty">Нет приложений для отображения</string>
     <string name="apps_filter_empty">В этом фильтре нет приложений</string>
     <string name="apps_filter_all">all</string>
@@ -179,7 +179,7 @@
     <string name="tab_activities">Активити</string>
     <string name="tab_power">Питание</string>
     <string name="power_description">Перезагрузка и выключение экрана без кнопок телефона.</string>
-    <string name="power_needs_shizuku">Сначала запустите Shizuku, чтобы эти опции стали доступны.</string>
+    <string name="power_needs_shizuku">Сначала запустите NFX, чтобы эти опции стали доступны.</string>
     <string name="power_reboot">Перезагрузка</string>
     <string name="power_reboot_summary">Перезапустить телефон.</string>
     <string name="power_reboot_confirm">Телефон сейчас перезагрузится. Несохранённые данные будут потеряны.</string>
@@ -198,15 +198,15 @@
     <string name="power_confirm">Продолжить</string>
     <string name="power_soft_reboot">Мягкая перезагрузка</string>
     <string name="power_soft_reboot_summary">Перезапускает Android без перезагрузки ядра. Требуется root.</string>
-    <string name="power_soft_reboot_confirm">Android перезапустится. Все приложения и System UI закроются и откроются заново, но сам телефон не перезагрузится. Возможно, после этого Shizuku придётся запустить снова.</string>
+    <string name="power_soft_reboot_confirm">Android перезапустится. Все приложения и System UI закроются и откроются заново, но сам телефон не перезагрузится. Возможно, после этого NFX придётся запустить снова.</string>
     <string name="power_restart_system_ui">Перезапуск System UI</string>
     <string name="power_restart_system_ui_summary">Перезапускает строку состояния, панель навигации и шторку уведомлений. Требуется root.</string>
     <string name="power_needs_root">Требуется root, но на этом устройстве его нет.</string>
-    <string name="power_needs_shizuku_rooted">Shizuku не запущен. Доступна только мягкая перезагрузка.</string>
+    <string name="power_needs_shizuku_rooted">NFX не запущен. Доступна только мягкая перезагрузка.</string>
     <string name="power_failed">Не удалось выполнить %1$s</string>
     <string name="tab_display">Экран</string>
     <string name="display_description">Изменяет разрешение экрана, плотность и частоту обновления. Если экраном станет трудно пользоваться, нажмите «Сброс» рядом с настройкой.</string>
-    <string name="display_needs_shizuku">Запустите Shizuku, чтобы просматривать или менять эти настройки.</string>
+    <string name="display_needs_shizuku">Запустите NFX, чтобы просматривать или менять эти настройки.</string>
     <string name="display_resolution">Разрешение</string>
     <string name="display_resolution_summary">Размер экрана в пикселях (ширина x высота). Меняется то, каким система отрисовывает экран, а не сам физический дисплей.</string>
     <string name="display_density">Плотность</string>
@@ -229,7 +229,7 @@
     <string name="activities_exported">exported</string>
     <string name="activities_not_exported">not exported</string>
     <string name="activities_empty">В этом приложении не объявлено ни одной активности.</string>
-    <string name="activities_needs_shizuku">Shizuku не запущен, а запустить активность, которую приложение оставило для себя, может только он.</string>
+    <string name="activities_needs_shizuku">NFX не запущен, а запустить активность, которую приложение оставило для себя, может только он.</string>
     <string name="activities_refused">Не удалось запустить активность.</string>
     <string name="activities_long_press">Нажмите и удерживайте строку, чтобы увидеть полное имя.</string>
     <string name="activities_detail_package">Пакет</string>
@@ -330,7 +330,7 @@
     <string name="device_uptime">Время работы</string>
     <string name="device_memory">Память</string>
     <string name="device_storage">Хранилище</string>
-    <string name="device_shizuku">Shizuku</string>
+    <string name="device_shizuku">NFX</string>
     <string name="device_server">Сервер</string>
     <string name="device_start_method">Кем запущено</string>
     <string name="device_transport">подключ.</string>
@@ -369,7 +369,7 @@
     <string name="log_capture_waiting">Идёт запись. Пока ничего не записано.</string>
     <string name="log_capture_empty">Пока ничего не записано.</string>
     <string name="log_capture_jump">Последний сбой</string>
-    <string name="log_capture_needs_shizuku">Для записи системного журнала устройства нужен Shizuku: чтение журнала другого приложения — привилегия shell, а это приложение заимствует права shell.</string>
+    <string name="log_capture_needs_shizuku">Для записи системного журнала устройства нужен NFX: чтение журнала другого приложения — привилегия shell, а это приложение заимствует права shell.</string>
     <string name="log_capture_stopped_size">Запись остановлена: достигнут предел размера.</string>
     <string name="log_capture_stopped_time">Запись остановлена: достигнут предел времени.</string>
     <string name="log_capture_stopped_ended">Запись остановлена: поток журнала завершился.</string>
@@ -381,11 +381,11 @@
     <string name="log_session_busy">%1$s всё ещё записывается.</string>
     <string name="log_session_running">записывается</string>
     <string name="permissions_usage_access">Доступ к статистике использования</string>
-    <string name="permissions_usage_access_summary">Позволяет спискам скрытия видеть, какое приложение открыто. Предоставляется Shizuku или в настройках Android «Доступ к статистике использования».</string>
+    <string name="permissions_usage_access_summary">Позволяет спискам скрытия видеть, какое приложение открыто. Предоставляется NFX или в настройках Android «Доступ к статистике использования».</string>
     <string name="permissions_dump">Чтение причин закрытия приложений</string>
-    <string name="permissions_dump_summary">Позволяет спискам скрытия определять, когда приложение именно закрыто, а не просто работает в фоне. Предоставляется Shizuku.</string>
+    <string name="permissions_dump_summary">Позволяет спискам скрытия определять, когда приложение именно закрыто, а не просто работает в фоне. Предоставляется NFX.</string>
     <string name="home_other_methods">Другие способы запуска</string>
-    <string name="home_hiding_active_note">Shizuku может остановиться при открытии приложения из списка скрытия, поскольку скрытие способно отключить соединение отладки. Когда приложение закроется, Shizuku запустится снова.</string>
+    <string name="home_hiding_active_note">NFX может остановиться при открытии приложения из списка скрытия, поскольку скрытие способно отключить соединение отладки. Когда приложение закроется, NFX запустится снова.</string>
     <string name="hiding_vpn_client_none">Не выбрано: укажите приложение VPN</string>
     <string name="hiding_notification_channel">Скрытие</string>
     <string name="hiding_notification_title">Настройки скрыты</string>
@@ -397,9 +397,9 @@
     <string name="hiding_resume">Возобновить</string>
     <string name="hiding_start_again">Запустить снова</string>
     <string name="hiding_notification_stopped_title">Скрытие остановлено</string>
-    <string name="hiding_notification_stopped_text">Shizuku не запущен, поэтому скрытие не может определить, какое приложение открыто. Все скрытые настройки восстановлены.</string>
-    <string name="hiding_carries_session_wireless">Не применено: Shizuku работает через беспроводную отладку, и её скрытие остановило бы Shizuku.</string>
-    <string name="hiding_carries_session_usb">Не применено: Shizuku работает через отладку по USB, и её скрытие остановило бы Shizuku.</string>
+    <string name="hiding_notification_stopped_text">NFX не запущен, поэтому скрытие не может определить, какое приложение открыто. Все скрытые настройки восстановлены.</string>
+    <string name="hiding_carries_session_wireless">Не применено: NFX работает через беспроводную отладку, и её скрытие остановило бы NFX.</string>
+    <string name="hiding_carries_session_usb">Не применено: NFX работает через отладку по USB, и её скрытие остановило бы NFX.</string>
     <string name="tab_settings">Настройки</string>
     <string name="home_status_transport_label">подключ.</string>
     <string name="home_status_started_with">текущий</string>
@@ -487,8 +487,8 @@
     <string name="modules_action_short">Действие</string>
     <string name="modules_service_short">Служба</string>
     <string name="modules_service_running_short">Работает</string>
-    <string name="modules_summary">Расширяйте возможности Shizuku с помощью модулей от сообщества</string>
-    <string name="modules_warning">Модуль — это чужой shell-скрипт, и он выполняется через Shizuku с теми же правами, что есть у Shizuku. Устанавливайте только то, чему доверяете, и читайте команды, которые он просит выполнить.</string>
+    <string name="modules_summary">Расширяйте возможности NFX с помощью модулей от сообщества</string>
+    <string name="modules_warning">Модуль — это чужой shell-скрипт, и он выполняется через NFX с теми же правами, что есть у NFX. Устанавливайте только то, чему доверяете, и читайте команды, которые он просит выполнить.</string>
     <string name="modules_none">Пока не установлено ни одного модуля.</string>
     <string name="modules_search">Поиск модулей</string>
     <string name="modules_no_match">Нет модуля, соответствующего запросу.</string>
@@ -506,7 +506,7 @@
     <string name="modules_delete_confirm">Удалить %1$s?</string>
     <string name="modules_delete_confirm_message">Модуль и всё содержимое его каталога будут удалены, включая журналы.</string>
     <string name="modules_review_title">Выполнить эту команду?</string>
-    <string name="modules_review_message">%1$s просит Shizuku выполнить:</string>
+    <string name="modules_review_message">%1$s просит NFX выполнить:</string>
     <string name="modules_review_approve">Выполнить</string>
     <string name="modules_result_exit">Код выхода %1$d</string>
     <string name="modules_error_not_a_module">Этот файл не является модулем: его module.prop отсутствует или непригоден.</string>
@@ -521,22 +521,22 @@
     <string name="intents_title">Интенты</string>
     <string name="about_package">Пакет</string>
     <string name="check_for_updates_now">Проверить сейчас</string>
-    <string name="start_failed">Не удалось запустить Shizuku</string>
-    <string name="start_failed_write_secure_settings">Shizuku не может включить беспроводную отладку без разрешения WRITE_SECURE_SETTINGS. Включите её сами: «Параметры разработчика» &gt; «Беспроводная отладка», или выдайте разрешение командой <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. Запустившись, Shizuku сохраняет это разрешение за собой, так что достаточно один раз.</string>
+    <string name="start_failed">Не удалось запустить NFX</string>
+    <string name="start_failed_write_secure_settings">NFX не может включить беспроводную отладку без разрешения WRITE_SECURE_SETTINGS. Включите её сами: «Параметры разработчика» &gt; «Беспроводная отладка», или выдайте разрешение командой <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. Запустившись, NFX сохраняет это разрешение за собой, так что достаточно один раз.</string>
     <string name="action_open_wireless_debugging">Отладка по Wi-Fi</string>
     <string name="start_failed_unsupported">Это устройство не может запустить его в фоне</string>
-    <string name="start_failed_wifi_required">Подключитесь к сети Wi-Fi: без неё система выключает беспроводную отладку. Или запустите Shizuku с компьютера командой ADB, приведённой ниже.</string>
+    <string name="start_failed_wifi_required">Подключитесь к сети Wi-Fi: без неё система выключает беспроводную отладку. Или запустите NFX с компьютера командой ADB, приведённой ниже.</string>
     <string name="start_failed_binder_went_away">Служба была запущена, но тут же остановлена, поэтому воспользоваться ею пока нельзя. Так бывает, когда сервер завершается вместе с приложением, через которое выполнялся запуск, — именно так поступает загрузочный компонент (payload) после того, как запустил сервер. Попробуйте запустить снова.</string>
     <string name="start_failed_no_port">Порт беспроводной отладки не найден. Убедитесь, что беспроводная отладка включена и Wi-Fi подключён.</string>
-    <string name="start_failed_no_port_no_permission">Порт беспроводной отладки не найден, а без WRITE_SECURE_SETTINGS Shizuku не может включить беспроводную отладку: <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. Либо запустите Shizuku через отладку по USB — после запуска он выдаст разрешение себе сам.</string>
+    <string name="start_failed_no_port_no_permission">Порт беспроводной отладки не найден, а без WRITE_SECURE_SETTINGS NFX не может включить беспроводную отладку: <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. Либо запустите NFX через отладку по USB — после запуска он выдаст разрешение себе сам.</string>
     <string name="start_failed_no_auth">Беспроводная отладка не разрешена в этой сети. Выполните сопряжение устройства заново.</string>
     <string name="action_dismiss">Закрыть</string>
     <string name="action_connect_wifi">Подключить</string>
     <string name="action_pair">Сопряжение</string>
     <string name="start_failed_pairing_required">Это устройство не сопряжено для беспроводной отладки. Выполните сопряжение заново.</string>
     <string name="start_failed_connection_lost">Соединение ADB закрылось во время запуска. Попробуйте снова.</string>
-    <string name="start_failed_usb_no_port">Локальный порт ADB не открыт. Android очищает его при каждой перезагрузке, а для повторного открытия нужно соединение, у которого можно позаимствовать права. Подключитесь к Wi-Fi — и Shizuku снова откроет порт через беспроводную отладку. Также можно выполнить <b>adb tcpip 5555</b> с компьютера либо выбрать <b>Запуск без Wi-Fi</b> в качестве способа запуска и запуститься через беспроводную отладку.</string>
-    <string name="start_failed_root_unavailable">Root-доступ на этом устройстве больше недоступен, поэтому Shizuku не может запуститься через root. Выберите другой способ запуска.</string>
+    <string name="start_failed_usb_no_port">Локальный порт ADB не открыт. Android очищает его при каждой перезагрузке, а для повторного открытия нужно соединение, у которого можно позаимствовать права. Подключитесь к Wi-Fi — и NFX снова откроет порт через беспроводную отладку. Также можно выполнить <b>adb tcpip 5555</b> с компьютера либо выбрать <b>Запуск без Wi-Fi</b> в качестве способа запуска и запуститься через беспроводную отладку.</string>
+    <string name="start_failed_root_unavailable">Root-доступ на этом устройстве больше недоступен, поэтому NFX не может запуститься через root. Выберите другой способ запуска.</string>
     <string name="start_failed_system_needs_app">Запустить системным способом можно только из приложения.</string>
     <string name="start_failed_system_no_exploit">На этом устройстве нет агента Samsung FOTA (com.sdet.fotaagent) — единственного компонента, который может использовать системный способ запуска, поэтому здесь нечем повышать привилегии. Переключите системный способ запуска на «Пользовательскую команду»: приложение покажет, что выполнить, воспользовавшись имеющимся на устройстве способом повышения привилегий.</string>
     <string name="start_failed_no_binder">Служба не появилась в течение минуты. Обе части ведут журнал: запускающая — под тегом ShizukuServiceStarter, передающая — под тегом BinderSender. Чтение logcat с фильтром по этим двум тегам покажет, дошёл ли запускающий компонент до создания процесса сервера и запрашивал ли сервер когда-либо binder.</string>
@@ -554,7 +554,7 @@
     <string name="settings_theme_system">Как в системе</string>
     <string name="settings_theme_light">Светлая</string>
     <string name="settings_theme_dark">Тёмная</string>
-    <string name="intents_description">Приложения автоматизации могут управлять Shizuku с помощью этих широковещательных сообщений. Токен авторизации должен передаваться в дополнении «auth».</string>
+    <string name="intents_description">Приложения автоматизации могут управлять NFX с помощью этих широковещательных сообщений. Токен авторизации должен передаваться в дополнении «auth».</string>
     <string name="intents_require_token">Требовать токен авторизации</string>
     <string name="intents_require_token_summary">Интентам запуска и остановки нужен указанный ниже токен. Отключите этот параметр, чтобы отправлять их без токена.</string>
     <string name="intents_token">Токен авторизации</string>
@@ -572,7 +572,7 @@
     <string name="intents_values">Для приложений автоматизации</string>
     <string name="intents_package">Пакет</string>
     <string name="intents_action_for">Действие %1$s</string>
-    <string name="home_battery_warning">Shizuku может быть завершён системой в фоне. Разрешите ему игнорировать оптимизацию расхода батареи.</string>
+    <string name="home_battery_warning">NFX может быть завершён системой в фоне. Разрешите ему игнорировать оптимизацию расхода батареи.</string>
     <string name="batch_selected_count">Выбрано: %1$d</string>
     <string name="app_management_action_select_all">Выбрать все</string>
     <string name="app_management_action_grant">Предоставить</string>
@@ -586,22 +586,22 @@
     <string name="action_undo">Отменить</string>
     <!-- Terminal -->
     <string name="terminal_tutorial_miui">Пользователи сообщали, что MIUI ломает Storage Access Framework, используемый функцией экспорта.</string>
-    <string name="terminal_tutorial_miui_2">Если вы используете MIUI, возможно, файл придётся извлечь из папки assets в APK Shizuku.</string>
+    <string name="terminal_tutorial_miui_2">Если вы используете MIUI, возможно, файл придётся извлечь из папки assets в APK NFX.</string>
     <string name="terminal_tutorial_1">Нажмите, чтобы экспортировать файлы в новую папку.</string>
     <string name="terminal_tutorial_1_description">Будут экспортированы два файла: %1$s и %2$s. Если эти файлы уже существуют в выбранной папке, они будут удалены.</string>
     <string name="terminal_tutorial_2">Скопируйте файлы в каталог приватных файлов вашего терминального приложения.</string>
     <string name="terminal_tutorial_2_description">Совет: если домашний каталог (~) вашего терминального приложения находится в каталоге приватных файлов, поместите файлы туда — тогда %1$s можно будет запускать без указания пути.\n\nИначе можно создать псевдоним для %2$s в файле конфигурации %3$s вашего терминального приложения.</string>
     <string name="terminal_tutorial_3">Откройте оболочку с помощью следующей команды:</string>
     <!-- Stealth -->
-    <string name="stealth_description">Скрывает Shizuku от приложений, отказывающихся работать при его установке. Для установки экспортируется клон с другим именем пакета.</string>
-    <string name="stealth_warning_compatibility">Некоторые приложения, использующие Shizuku, могут не работать, пока Shizuku скрыт, поскольку они проверяют, установлен ли Shizuku.</string>
-    <string name="stealth_warning_compatibility_2">В качестве обходного решения можно временно отменить скрытие Shizuku: при этом будет установлено приложение-заглушка с исходным именем пакета. Когда закончите, снова скройте Shizuku.</string>
-    <string name="stealth_warning_compatibility_3">Нажмите на эту карточку, чтобы скопировать фрагмент кода, который можно отправить разработчику, — тогда его проверка «Shizuku установлен» будет работать, даже когда Shizuku скрыт.</string>
-    <string name="stealth_warning_detection">Некоторые приложения всё же смогут обнаружить Shizuku, даже когда он скрыт.</string>
-    <string name="stealth_info_reconfigure">После установки скрытой версии потребуется заново выполнить сопряжение и настроить Shizuku.</string>
+    <string name="stealth_description">Скрывает NFX от приложений, отказывающихся работать при его установке. Для установки экспортируется клон с другим именем пакета.</string>
+    <string name="stealth_warning_compatibility">Некоторые приложения, использующие NFX, могут не работать, пока NFX скрыт, поскольку они проверяют, установлен ли NFX.</string>
+    <string name="stealth_warning_compatibility_2">В качестве обходного решения можно временно отменить скрытие NFX: при этом будет установлено приложение-заглушка с исходным именем пакета. Когда закончите, снова скройте NFX.</string>
+    <string name="stealth_warning_compatibility_3">Нажмите на эту карточку, чтобы скопировать фрагмент кода, который можно отправить разработчику, — тогда его проверка «NFX установлен» будет работать, даже когда NFX скрыт.</string>
+    <string name="stealth_warning_detection">Некоторые приложения всё же смогут обнаружить NFX, даже когда он скрыт.</string>
+    <string name="stealth_info_reconfigure">После установки скрытой версии потребуется заново выполнить сопряжение и настроить NFX.</string>
     <string name="stealth_info_rish">Пользователям rish: после установки скрытой версии экспортируйте файлы заново.</string>
     <string name="stealth_info_intents">Пользователям интентов: обновите в своих интентах имя пакета на новое.</string>
-    <string name="stealth_info_update">При использовании скрытой версии обновлять Shizuku можно только через само приложение, поскольку подпись у неё другая.</string>
+    <string name="stealth_info_update">При использовании скрытой версии обновлять NFX можно только через само приложение, поскольку подпись у неё другая.</string>
     <string name="stealth_package_name">Имя пакета (необязательно)</string>
     <string name="stealth_package_name_helper_text">Если оставить пустым, к имени пакета будет добавлен случайный суффикс.</string>
     <string name="stealth_error_ends_with_period">Имя пакета не может заканчиваться точкой.</string>
@@ -612,19 +612,19 @@
     <string name="stealth_display_name_helper_text">Показывается как имя копии в лончере и списке приложений. Если оставить пустым, копия сохранит имя этого приложения.</string>
     <string name="stealth_error_display_name_too_long">Уложитесь в %1$d символов или меньше.</string>
     <string name="stealth_uninstall_required">Требуется удаление</string>
-    <string name="stealth_uninstall_message">Сейчас система предложит удалить Shizuku. После этого установите клон.</string>
+    <string name="stealth_uninstall_message">Сейчас система предложит удалить NFX. После этого установите клон.</string>
     <string name="stealth_uninstall">Удалить</string>
     <string name="stealth_hide">Скрыть</string>
     <string name="stealth_unhide">Отменить скрытие (с заглушкой)</string>
-    <string name="stealth_stub_note">Отмена скрытия создаёт небольшую заглушку с исходным именем пакета Shizuku, чтобы приложения, которые его ищут, продолжали работать. Заглушка перенаправляет запросы скрытому приложению Shizuku. Это не вторая копия. Скрытие удаляет заглушку.</string>
+    <string name="stealth_stub_note">Отмена скрытия создаёт небольшую заглушку с исходным именем пакета NFX, чтобы приложения, которые его ищут, продолжали работать. Заглушка перенаправляет запросы скрытому приложению NFX. Это не вторая копия. Скрытие удаляет заглушку.</string>
     <!-- Settings -->
     <string name="settings_start_on_boot">Запуск при загрузке</string>
     <string name="settings_use_system_color">Использовать системный цвет темы</string>
     <string name="settings_use_system_color_summary">Следовать системной палитре</string>
     <string name="settings_watchdog">Системный таймер</string>
-    <string name="settings_watchdog_summary">Автоматически перезапускать Shizuku после сбоев</string>
+    <string name="settings_watchdog_summary">Автоматически перезапускать NFX после сбоев</string>
     <string name="settings_auto_disable_wireless_debugging">Отключить беспроводную отладку</string>
-    <string name="settings_auto_disable_wireless_debugging_summary">Отключать беспроводную отладку при остановке Shizuku.</string>
+    <string name="settings_auto_disable_wireless_debugging_summary">Отключать беспроводную отладку при остановке NFX.</string>
     <string name="settings_start_method">Способ запуска по умолчанию</string>
     <string name="settings_start_method_root_unavailable">На этом устройстве нет root-доступа, поэтому запуск выполняется через беспроводную отладку.</string>
     <string name="start_method_wireless_no_network">Без Wi-Fi</string>
@@ -632,47 +632,47 @@
     <string name="start_method_system">Система</string>
     <string name="transport_adb">adb</string>
     <string name="settings_adb_without_developer_options">Отключить параметры разработчика</string>
-    <string name="settings_adb_without_developer_options_summary">Выключает «Параметры разработчика», но сохраняет необходимые Shizuku настройки ADB. Shizuku продолжит работать, а эти настройки будут восстанавливаться после каждой перезагрузки.</string>
+    <string name="settings_adb_without_developer_options_summary">Выключает «Параметры разработчика», но сохраняет необходимые NFX настройки ADB. NFX продолжит работать, а эти настройки будут восстанавливаться после каждой перезагрузки.</string>
     <string name="start_failed_developer_options_off">Параметры разработчика выключены, поскольку включён режим ADB без параметров разработчика</string>
     <string name="action_turn_on_developer_options">Включить параметры разработчика</string>
     <string name="toast_developer_options_required">Выключить ADB без параметров разработчика</string>
     <string name="settings_adb_without_developer_options_confirm_title">Выключить параметры разработчика?</string>
-    <string name="settings_adb_without_developer_options_confirm_message">Shizuku продолжит работать и восстановит свои настройки ADB после перезагрузки. Вы не сможете открыть «Параметры разработчика», чтобы изменить настройки отладки по USB или беспроводной отладки либо выполнить сопряжение с новым устройством. Выключить параметры разработчика?</string>
+    <string name="settings_adb_without_developer_options_confirm_message">NFX продолжит работать и восстановит свои настройки ADB после перезагрузки. Вы не сможете открыть «Параметры разработчика», чтобы изменить настройки отладки по USB или беспроводной отладки либо выполнить сопряжение с новым устройством. Выключить параметры разработчика?</string>
     <string name="settings_adb_without_developer_options_confirm">Выключить</string>
-    <string name="settings_adb_without_developer_options_failed">Shizuku не удалось изменить настройки. Сначала выдайте разрешение WRITE_SECURE_SETTINGS на странице разрешений.</string>
+    <string name="settings_adb_without_developer_options_failed">NFX не удалось изменить настройки. Сначала выдайте разрешение WRITE_SECURE_SETTINGS на странице разрешений.</string>
     <string name="settings_wait_for_wifi">Ждать Wi-Fi</string>
-    <string name="settings_wait_for_wifi_summary">Автоматические перезапуски Shizuku ожидают подключения к сети Wi-Fi без тарификации.</string>
+    <string name="settings_wait_for_wifi_summary">Автоматические перезапуски NFX ожидают подключения к сети Wi-Fi без тарификации.</string>
     <string name="settings_unavailable_while_forcing_wireless">Недоступно, пока включён «Запуск без Wi-Fi».</string>
     <string name="settings_force_wireless_debugging">Запуск без Wi-Fi (экспериментально)</string>
-    <string name="settings_force_wireless_debugging_summary">Пытается запустить Shizuku без Wi-Fi и без отладки по USB. Также отключает ожидание Wi-Fi и автоматическое включение беспроводной отладки.</string>
+    <string name="settings_force_wireless_debugging_summary">Пытается запустить NFX без Wi-Fi и без отладки по USB. Также отключает ожидание Wi-Fi и автоматическое включение беспроводной отладки.</string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
-    <string name="settings_needs_write_secure_settings">Требуется разрешение WRITE_SECURE_SETTINGS. Один раз запустите Shizuku, чтобы оно было выдано, затем вернитесь сюда.</string>
+    <string name="settings_needs_write_secure_settings">Требуется разрешение WRITE_SECURE_SETTINGS. Один раз запустите NFX, чтобы оно было выдано, затем вернитесь сюда.</string>
     <string name="state_on">Вкл</string>
     <string name="state_off">Выкл</string>
     <string name="settings_persist_adb_port">Сохранять порт ADB после перезагрузки</string>
-    <string name="settings_persist_adb_port_summary">Оставляет порт ADB открытым после каждой перезагрузки, чтобы Shizuku мог запускаться без Wi-Fi и без точки доступа.</string>
+    <string name="settings_persist_adb_port_summary">Оставляет порт ADB открытым после каждой перезагрузки, чтобы NFX мог запускаться без Wi-Fi и без точки доступа.</string>
     <string name="settings_persist_adb_port_ok">Порт ADB останется открытым после перезагрузки</string>
-    <string name="settings_persist_adb_port_refused">Android отклонил это действие. Shizuku должен быть запущен от имени root или системного пользователя.</string>
-    <string name="settings_persist_adb_port_unavailable">Сначала запустите Shizuku. Эту настройку можно изменить только через Shizuku.</string>
+    <string name="settings_persist_adb_port_refused">Android отклонил это действие. NFX должен быть запущен от имени root или системного пользователя.</string>
+    <string name="settings_persist_adb_port_unavailable">Сначала запустите NFX. Эту настройку можно изменить только через NFX.</string>
     <string name="settings_system_start_method">Системный способ запуска</string>
     <string name="settings_system_start_method_exploit">Samsung (агент FOTA)</string>
     <string name="settings_system_start_method_custom">Пользовательская команда</string>
     <string name="home_system_title">Запуск от имени системного UID</string>
-    <string name="home_system_summary">Запуск Shizuku от имени системного пользователя (UID 1000), а не adb: только для Samsung, через агент FOTA, поставляемый в этих сборках</string>
-    <string name="home_adb_command_summary">Запустите Shizuku с компьютера через ADB. Нажмите, чтобы скопировать команду</string>
+    <string name="home_system_summary">Запуск NFX от имени системного пользователя (UID 1000), а не adb: только для Samsung, через агент FOTA, поставляемый в этих сборках</string>
+    <string name="home_adb_command_summary">Запустите NFX с компьютера через ADB. Нажмите, чтобы скопировать команду</string>
     <string name="settings_tcp_mode">Режим TCP</string>
-    <string name="settings_tcp_mode_summary">"Позволяет Shizuku перезапускаться без Wi-Fi. (После перезагрузки Shizuku должен быть запущен хотя бы один раз.)"</string>
+    <string name="settings_tcp_mode_summary">"Позволяет NFX перезапускаться без Wi-Fi. (После перезагрузки NFX должен быть запущен хотя бы один раз.)"</string>
     <string name="settings_tcp_mode_dialog_close_port">"TCP-порт будет закрыт немедленно. Для повторного включения режима TCP понадобится Wi-Fi. Продолжить?"</string>
     <string name="settings_tcp_mode_close_wireless">Не закрыт: включена беспроводная отладка, и закрытие порта остановило бы её. Порт закроется при перезагрузке телефона.</string>
     <string name="settings_tcp_mode_close_usb_off">Не закрыт: отладка по USB выключена. Включите её и попробуйте снова.</string>
     <string name="settings_tcp_mode_close_nothing">Не был открыт ни один TCP-порт.</string>
     <string name="settings_restart_dialog_title">Требуется перезапуск</string>
-    <string name="settings_restart_dialog_message">Чтобы применить эту настройку, необходимо перезапустить Shizuku.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Требуется Wi-Fi. Shizuku продолжит работать и подождёт подключения к Wi-Fi, прежде чем перезапуститься в фоне.</b>]]></string>
+    <string name="settings_restart_dialog_message">Чтобы применить эту настройку, необходимо перезапустить NFX.</string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Требуется Wi-Fi. NFX продолжит работать и подождёт подключения к Wi-Fi, прежде чем перезапуститься в фоне.</b>]]></string>
     <string name="settings_tcp_port">TCP-порт</string>
     <string name="settings_auto_disable_usb_debugging">Отключить отладку по USB</string>
-    <string name="settings_auto_disable_usb_debugging_summary">Отключать отладку по USB при остановке Shizuku</string>
+    <string name="settings_auto_disable_usb_debugging_summary">Отключать отладку по USB при остановке NFX</string>
     <string name="settings_language">Язык</string>
     <string name="settings_language_system">Системный по умолчанию</string>
     <string name="settings_black_night_theme">Чёрный AMOLED</string>
@@ -680,7 +680,7 @@
     <string name="settings_update_stable">Стабильная</string>
     <string name="settings_update_beta">Для разработчиков</string>
     <string name="settings_permissions">Разрешения</string>
-    <string name="settings_permissions_summary">Что нужно Shizuku и что ему разрешено</string>
+    <string name="settings_permissions_summary">Что нужно NFX и что ему разрешено</string>
     <string name="permissions_allowed">Разрешено</string>
     <string name="permissions_action_allow">Разрешить</string>
     <string name="permissions_action_settings">Настройки</string>
@@ -690,16 +690,11 @@
     <string name="permissions_nearby">Устройства поблизости</string>
     <string name="permissions_nearby_summary">Находит порт беспроводной отладки в вашей сети.</string>
     <string name="permissions_write_secure_settings">Запись защищённых настроек</string>
-    <string name="permissions_write_secure_settings_summary">Позволяет Shizuku включать беспроводную отладку. Выдать это разрешение может только ADB.</string>
+    <string name="permissions_write_secure_settings_summary">Позволяет NFX включать беспроводную отладку. Выдать это разрешение может только ADB.</string>
     <string name="permissions_accessibility">Служба специальных возможностей</string>
     <string name="permissions_accessibility_summary">Автоматически считывает код сопряжения.</string>
-    <string name="permissions_battery_summary">Не даёт Android завершать Shizuku в фоне.</string>
-    <string name="settings_help">Справка</string>
-    <string name="settings_translate">Участвовать в переводе</string>
-    <string name="settings_translate_note">Переводите приложение на Crowdin.</string>
+    <string name="permissions_battery_summary">Не даёт Android завершать NFX в фоне.</string>
     <string name="settings_report_bug">Сообщить об ошибке</string>
-    <string name="settings_contributors">Участники</string>
-    <string name="settings_contributors_hint">Перетаскивайте для навигации · изменяйте масштаб щипком · коснитесь для подробностей</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
       so the singular is read more often than the plural is.
@@ -731,14 +726,6 @@
     <string name="settings_legacy_pairing">Устаревшее сопряжение</string>
     <string name="settings_legacy_pairing_summary">Вводить код сопряжения в диалоговом окне, а не в уведомлении</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">Сначала выполните следующее:</string>
-    <string name="bug_report_dialog_update">Убедитесь, что вы используете ^1.</string>
-    <string name="bug_report_dialog_link_update">последнюю версию</string>
-    <string name="bug_report_dialog_wiki">Прочитайте ^1 и выполните все относящиеся к делу шаги по устранению неполадок.</string>
-    <string name="bug_report_dialog_link_wiki">вики</string>
-    <string name="bug_report_dialog_issues">Просмотрите все ^1 — возможно, о вашей ошибке уже сообщали.</string>
-    <string name="bug_report_dialog_link_issues">существующие проблемы</string>
-    <string name="bug_report_dialog_method">Создайте проблему на ^1.</string>
     <string name="bug_report_dialog_log_note">Если для проблемы нужен журнал, поделитесь полным журналом ниже и приложите его.</string>
     <string name="bug_report_dialog_share_log">Поделиться журналом</string>
     <!-- Snackbar -->
@@ -760,7 +747,7 @@
     <string name="update_success">Обновление завершено</string>
     <string name="update_failed">Не удалось обновить</string>
     <!-- Toast -->
-    <string name="toast_pairing_timeout">Время ожидания службы сопряжения Shizuku истекло</string>
+    <string name="toast_pairing_timeout">Время ожидания службы сопряжения NFX истекло</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme">Тема</string>
     <string name="dark_theme_off">Всегда светлая</string>
@@ -780,7 +767,7 @@
     <string name="notification_adb_pairing_stop_searching">Остановить поиск</string>
     <string name="notification_adb_pairing_working_title">Выполняется сопряжение</string>
     <string name="notification_adb_pairing_succeed_title">Сопряжение выполнено успешно</string>
-    <string name="notification_adb_pairing_succeed_text">Теперь можно запустить Shizuku.</string>
+    <string name="notification_adb_pairing_succeed_text">Теперь можно запустить NFX.</string>
     <string name="notification_adb_pairing_failed_title">Не удалось выполнить сопряжение</string>
     <string name="notification_adb_pairing_retry">Повторить</string>
     <string name="notification_auth_missing_title">Требуется токен авторизации</string>
@@ -788,8 +775,8 @@
     <string name="notification_auth_invalid_title">Недействительный токен авторизации</string>
     <string name="notification_auth_invalid_message">Убедитесь, что токен в вашем интенте совпадает с показанным в разделе «Просмотр интентов» приложения.</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">доступ к Shizuku</string>
-    <string name="permission_description">Разрешить приложению использовать Shizuku.</string>
+    <string name="permission_label">доступ к NFX</string>
+    <string name="permission_description">Разрешить приложению использовать NFX.</string>
     <string name="permission_warning_template"><![CDATA[Разрешить <b>%1$s</b> %2$s?]]></string>
     <string name="grant_dialog_button_allow_always">Всегда разрешать</string>
     <string name="grant_dialog_button_deny">"Отказать"</string>
@@ -797,23 +784,23 @@
     <string name="starter">Запуск</string>
     <string name="start_with_root_failed">Не удалось запустить: root-доступ недоступен.</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">Запуск Shizuku…</string>
+    <string name="wadb_notification_title">Запуск NFX…</string>
     <string name="wadb_notification_wifi_required">Ожидание Wi-Fi</string>
     <string name="wadb_notification_retry">Ожидание перед повтором</string>
-    <string name="wadb_notification_connecting">Запуск Shizuku через беспроводной ADB</string>
+    <string name="wadb_notification_connecting">Запуск NFX через беспроводной ADB</string>
     <string name="wadb_notification_waiting_for_unlock">Разблокируйте устройство, чтобы продолжить</string>
     <string name="wadb_notification_forcing_wireless">Поддержание беспроводной отладки включённой</string>
     <string name="wadb_error_title">Не удалось запустить после перезагрузки</string>
     <string name="wadb_error_notify_dev">Нажмите, чтобы сообщить об этом разработчику.</string>
     <string name="wadb_permission_error_notification_title">Ошибка разрешений</string>
-    <string name="wadb_permission_error_notification_content">Для включения беспроводной отладки Shizuku требуется WRITE_SECURE_SETTINGS. Нажмите, чтобы узнать, как выдать это разрешение.</string>
+    <string name="wadb_permission_error_notification_content">Для включения беспроводной отладки NFX требуется WRITE_SECURE_SETTINGS. Нажмите, чтобы узнать, как выдать это разрешение.</string>
     <!-- Shell -->
     <string name="shell_title">Терминал</string>
     <string name="shell_backend_offline">Нет активного исполнителя команд</string>
-    <string name="shell_needs_a_backend">Запустите Shizuku или выберите Root на устройстве с Root-доступом: команды выполняет одно из этих двух. Root работает и при остановленном Shizuku.</string>
-    <string name="shell_intro">Команды выполняются от того uid, под которым работает Shizuku (2000 через adb, 0 с root), поэтому доступно всё, что доступно этому uid: /sdcard, /system, а с root — и данные приложений. Стартовый каталог — /sdcard, команды выполняются по одной; позади них нет tty, поэтому программы, которым нужен терминал (nano, сеанс ssh), здесь не запустятся.</string>
+    <string name="shell_needs_a_backend">Запустите NFX или выберите Root на устройстве с Root-доступом: команды выполняет одно из этих двух. Root работает и при остановленном NFX.</string>
+    <string name="shell_intro">Команды выполняются от того uid, под которым работает NFX (2000 через adb, 0 с root), поэтому доступно всё, что доступно этому uid: /sdcard, /system, а с root — и данные приложений. Стартовый каталог — /sdcard, команды выполняются по одной; позади них нет tty, поэтому программы, которым нужен терминал (nano, сеанс ssh), здесь не запустятся.</string>
     <string name="shell_root_granted">Root доступен: команды выполняются от uid 0.</string>
-    <string name="shell_root_refused">В root-доступе отказано, поэтому команды будут выполняться через Shizuku. Предоставьте этому приложению root-доступ, чтобы использовать Root.</string>
+    <string name="shell_root_refused">В root-доступе отказано, поэтому команды будут выполняться через NFX. Предоставьте этому приложению root-доступ, чтобы использовать Root.</string>
     <string name="shell_search">Поиск</string>
     <string name="shell_search_hint">Найти</string>
     <string name="shell_search_position">%1$d из %2$d</string>
@@ -857,10 +844,10 @@
     <string name="shell_quick_force_stop">Остановить принудительно</string>
     <string name="shell_adb_prefix_dropped">Выполнено на устройстве: префикс adb shell — это то, что вы набирали бы на компьютере.</string>
     <string name="shell_adb_host_devices">Эта команда перечисляет устройства, подключённые к компьютеру. Здесь вы находитесь на самом устройстве, так что перечислять нечего: `pm list packages` покажет то, что на нём установлено.</string>
-    <string name="shell_adb_host_install">Установка относится к компьютерной части этой команды. Здесь ту же задачу выполняет <b>pm install /path/to/app.apk</b>, запускаемая через Shizuku, как и любая другая команда.</string>
+    <string name="shell_adb_host_install">Установка относится к компьютерной части этой команды. Здесь ту же задачу выполняет <b>pm install /path/to/app.apk</b>, запускаемая через NFX, как и любая другая команда.</string>
     <string name="shell_adb_host_transfer">Той команде нужен компьютер на одном из концов. На устройстве файлы перемещаются командой <b>cp</b>, а пути — те, которые доступны этой оболочке.</string>
     <string name="shell_adb_host_generic">Это та часть adb, которая работает на компьютере, и изнутри устройства ей не на что воздействовать. Вместо этого выполните саму команду устройства: <b>adb shell ps</b> и <b>ps</b> — одно и то же.</string>
-    <string name="shell_adb_host_help">Это оболочка самого устройства, а не adb на компьютере: команды выполняются от того же uid, под которым работает Shizuku, по одной за раз. Начните с <b>pm list packages</b>, <b>dumpsys battery</b> или с библиотеки над полем ввода.</string>
+    <string name="shell_adb_host_help">Это оболочка самого устройства, а не adb на компьютере: команды выполняются от того же uid, под которым работает NFX, по одной за раз. Начните с <b>pm list packages</b>, <b>dumpsys battery</b> или с библиотеки над полем ввода.</string>
     <string name="shell_paste">Вставить команду</string>
     <string name="shell_paste_empty">Буфер обмена пуст — нечего вставлять.</string>
     <string name="shell_jump_to_newest">Перейти к последнему выводу</string>
@@ -876,13 +863,13 @@
     <!-- Watchdog -->
     <string name="watchdog_running">Системный таймер активен</string>
     <string name="watchdog_turn_off">Выключить</string>
-    <string name="watchdog_shizuku_crashed_title">Shizuku недавно завершился сбоем</string>
-    <string name="watchdog_shizuku_crashed_text">Системный таймер перезапустил Shizuku. Нажмите, чтобы узнать, как предотвратить сбои.</string>
+    <string name="watchdog_shizuku_crashed_title">NFX недавно завершился сбоем</string>
+    <string name="watchdog_shizuku_crashed_text">Системный таймер перезапустил NFX. Нажмите, чтобы узнать, как предотвратить сбои.</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">Выключить оповещения</string>
-    <string name="watchdog_shizuku_recovered_title">Shizuku снова работает</string>
+    <string name="watchdog_shizuku_recovered_title">NFX снова работает</string>
     <string name="watchdog_shizuku_recovered_text">Системный таймер запустил его снова после самопроизвольной остановки.</string>
-    <string name="watchdog_given_up_title">Не удалось запустить Shizuku</string>
-    <string name="watchdog_given_up_text">Запусков Shizuku: %1$d — он так и не вернулся. Повторный запуск не поможет, пока не устранена причина.</string>
+    <string name="watchdog_given_up_title">Не удалось запустить NFX</string>
+    <string name="watchdog_given_up_text">Запусков NFX: %1$d — он так и не вернулся. Повторный запуск не поможет, пока не устранена причина.</string>
     <string name="watchdog_given_up_action_start">Запустить</string>
     <string name="watchdog_not_running_title">Системный таймер не работает</string>
     <string name="watchdog_not_running_text">Android не позволил ему запуститься самостоятельно. Нажмите, чтобы запустить снова.</string>
@@ -891,13 +878,13 @@
     <string name="off">Выкл</string>
     <string name="dialog_cannot_open_browser_title">Не удалось открыть браузер</string>
     <string name="toast_copied_to_clipboard">Скопировано в буфер обмена</string>
-    <string name="accessibility_service_description">Выполняет сопряжение с беспроводной отладкой без ввода кода.\n\nShizuku считывает код сопряжения и порт с экрана «Сопряжение с устройством», выполняет сопряжение и запускается сам. На телевизорах (например, с Android 14+) он ведёт весь процесс и отключается, когда код найден.</string>
+    <string name="accessibility_service_description">Выполняет сопряжение с беспроводной отладкой без ввода кода.\n\nNFX считывает код сопряжения и порт с экрана «Сопряжение с устройством», выполняет сопряжение и запускается сам. На телевизорах (например, с Android 14+) он ведёт весь процесс и отключается, когда код найден.</string>
     <!-- Messages for legacy -->
-    <string name="dialog_legacy_not_support_title">%1$s не поддерживает современный Shizuku</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[Поддержка устаревшего Shizuku прекращена в марте 2019 года. Кроме того, устаревший Shizuku не работает на новых версиях Android.<p>Попросите разработчика <b>%1$s</b> обновить приложение.]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s запрашивает устаревший Shizuku</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> поддерживает современный Shizuku, но запрашивает устаревший. Возможно, Shizuku просто не запущен — проверьте это в приложении Shizuku.<p>Поддержка устаревшего Shizuku прекращена в марте 2019 года.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">Открыть Shizuku</string>
+    <string name="dialog_legacy_not_support_title">%1$s не поддерживает современный NFX</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[Поддержка устаревшего NFX прекращена в марте 2019 года. Кроме того, устаревший NFX не работает на новых версиях Android.<p>Попросите разработчика <b>%1$s</b> обновить приложение.]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s запрашивает устаревший NFX</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> поддерживает современный NFX, но запрашивает устаревший. Возможно, NFX просто не запущен — проверьте это в приложении NFX.<p>Поддержка устаревшего NFX прекращена в марте 2019 года.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Открыть NFX</string>
     <string name="wadb_notification_attempt_now">Повторить</string>
     <!-- Manage tab -->
     <string name="tab_manage">Разрешения</string>
@@ -915,7 +902,7 @@
     <string name="permissions_phantom">Фоновые процессы</string>
     <string name="permissions_phantom_summary">В Android 12 и новее система может останавливать процессы, запущенные приложением, после закрытия самого приложения. Из-за этого сервер может останавливаться после запуска при загрузке. Настройка действует на всё устройство и может потребовать перезагрузки.</string>
     <string name="permissions_action_deny">Отказать</string>
-    <string name="permissions_phantom_failed">Не удалось изменить. Требуется запущенный Shizuku или разрешение WRITE_SECURE_SETTINGS.</string>
+    <string name="permissions_phantom_failed">Не удалось изменить. Требуется запущенный NFX или разрешение WRITE_SECURE_SETTINGS.</string>
     <string name="manage_status_removed">deleted</string>
     <string name="manage_status_disabled">disabled</string>
     <string name="manage_status_suspended">suspend</string>
@@ -929,7 +916,7 @@
     <string name="app_section_actions">Действия</string>
     <string name="app_section_battery">Батарея</string>
     <string name="app_section_info">Информация</string>
-    <string name="app_permissions_note">Через adb можно изменять только разрешения с уровнем защиты development или опасные (dangerous); в остальных платформа откажет, каким бы доверенным ни был Shizuku, поэтому переключатели в этих строках остаются выключенными.</string>
+    <string name="app_permissions_note">Через adb можно изменять только разрешения с уровнем защиты development или опасные (dangerous); в остальных платформа откажет, каким бы доверенным ни был NFX, поэтому переключатели в этих строках остаются выключенными.</string>
     <string name="app_permissions_none">У этого приложения нет системных разрешений.</string>
     <string name="app_permission_locked">%1$s, нельзя изменить через ADB</string>
     <string name="app_permission_granted">Разрешение предоставлено</string>
@@ -939,7 +926,7 @@
     <string name="app_grant_confirm_ok">Предоставить</string>
     <string name="app_action_failed">Android отклонил это действие. Ничего не изменилось.</string>
     <string name="app_ops_note">Операции приложений (app ops) — это то, с чем сверяется сама платформа, и adb может изменять перечисленные ниже. Некоторые возможности реализованы как особый доступ в системных настройках, а не как операции приложений: доступ ко всем файлам, доступ к статистике использования, точные будильники и изменение системных настроек, — и ни одно приложение не может их изменять.</string>
-    <string name="app_ops_needs_shizuku">Запустите Shizuku, чтобы просматривать и изменять операции приложений.</string>
+    <string name="app_ops_needs_shizuku">Запустите NFX, чтобы просматривать и изменять операции приложений.</string>
     <string name="app_op_background">Работа в фоне</string>
     <string name="app_op_background_note">Запрет не даёт приложению работать в фоне.</string>
     <string name="app_op_any_background">Автозапуск при загрузке</string>
@@ -993,7 +980,7 @@
     <string name="app_confirm_disable">Отключить %1$s? Приложение прекратит работу, пока вы не включите его снова.</string>
     <string name="app_confirm_clear_data">Удалить все данные приложения %1$s? Это действие нельзя отменить.</string>
     <string name="app_confirm_uninstall">Удалить %1$s для этого пользователя? Его данные будут сохранены.</string>
-    <string name="app_battery_needs_shizuku">Запустите Shizuku, чтобы изменить настройки батареи.</string>
+    <string name="app_battery_needs_shizuku">Запустите NFX, чтобы изменить настройки батареи.</string>
     <string name="app_battery_bucket">Группа ожидания</string>
     <string name="app_battery_pick_title">Группа ожидания</string>
     <string name="app_bucket_active">Без ограничений</string>
@@ -1013,7 +1000,7 @@
     <string name="app_battery_unrestricted">Игнорировать оптимизацию батареи</string>
     <string name="app_battery_unrestricted_note">Позволяет приложению оставаться активным в режиме Doze, но расходует больше заряда батареи.</string>
     <string name="app_section_network">Сеть</string>
-    <string name="app_network_needs_shizuku">Запустите Shizuku, чтобы изменить то, куда приложение может обращаться.</string>
+    <string name="app_network_needs_shizuku">Запустите NFX, чтобы изменить то, куда приложение может обращаться.</string>
     <string name="app_network_unsupported">На этом устройстве нет необходимого брандмауэра.</string>
     <string name="app_network_block">Блокировать доступ к сети</string>
     <string name="app_network_block_note">Платформа будет отбрасывать его трафик.</string>
@@ -1026,7 +1013,7 @@
     <string name="lab_state_off">Выкл</string>
     <string name="lab_state_unavailable">Недоступно</string>
     <!-- The switches in the shade and on the home screen that are not about one app. -->
-    <string name="lab_switch_service">Служба Shizuku</string>
+    <string name="lab_switch_service">Служба NFX</string>
     <string name="lab_switch_hiding">Скрытие</string>
     <string name="lab_switch_watchdog">Системный таймер</string>
     <!-- The three platform settings themselves, and the hiding switches that are about the same
@@ -1067,7 +1054,7 @@
     <string name="wifi_passwords_copy">Копировать пароль</string>
     <string name="wifi_passwords_none">Без пароля</string>
     <string name="wifi_passwords_empty">Нет сохранённых сетей.</string>
-    <string name="wifi_passwords_needs_shizuku">Shizuku не запущен, поэтому нет оболочки, с помощью которой можно прочитать сохранённые сети.</string>
+    <string name="wifi_passwords_needs_shizuku">NFX не запущен, поэтому нет оболочки, с помощью которой можно прочитать сохранённые сети.</string>
     <string name="wifi_passwords_failed">Служба Wi-Fi не ответила; в журнале — то, что она сообщила.</string>
     <string name="wifi_passwords_unsupported">Для чтения сохранённых сетей требуется Android 9 или новее — только начиная с этой версии доступна скрытая служба Wi-Fi.</string>
     <string name="wifi_passwords_search_hint">Поиск сетей</string>
@@ -1114,7 +1101,7 @@
     <string name="files_show_hidden">Показать скрытые файлы</string>
     <string name="files_hide_hidden">Скрыть скрытые файлы</string>
     <string name="files_failed">Не удалось получить содержимое %1$s: нет доступа к shell либо папка отсутствует.</string>
-    <string name="files_needs_shizuku">Shizuku не запущен, поэтому файлы невозможно прочитать.</string>
+    <string name="files_needs_shizuku">NFX не запущен, поэтому файлы невозможно прочитать.</string>
     <string name="files_preview_binary">Это не текстовый файл, поэтому его нельзя показать.</string>
     <string name="files_preview_failed">Не удалось прочитать этот файл.</string>
     <string name="files_preview_truncated">Показано только начало файла.</string>

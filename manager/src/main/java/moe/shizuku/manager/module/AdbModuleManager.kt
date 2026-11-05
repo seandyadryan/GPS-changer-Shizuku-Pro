@@ -192,7 +192,7 @@ object AdbModuleManager {
         }
 
         val process = newShellProcess(command)
-            ?: return ModuleActionResult(-1, "", "Shizuku is not running.")
+            ?: return ModuleActionResult(-1, "", "NFX is not running.")
 
         services[module.id] = process
         Diag.info(TAG, "service started for ${module.id}")
@@ -320,7 +320,7 @@ object AdbModuleManager {
         timeoutSeconds: Int = ModuleRunLimits.SCRIPT_TIMEOUT_SECONDS,
     ): ModuleActionResult = withContext(Dispatchers.IO) {
         val process = newShellProcess(command)
-            ?: return@withContext ModuleActionResult(-1, "", "Shizuku is not running.")
+            ?: return@withContext ModuleActionResult(-1, "", "NFX is not running.")
 
         val stdout = StringBuilder()
         val stderr = StringBuilder()

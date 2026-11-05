@@ -58,7 +58,7 @@
     <string name="dialog_adb_pairing_paring_code">Párosítási kód</string>
     <string name="paring_code_is_wrong">Hibás a párosítási kód.</string>
     <string name="cannot_connect_port">Nem lehet csatlakozni a vezeték nélküli hibakereső
-        szolgáltatáshoz.\n\nKérjük, győződjön meg arról, hogy a Shizuku szerepel az összes olyan
+        szolgáltatáshoz.\n\nKérjük, győződjön meg arról, hogy a NFX szerepel az összes olyan
         tűzfal-, hirdetésblokkoló-, VPN- vagy hasonló alkalmazás fehérlistáján, amely korlátozhatja
         a hálózati hozzáférést.</string>
     <string name="dialog_adb_pairing_message">Kérjük, kezdje el a párosítást a következő lépések végrehajtásával:\n- Navigáljon a \"Fejlesztői beállítások\" menüpontra\n- Engedélyezze az \"USB-hibakeresés\" és a \"Vezeték nélküli hibakeresés\" lehetőségeket\n- Koppintson a \"Vezeték nélküli hibakeresés\" bal oldalára\n- Koppintson az \"Eszköz párosítása párosító kóddal\"
@@ -69,7 +69,7 @@ lehetőségre\n- Írja be az értesítésben megjelenő párosítási kódot</st
          outside the app, and both are named because either reader may be the one holding it. -->
     <string name="dialog_adb_pairing_accessibility_permission">Az Android tiltja ezt a kapcsolót a Play-en kívül telepített alkalmazásoknál. Engedélyezze a(z) ^1 alkalmazás számára a kisegítő lehetőségek szolgáltatás bekapcsolását. A kisegítő lehetőségek listájában ez \"Korlátozott beállításként szabályzott\" módon jelenik meg..\n\nNyissa meg az Alkalmazásinformációkat, és válassza a \"Korlátozott beállítások engedélyezése\" lehetőséget a menüből, vagy futtassa ezt számítógépen:.\n\n^2.\n\nBármelyik opció működik. A kapcsoló ezután elérhető lesz.</string>
     <string name="dialog_adb_pairing_open_app_info">Alkalmazás infó</string>
-    <string name="dialog_adb_pairing_accessibility_navigate">Kérjük, kezdje el a párosítást a következő lépések végrehajtásával:\n- Navigáljon a \"Fejlesztői beállítások\" menüpontra\n-Engedélyezze az \"USB hibakeresés\"-t és a \"Vezeték nélküli hibakeresés\"-t\n- Koppintson a \"Vezeték nélküli hibakeresés\" bal oldalára\n- Koppintson az \"Eszköz párosítása párosító kóddal\" lehetőségre. A Shizuku automatikusan felismeri a párosító kódot.</string>
+    <string name="dialog_adb_pairing_accessibility_navigate">Kérjük, kezdje el a párosítást a következő lépések végrehajtásával:\n- Navigáljon a \"Fejlesztői beállítások\" menüpontra\n-Engedélyezze az \"USB hibakeresés\"-t és a \"Vezeték nélküli hibakeresés\"-t\n- Koppintson a \"Vezeték nélküli hibakeresés\" bal oldalára\n- Koppintson az \"Eszköz párosítása párosító kóddal\" lehetőségre. A NFX automatikusan felismeri a párosító kódot.</string>
     <string name="adb_pairing_requires_multi_window">Kérjük, először lépjen osztott képernyős módba.</string>
     <string name="adb_pairing_requires_multi_window_reason">A rendszer megköveteli, hogy a párosítási párbeszédpanel mindig látható legyen. Az osztott képernyős mód használata az egyetlen módja annak, hogy ez az alkalmazás és a rendszerpárbeszédpanel egyszerre látható legyen.</string>
     <string name="adb_error_key_store">Nem sikerült kulcsot generálni a vezeték nélküli hibakereséshez.\nEnnek oka az lehet, hogy az eszköz KeyStore mechanizmusa hibás.</string>
@@ -77,22 +77,22 @@ lehetőségre\n- Írja be az értesítésben megjelenő párosítási kódot</st
     <string name="adb_pair_required">Kérjük először végezze el a párosítási lépést.</string>
     <string name="enable">Engedélyezés</string>
     <string name="auto_pair_instructions">Párosítás kód beírása nélkül:\n\n1. Fejlesztői beállítások → Vezeték nélküli hibakeresés\n2. Eszköz párosítása párosítási kóddal\n\n
-A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot, és elindítja magát. Nyitva tartja a párbeszédpanelt, amíg a párosítás be nem fejeződik.</string>
+A NFX közvetlenül a párbeszédpanelből olvassa be a kódot és a portot, és elindítja magát. Nyitva tartja a párbeszédpanelt, amíg a párosítás be nem fejeződik.</string>
     <string name="auto_pair_manual">Manuális</string>
     <string name="development_settings">Fejlesztői lehetőségek</string>
     <string name="notification_settings">Értesítési lehetőségek</string>
-    <string name="adb_pairing_tutorial_content_notification">A Shizuku értesítése segít a párosítás befejezésében.</string>
+    <string name="adb_pairing_tutorial_content_notification">A NFX értesítése segít a párosítás befejezésében.</string>
     <string name="adb_pairing_tutorial_content_steps">Lépjen a \"Fejlesztői beállítások\" menüpontra, majd engedélyezze az \"USB hibakeresés\" és a \"Vezeték nélküli hibakeresés\" opciókat.</string>
     <string name="adb_pairing_tutorial_content_enter_pairing_code">Koppintson a \"Vezeték nélküli hibakeresés\" bal oldalára, majd az \"Eszköz párosítása párosítási kóddal\" lehetőségre. A párosítás befejezéséhez írja be az értesítésben található kódot.</string>
-    <string name="adb_pairing_tutorial_content_notification_blocked">A párosítási folyamat során reagálnia kell a Shizuku által küldött értesítésre. Kérjük, engedélyezze a Shizuku számára az értesítések közzétételét.</string>
+    <string name="adb_pairing_tutorial_content_notification_blocked">A párosítási folyamat során reagálnia kell a NFX által küldött értesítésre. Kérjük, engedélyezze a NFX számára az értesítések közzétételét.</string>
     <string name="adb_pairing_tutorial_content_miui">Előfordulhat, hogy a MIUI-felhasználóknak a rendszerbeállításokban át kell váltaniuk az értesítési stílust az \"Értesítés\" - \"Értesítési árnyék\" lehetőségről \"Android\"-ra.</string>
     <string name="adb_pairing_tutorial_content_miui_2">Ellenkező esetben előfordulhat, hogy nem tudja megadni az értesítésben szereplő párosítási kódot.</string>
-    <string name="adb_pairing_tutorial_content_finish">Menjen vissza Shizukuba és indítsa el azt.</string>
-    <string name="adb_pairing_tutorial_content_network">A Shizukunak hozzá kell férnie a helyi hálózathoz. Ezt a hálózati engedély szabályozza.</string>
-    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Néhány rendszer (például az MIUI) nem engedélyezi az alkalmazásoknak a hálózathoz való hozzáférést, amikor azok nem láthatók, még akkor sem, ha az alkalmazás előtérben lévő szolgáltatást használ. Kérjük, tiltsa le a Shizuku akkumulátoroptimalizálási funkcióit az ilyen rendszereken.</string>
+    <string name="adb_pairing_tutorial_content_finish">Menjen vissza NFXba és indítsa el azt.</string>
+    <string name="adb_pairing_tutorial_content_network">A NFXnak hozzá kell férnie a helyi hálózathoz. Ezt a hálózati engedély szabályozza.</string>
+    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Néhány rendszer (például az MIUI) nem engedélyezi az alkalmazásoknak a hálózathoz való hozzáférést, amikor azok nem láthatók, még akkor sem, ha az alkalmazás előtérben lévő szolgáltatást használ. Kérjük, tiltsa le a NFX akkumulátoroptimalizálási funkcióit az ilyen rendszereken.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[Indítás rootolt eszközről]]></string>
-    <string name="home_root_description"><![CDATA[Ha Magisk-et használ, próbálja ki a(z) %1$s-t. Root felhasználók számára ez végül felváltja a Shizuku-t. Fontos megjegyezni, hogy a meglévő alkalmazásokat kissé módosítani kell a(z) %2$s használatához.]]></string>
+    <string name="home_root_description"><![CDATA[Ha Magisk-et használ, próbálja ki a(z) %1$s-t. Root felhasználók számára ez végül felváltja a NFX-t. Fontos megjegyezni, hogy a meglévő alkalmazásokat kissé módosítani kell a(z) %2$s használatához.]]></string>
     <string name="home_root_button_start">Indítás</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -105,12 +105,12 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <!-- Home - Adb permissions limited -->
     <!-- Home - Dialogs -->
     <string name="home_dialog_reboot_required_title">Újraindítás szükséges</string>
-    <string name="home_dialog_reboot_required_message">A Shizuku megfelelő működéséhez az eszköz újraindítása szükséges. A folytatáshoz indítsa újra az eszközt.</string>
+    <string name="home_dialog_reboot_required_message">A NFX megfelelő működéséhez az eszköz újraindítása szükséges. A folytatáshoz indítsa újra az eszközt.</string>
     <string name="home_dialog_duplicate_app_detected_title">Dupla alkalmazás észlelve</string>
     <string name="home_dialog_duplicate_app_detected_message">Az alkalmazás egy másik verziója telepítve van az eszközére. A folytatáshoz távolítsa el az összes duplikált verziót, és indítsa újra az eszközt.</string>
     <!-- The same two states, said on the Home screen instead of in a dialog that only exits. Shizuku works either way; what is affected is what other apps find when they look Shizuku up. -->
-    <string name="home_permission_owned_by">Az alkalmazások egy egyedi jogosultság alapján keresik meg a Shizukut. Az Android azt jelzi, hogy a(z) %1$s (amely a Shizuku egy másolata, vagy ami belőle megmaradt) rendelkezik ezzel a jogosultsággal. Azok az alkalmazások addig ezt a másolatot fogják lekérdezni, amíg el nem távolítják azt, és az eszközt újra nem indítják.</string>
-    <string name="home_permission_not_registered">Az alkalmazások egy egyedi jogosultsága alapján keresik meg a Shizukut, de az Android még nem regisztrálta ezt a jogosultságot. Ezt a jelenséget egy frissítés, vagy újratelepítés okozhatja, és fennáll amíg az eszközt újra nem indítják. Magát a Shizukut ez nem érinti, viszont előfordulhat, hogy a többi alkalmazás nem találja meg.</string>
+    <string name="home_permission_owned_by">Az alkalmazások egy egyedi jogosultság alapján keresik meg a NFXt. Az Android azt jelzi, hogy a(z) %1$s (amely a NFX egy másolata, vagy ami belőle megmaradt) rendelkezik ezzel a jogosultsággal. Azok az alkalmazások addig ezt a másolatot fogják lekérdezni, amíg el nem távolítják azt, és az eszközt újra nem indítják.</string>
+    <string name="home_permission_not_registered">Az alkalmazások egy egyedi jogosultsága alapján keresik meg a NFXt, de az Android még nem regisztrálta ezt a jogosultságot. Ezt a jelenséget egy frissítés, vagy újratelepítés okozhatja, és fennáll amíg az eszközt újra nem indítják. Magát a NFXt ez nem érinti, viszont előfordulhat, hogy a többi alkalmazás nem találja meg.</string>
     <string name="home_dialog_button_exit">Kilépés</string>
     <!-- Application management -->
     <string name="app_management_dialog_adb_is_limited_title">Az adb engedélye korlátozott</string>
@@ -118,7 +118,7 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="app_management_toggle_all">Összes átapcsolása</string>
     <string name="app_management_search_hint">Alkalmazások keresése</string>
     <string name="app_management_sort">Rendezés</string>
-    <string name="apps_needs_shizuku">Az alkalmazások megtekintéséhez indítsa el a Shizukut</string>
+    <string name="apps_needs_shizuku">Az alkalmazások megtekintéséhez indítsa el a NFXt</string>
     <string name="apps_empty">Nincs megjeleníthető alkalmazás</string>
     <string name="apps_filter_empty">Nincsenek alkalmazások ezzel a szűréssel</string>
     <string name="apps_filter_all">Mind</string>
@@ -183,7 +183,7 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="activities_exported">Exportálva</string>
     <string name="activities_not_exported">Nincs exportálva</string>
     <string name="activities_empty">Ez az alkalmazás nem deklarál tevékenységeket.</string>
-    <string name="activities_needs_shizuku">A Shizuku nem fut, és csak ez indíthat el egy olyan tevékenységet, amelyet az alkalmazás magának tart fenn.</string>
+    <string name="activities_needs_shizuku">A NFX nem fut, és csak ez indíthat el egy olyan tevékenységet, amelyet az alkalmazás magának tart fenn.</string>
     <string name="activities_refused">A tevékenység nem indítható el.</string>
     <string name="activities_long_press">Hosszan érintsen meg egy sort a teljes név megtekintéséhez.</string>
     <string name="activities_detail_package">Csomag</string>
@@ -228,7 +228,7 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="device_uptime">Futási idő</string>
     <string name="device_memory">Memória</string>
     <string name="device_storage">Tárhely</string>
-    <string name="device_shizuku">Shizuku</string>
+    <string name="device_shizuku">NFX</string>
     <string name="device_server">Szerver</string>
     <string name="device_start_method">Indítás</string>
     <string name="device_transport">Átvitel</string>
@@ -247,11 +247,11 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="log_session_delete">Törlés</string>
     <string name="log_session_deleted">%1$s törölve</string>
     <string name="permissions_usage_access">Használati hozzáférés</string>
-    <string name="permissions_usage_access_summary">Tegyük lehetővé a listák elrejtését, hogy lássuk, melyik alkalmazás van megnyitva. Ezt a Shizuku alkalmazáson keresztül vagy az Android Használati hozzáférés beállításaiban lehet engedélyezni.</string>
+    <string name="permissions_usage_access_summary">Tegyük lehetővé a listák elrejtését, hogy lássuk, melyik alkalmazás van megnyitva. Ezt a NFX alkalmazáson keresztül vagy az Android Használati hozzáférés beállításaiban lehet engedélyezni.</string>
     <string name="permissions_dump">Az alkalmazásbezárás okainak megtekintése</string>
-    <string name="permissions_dump_summary">A „Lets hiding lists” funkció jelzi, ha egy alkalmazás bezáródik, ahelyett, hogy a háttérben futna. A Shizuku szolgáltatja.</string>
+    <string name="permissions_dump_summary">A „Lets hiding lists” funkció jelzi, ha egy alkalmazás bezáródik, ahelyett, hogy a háttérben futna. A NFX szolgáltatja.</string>
     <string name="home_other_methods">Egyéb indítási módszerek</string>
-    <string name="home_hiding_active_note">A Shizuku leállhat egy rejtett alkalmazás megnyitásakor, mert az elrejtés megszüntetheti a hibakeresési kapcsolatot. A Shizuku újraindul az alkalmazás bezárásakor.</string>
+    <string name="home_hiding_active_note">A NFX leállhat egy rejtett alkalmazás megnyitásakor, mert az elrejtés megszüntetheti a hibakeresési kapcsolatot. A NFX újraindul az alkalmazás bezárásakor.</string>
     <string name="hiding_notification_channel">Elrejtés</string>
     <string name="hiding_notification_title">A beállítások el vannak rejtve</string>
     <string name="hiding_notification_text">Érintse meg a visszaállításukhoz.</string>
@@ -261,9 +261,9 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="hiding_resume">Folytatás</string>
     <string name="hiding_start_again">Indítás újra</string>
     <string name="hiding_notification_stopped_title">Elrejtés leállítva</string>
-    <string name="hiding_notification_stopped_text">A Shizuku nem fut, ezért az elrejtés funkció nem tudja felismerni, melyik alkalmazás van megnyitva. Az összes elrejtett beállítás visszaállt.</string>
-    <string name="hiding_carries_session_wireless">Nem alkalmazható: A Shizuku vezeték nélküli hibakeresést használ, ezért annak elrejtése a Shizuku működését leállítaná.</string>
-    <string name="hiding_carries_session_usb">Nem alkalmazható: A Shizuku USB hibakeresést használ, ezért annak elrejtése a Shizuku működését leállítaná.</string>
+    <string name="hiding_notification_stopped_text">A NFX nem fut, ezért az elrejtés funkció nem tudja felismerni, melyik alkalmazás van megnyitva. Az összes elrejtett beállítás visszaállt.</string>
+    <string name="hiding_carries_session_wireless">Nem alkalmazható: A NFX vezeték nélküli hibakeresést használ, ezért annak elrejtése a NFX működését leállítaná.</string>
+    <string name="hiding_carries_session_usb">Nem alkalmazható: A NFX USB hibakeresést használ, ezért annak elrejtése a NFX működését leállítaná.</string>
     <string name="tab_settings">Beállítások</string>
     <string name="home_status_transport_label">Átvitel</string>
     <string name="home_status_started_with">Jelenleg</string>
@@ -340,7 +340,7 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="intents_title">Intent-ek</string>
     <string name="about_package">Csomag</string>
     <string name="check_for_updates_now">Ellenőrzés most</string>
-    <string name="start_failed">Nem sikerült elindítani a Shizukut</string>
+    <string name="start_failed">Nem sikerült elindítani a NFXt</string>
     <string name="action_open_wireless_debugging">Vezeték nélküli hibakeresés</string>
     <string name="start_failed_unsupported">Ez az eszköz nem tudja elindítani a háttérben</string>
     <string name="start_failed_wifi_required">Csatlakozzon egy Wi-Fi hálózathoz, mert anélkül a rendszer kikapcsolja a vezeték nélküli hibakeresést. Vagy indítsa el a folyamatot egy számítógépről az alábbi ADB-parancs segítségével.</string>
@@ -352,8 +352,8 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="action_pair">Párosítás</string>
     <string name="start_failed_pairing_required">Ez az eszköz nincs párosítva vezeték nélküli hibakereséshez. Párosítsa újra.</string>
     <string name="start_failed_connection_lost">Az ADB kapcsolat megszakadt indítás közben. Próbálja újra.</string>
-    <string name="start_failed_usb_no_port">Nincs nyitva helyi ADB-port: az Android minden újraindításkor bezárja a portot, és az újbóli megnyitáshoz kapcsolatra van szükség. Csatlakozzon egy Wi-Fi-hez, és a Shizuku vezeték nélküli hibakeresésen keresztül újra megnyitja a portot; futtassa a számítógépről az <b>adb tcpip 5555</b> parancsot, vagy válassza az <b>Indítás Wi-Fi nélkül</b> indítási módot, hogy a vezeték nélküli hibakeresésen keresztül induljon el a rendszer.</string>
-    <string name="start_failed_root_unavailable">A root hozzáférés ezen az eszközön már nem elérhető, ezért Shizuku nem tud root jogokkal újraindulni. Válasszon egy másik indítási módot.</string>
+    <string name="start_failed_usb_no_port">Nincs nyitva helyi ADB-port: az Android minden újraindításkor bezárja a portot, és az újbóli megnyitáshoz kapcsolatra van szükség. Csatlakozzon egy Wi-Fi-hez, és a NFX vezeték nélküli hibakeresésen keresztül újra megnyitja a portot; futtassa a számítógépről az <b>adb tcpip 5555</b> parancsot, vagy válassza az <b>Indítás Wi-Fi nélkül</b> indítási módot, hogy a vezeték nélküli hibakeresésen keresztül induljon el a rendszer.</string>
+    <string name="start_failed_root_unavailable">A root hozzáférés ezen az eszközön már nem elérhető, ezért NFX nem tud root jogokkal újraindulni. Válasszon egy másik indítási módot.</string>
     <string name="start_failed_system_needs_app">A rendszerindítási módszert az alkalmazásból kell elindítani.</string>
     <string name="start_failed_system_no_exploit">Ez az eszköz nem tartalmaz Samsung FOTA komponenst (com.sdet.fotaagent), amely az egyetlen olyan elem, amit a rendszerindítási módszer (system start method) használhatna, így itt nincs lehetőség a jogosultságok kiterjesztésére. Váltsa át a rendszerindítási módszert az \"Egyedi parancs\" lehetőségre: az alkalmazás meg fogja mutatni, mit kell futtatnia egy olyan jogosultság-kiterjesztéssel, amellyel az Ön eszköze valójában rendelkezik.</string>
     <string name="start_system_custom_copied">A parancs a vágólapra másolva.</string>
@@ -367,7 +367,7 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="settings_theme_system">Kövesse a rendszert</string>
     <string name="settings_theme_light">Világos</string>
     <string name="settings_theme_dark">Sötét</string>
-    <string name="intents_description">Az automatizálási alkalmazások ezekkel a broadcast-üzenetekkel vezérelhetik a Shizukut. Az azonosító tokent az \"auth\" extra paraméterben kell megadni.</string>
+    <string name="intents_description">Az automatizálási alkalmazások ezekkel a broadcast-üzenetekkel vezérelhetik a NFXt. Az azonosító tokent az \"auth\" extra paraméterben kell megadni.</string>
     <string name="intents_require_token">A hitelesítő token megkövetelése</string>
     <string name="intents_require_token_summary">Az indítási és leállítási intent-eknek az alábbi tokenre van szükségük. Kapcsolja ki ezt, ha token nélkül szeretné elküldeni őket.</string>
     <string name="intents_token">Hitelesítő token</string>
@@ -380,7 +380,7 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="intents_watchdog_toggle">Önvédelemi mód átváltása</string>
     <string name="intents_adb_command">Indítás számítógépről</string>
     <string name="intents_package">Csomag</string>
-    <string name="home_battery_warning">Előfordulhat, hogy Shizuku a háttérben leáll. Engedélyezze az akkumulátor-optimalizálás figyelmen kívül hagyását.</string>
+    <string name="home_battery_warning">Előfordulhat, hogy NFX a háttérben leáll. Engedélyezze az akkumulátor-optimalizálás figyelmen kívül hagyását.</string>
     <string name="app_management_action_grant">Megadás</string>
     <string name="app_management_action_revoke">Visszavonás</string>
     <string name="app_management_batch_grant_title">Engedélyek megadása</string>
@@ -390,7 +390,7 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="terminal_tutorial_miui">A felhasználók arról számoltak be, hogy az MIUI sérti a
         Storage Access Frameworköt, amelyet az exportálási funkció használ.</string>
     <string name="terminal_tutorial_miui_2">Ha MIUI-t használsz, lehet, hogy ki kell csomagolnod a
-        fájlt a Shizuku APK-jának „eszközök” mappájából.</string>
+        fájlt a NFX APK-jának „eszközök” mappájából.</string>
     <string name="terminal_tutorial_1">Exportálja a fájlokat egy új mappába.</string>
     <string name="terminal_tutorial_1_description">Két fájl kerül exportálásra: %1$s és %2$s. Ha a
         fájlok már léteznek a kiválasztott mappában, akkor törlődnek.</string>
@@ -399,20 +399,20 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="terminal_tutorial_2_description">Tipp: Ha a terminálalkalmazásod kezdőkönyvtára (~) a privát fájlok könyvtárában található, akkor a fájlok oda helyezése lehetővé teszi a %1$s futtatását az elérési út megadása nélkül.\n\nEgyébként létrehozhat egy aliast a %2$s számára a terminálalkalmazás %3$s konfigurációs fájljában.</string>
     <string name="terminal_tutorial_3">Nyisson meg egy shell-t a következő paranccsal:</string>
     <!-- Stealth -->
-    <string name="stealth_description">A Shizuku elrejtése azon alkalmazások elől, amelyek a Shizuku telepítése után nem futnak. A program létrehoz egy más csomagnévvel rendelkező klónt a telepítéshez.</string>
-    <string name="stealth_warning_compatibility">Előfordulhat, hogy egyes Shizuku-t használó alkalmazások nem működnek, ha a Shizuku el van rejtve, mivel ezek megpróbálják felismerni, hogy a Shizuku telepítve van-e.</string>
-    <string name="stealth_warning_compatibility_2">Megkerülő megoldásként ideiglenesen felfedheti a Shizukut, amely egy kis programrészt telepít az eredeti csomagnévvel. Ha végzett, újra elrejtheti Shizukut.</string>
-    <string name="stealth_warning_compatibility_3">Koppintson erre a kártyára egy kódrészlet másolásához, amelyet elküldhet a fejlesztőnek, így a \"Shizuku telepítve\" ellenőrzés működni fog, amikor Shizuku el van rejtve.</string>
-    <string name="stealth_warning_detection">Egyes alkalmazások még rejtett állapotban is képesek felismerni a Shizukut.</string>
-    <string name="stealth_info_reconfigure">A rejtett verzió telepítése után újra kell párosítania és újra kell konfigurálnia a Shizukut.</string>
+    <string name="stealth_description">A NFX elrejtése azon alkalmazások elől, amelyek a NFX telepítése után nem futnak. A program létrehoz egy más csomagnévvel rendelkező klónt a telepítéshez.</string>
+    <string name="stealth_warning_compatibility">Előfordulhat, hogy egyes NFX-t használó alkalmazások nem működnek, ha a NFX el van rejtve, mivel ezek megpróbálják felismerni, hogy a NFX telepítve van-e.</string>
+    <string name="stealth_warning_compatibility_2">Megkerülő megoldásként ideiglenesen felfedheti a NFXt, amely egy kis programrészt telepít az eredeti csomagnévvel. Ha végzett, újra elrejtheti NFXt.</string>
+    <string name="stealth_warning_compatibility_3">Koppintson erre a kártyára egy kódrészlet másolásához, amelyet elküldhet a fejlesztőnek, így a \"NFX telepítve\" ellenőrzés működni fog, amikor NFX el van rejtve.</string>
+    <string name="stealth_warning_detection">Egyes alkalmazások még rejtett állapotban is képesek felismerni a NFXt.</string>
+    <string name="stealth_info_reconfigure">A rejtett verzió telepítése után újra kell párosítania és újra kell konfigurálnia a NFXt.</string>
     <string name="stealth_info_rish">Rish-felhasználók: a rejtett verzió telepítése után exportálja újra a fájlokat.</string>
     <string name="stealth_info_intents">Intent-felhasználók: frissítse az intenteket az új csomagnévvel.</string>
-    <string name="stealth_info_update">A rejtett verzió használatakor frissítenie kell a Shizukut az alkalmazáson keresztül, mert annak más aláírása van.</string>
+    <string name="stealth_info_update">A rejtett verzió használatakor frissítenie kell a NFXt az alkalmazáson keresztül, mert annak más aláírása van.</string>
     <string name="stealth_package_name">Csomagnév (nem kötelező)</string>
     <string name="stealth_package_name_helper_text">Ha üresen hagyjuk, egy véletlenszerű utótag kerül hozzáadásra a csomag nevéhez.</string>
     <string name="stealth_error_invalid_characters">Csak betűk, számok és pontok megengedettek.</string>
     <string name="stealth_uninstall_required">Eltávolítás szükséges</string>
-    <string name="stealth_uninstall_message">A rendszer most felszólítja a Shizuku eltávolítására. Ezután telepítse a klónt.</string>
+    <string name="stealth_uninstall_message">A rendszer most felszólítja a NFX eltávolítására. Ezután telepítse a klónt.</string>
     <string name="stealth_uninstall">Eltávolítás</string>
     <string name="stealth_hide">Elrejtés</string>
     <!-- Settings -->
@@ -420,9 +420,9 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="settings_use_system_color">Használja a rendszertéma színét</string>
     <string name="settings_use_system_color_summary">Kövesse a rendszer színkészletét</string>
     <string name="settings_watchdog">Önvédelem</string>
-    <string name="settings_watchdog_summary">A Shizuku automatikus újraindítása összeomlás esetén</string>
+    <string name="settings_watchdog_summary">A NFX automatikus újraindítása összeomlás esetén</string>
     <string name="settings_auto_disable_wireless_debugging">A vezeték nélküli hibakeresés letiltása</string>
-    <string name="settings_auto_disable_wireless_debugging_summary">Tiltsa le a vezeték nélküli hibakeresést, amikor a Shizuku leáll.</string>
+    <string name="settings_auto_disable_wireless_debugging_summary">Tiltsa le a vezeték nélküli hibakeresést, amikor a NFX leáll.</string>
     <string name="settings_start_method">Alapértelmezett indítási mód</string>
     <string name="settings_start_method_root_unavailable">Ez az eszköz nem rendelkezik root hozzáféréssel, ezért a rendszer a vezeték nélküli hibakeresésre vált vissza.</string>
     <string name="start_method_wireless_no_network">Wi-Fi nélkül</string>
@@ -432,55 +432,55 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="start_method_root">Root</string>
     <string name="transport_adb">adb</string>
     <string name="settings_adb_without_developer_options">Fejlesztői beállítások letiltása</string>
-    <string name="settings_adb_without_developer_options_summary">Letiltja a fejlesztői beállításokat, de megtartja a Shizuku számára szükséges ADB-beállításokat. A Shizuku továbbra is működni fog, és ezek a beállítások minden újraindítás után visszaállnak.</string>
+    <string name="settings_adb_without_developer_options_summary">Letiltja a fejlesztői beállításokat, de megtartja a NFX számára szükséges ADB-beállításokat. A NFX továbbra is működni fog, és ezek a beállítások minden újraindítás után visszaállnak.</string>
     <string name="start_failed_developer_options_off">A fejlesztői beállítások ki vannak kapcsolva, mert az ADB a fejlesztői beállítások nélkül is engedélyezve van</string>
     <string name="action_turn_on_developer_options">Fejlesztői beállítások engedélyezése</string>
     <string name="toast_developer_options_required">Az ADB kikapcsolása a fejlesztői beállítások nélkül</string>
     <string name="settings_adb_without_developer_options_confirm_title">Letiltja a fejlesztői beállításokat?</string>
-    <string name="settings_adb_without_developer_options_confirm_message">A Shizuku továbbra is működni fog, és az újraindítás után visszaállítja az ADB-beállításait. Nem fogja tudni megnyitni a fejlesztői beállításokat, hogy módosítsa az USB- vagy a vezeték nélküli hibakeresési beállításokat, illetve hogy új eszközt párosítson. Kikapcsolja a fejlesztői beállításokat?</string>
+    <string name="settings_adb_without_developer_options_confirm_message">A NFX továbbra is működni fog, és az újraindítás után visszaállítja az ADB-beállításait. Nem fogja tudni megnyitni a fejlesztői beállításokat, hogy módosítsa az USB- vagy a vezeték nélküli hibakeresési beállításokat, illetve hogy új eszközt párosítson. Kikapcsolja a fejlesztői beállításokat?</string>
     <string name="settings_adb_without_developer_options_confirm">Kikapcsolás</string>
-    <string name="settings_adb_without_developer_options_failed">Shizuku nem tudta módosítani a beállításokat. Először engedélyezze a WRITE_SECURE_SETTINGS jogosultságot a jogosultsági oldalon.</string>
+    <string name="settings_adb_without_developer_options_failed">NFX nem tudta módosítani a beállításokat. Először engedélyezze a WRITE_SECURE_SETTINGS jogosultságot a jogosultsági oldalon.</string>
     <string name="settings_wait_for_wifi">Várakozás a Wi-Fi-re</string>
-    <string name="settings_wait_for_wifi_summary">A Shizuku mindaddig vár az automatikus újraindulással, míg rendelkezésre nem áll korlátozás nélküli Wi-Fi-kapcsolat.</string>
+    <string name="settings_wait_for_wifi_summary">A NFX mindaddig vár az automatikus újraindulással, míg rendelkezésre nem áll korlátozás nélküli Wi-Fi-kapcsolat.</string>
     <string name="settings_unavailable_while_forcing_wireless">Nem érhető el, ha az \"Indítás Wi-Fi nélkül\" be van kapcsolva.</string>
     <string name="settings_force_wireless_debugging">Indítás Wi-Fi nélkül (kísérleti)</string>
-    <string name="settings_force_wireless_debugging_summary">Megpróbálja elindítani a Shizukut Wi-Fi vagy USB hibakeresés nélkül. Ezzel letiltja a Wi-Fi várakozást és az automatikus vezeték nélküli hibakeresést is.</string>
+    <string name="settings_force_wireless_debugging_summary">Megpróbálja elindítani a NFXt Wi-Fi vagy USB hibakeresés nélkül. Ezzel letiltja a Wi-Fi várakozást és az automatikus vezeték nélküli hibakeresést is.</string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
-    <string name="settings_needs_write_secure_settings">WRITE_SECURE_SETTINGS engedély szükséges. Indítsa el egyszer a Shizukut, hogy biztosítva legyen, aztán térjen vissza.</string>
+    <string name="settings_needs_write_secure_settings">WRITE_SECURE_SETTINGS engedély szükséges. Indítsa el egyszer a NFXt, hogy biztosítva legyen, aztán térjen vissza.</string>
     <string name="state_on">Be</string>
     <string name="state_off">Ki</string>
     <string name="settings_persist_adb_port">Tartsa meg az ADB portot újraindítás után</string>
-    <string name="settings_persist_adb_port_summary">Minden újraindítás után nyitva tartja az ADB portot, így a Shizuku Wi-Fi vagy hotspot nélkül is elindulhat.</string>
+    <string name="settings_persist_adb_port_summary">Minden újraindítás után nyitva tartja az ADB portot, így a NFX Wi-Fi vagy hotspot nélkül is elindulhat.</string>
     <string name="settings_persist_adb_port_ok">Az ADB port az újraindítás után nyitva marad</string>
-    <string name="settings_persist_adb_port_refused">Az Android ezt elutasította. A Shizukunak rootként vagy rendszerfelhasználóként kell futnia.</string>
-    <string name="settings_persist_adb_port_unavailable">Először indítsa el a Shizukut. Ez a beállítás csak a Shizuku-n keresztül módosítható.</string>
+    <string name="settings_persist_adb_port_refused">Az Android ezt elutasította. A NFXnak rootként vagy rendszerfelhasználóként kell futnia.</string>
+    <string name="settings_persist_adb_port_unavailable">Először indítsa el a NFXt. Ez a beállítás csak a NFX-n keresztül módosítható.</string>
     <string name="settings_system_start_method">Rendszerindítási módszer</string>
     <string name="settings_system_start_method_exploit">Samsung (FOTA ügynök)</string>
     <string name="settings_system_start_method_custom">Egyéni parancs</string>
     <string name="home_system_title">Indítás a rendszer UID-n keresztül</string>
-    <string name="home_system_summary">Futtassa a Shizukut a rendszerfelhasználóként (UID 1000) az adb helyett: kizárólag Samsung készülékekhez, mely verziói a FOTA-ügynökökre épülnek</string>
-    <string name="home_adb_command_summary">Indítsa a Shizuku programot egy számítógépről ADB-n keresztül. Érintse meg a parancs másolásához</string>
+    <string name="home_system_summary">Futtassa a NFXt a rendszerfelhasználóként (UID 1000) az adb helyett: kizárólag Samsung készülékekhez, mely verziói a FOTA-ügynökökre épülnek</string>
+    <string name="home_adb_command_summary">Indítsa a NFXgramot egy számítógépről ADB-n keresztül. Érintse meg a parancs másolásához</string>
     <string name="settings_tcp_mode">TCP mód</string>
-    <string name="settings_tcp_mode_summary">"Lehetővé teszi a Shizuku újraindítását Wi-Fi nélkül. (Shizuku már egyszer elindult az újraindítás óta)"</string>
+    <string name="settings_tcp_mode_summary">"Lehetővé teszi a NFX újraindítását Wi-Fi nélkül. (NFX már egyszer elindult az újraindítás óta)"</string>
     <string name="settings_tcp_mode_dialog_close_port">"A TCP port azonnal befog zárulni. A TCP mód újbóli bekapcsolásához Wi-Fi-re lesz szüksége. Folytatja?"</string>
     <string name="settings_tcp_mode_close_wireless">Nem zárható be: a vezeték nélküli hibakeresés be van kapcsolva, ami a port bezárásával leállna. A port a telefon újraindításakor bezárul.</string>
     <string name="settings_tcp_mode_close_usb_off">Nem zárható be: Az USB hibakeresés ki van kapcsolva. Kapcsolja be, és próbálja újra.</string>
     <string name="settings_tcp_mode_close_nothing">Nem volt nyitott TCP port.</string>
     <string name="settings_restart_dialog_title">Újraindítás szükséges</string>
     <string name="settings_restart_dialog_message">A beállítás alkalmazásához újra kell indítani a
-        Shizuku-t.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Wi-Fi szükséges. A Shizuku továbbra is fut, és Wi-Fi kapcsolatra vár, mielőtt újraindulna a háttérben.</b>]]></string>
+        NFX-t.</string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Wi-Fi szükséges. A NFX továbbra is fut, és Wi-Fi kapcsolatra vár, mielőtt újraindulna a háttérben.</b>]]></string>
     <string name="settings_tcp_port">TCP-port</string>
     <string name="settings_auto_disable_usb_debugging">Az USB-hibakeresés letiltása</string>
-    <string name="settings_auto_disable_usb_debugging_summary">A Shizuku leállításakor tiltsa le az USB-hibakeresést</string>
+    <string name="settings_auto_disable_usb_debugging_summary">A NFX leállításakor tiltsa le az USB-hibakeresést</string>
     <string name="settings_language">Nyelv</string>
     <string name="settings_language_system">Rendszer alapértelmezett</string>
     <string name="settings_black_night_theme">Amoled fekete</string>
     <string name="settings_black_night_theme_summary">Használjon tiszta fekete témát sötét módban</string>
     <string name="settings_update_stable">Stabil</string>
     <string name="settings_permissions">Engedélyek</string>
-    <string name="settings_permissions_summary">Mire van szüksége Shizukunak és mi engedélyezett neki</string>
+    <string name="settings_permissions_summary">Mire van szüksége NFXnak és mi engedélyezett neki</string>
     <string name="permissions_allowed">Engedélyezve</string>
     <string name="permissions_action_allow">Engedélyezés</string>
     <string name="permissions_action_settings">Beállítások</string>
@@ -490,15 +490,11 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="permissions_nearby">Közeli eszközök</string>
     <string name="permissions_nearby_summary">Megkeresi a vezeték nélküli hibakeresési portot a hálózaton.</string>
     <string name="permissions_write_secure_settings">Biztonsági beállítások írása</string>
-    <string name="permissions_write_secure_settings_summary">Engedjük meg a Shizukunak, hogy bekapcsolja a vezeték nélküli hibakeresést. Csak az ADB-n keresztöl adható meg ez az engedély.</string>
+    <string name="permissions_write_secure_settings_summary">Engedjük meg a NFXnak, hogy bekapcsolja a vezeték nélküli hibakeresést. Csak az ADB-n keresztöl adható meg ez az engedély.</string>
     <string name="permissions_accessibility">Kisegítő lehetőségek szolgáltatás</string>
     <string name="permissions_accessibility_summary">Automatikusan beolvassa a párosítási kódot.</string>
-    <string name="permissions_battery_summary">Megakadályozza, hogy az Android leállítsa a Shizuku háttérbeli futását.</string>
-    <string name="settings_help">Segítség</string>
-    <string name="settings_translate">Közreműködés a fordításban</string>
+    <string name="permissions_battery_summary">Megakadályozza, hogy az Android leállítsa a NFX háttérbeli futását.</string>
     <string name="settings_report_bug">Hiba jelentése</string>
-    <string name="settings_contributors">Közreműködők</string>
-    <string name="settings_contributors_hint">Húzással felfedezheti · Két ujjal nagyíthat · Érintéssel megtekintheti a részleteket</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
       so the singular is read more often than the plural is.
@@ -520,13 +516,6 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="settings_legacy_pairing">Hagyományos párosítás</string>
     <string name="settings_legacy_pairing_summary">A párosítási kód megadása egy párbeszédpanelen, ne pedig egy értesítésben történjen</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">Először is, kérjük, tegye a következőket:</string>
-    <string name="bug_report_dialog_update">Ellenőrizze, hogy a ^1-t használja-e.</string>
-    <string name="bug_report_dialog_link_update">legújabb verzió</string>
-    <string name="bug_report_dialog_wiki">Olvassa el a ^1-t, és kövesse az összes vonatkozó hibaelhárítási lépést.</string>
-    <string name="bug_report_dialog_link_wiki">wiki</string>
-    <string name="bug_report_dialog_issues">Nézzen körül az ismert ^1 közt, hogy megtudja, jelentették-e már ezt a hibát.</string>
-    <string name="bug_report_dialog_link_issues">meglévő problémák</string>
     <!-- Snackbar -->
     <string name="snackbar_battery_optimization_settings">Kérjük, kapcsolja ki az
         akkumulátoroptimalizálást a funkció használatához.</string>
@@ -547,7 +536,7 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="update_success">A frissítés befejeződött</string>
     <string name="update_failed">A frissítés nem sikerült</string>
     <!-- Toast -->
-    <string name="toast_pairing_timeout">A Shizuku párosítási szolgáltatás időtúllépést okozott.</string>
+    <string name="toast_pairing_timeout">A NFX párosítási szolgáltatás időtúllépést okozott.</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme">Téma</string>
     <string name="dark_theme_off">Mindig világos</string>
@@ -567,13 +556,13 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="notification_adb_pairing_stop_searching">A keresés leállítása</string>
     <string name="notification_adb_pairing_working_title">A párosítás folyamatban</string>
     <string name="notification_adb_pairing_succeed_title">A párosítás sikeres</string>
-    <string name="notification_adb_pairing_succeed_text">Most elindíthatja a Shizuku szolgáltatást.</string>
+    <string name="notification_adb_pairing_succeed_text">Most elindíthatja a NFX szolgáltatást.</string>
     <string name="notification_adb_pairing_failed_title">A párosítás nem sikerült</string>
     <string name="notification_adb_pairing_retry">Újra</string>
     <string name="notification_auth_missing_title">Hitelesítő token szükséges</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">Shizuku hozzáférés</string>
-    <string name="permission_description">Engedélyezze az app számára a Shizuku használatát.</string>
+    <string name="permission_label">NFX hozzáférés</string>
+    <string name="permission_description">Engedélyezze az app számára a NFX használatát.</string>
     <string name="permission_warning_template"><![CDATA[Engedélyezi <b>%1$s</b> ide, %2$s?]]></string>
     <string name="grant_dialog_button_allow_always">Mindig engedje meg</string>
     <string name="grant_dialog_button_deny">"Tiltás"</string>
@@ -581,24 +570,24 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="starter">Indító</string>
     <string name="start_with_root_failed">Nem sikerült elindítani, mert a root hozzáférés nem érhető el.</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">Shizuku indítása…</string>
+    <string name="wadb_notification_title">NFX indítása…</string>
     <string name="wadb_notification_wifi_required">Wi-Fi kapcsolatra vár a folytatás előtt</string>
     <string name="wadb_notification_retry">Várakozás az újrapróbálkozásra</string>
-    <string name="wadb_notification_connecting">Shizuku indítása vezeték nélküli ADB-vel</string>
+    <string name="wadb_notification_connecting">NFX indítása vezeték nélküli ADB-vel</string>
     <string name="wadb_notification_forcing_wireless">A vezeték nélküli hibakeresés bekapcsolva tartása</string>
     <string name="wadb_error_title">Hiba a rendszerindításkor</string>
     <string name="wadb_error_notify_dev">Koppintson a fejlesztő értesítéséhez.</string>
     <string name="wadb_permission_error_notification_title">Engedélyezési hiba</string>
-    <string name="wadb_permission_error_notification_content">A Shizuku rendszerindításkor
+    <string name="wadb_permission_error_notification_content">A NFX rendszerindításkor
         WRITE_SECURE_SETTINGS jogosultságra szorul. Koppintson ide, ha szeretné megtudni, hogyan
         engedélyezheti ezt.</string>
     <!-- Shell -->
     <string name="shell_title">Shell</string>
     <string name="shell_backend_root">Root</string>
-    <string name="shell_backend_shizuku_status">Shizuku, uid %1$d</string>
+    <string name="shell_backend_shizuku_status">NFX, uid %1$d</string>
     <string name="shell_backend_root_status">Root, uid 0</string>
-    <string name="shell_needs_a_backend">Indítsa el a Shizukut, vagy rootolt eszközön válassza a Root lehetőséget: a két lehetőség közül az egyik végrehajtja a parancsokat. A Root funkció akkor is működik, ha a Shizuku le van állítva.</string>
-    <string name="shell_root_refused">A root hozzáférés megtagadásra került, ezért a parancsok a Shizuku alkalmazást fogják használni. Engedélyezze ennek az alkalmazásnak a root hozzáférést a Root használatához.</string>
+    <string name="shell_needs_a_backend">Indítsa el a NFXt, vagy rootolt eszközön válassza a Root lehetőséget: a két lehetőség közül az egyik végrehajtja a parancsokat. A Root funkció akkor is működik, ha a NFX le van állítva.</string>
+    <string name="shell_root_refused">A root hozzáférés megtagadásra került, ezért a parancsok a NFX alkalmazást fogják használni. Engedélyezze ennek az alkalmazásnak a root hozzáférést a Root használatához.</string>
     <string name="shell_search">Keresés</string>
     <string name="shell_save_output">Mentés</string>
     <string name="shell_expand">Kibontás</string>
@@ -613,13 +602,13 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <!-- Watchdog -->
     <string name="watchdog_running">Az önvédelmi mód fut</string>
     <string name="watchdog_turn_off">Kikapcsolás</string>
-    <string name="watchdog_shizuku_crashed_title">Shizuku nemrég lezuhant</string>
-    <string name="watchdog_shizuku_crashed_text">Az Önvédelem újraindította a Shizuku-t. Koppintson ide, hogy megismerje az összeomlások megelőzésének módjait.</string>
+    <string name="watchdog_shizuku_crashed_title">NFX nemrég lezuhant</string>
+    <string name="watchdog_shizuku_crashed_text">Az Önvédelem újraindította a NFX-t. Koppintson ide, hogy megismerje az összeomlások megelőzésének módjait.</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">Kapcsolja ki a riasztásokat</string>
-    <string name="watchdog_shizuku_recovered_title">A Shizuku újra fut</string>
+    <string name="watchdog_shizuku_recovered_title">A NFX újra fut</string>
     <string name="watchdog_shizuku_recovered_text">Az Önvédelem újra elindította, miután magától leállt.</string>
-    <string name="watchdog_given_up_title">A Shizuku elindítása nem sikerült</string>
-    <string name="watchdog_given_up_text">A Shizuku %1$d indítási kísérlet után sem indult újra. Az újraindítás tehát nem segít, amíg az ok meg nem szünik.</string>
+    <string name="watchdog_given_up_title">A NFX elindítása nem sikerült</string>
+    <string name="watchdog_given_up_text">A NFX %1$d indítási kísérlet után sem indult újra. Az újraindítás tehát nem segít, amíg az ok meg nem szünik.</string>
     <string name="watchdog_given_up_action_start">Indítás</string>
     <string name="watchdog_not_running_title">Az Önvédelmi mód nem fut</string>
     <string name="watchdog_not_running_text">Az Android nem engedte, hogy magától elinduljon. Koppintson az újraindításhoz.</string>
@@ -630,15 +619,15 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="toast_copied_to_clipboard">Vágólapra másolva</string>
     <string name="accessibility_service_description">Párosítási támogatást nyújt olyan eszközökhöz
         (pl. Android 14+ rendszert futtató tévék), amelyeken nem használhatók az értesítések vagy az
-        osztott képernyő.\n\nLehetővé teszi a Shizuku számára a párosítási kód kinyerését a vezeték
+        osztott képernyő.\n\nLehetővé teszi a NFX számára a párosítási kód kinyerését a vezeték
         nélküli hibakeresési párosítási képernyőről. Amint megtalálja a párosítási kódot, a rendszer
         letiltja magát.</string>
     <!-- Messages for legacy -->
-    <string name="dialog_legacy_not_support_title">%1$s nem támogatja a modern Shizukut</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[A hagyományos Shizuku 2019. márciusa óta elavult. Továbbá a régi Shizuku nem működik újabb Android-rendszereken.<p>Kérdezze meg a(z) <b>%1$s</b> fejlesztőjét a frissítésről.]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s az örökölt Shizukut kéri</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> modern Shizuku támogatással rendelkezik, de az örökölt Shizukut kéri. Ez azért lehet, mert a Shizuku nem fut, ellenőrizze a Shizuku alkalmazást.<p>Az örökölt Shizuku 2019 márciusa óta elavult.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">Nyissa meg a Shizukut</string>
+    <string name="dialog_legacy_not_support_title">%1$s nem támogatja a modern NFXt</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[A hagyományos NFX 2019. márciusa óta elavult. Továbbá a régi NFX nem működik újabb Android-rendszereken.<p>Kérdezze meg a(z) <b>%1$s</b> fejlesztőjét a frissítésről.]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s az örökölt NFXt kéri</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> modern NFX támogatással rendelkezik, de az örökölt NFXt kéri. Ez azért lehet, mert a NFX nem fut, ellenőrizze a NFX alkalmazást.<p>Az örökölt NFX 2019 márciusa óta elavult.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Nyissa meg a NFXt</string>
     <string name="wadb_notification_attempt_now">Újra</string>
     <!-- Manage tab -->
     <string name="tab_manage">Alkalmazásműveletek</string>
@@ -653,7 +642,7 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="permissions_phantom">Háttérfolyamatok</string>
     <string name="permissions_phantom_summary">Az Android 12 és újabb verziói leállíthatják az alkalmazás által elindított folyamatokat az alkalmazás bezárása után. Ez a rendszerindítás után a szerver leállását okozhatja. Ez a beállítás az egész eszközre vonatkozik, és az eszköz újraindítását teheti szükségessé.</string>
     <string name="permissions_action_deny">Tiltás</string>
-    <string name="permissions_phantom_failed">Nem sikerült módosítani. Ehhez Shizuku-ra vagy a WRITE_SECURE_SETTINGS jogosultságra van szükség.</string>
+    <string name="permissions_phantom_failed">Nem sikerült módosítani. Ehhez NFX-ra vagy a WRITE_SECURE_SETTINGS jogosultságra van szükség.</string>
     <string name="manage_status_removed">Eltávolítva, adatok megőrizve</string>
     <string name="manage_status_disabled">Letiltva</string>
     <string name="manage_status_suspended">Felfüggesztve</string>
@@ -667,7 +656,7 @@ A Shizuku közvetlenül a párbeszédpanelből olvassa be a kódot és a portot,
     <string name="app_section_actions">Műveletek</string>
     <string name="app_section_battery">Akkumulátor</string>
     <string name="app_section_info">Infó</string>
-    <string name="app_permissions_note">Csak a fejlesztői vagy a veszélyes védelmi szintű engedélyek módosíthatók adb-n keresztül. A platform a többit elutasítja, függetlenül attól, hogy a Shizuku mennyire megbízható, így ezeknél a soroknál a kapcsoló kikapcsolva marad.</string>
+    <string name="app_permissions_note">Csak a fejlesztői vagy a veszélyes védelmi szintű engedélyek módosíthatók adb-n keresztül. A platform a többit elutasítja, függetlenül attól, hogy a NFX mennyire megbízható, így ezeknél a soroknál a kapcsoló kikapcsolva marad.</string>
     <string name="app_grant_confirm_ok">Megadás</string>
     <string name="app_op_background">Futtatás a háttérben</string>
     <string name="app_op_background_note">A Tiltás megakadályozza a háttérben való futását.</string>

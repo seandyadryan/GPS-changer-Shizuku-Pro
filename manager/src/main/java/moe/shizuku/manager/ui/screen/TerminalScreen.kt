@@ -30,12 +30,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
-import moe.shizuku.manager.Helps
 import moe.shizuku.manager.R
 import moe.shizuku.manager.ui.component.ScrollToTopButton
 import moe.shizuku.manager.ui.component.SegmentedColumn
 import moe.shizuku.manager.ui.component.SegmentedListItem
-import moe.shizuku.manager.utils.CustomTabsHelper
 import rikka.compatibility.DeviceCompatibility
 
 private const val SH_NAME = "rish"
@@ -122,14 +120,6 @@ fun TerminalScreen(onBack: () -> Unit) {
                                     fontFamily = FontFamily.Monospace,
                                     style = MaterialTheme.typography.bodySmall
                                 )
-                            }
-                        )
-                    }
-                    item {
-                        SegmentedListItem(
-                            headlineContent = { Text(stringResource(R.string.settings_help)) },
-                            onClick = {
-                                CustomTabsHelper.launchUrlOrCopy(context, Helps.RISH.get())
                             }
                         )
                     }

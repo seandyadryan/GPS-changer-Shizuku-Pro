@@ -57,7 +57,7 @@
     <string name="dialog_adb_pairing_discovery">Buscando servicio de emparejamiento</string>
     <string name="dialog_adb_pairing_paring_code">Clave de emparejamiento</string>
     <string name="paring_code_is_wrong">Clave de emparejamiento errónea.</string>
-    <string name="cannot_connect_port">No se puede conectar al servicio de depuración inalámbrica.\n\nPor favor, asegúrate de que Shizuku esté en la lista blanca de todas las aplicaciones de firewall, bloqueador de anuncios, VPN u similares que puedan restringir el acceso a la red.</string>
+    <string name="cannot_connect_port">No se puede conectar al servicio de depuración inalámbrica.\n\nPor favor, asegúrate de que NFX esté en la lista blanca de todas las aplicaciones de firewall, bloqueador de anuncios, VPN u similares que puedan restringir el acceso a la red.</string>
     <string name="dialog_adb_pairing_message">Comience el emparejamiento realizando los siguientes
  pasos:\n- Vaya a \"Opciones de desarrollador\"\n- Habilite \"Depuración USB\" y \"Depuración inalámbrica\"\n- Toque el lado izquierdo de \"Depuración inalámbrica\"\n- Toque \"Emparejar dispositivo con código de emparejamiento\"\n- Ingrese el código de emparejamiento en la notificación</string>
     <!-- Goes after dialog_adb_pairing_accessibility_enable in the same dialog: what the greyed-out
@@ -66,30 +66,30 @@
          outside the app, and both are named because either reader may be the one holding it. -->
     <string name="dialog_adb_pairing_accessibility_permission">Android bloquea esté interruptor para aplicaciones instaladas fuera de una tienda de aplicaciones. Permita que la aplicación ^ 1 encienda el servicio de accesibilidad. The accessibility list shows this as \"Controlled by Restricted Setting\".\n\nOpen App info and select \"Allow restricted settings\" from the menu, or run this on a computer:\n\n^2\n\nEither option works. El interruptor funcionará después.</string>
     <string name="dialog_adb_pairing_open_app_info">Información de App</string>
-    <string name="dialog_adb_pairing_accessibility_enable">El emparejamiento automático lee el código del diálogo del sistema a través del servicio de accesibilidad de Shizuku, por lo que debe habilitarse, y solo durante el tiempo que sea necesario: el servicio se apaga una vez que se encuentra el código, o después de un minuto para ahorrar energía. Shizuku normalmente lo permite por sí solo, se necesita el permiso de ESCRITURA_SEGURIDAD_CONFIGURACION que aún no se ha otorgado una nueva instalación.\n\n activado en la siguiente pantalla, escriba el código usted mismo manualmente o otorgue el permiso una vez: \n\n ADB Shell pm grant %1$s Android.Permission.ESCRITURA_SEGURIDAD_CONFIGURACION</string>
-    <string name="dialog_adb_pairing_accessibility_navigate">Para iniciar el emparejamiento, siga estos pasos:\n- Vaya a \"Opciones de desarrollador\"\n- Habilite \"Depuración USB\" y \"Depuración inalámbrica\"\n- Toque el lado izquierdo de \"Depuración inalámbrica\"\n- Toque \"Emparejar dispositivo con código de emparejamiento\". Shizuku detectará automáticamente el código de emparejamiento.</string>
+    <string name="dialog_adb_pairing_accessibility_enable">El emparejamiento automático lee el código del diálogo del sistema a través del servicio de accesibilidad de NFX, por lo que debe habilitarse, y solo durante el tiempo que sea necesario: el servicio se apaga una vez que se encuentra el código, o después de un minuto para ahorrar energía. NFX normalmente lo permite por sí solo, se necesita el permiso de ESCRITURA_SEGURIDAD_CONFIGURACION que aún no se ha otorgado una nueva instalación.\n\n activado en la siguiente pantalla, escriba el código usted mismo manualmente o otorgue el permiso una vez: \n\n ADB Shell pm grant %1$s Android.Permission.ESCRITURA_SEGURIDAD_CONFIGURACION</string>
+    <string name="dialog_adb_pairing_accessibility_navigate">Para iniciar el emparejamiento, siga estos pasos:\n- Vaya a \"Opciones de desarrollador\"\n- Habilite \"Depuración USB\" y \"Depuración inalámbrica\"\n- Toque el lado izquierdo de \"Depuración inalámbrica\"\n- Toque \"Emparejar dispositivo con código de emparejamiento\". NFX detectará automáticamente el código de emparejamiento.</string>
     <string name="adb_pairing_requires_multi_window">Favor entre en modo de pantalla dividida multiventana primero.</string>
     <string name="adb_pairing_requires_multi_window_reason">El sistema requiere que el diálogo de emparejamiento sea siempre visible. Usar el modo pantalla dividida es la única forma de que esta app y el diálogo del sistema sean visibles al mismo tiempo.</string>
     <string name="adb_error_key_store">No se puede generar clave para la depuración inalámbrica.\nEsto puede deberse a que el mecanismo KeyStore de este dispositivo está roto.</string>
     <string name="adb_error_stop_tcp">No se pudo detener ADB sobre TCP</string>
     <string name="adb_pair_required">Por favor, ve al paso de emparejamiento primero.</string>
     <string name="enable">Permitir</string>
-    <string name="auto_pair_instructions">Emparejar sin escribir un código: \n\n1. Opciones de desarrollador → Depuración inalámbrica \n2. El dispositivo se empareja con el código de emparejamiento \n\n Shizuku lee el código y el puerto directamente desde ese diálogo y se inicia. Mantenga el cuadro de diálogo abierto hasta que se empareje.</string>
+    <string name="auto_pair_instructions">Emparejar sin escribir un código: \n\n1. Opciones de desarrollador → Depuración inalámbrica \n2. El dispositivo se empareja con el código de emparejamiento \n\n NFX lee el código y el puerto directamente desde ese diálogo y se inicia. Mantenga el cuadro de diálogo abierto hasta que se empareje.</string>
     <string name="auto_pair_manual">Manual</string>
     <string name="development_settings">Opciones para desarrolladores</string>
     <string name="notification_settings">Opciones de notificación</string>
-    <string name="adb_pairing_tutorial_content_notification">Una notificación de Shizuku te ayudará a completar la vinculación.</string>
+    <string name="adb_pairing_tutorial_content_notification">Una notificación de NFX te ayudará a completar la vinculación.</string>
     <string name="adb_pairing_tutorial_content_steps">Vaya a “Opciones de desarrollador”, luego habilite “Depuración USB” y “Depuración inalámbrica”.</string>
     <string name="adb_pairing_tutorial_content_enter_pairing_code">Toca el lado izquierdo de \"Depuración inalámbrica\" y luego \"Emparejar dispositivo con código emparejamiento\". Introduce el código en la notificación para completar el emparejamiento.</string>
-    <string name="adb_pairing_tutorial_content_notification_blocked">El proceso de vinculación requiere que usted interactúe con las notificaciones de Shizuku. Por favor, permita que Shizuku pueda lanzar notificaciones.</string>
+    <string name="adb_pairing_tutorial_content_notification_blocked">El proceso de vinculación requiere que usted interactúe con las notificaciones de NFX. Por favor, permita que NFX pueda lanzar notificaciones.</string>
     <string name="adb_pairing_tutorial_content_miui">Usuarios de MIUI podrían necesitar cambiar el estilo de notificaciones por \"Android\" en \"Notificaciones\" - \"Barra de notificaciones\" dentro de los ajustes de sistema.</string>
     <string name="adb_pairing_tutorial_content_miui_2">De lo contrario, puede que no puedas introducir el código de emparejamiento desde la notificación.</string>
-    <string name="adb_pairing_tutorial_content_finish">Vuelve con Shizuku y empieza con Shizuku.</string>
-    <string name="adb_pairing_tutorial_content_network">Shizuku necesita acceder a la red local. Está controlada por el permiso de la red.</string>
-    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Algunos sistemas (como MIUI) impiden que las aplicaciones accedan a la red cuando no son visibles, incluso si la app utiliza un servicio en primer plano. Por favor, desactiva las funciones de optimización de batería para Shizuku en estos sistemas.</string>
+    <string name="adb_pairing_tutorial_content_finish">Vuelve con NFX y empieza con NFX.</string>
+    <string name="adb_pairing_tutorial_content_network">NFX necesita acceder a la red local. Está controlada por el permiso de la red.</string>
+    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Algunos sistemas (como MIUI) impiden que las aplicaciones accedan a la red cuando no son visibles, incluso si la app utiliza un servicio en primer plano. Por favor, desactiva las funciones de optimización de batería para NFX en estos sistemas.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[Iniciar vía root]]></string>
-    <string name="home_root_description"><![CDATA[Si usas Magisk, puedes probar %1$s. Para usuarios root, eventualmente reemplazará a Shizuku. Ten en cuenta que las aplicaciones existentes deben modificarse ligeramente para usar %2$s.]]></string>
+    <string name="home_root_description"><![CDATA[Si usas Magisk, puedes probar %1$s. Para usuarios root, eventualmente reemplazará a NFX. Ten en cuenta que las aplicaciones existentes deben modificarse ligeramente para usar %2$s.]]></string>
     <string name="home_root_button_start">Iniciar</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -102,12 +102,12 @@
     <!-- Home - Adb permissions limited -->
     <!-- Home - Dialogs -->
     <string name="home_dialog_reboot_required_title">Reinicio requirido</string>
-    <string name="home_dialog_reboot_required_message">Se requiere un reinicio del dispositivo para que Shizuku funcione correctamente. Para continuar, por favor reinicie su dispositivo.</string>
+    <string name="home_dialog_reboot_required_message">Se requiere un reinicio del dispositivo para que NFX funcione correctamente. Para continuar, por favor reinicie su dispositivo.</string>
     <string name="home_dialog_duplicate_app_detected_title">Duplicar app detectada</string>
     <string name="home_dialog_duplicate_app_detected_message">Otra versión de esta aplicación está instalada en su dispositivo. Para continuar, desinstale todas las versiones duplicadas y reinicie su dispositivo.</string>
     <!-- The same two states, said on the Home screen instead of in a dialog that only exits. Shizuku works either way; what is affected is what other apps find when they look Shizuku up. -->
-    <string name="home_permission_owned_by">Las aplicaciones se ven Shizuku por su permiso, y Android dice que %1$s lo declara: una copia de Shizuku, o lo que queda de uno. Esas aplicaciones lo preguntarán hasta que se desinstale y se reinicie el dispositivo.</string>
-    <string name="home_permission_not_registered">Las aplicaciones ven Shizuku por su permiso, y Android aún no lo ha registrado, que una reinstalación puede dejar atrás hasta que se reinicie el dispositivo. Shizuku en sí no se ve afectado; Otras aplicaciones pueden no encontrarlas.</string>
+    <string name="home_permission_owned_by">Las aplicaciones se ven NFX por su permiso, y Android dice que %1$s lo declara: una copia de NFX, o lo que queda de uno. Esas aplicaciones lo preguntarán hasta que se desinstale y se reinicie el dispositivo.</string>
+    <string name="home_permission_not_registered">Las aplicaciones ven NFX por su permiso, y Android aún no lo ha registrado, que una reinstalación puede dejar atrás hasta que se reinicie el dispositivo. NFX en sí no se ve afectado; Otras aplicaciones pueden no encontrarlas.</string>
     <string name="home_dialog_button_exit">Salir</string>
     <!-- Application management -->
     <string name="app_management_dialog_adb_is_limited_title">El permiso de adb es limitado</string>
@@ -115,7 +115,7 @@
     <string name="app_management_toggle_all">Activar/desactivar todo</string>
     <string name="app_management_search_hint">Buscar aplicaciones</string>
     <string name="app_management_sort">Clasificar</string>
-    <string name="apps_needs_shizuku">Inicie Shizuku para ver apps</string>
+    <string name="apps_needs_shizuku">Inicie NFX para ver apps</string>
     <string name="apps_empty">No hay apps</string>
     <string name="apps_filter_empty">No hay Apps en este filtro</string>
     <string name="apps_filter_all">Todo</string>
@@ -178,7 +178,7 @@
     <string name="tab_activities">Activities Launcher</string>
     <string name="tab_power">Encender</string>
     <string name="power_description">Reinicie el Encender o apague la pantalla sin usar los botones del teléfono.</string>
-    <string name="power_needs_shizuku">Inicie Shizuku primero para usar estas opciones.</string>
+    <string name="power_needs_shizuku">Inicie NFX primero para usar estas opciones.</string>
     <string name="power_reboot">Reiniciar</string>
     <string name="power_reboot_summary">Reinicie el teléfono.</string>
     <string name="power_reboot_confirm">El teléfono se reiniciará ahora. El trabajo no guardado se perderá.</string>
@@ -197,15 +197,15 @@
     <string name="power_confirm">Continuar</string>
     <string name="power_soft_reboot">Reinicio suave</string>
     <string name="power_soft_reboot_summary">Reinicio Suave Reinicie Android sin reiniciar el kernel. Requiere root.</string>
-    <string name="power_soft_reboot_confirm">Android se reiniciará. Todas las aplicaciones y la interfaz de usuario del sistema se cerrarán y reabrirán, pero el teléfono en sí no se reiniciará. Es posible que deba comenzar Shizuku de nuevo después.</string>
+    <string name="power_soft_reboot_confirm">Android se reiniciará. Todas las aplicaciones y la interfaz de usuario del sistema se cerrarán y reabrirán, pero el teléfono en sí no se reiniciará. Es posible que deba comenzar NFX de nuevo después.</string>
     <string name="power_restart_system_ui">Sistema de reinicio UI</string>
     <string name="power_restart_system_ui_summary">Reinicie la barra de estado, la barra de navegación y la Notificación Sombra. Requiere root.</string>
     <string name="power_needs_root">Se requiere root, pero este dispositivo no está rooteado.</string>
-    <string name="power_needs_shizuku_rooted">Shizuku no se está ejecutando. Sólo hay disponible reinicio suave.</string>
+    <string name="power_needs_shizuku_rooted">NFX no se está ejecutando. Sólo hay disponible reinicio suave.</string>
     <string name="power_failed">No se pudo ejecutar %1$s</string>
     <string name="tab_display">Mostrar</string>
     <string name="display_description">Cambie la resolución de la pantalla, la densidad y la frecuencia de actualización. Si la pantalla se vuelve difícil de usar, presione Restablecer junto a la configuración.</string>
-    <string name="display_needs_shizuku">Inicie Shizuku para ver o cambiar estas configuraciones.</string>
+    <string name="display_needs_shizuku">Inicie NFX para ver o cambiar estas configuraciones.</string>
     <string name="display_resolution">Resolución</string>
     <string name="display_resolution_summary">Tamaño de la pantalla en píxeles (ancho x altura). Esto cambia qué tan grande es el sistema de la pantalla, no la pantalla física.</string>
     <string name="display_density">Dendidad</string>
@@ -228,7 +228,7 @@
     <string name="activities_exported">Exportado</string>
     <string name="activities_not_exported">No exportado</string>
     <string name="activities_empty">Esta aplicación no declara actividades.</string>
-    <string name="activities_needs_shizuku">Shizuku no se está ejecutando, y solo puede iniciar una actividad que la aplicación mantiene a sí misma.</string>
+    <string name="activities_needs_shizuku">NFX no se está ejecutando, y solo puede iniciar una actividad que la aplicación mantiene a sí misma.</string>
     <string name="activities_refused">No se pudo empezar la actividad.</string>
     <string name="activities_long_press">Presiona por un tiempo una fila para ver el nombre completo.</string>
     <string name="activities_detail_package">Paquete</string>
@@ -330,7 +330,7 @@
     <string name="device_uptime">Tiempo de actividad</string>
     <string name="device_memory">Memoria</string>
     <string name="device_storage">Almacenamiento</string>
-    <string name="device_shizuku">Shizuku</string>
+    <string name="device_shizuku">NFX</string>
     <string name="device_server">Servidor</string>
     <string name="device_start_method">Iniciado por</string>
     <string name="device_transport">Transporte</string>
@@ -369,7 +369,7 @@
     <string name="log_capture_waiting">Grabación. Aún no ha registrado nada.</string>
     <string name="log_capture_empty">Todavía no se ha grabado nada.</string>
     <string name="log_capture_jump">Errores recientes</string>
-    <string name="log_capture_needs_shizuku">Para grabar el registro del dispositivo se necesita Shizuku: leer el registro de otra aplicación es un privilegio del shell, y esta aplicación toma prestado el shell.</string>
+    <string name="log_capture_needs_shizuku">Para grabar el registro del dispositivo se necesita NFX: leer el registro de otra aplicación es un privilegio del shell, y esta aplicación toma prestado el shell.</string>
     <string name="log_capture_stopped_size">La grabación se detuvo: alcanzó el límite de tamaño.</string>
     <string name="log_capture_stopped_time">Grabación detenida: llegó al límite de tiempo.</string>
     <string name="log_capture_stopped_ended">Grabación detenida: la secuencia de registro finalizó.</string>
@@ -381,11 +381,11 @@
     <string name="log_session_busy">%1$s todavía se está registrando.</string>
     <string name="log_session_running">grabando</string>
     <string name="permissions_usage_access">Permisos de uso</string>
-    <string name="permissions_usage_access_summary">Permite ocultar listas para ver qué aplicaciones estan abierta. Otorgado por Shizuku o en la configuración de acceso de Uso de Android.</string>
+    <string name="permissions_usage_access_summary">Permite ocultar listas para ver qué aplicaciones estan abierta. Otorgado por NFX o en la configuración de acceso de Uso de Android.</string>
     <string name="permissions_dump">Leer motivos de cierre de la app</string>
-    <string name="permissions_dump_summary">Permitamos que las listas ocultas indiquen cuándo se cierra una aplicación en lugar de simplemente ejecutarse en segundo plano. Concedido por Shizuku.</string>
+    <string name="permissions_dump_summary">Permitamos que las listas ocultas indiquen cuándo se cierra una aplicación en lugar de simplemente ejecutarse en segundo plano. Concedido por NFX.</string>
     <string name="home_other_methods">Otros métodos de inicio</string>
-    <string name="home_hiding_active_note">Shizuku puede detenerse mientras se abre una aplicación oculta porque ocultarla podría desactivar la conexión de depuración. Shizuku comienza de nuevo cuando se cierra la aplicación.</string>
+    <string name="home_hiding_active_note">NFX puede detenerse mientras se abre una aplicación oculta porque ocultarla podría desactivar la conexión de depuración. NFX comienza de nuevo cuando se cierra la aplicación.</string>
     <string name="hiding_vpn_client_none">No elegido: seleccione la aplicación VPN</string>
     <string name="hiding_notification_channel">Ocultar</string>
     <string name="hiding_notification_title">Las configuraciones están ocultas</string>
@@ -397,9 +397,9 @@
     <string name="hiding_resume">Reanudar</string>
     <string name="hiding_start_again">Empezar de nuevo</string>
     <string name="hiding_notification_stopped_title">Ocultar se detuvo</string>
-    <string name="hiding_notification_stopped_text">Shizuku no se está ejecutando, por lo que al ocultarlo no se puede detectar qué aplicación está abierta. Se han restaurado todas las configuraciones ocultas.</string>
-    <string name="hiding_carries_session_wireless">No aplicado: Shizuku utiliza la depuración inalámbrica, por lo que ocultarla detendría a Shizuku.</string>
-    <string name="hiding_carries_session_usb">No aplicado: Shizuku usa la depuración USB, por lo que ocultarlo detendría a Shizuku.</string>
+    <string name="hiding_notification_stopped_text">NFX no se está ejecutando, por lo que al ocultarlo no se puede detectar qué aplicación está abierta. Se han restaurado todas las configuraciones ocultas.</string>
+    <string name="hiding_carries_session_wireless">No aplicado: NFX utiliza la depuración inalámbrica, por lo que ocultarla detendría a NFX.</string>
+    <string name="hiding_carries_session_usb">No aplicado: NFX usa la depuración USB, por lo que ocultarlo detendría a NFX.</string>
     <string name="tab_settings">Configuración</string>
     <string name="home_status_transport_label">Transporte</string>
     <string name="home_status_started_with">Actual</string>
@@ -495,8 +495,8 @@
     <string name="modules_action_short">Accion</string>
     <string name="modules_service_short">Servicio</string>
     <string name="modules_service_running_short">Ejecutando</string>
-    <string name="modules_summary">Agregue funciones a Shizuku con módulos de la comunidad</string>
-    <string name="modules_warning">Un módulo es el script de shell de otra persona y se ejecuta a través de Shizuku con el mismo acceso que tiene Shizuku. Instale solo en lo que confíe y lea los comandos que solicita ejecutar.</string>
+    <string name="modules_summary">Agregue funciones a NFX con módulos de la comunidad</string>
+    <string name="modules_warning">Un módulo es el script de shell de otra persona y se ejecuta a través de NFX con el mismo acceso que tiene NFX. Instale solo en lo que confíe y lea los comandos que solicita ejecutar.</string>
     <string name="modules_none">Aún no hay módulos instalados.</string>
     <string name="modules_search">Buscar módulos</string>
     <string name="modules_no_match">Ningún módulo coincide con eso.</string>
@@ -515,7 +515,7 @@
     <string name="modules_delete_confirm">Eliminar ¿%1$s?</string>
     <string name="modules_delete_confirm_message">Se elimina el directorio, se incluyen los registros.</string>
     <string name="modules_review_title">¿Ejecutar este comando?</string>
-    <string name="modules_review_message">%1$s le pidió a Shizuku que ejecutara:</string>
+    <string name="modules_review_message">%1$s le pidió a NFX que ejecutara:</string>
     <string name="modules_review_approve">Ejecutarlo</string>
     <string name="modules_result_title">%1$s</string>
     <string name="modules_result_exit">Código de fin %1$d</string>
@@ -531,22 +531,22 @@
     <string name="intents_title">Intentos</string>
     <string name="about_package">Paquete</string>
     <string name="check_for_updates_now">Buscar ahora</string>
-    <string name="start_failed">No se pudo iniciar Shizuku</string>
-    <string name="start_failed_write_secure_settings">Shizuku no puede activar la depuración inalámbrica sin el permiso WRITE_SECURE_SETTINGS. Actívalo tú mismo en Opciones de desarrollador &gt; -> Depuración inalámbrica, o concede el permiso con <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. Una vez que Shizuku se está ejecutando, mantiene ese permiso por sí mismo, por lo que esto se hace una sola vez.</string>
+    <string name="start_failed">No se pudo iniciar NFX</string>
+    <string name="start_failed_write_secure_settings">NFX no puede activar la depuración inalámbrica sin el permiso WRITE_SECURE_SETTINGS. Actívalo tú mismo en Opciones de desarrollador &gt; -> Depuración inalámbrica, o concede el permiso con <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. Una vez que NFX se está ejecutando, mantiene ese permiso por sí mismo, por lo que esto se hace una sola vez.</string>
     <string name="action_open_wireless_debugging">Depuración inalámbrica</string>
     <string name="start_failed_unsupported">Este dispositivo no puede iniciarlo en segundo plano</string>
     <string name="start_failed_wifi_required">Conéctate a una red Wi-Fi; el sistema desactiva la depuración inalámbrica si no hay ninguna. O inicia desde una computadora usando el comando ADB de abajo.</string>
     <string name="start_failed_binder_went_away">El servicio se inició y luego se detuvo de nuevo, por lo que nada puede usarlo todavía. Eso pasa cuando el servidor se cierra con la aplicación por la que pasó el inicio, que es lo que hace el payload después de iniciarlo. Intenta iniciar de nuevo.</string>
     <string name="start_failed_no_port">No se encontró ningún puerto de depuración inalámbrica. Asegúrate de que la depuración inalámbrica esté habilitada y el Wi-Fi conectado.</string>
-    <string name="start_failed_no_port_no_permission">No se encontró ningún puerto de depuración inalámbrica, y Shizuku no puede activar la depuración inalámbrica sin WRITE_SECURE_SETTINGS: <b>adb shell pm grant %1$s android. ermission.WRITE_SECURE_SETTINGS</b>. O inicie Shizuku a través de la depuración USB una vez que se conceda después.</string>
+    <string name="start_failed_no_port_no_permission">No se encontró ningún puerto de depuración inalámbrica, y NFX no puede activar la depuración inalámbrica sin WRITE_SECURE_SETTINGS: <b>adb shell pm grant %1$s android. ermission.WRITE_SECURE_SETTINGS</b>. O inicie NFX a través de la depuración USB una vez que se conceda después.</string>
     <string name="start_failed_no_auth">La depuración inalámbrica no está permitida en esta red. Vincula el dispositivo de nuevo.</string>
     <string name="action_dismiss">Descartar</string>
     <string name="action_connect_wifi">Conectar</string>
     <string name="action_pair">Vincular</string>
     <string name="start_failed_pairing_required">Este dispositivo no está vinculado para la depuración inalámbrica. Vínculo de nuevo.</string>
     <string name="start_failed_connection_lost">La conexión ADB se cerró durante el inicio. Inténtalo de nuevo.</string>
-    <string name="start_failed_usb_no_port">Ningún puerto local ADB está abierto Android lo borra en cada reinicio, y reabrirlo necesita una conexión para tomarlo. Conéctate a Wi-Fi y Shizuku lo reabrirá a través de la depuración inalámbrica, ejecuta <b>adb tcpip 5555</b> desde una computadora, o elija <b>Iniciar sin Wi-Fi</b> como método de inicio para iniciar la depuración inalámbrica en su lugar.</string>
-    <string name="start_failed_root_unavailable">Root ya no está disponible en este dispositivo, por lo que Shizuku no puede iniciarse mediante root. Elige otro método de inicio.</string>
+    <string name="start_failed_usb_no_port">Ningún puerto local ADB está abierto Android lo borra en cada reinicio, y reabrirlo necesita una conexión para tomarlo. Conéctate a Wi-Fi y NFX lo reabrirá a través de la depuración inalámbrica, ejecuta <b>adb tcpip 5555</b> desde una computadora, o elija <b>Iniciar sin Wi-Fi</b> como método de inicio para iniciar la depuración inalámbrica en su lugar.</string>
+    <string name="start_failed_root_unavailable">Root ya no está disponible en este dispositivo, por lo que NFX no puede iniciarse mediante root. Elige otro método de inicio.</string>
     <string name="start_failed_system_needs_app">El método de inicio del sistema debe iniciarse desde la aplicación.</string>
     <string name="start_failed_system_no_exploit">Este dispositivo no incluye el agente FOTA de Samsung (com.sdet.fotaagent), que es el único componente que el método de inicio del sistema puede usar, por lo que no hay nada que escalar aquí. Cambia el método de inicio del sistema a Comando personalizado: la aplicación te mostrará qué ejecutar con una elevación que tu dispositivo sí tenga.</string>
     <string name="start_failed_no_binder">El servicio no apareció en un minuto. Ambas mitades guardan un registro: el iniciador en ShizukuServiceStarter y el traspaso en BinderSender. Un lector de logcat filtrado a esos dos muestra si el iniciador llegó a bifurcar el servidor y si el servidor alguna vez pidió el binder.</string>
@@ -564,7 +564,7 @@
     <string name="settings_theme_system">Seguir al sistema</string>
     <string name="settings_theme_light">Claro</string>
     <string name="settings_theme_dark">Oscuro</string>
-    <string name="intents_description">Las aplicaciones de automatización pueden controlar Shizuku con estas emisiones. El token de autenticación debe pasarse en el extra \"auth\".</string>
+    <string name="intents_description">Las aplicaciones de automatización pueden controlar NFX con estas emisiones. El token de autenticación debe pasarse en el extra \"auth\".</string>
     <string name="intents_require_token">Requiere el token de autenticación</string>
     <string name="intents_require_token_summary">Los intents de inicio y parada necesitan el token de abajo. Desactiva esto para enviarlos sin un token.</string>
     <string name="intents_token">Token de autenticación</string>
@@ -582,7 +582,7 @@
     <string name="intents_values">Para aplicaciones de automatización</string>
     <string name="intents_package">Paquete</string>
     <string name="intents_action_for">%1$s acción</string>
-    <string name="home_battery_warning">Es posible que Shizuku se cierre en segundo plano. Permite que ignore las optimizaciones de batería.</string>
+    <string name="home_battery_warning">Es posible que NFX se cierre en segundo plano. Permite que ignore las optimizaciones de batería.</string>
     <string name="batch_selected_count">%1$d seleccionado</string>
     <string name="app_management_action_select_all">Seleccionar todo</string>
     <string name="app_management_action_grant">Conceder</string>
@@ -598,7 +598,7 @@
     <string name="terminal_tutorial_miui">Los usuarios han informado que MIUI rompe el Storage
         Access Framework, que es utilizado por la función de exportación.</string>
     <string name="terminal_tutorial_miui_2">Si está utilizando MIUI, es posible que tenga que
-        extraer el archivo de la carpeta de activos en el APK de Shizuku.</string>
+        extraer el archivo de la carpeta de activos en el APK de NFX.</string>
     <string name="terminal_tutorial_1">Exportar los archivos a una nueva carpeta.</string>
     <string name="terminal_tutorial_1_description">Se exportarán dos archivos: %1$s y %2$s. Si los
         archivos ya existen en la carpeta seleccionada, se eliminarán.</string>
@@ -610,15 +610,15 @@
         alias para %2$s en el archivo de configuración %3$s de su aplicación de terminal.</string>
     <string name="terminal_tutorial_3">Abra un shell con el siguiente comando:</string>
     <!-- Stealth -->
-    <string name="stealth_description">Ocultar Shizuku de aplicaciones que se niegan a ejecutar cuando está instalado. Se exporta un clon con un nombre de paquete diferente para que se instale.</string>
-    <string name="stealth_warning_compatibility">Algunas aplicaciones que usan Shizuku pueden no funcionar cuando Shizuku está oculto porque intentan detectar si Shizuku está instalado.</string>
-    <string name="stealth_warning_compatibility_2">Como un workaround, puede mostrar temporalmente Shizuku, que instala un stub con el nombre del paquete original. Cuando haya terminado, puede volver a ocultar Shizuku.</string>
-    <string name="stealth_warning_compatibility_3">Pulsa esta tarjeta para copiar un fragmento de código que puedes enviar al desarrollador para que su verificación \"Shizuku instalado\" funcione cuando Shizuku esté oculto.</string>
-    <string name="stealth_warning_detection">Algunas aplicaciones todavía pueden detectar Shizuku incluso cuando están ocultas.</string>
-    <string name="stealth_info_reconfigure">Necesitará volver a emparejar y reconfigurar Shizuku después de instalar la versión oculta.</string>
+    <string name="stealth_description">Ocultar NFX de aplicaciones que se niegan a ejecutar cuando está instalado. Se exporta un clon con un nombre de paquete diferente para que se instale.</string>
+    <string name="stealth_warning_compatibility">Algunas aplicaciones que usan NFX pueden no funcionar cuando NFX está oculto porque intentan detectar si NFX está instalado.</string>
+    <string name="stealth_warning_compatibility_2">Como un workaround, puede mostrar temporalmente NFX, que instala un stub con el nombre del paquete original. Cuando haya terminado, puede volver a ocultar NFX.</string>
+    <string name="stealth_warning_compatibility_3">Pulsa esta tarjeta para copiar un fragmento de código que puedes enviar al desarrollador para que su verificación \"NFX instalado\" funcione cuando NFX esté oculto.</string>
+    <string name="stealth_warning_detection">Algunas aplicaciones todavía pueden detectar NFX incluso cuando están ocultas.</string>
+    <string name="stealth_info_reconfigure">Necesitará volver a emparejar y reconfigurar NFX después de instalar la versión oculta.</string>
     <string name="stealth_info_rish">Usuarios de Rish: vuelva a exportar los archivos después de instalar la versión oculta.</string>
     <string name="stealth_info_intents">Usuario: actualiza tus intenciones con el nombre del nuevo paquete.</string>
-    <string name="stealth_info_update">Debe actualizar Shizuku a través de la aplicación cuando utilice la versión oculta porque tiene una firma diferente.</string>
+    <string name="stealth_info_update">Debe actualizar NFX a través de la aplicación cuando utilice la versión oculta porque tiene una firma diferente.</string>
     <string name="stealth_package_name">Nombre del paquete (opcional)</string>
     <string name="stealth_package_name_helper_text">Si se deja vacío, se añadirá un sufijo aleatorio al nombre del paquete.</string>
     <string name="stealth_error_ends_with_period">El nombre del paquete no puede terminar con un periodo.</string>
@@ -629,19 +629,19 @@
     <string name="stealth_display_name_helper_text">Se muestra como el nombre de la copia en el lanzador y la lista de aplicaciones. Si queda vacía, la copia mantiene el nombre de esta aplicación.</string>
     <string name="stealth_error_display_name_too_long">Manténgalo a %1$d caracteres o menos.</string>
     <string name="stealth_uninstall_required">Es necesario desinstalar</string>
-    <string name="stealth_uninstall_message">El sistema ahora le pedirá que desinstale Shizuku. Luego, instale el clon.</string>
+    <string name="stealth_uninstall_message">El sistema ahora le pedirá que desinstale NFX. Luego, instale el clon.</string>
     <string name="stealth_uninstall">Desinstalar</string>
     <string name="stealth_hide">Ocultar</string>
     <string name="stealth_unhide">Mostrar con stub</string>
-    <string name="stealth_stub_note">Mostrar crea un pequeño artículo incompleto en el nombre original de Shizuku para que las aplicaciones que lo busquen puedan seguir funcionando. El artículo incompleto reenvía solicitudes a la aplicación oculta de Shizuku. No es una segunda copia. Ocultar elimina el artículo incompleto.</string>
+    <string name="stealth_stub_note">Mostrar crea un pequeño artículo incompleto en el nombre original de NFX para que las aplicaciones que lo busquen puedan seguir funcionando. El artículo incompleto reenvía solicitudes a la aplicación oculta de NFX. No es una segunda copia. Ocultar elimina el artículo incompleto.</string>
     <!-- Settings -->
     <string name="settings_start_on_boot">Iniciar al arrancar</string>
     <string name="settings_use_system_color">Usar el color del tema del sistema</string>
     <string name="settings_use_system_color_summary">Seguir la paleta del sistema</string>
     <string name="settings_watchdog">Perro guardián</string>
-    <string name="settings_watchdog_summary">Reiniciar automáticamente Shizuku si falla</string>
+    <string name="settings_watchdog_summary">Reiniciar automáticamente NFX si falla</string>
     <string name="settings_auto_disable_wireless_debugging">Ocultar la depuración inalámbrica</string>
-    <string name="settings_auto_disable_wireless_debugging_summary">Desactiva la depuración inalámbrica cuando Shizuku se detiene.</string>
+    <string name="settings_auto_disable_wireless_debugging_summary">Desactiva la depuración inalámbrica cuando NFX se detiene.</string>
     <string name="settings_start_method">Método por defecto</string>
     <string name="settings_start_method_root_unavailable">Este dispositivo no tiene root, así que empieza a recurrir a la depuración inalámbrica.</string>
     <string name="start_method_wireless_no_network">Sin Wi-Fi</string>
@@ -651,37 +651,37 @@
     <string name="start_method_root">Root</string>
     <string name="transport_adb">adb</string>
     <string name="settings_adb_without_developer_options">Ocultar opciones de desarrollador</string>
-    <string name="settings_adb_without_developer_options_summary">Desactiva las opciones de desarrollador, pero mantiene los ajustes ADB que Shizuku necesita. Shizuku seguirá funcionando, y estos ajustes se restaurarán después de cada reinicio.</string>
+    <string name="settings_adb_without_developer_options_summary">Desactiva las opciones de desarrollador, pero mantiene los ajustes ADB que NFX necesita. NFX seguirá funcionando, y estos ajustes se restaurarán después de cada reinicio.</string>
     <string name="start_failed_developer_options_off">Las opciones de desarrollador están desactivadas porque el ADB sin opciones de desarrollador está activado </string>
     <string name="action_turn_on_developer_options">Activar las opciones de desarrollador</string>
     <string name="toast_developer_options_required">Desactiva ADB sin opciones de desarrollador</string>
     <string name="settings_adb_without_developer_options_confirm_title">¿Desactivar las opciones de desarrollador?</string>
-    <string name="settings_adb_without_developer_options_confirm_message">Shizuku seguirá trabajando y restaurará sus ajustes de ADB después de un reinicio. No podrá abrir las opciones de desarrollador para cambiar los ajustes de depuración USB o inalámbrica o emparejar un nuevo dispositivo. ¿Desactivar las opciones de desarrollador?</string>
+    <string name="settings_adb_without_developer_options_confirm_message">NFX seguirá trabajando y restaurará sus ajustes de ADB después de un reinicio. No podrá abrir las opciones de desarrollador para cambiar los ajustes de depuración USB o inalámbrica o emparejar un nuevo dispositivo. ¿Desactivar las opciones de desarrollador?</string>
     <string name="settings_adb_without_developer_options_confirm">Apagar</string>
-    <string name="settings_adb_without_developer_options_failed">Shizuku no podía cambiar la configuración. Concede WRITE_SECURE_SETTINGS primero en la página de permisos.</string>
+    <string name="settings_adb_without_developer_options_failed">NFX no podía cambiar la configuración. Concede WRITE_SECURE_SETTINGS primero en la página de permisos.</string>
     <string name="settings_wait_for_wifi">Esperando conexión Wi-Fi antes de continuar</string>
-    <string name="settings_wait_for_wifi_summary">Se reinicia automáticamente Shizuku y espera una conexión Wi-Fi sin contador.</string>
+    <string name="settings_wait_for_wifi_summary">Se reinicia automáticamente NFX y espera una conexión Wi-Fi sin contador.</string>
     <string name="settings_unavailable_while_forcing_wireless">No disponible mientras Iniciar sin Wi-Fi está activado.</string>
     <string name="settings_force_wireless_debugging">Empieza sin Wi-Fi (experimental)</string>
-    <string name="settings_force_wireless_debugging_summary">Intenta arrancar Shizuku sin depuración por Wi-Fi ni USB. Esto también desactiva la espera por Wi-Fi y la depuración inalámbrica automática.</string>
+    <string name="settings_force_wireless_debugging_summary">Intenta arrancar NFX sin depuración por Wi-Fi ni USB. Esto también desactiva la espera por Wi-Fi y la depuración inalámbrica automática.</string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
-    <string name="settings_needs_write_secure_settings">Necesita el permiso WRITE_SECURE_SETTINGS. Empieza a concederlo a Shizuku una vez, luego vuelve.</string>
+    <string name="settings_needs_write_secure_settings">Necesita el permiso WRITE_SECURE_SETTINGS. Empieza a concederlo a NFX una vez, luego vuelve.</string>
     <string name="state_on">Encendido</string>
     <string name="state_off">Apagado</string>
     <string name="settings_persist_adb_port">Conserva el puerto ADB tras reiniciar</string>
-    <string name="settings_persist_adb_port_summary">Mantiene el puerto ADB abierto tras cada reinicio, así Shizuku puede arrancar sin Wi-Fi ni hotspot.</string>
+    <string name="settings_persist_adb_port_summary">Mantiene el puerto ADB abierto tras cada reinicio, así NFX puede arrancar sin Wi-Fi ni hotspot.</string>
     <string name="settings_persist_adb_port_ok">El puerto ADB permanecerá abierto tras el reinicio</string>
-    <string name="settings_persist_adb_port_refused">Android no permitió esta acción. Shizuku debe ejecutarse como root o como usuario del sistema.</string>
-    <string name="settings_persist_adb_port_unavailable">Empieza primero con Shizuku. Esta configuración solo puede cambiarse a través de Shizuku.</string>
+    <string name="settings_persist_adb_port_refused">Android no permitió esta acción. NFX debe ejecutarse como root o como usuario del sistema.</string>
+    <string name="settings_persist_adb_port_unavailable">Empieza primero con NFX. Esta configuración solo puede cambiarse a través de NFX.</string>
     <string name="settings_system_start_method">Método de inicio del sistema</string>
     <string name="settings_system_start_method_exploit">Samsung (Agente FOTA)</string>
     <string name="settings_system_start_method_custom">Comando personalizado</string>
     <string name="home_system_title">Iniciar vía System UID</string>
-    <string name="home_system_summary">Ejecuta Shizuku como usuario del sistema (UID 1000) en lugar de en adb: Solo Samsung, a través de su agente FOTA</string>
-    <string name="home_adb_command_summary">Iniciar Shizuku desde una computadora con ADB. Presiona para copiar el comando</string>
+    <string name="home_system_summary">Ejecuta NFX como usuario del sistema (UID 1000) en lugar de en adb: Solo Samsung, a través de su agente FOTA</string>
+    <string name="home_adb_command_summary">Iniciar NFX desde una computadora con ADB. Presiona para copiar el comando</string>
     <string name="settings_tcp_mode">Modo TCP</string>
-    <string name="settings_tcp_mode_summary">"Permite que Shizuku se reinicie sin Wi-Fi. (Shizuku
+    <string name="settings_tcp_mode_summary">"Permite que NFX se reinicie sin Wi-Fi. (NFX
         debe haberse iniciado una vez desde el reinicio)."</string>
     <string name="settings_tcp_mode_dialog_close_port">"El puerto TCP se cerrará inmediatamente.
         Necesitará Wi-Fi para volver a activar el modo TCP. ¿Continuar?"</string>
@@ -689,12 +689,12 @@
     <string name="settings_tcp_mode_close_usb_off">No cerrado: la depuración USB está desactivada. Enciéndelo y vuelve a intentarlo.</string>
     <string name="settings_tcp_mode_close_nothing">Ningún puerto TCP fue abierto.</string>
     <string name="settings_restart_dialog_title">Reinicio necesario</string>
-    <string name="settings_restart_dialog_message">Shizuku necesita reiniciar para poder aplicar
+    <string name="settings_restart_dialog_message">NFX necesita reiniciar para poder aplicar
         esta configuración.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Se requiere Wi-Fi. Shizuku seguirá funcionando y esperará a que se conecte Wi-Fi antes de reiniciar en segundo plano.</b>]]></string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Se requiere Wi-Fi. NFX seguirá funcionando y esperará a que se conecte Wi-Fi antes de reiniciar en segundo plano.</b>]]></string>
     <string name="settings_tcp_port">Puerto TCP</string>
     <string name="settings_auto_disable_usb_debugging">Desactivar depuración USB</string>
-    <string name="settings_auto_disable_usb_debugging_summary">Desactivar depuración USB al detener Shizuku</string>
+    <string name="settings_auto_disable_usb_debugging_summary">Desactivar depuración USB al detener NFX</string>
     <string name="settings_language">Idioma</string>
     <string name="settings_language_system">Por defecto del sistema</string>
     <string name="settings_black_night_theme">Tema Noche cerrada</string>
@@ -703,7 +703,7 @@
     <string name="settings_update_stable">Estable</string>
     <string name="settings_update_beta">Dev</string>
     <string name="settings_permissions">Permisos</string>
-    <string name="settings_permissions_summary">Lo que requiere Shizuku, y lo que está permitido</string>
+    <string name="settings_permissions_summary">Lo que requiere NFX, y lo que está permitido</string>
     <string name="permissions_allowed">Permitido</string>
     <string name="permissions_action_allow">Permitir</string>
     <string name="permissions_action_settings">Configuración</string>
@@ -713,17 +713,11 @@
     <string name="permissions_nearby">Dispositivos cercanos</string>
     <string name="permissions_nearby_summary">Encuentra el puerto de depuración inalámbrico en tu red.</string>
     <string name="permissions_write_secure_settings">Escribir configuraciones seguras</string>
-    <string name="permissions_write_secure_settings_summary">Permite a Shizuku activar la depuración inalámbrica. Sólo ADB puede conceder este permiso.</string>
+    <string name="permissions_write_secure_settings_summary">Permite a NFX activar la depuración inalámbrica. Sólo ADB puede conceder este permiso.</string>
     <string name="permissions_accessibility">Servicio de accesibilidad</string>
     <string name="permissions_accessibility_summary">Lee el código de emparejamiento automáticamente.</string>
     <string name="permissions_battery_summary">Previene que Android cierre el proceso de Skizuku en segundo plano.</string>
-    <string name="settings_help">Ayuda</string>
-    <string name="settings_translate">Participa en la traducción</string>
-    <string name="settings_translate_note">Traducir la aplicación en Crowdin.</string>
-    <string name="crowdin_url">https://crowdin.com/project/Shizuku-Next</string>
     <string name="settings_report_bug">Informar de un error</string>
-    <string name="settings_contributors">Contribuidor</string>
-    <string name="settings_contributors_hint">Arrastre para explorar · Pinch para acercar · Toque para ver detalles</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
       so the singular is read more often than the plural is.
@@ -755,16 +749,6 @@
     <string name="settings_legacy_pairing_summary">Introduzca el código de emparejamiento en un
         cuadro de diálogo en lugar de una notificación</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">Primero, haga lo siguiente:</string>
-    <string name="bug_report_dialog_update">Comprueba que estás utilizando ^1.</string>
-    <string name="bug_report_dialog_link_update">última versión</string>
-    <string name="bug_report_dialog_wiki">Lea el ^1 y siga todos los pasos de solución de problemas
-        relevantes.</string>
-    <string name="bug_report_dialog_link_wiki">wiki</string>
-    <string name="bug_report_dialog_issues">Busque en todos los ^1 para ver si su error ya ha sido
-        informado.</string>
-    <string name="bug_report_dialog_link_issues">problemas existentes</string>
-    <string name="bug_report_dialog_method">Envíe un problema en ^1.</string>
     <string name="bug_report_dialog_log_note">Si el problema necesita un registro, compártalo completo a continuación y adjúntelo.</string>
     <string name="bug_report_dialog_share_log">Buscar en el registro</string>
     <!-- Snackbar -->
@@ -787,7 +771,7 @@
     <string name="update_success">Actualización completa</string>
     <string name="update_failed">Error al actualizar</string>
     <!-- Toast -->
-    <string name="toast_pairing_timeout">El servicio de emparejamiento de Shizuku se agotó.</string>
+    <string name="toast_pairing_timeout">El servicio de emparejamiento de NFX se agotó.</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme">Tema</string>
     <string name="dark_theme_off">Siempre ligero</string>
@@ -808,7 +792,7 @@
     <string name="notification_adb_pairing_stop_searching">Detener búsqueda</string>
     <string name="notification_adb_pairing_working_title">Emparejamiento en proceso</string>
     <string name="notification_adb_pairing_succeed_title">Emparejado completo</string>
-    <string name="notification_adb_pairing_succeed_text">Puede iniciar el servicio Shizuku ahora.</string>
+    <string name="notification_adb_pairing_succeed_text">Puede iniciar el servicio NFX ahora.</string>
     <string name="notification_adb_pairing_failed_title">Fallo de emparejamiento</string>
     <string name="notification_adb_pairing_retry">Reintentar</string>
     <string name="notification_auth_missing_title">Token de autenticación requerido</string>
@@ -816,8 +800,8 @@
     <string name="notification_auth_invalid_title">Token de autenticación no válido</string>
     <string name="notification_auth_invalid_message">Asegúrese de que el token en su intención coincide con el que se muestra en \"Ver intentos\" en la app.</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">acceso Shizuku</string>
-    <string name="permission_description">Permitir que la aplicación use Shizuku.</string>
+    <string name="permission_label">acceso NFX</string>
+    <string name="permission_description">Permitir que la aplicación use NFX.</string>
     <string name="permission_warning_template"><![CDATA[Permitir <b>%1$s</b> en %2$s\?]]></string>
     <string name="grant_dialog_button_allow_always">Permitir siempre</string>
     <string name="grant_dialog_button_deny">"Denegar"</string>
@@ -826,29 +810,29 @@
     <string name="start_with_root_failed">No es posible iniciar el servicio porque no tienes
         permisos de root o este dispositivo no está rooteado.</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">Iniciando Shizuku…</string>
+    <string name="wadb_notification_title">Iniciando NFX…</string>
     <string name="wadb_notification_wifi_required">Esperando conexión Wi-Fi antes de continuar</string>
     <string name="wadb_notification_retry">Esperando para volver a intentarloEnglish
         Sell_adb Suzuki running</string>
-    <string name="wadb_notification_connecting">Iniciando Shizuku con ADB inalámbrico</string>
+    <string name="wadb_notification_connecting">Iniciando NFX con ADB inalámbrico</string>
     <string name="wadb_notification_waiting_for_unlock">Desbloquear el dispositivo para continuar</string>
     <string name="wadb_notification_forcing_wireless">Manteniendo la depuración inalámbrica activada</string>
     <string name="wadb_error_title">Error al iniciar en el arranque</string>
     <string name="wadb_error_notify_dev">Toque para notificar al desarrollador.</string>
     <string name="wadb_permission_error_notification_title">Error de permiso</string>
-    <string name="wadb_permission_error_notification_content">Shizuku necesita WRITE_SECURE_SETTINGS
+    <string name="wadb_permission_error_notification_content">NFX necesita WRITE_SECURE_SETTINGS
         para iniciarse al arrancar. Pulsa para saber cómo habilitarlo.</string>
     <!-- Shell -->
     <string name="shell_title">Shell</string>
-    <string name="shell_backend_shizuku">Shizuku</string>
+    <string name="shell_backend_shizuku">NFX</string>
     <string name="shell_backend_root">Root</string>
-    <string name="shell_backend_shizuku_status">Shizuku, uid %1$d</string>
+    <string name="shell_backend_shizuku_status">NFX, uid %1$d</string>
     <string name="shell_backend_root_status">Root, uid 0</string>
     <string name="shell_backend_offline">Ningún comando runner está activo</string>
-    <string name="shell_needs_a_backend">Inicie Shizuku o seleccione Root en un dispositivo rooteado: uno de los dos ejecuta los comandos. Los trabajos de raíz con Shizuku se detuvieron.</string>
-    <string name="shell_intro">Se ejecuta como el uid que Shizuku ejecuta (2000 sobre adb, 0 con root), por lo que alcanza todo lo que ese uid puede: /sdcard, /system y datos de la aplicación con root. Se abre en /sdcard, un comando a la vez; sin tty detrás, los programas que necesitan una terminal (nano, un indicador ssh) no se ejecutarán aquí.</string>
+    <string name="shell_needs_a_backend">Inicie NFX o seleccione Root en un dispositivo rooteado: uno de los dos ejecuta los comandos. Los trabajos de raíz con NFX se detuvieron.</string>
+    <string name="shell_intro">Se ejecuta como el uid que NFX ejecuta (2000 sobre adb, 0 con root), por lo que alcanza todo lo que ese uid puede: /sdcard, /system y datos de la aplicación con root. Se abre en /sdcard, un comando a la vez; sin tty detrás, los programas que necesitan una terminal (nano, un indicador ssh) no se ejecutarán aquí.</string>
     <string name="shell_root_granted">Root está disponible: los comandos se ejecutarán como uid 0.</string>
-    <string name="shell_root_refused">Se denegó el acceso raíz, por lo que los comandos utilizarán Shizuku. Otorgue a esta aplicación acceso root para usar Root.</string>
+    <string name="shell_root_refused">Se denegó el acceso raíz, por lo que los comandos utilizarán NFX. Otorgue a esta aplicación acceso root para usar Root.</string>
     <string name="shell_search">Buscar</string>
     <string name="shell_search_hint">Buscar</string>
     <string name="shell_search_position">%1$d de %2$d</string>
@@ -892,10 +876,10 @@
     <string name="shell_quick_force_stop">Forzar cierre</string>
     <string name="shell_adb_prefix_dropped">Se ejecutó en el dispositivo: el prefijo de shell adb es lo que escribirías en una computadora.</string>
     <string name="shell_adb_host_devices">Eso enumera los dispositivos conectados a una computadora. Este es el dispositivo, por lo que no hay nada que enumerar: `pm list packages` es lo que está instalado en él.</string>
-    <string name="shell_adb_host_install">La instalación pertenece al lado de la computadora de ese comando. Aquí el mismo trabajo es <b>pm install /path/to/app.apk</b>, ejecuta Shizuku como cualquier otro comando.</string>
+    <string name="shell_adb_host_install">La instalación pertenece al lado de la computadora de ese comando. Aquí el mismo trabajo es <b>pm install /path/to/app.apk</b>, ejecuta NFX como cualquier otro comando.</string>
     <string name="shell_adb_host_transfer">Ese necesita una computadora en un extremo. En el dispositivo, los archivos se mueven con <b>cp</b> y las rutas son a las que puede llegar este shell.</string>
     <string name="shell_adb_host_generic">Esa es la mitad de adb que se ejecuta en una computadora y no tiene nada sobre lo que actuar desde el interior del dispositivo. En su lugar, ejecute el comando del dispositivo aquí: <b>adb shell ps</b> y <b>ps</b> son lo mismo.</string>
-    <string name="shell_adb_host_help">Este es el shell del dispositivo en lugar de adb en una computadora: los comandos se ejecutan como el uid que ejecuta Shizuku, uno a la vez. Comience con <b>paquetes de lista pm</b>, <b>batería dumpsys</b> o la Biblioteca encima de la entrada.</string>
+    <string name="shell_adb_host_help">Este es el shell del dispositivo en lugar de adb en una computadora: los comandos se ejecutan como el uid que ejecuta NFX, uno a la vez. Comience con <b>paquetes de lista pm</b>, <b>batería dumpsys</b> o la Biblioteca encima de la entrada.</string>
     <string name="shell_paste">Pega un comando</string>
     <string name="shell_paste_empty">Nada en el portapapeles para copiar.</string>
     <string name="shell_jump_to_newest">Saltar a la salida más reciente</string>
@@ -911,14 +895,14 @@
     <!-- Watchdog -->
     <string name="watchdog_running">El perro guardián está en marcha</string>
     <string name="watchdog_turn_off">Apaga</string>
-    <string name="watchdog_shizuku_crashed_title">Shizuku se estrelló recientemente</string>
+    <string name="watchdog_shizuku_crashed_title">NFX se estrelló recientemente</string>
     <string name="watchdog_shizuku_crashed_text">El servicio de vigilancia se reinició. Toca para
         conocer posibles soluciones para evitar futuras fallas.</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">Desactivar alertas</string>
-    <string name="watchdog_shizuku_recovered_title">Shizuku se está ejecutando nuevamente</string>
+    <string name="watchdog_shizuku_recovered_title">NFX se está ejecutando nuevamente</string>
     <string name="watchdog_shizuku_recovered_text">El perro guardián lo inició nuevamente luego de que se cerrara inesperadamente.</string>
-    <string name="watchdog_given_up_title">Shizuku no pudo iniciarse</string>
-    <string name="watchdog_given_up_text">Shizuku comenzó %1$d veces y no regresó. Comenzarlo de nuevo no ayudará hasta que se solucione el motivo.</string>
+    <string name="watchdog_given_up_title">NFX no pudo iniciarse</string>
+    <string name="watchdog_given_up_text">NFX comenzó %1$d veces y no regresó. Comenzarlo de nuevo no ayudará hasta que se solucione el motivo.</string>
     <string name="watchdog_given_up_action_start">Iniciar</string>
     <string name="watchdog_not_running_title">El perro guardián no se está ejecutando</string>
     <string name="watchdog_not_running_text">Android no dejaba que se iniciara solo. Toque para iniciarlo de nuevo.</string>
@@ -929,15 +913,15 @@
     <string name="toast_copied_to_clipboard">Copiado al portapapeles</string>
     <string name="accessibility_service_description">Proporciona compatibilidad con dispositivos (p.
         ej., televisores con Android 14 o superior) donde no se pueden usar las notificaciones ni la
-        pantalla dividida.\n\nPermite que Shizuku extraiga el código de emparejamiento de la
+        pantalla dividida.\n\nPermite que NFX extraiga el código de emparejamiento de la
         pantalla de depuración inalámbrica. Se desactivará automáticamente una vez encontrado el
         código de emparejamiento.</string>
     <!-- Messages for legacy -->
-    <string name="dialog_legacy_not_support_title">%1$s no soporta Shizuku moderno</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[Legacy Shizuku ha quedado obsoleto desde marzo de 2019. Además, Legacy Shizuku no funciona en los sistemas Android más nuevos.<p>Pida al desarrollador de <b>%1$s</b> que actualice.]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s está solicitando el legado de Shizuku</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> tiene compatibilidad moderna con Shizuku, pero solicita Shizuku heredada. Esto podría deberse a que Shizuku no se está ejecutando, verifique en la aplicación Shizuku. <p> Legacy Shizuku está obsoleto desde marzo de 2019.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">Abrir Shizuku</string>
+    <string name="dialog_legacy_not_support_title">%1$s no soporta NFX moderno</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[Legacy NFX ha quedado obsoleto desde marzo de 2019. Además, Legacy NFX no funciona en los sistemas Android más nuevos.<p>Pida al desarrollador de <b>%1$s</b> que actualice.]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s está solicitando el legado de NFX</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> tiene compatibilidad moderna con NFX, pero solicita NFX heredada. Esto podría deberse a que NFX no se está ejecutando, verifique en la aplicación NFX. <p> Legacy NFX está obsoleto desde marzo de 2019.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Abrir NFX</string>
     <string name="wadb_notification_attempt_now">Reintentar</string>
     <!-- Manage tab -->
     <string name="tab_manage">Opciones de app</string>
@@ -955,7 +939,7 @@
     <string name="permissions_phantom">Procesos en segundo plano</string>
     <string name="permissions_phantom_summary">Android 12 y versiones posteriores pueden detener los procesos iniciados por una aplicación después de que ésta se cierre. Esto puede detener el servidor después de un inicio. Esta configuración afecta a todo el dispositivo y es posible que sea necesario reiniciarlo.</string>
     <string name="permissions_action_deny">Denegar</string>
-    <string name="permissions_phantom_failed">No se pudo cambiar. Se requiere el permiso Shizuku o WRITE_SECURE_SETTINGS.</string>
+    <string name="permissions_phantom_failed">No se pudo cambiar. Se requiere el permiso NFX o WRITE_SECURE_SETTINGS.</string>
     <string name="manage_status_removed">Eliminado, datos conservados</string>
     <string name="manage_status_disabled">Deshabilitado</string>
     <string name="manage_status_suspended">Suspendido</string>
@@ -969,7 +953,7 @@
     <string name="app_section_actions">Acciones</string>
     <string name="app_section_battery">Batería</string>
     <string name="app_section_info">Info</string>
-    <string name="app_permissions_note">Sólo los permisos cuya protección incluya desarrollo, o los peligrosos, se pueden cambiar a través de adb; la plataforma rechaza el resto, por muy confiable que sea Shizuku, por lo que esas filas mantienen el interruptor apagado.</string>
+    <string name="app_permissions_note">Sólo los permisos cuya protección incluya desarrollo, o los peligrosos, se pueden cambiar a través de adb; la plataforma rechaza el resto, por muy confiable que sea NFX, por lo que esas filas mantienen el interruptor apagado.</string>
     <string name="app_permissions_none">Esta app no tiene permisos del sistema.</string>
     <string name="app_permission_locked">%1$s, no se puede cambiar a través de ADB</string>
     <string name="app_permission_granted">Permiso concedido</string>
@@ -979,7 +963,7 @@
     <string name="app_grant_confirm_ok">Conceder</string>
     <string name="app_action_failed">Android no permitió esto. No se cambió nada.</string>
     <string name="app_ops_note">Las opciones de la aplicación son las que consulta la propia plataforma y adb puede cambiar las siguientes. Algunas capacidades son acceso especial en la configuración del sistema en lugar de operaciones de aplicaciones, acceso a todos los archivos, acceso de uso, alarmas exactas, modificación de la configuración del sistema y ninguna aplicación puede cambiarlas.</string>
-    <string name="app_ops_needs_shizuku">Inicie Shizuku para leer y cambiar las opciones de la aplicación.</string>
+    <string name="app_ops_needs_shizuku">Inicie NFX para leer y cambiar las opciones de la aplicación.</string>
     <string name="app_op_background">Ejecutar en segundo plano</string>
     <string name="app_op_background_note">Negar evita que se ejecute en segundo plano.</string>
     <string name="app_op_any_background">Iniciar al arranque</string>
@@ -1033,7 +1017,7 @@
     <string name="app_confirm_disable">¿Desactivar %1$s? Deja de funcionar hasta que lo habilites nuevamente.</string>
     <string name="app_confirm_clear_data">¿Eliminar todos los datos de %1$s? Esto no se puede deshacer.</string>
     <string name="app_confirm_uninstall">¿Eliminar %1$s para este usuario? Sus datos se conservan.</string>
-    <string name="app_battery_needs_shizuku">Inicie Shizuku para cambiar la configuración de la batería.</string>
+    <string name="app_battery_needs_shizuku">Inicie NFX para cambiar la configuración de la batería.</string>
     <string name="app_battery_bucket">Cubo de espera</string>
     <string name="app_battery_pick_title">Cubo de espera</string>
     <string name="app_bucket_active">Ilimitado</string>
@@ -1053,7 +1037,7 @@
     <string name="app_battery_unrestricted">Ignorar la optimización de la batería</string>
     <string name="app_battery_unrestricted_note">Le permite permanecer activo durante suspensión, pero usa más batería.</string>
     <string name="app_section_network">Red</string>
-    <string name="app_network_needs_shizuku">Inicie Shizuku para cambiar el alcance de una aplicación.</string>
+    <string name="app_network_needs_shizuku">Inicie NFX para cambiar el alcance de una aplicación.</string>
     <string name="app_network_unsupported">Este dispositivo no ofrece el firewall que necesita.</string>
     <string name="app_network_block">Bloquear el acceso a la red</string>
     <string name="app_network_block_note">La plataforma reduce su tráfico.</string>
@@ -1066,7 +1050,7 @@
     <string name="lab_state_off">Apagado</string>
     <string name="lab_state_unavailable">No disponible</string>
     <!-- The switches in the shade and on the home screen that are not about one app. -->
-    <string name="lab_switch_service">Servicio Shizuku</string>
+    <string name="lab_switch_service">Servicio NFX</string>
     <string name="lab_switch_hiding">Ocultar</string>
     <string name="lab_switch_watchdog">Perro guardián</string>
     <!-- The three platform settings themselves, and the hiding switches that are about the same
@@ -1109,7 +1093,7 @@
     <string name="wifi_passwords_copy">Copiar contraseña</string>
     <string name="wifi_passwords_none">Sin contraseña</string>
     <string name="wifi_passwords_empty">No hay redes guardadas.</string>
-    <string name="wifi_passwords_needs_shizuku">Shizuku no se está ejecutando, por lo que no hay un shell para leer las redes guardadas.</string>
+    <string name="wifi_passwords_needs_shizuku">NFX no se está ejecutando, por lo que no hay un shell para leer las redes guardadas.</string>
     <string name="wifi_passwords_failed">El servicio wifi no contestaba. El registro tiene lo que decía.</string>
     <string name="wifi_passwords_unsupported">Para leer las redes guardadas se necesita Android 9 o posterior, que es desde donde se puede acceder al servicio wifi oculto.</string>
     <string name="wifi_passwords_search_hint">Buscar redes</string>
@@ -1158,7 +1142,7 @@
     <string name="files_show_hidden">Mostrar archivos ocultos</string>
     <string name="files_hide_hidden">Ocultar archivos ocultos</string>
     <string name="files_failed">%1$s no pudo mostrar en la lista. No hay acceso al shell o falta la carpeta.</string>
-    <string name="files_needs_shizuku">Shizuku no se está ejecutando, por lo que no se pueden leer los archivos.</string>
+    <string name="files_needs_shizuku">NFX no se está ejecutando, por lo que no se pueden leer los archivos.</string>
     <string name="files_preview_binary">Este no es un archivo de texto, por lo que no se puede mostrar.</string>
     <string name="files_preview_failed">No se pudo leer este archivo.</string>
     <string name="files_preview_truncated">Sólo se muestra el inicio del archivo.</string>

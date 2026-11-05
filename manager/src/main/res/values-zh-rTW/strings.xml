@@ -57,7 +57,7 @@
     <string name="dialog_adb_pairing_discovery">正在尋找配對服務</string>
     <string name="dialog_adb_pairing_paring_code">配對碼</string>
     <string name="paring_code_is_wrong">配對碼錯誤。</string>
-    <string name="cannot_connect_port">無法連線到無線偵錯服務。\n\n請確保將 Shizuku 新增至所有防火牆、廣告攔截器、VPN 或類似可能限制網路存取的應用程式中的白名單。</string>
+    <string name="cannot_connect_port">無法連線到無線偵錯服務。\n\n請確保將 NFX 新增至所有防火牆、廣告攔截器、VPN 或類似可能限制網路存取的應用程式中的白名單。</string>
     <string name="dialog_adb_pairing_message">請開始配對，請執行以下步驟：\n- 導覽至「開發人員選項」\n- 啟用「USB 偵錯」與「無線偵錯」\n- 點選「無線偵錯」的左側\n- 點擊「使用配對碼配對裝置」\n- 在通知中輸入配對代碼</string>
     <!-- Goes after dialog_adb_pairing_accessibility_enable in the same dialog: what the greyed-out
          row means, and both ways to open it. The App info menu is the only one available on a
@@ -65,30 +65,30 @@
          outside the app, and both are named because either reader may be the one holding it. -->
     <string name="dialog_adb_pairing_accessibility_permission">Android 會封鎖非應用程式商店安裝的應用程式使用這個開關。請允許 ^1 應用程式操作來開啟無障礙服務，無障礙清單裡它會顯示為「由受限設定控制」。\n\n開啟應用程式資訊，從選單裡選擇「允許受限設定」，或者在電腦上執行：\n\n^2\n\n兩種方式都可以，之後這個開關就能用了。</string>
     <string name="dialog_adb_pairing_open_app_info">應用程式資訊u</string>
-    <string name="dialog_adb_pairing_accessibility_enable">自動配對要透過 Shizuku 的無障礙服務從系統對話框裡讀取配對碼，所以需要開啟它——而且只在需要的那一小段時間：找到配對碼後或一分鐘後，服務會自行關閉以節省電力。Shizuku 通常會自己開啟它，這需要 WRITE_SECURE_SETTINGS 權限，而全新安裝還沒有這個權限。\n\n在下一畫面開啟它、在「手動」下自己輸入配對碼，或者授予一次權限：\n\nadb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</string>
-    <string name="dialog_adb_pairing_accessibility_navigate">請依照以下步驟開始配對：\n- 進入「開發人員選項」\n- 啟用「USB 偵錯」與「無線偵錯」\n- 點選「無線偵錯」左側\n- 點擊「使用配對碼配對裝置」。 Shizuku 將自動檢測配對碼。</string>
+    <string name="dialog_adb_pairing_accessibility_enable">自動配對要透過 NFX 的無障礙服務從系統對話框裡讀取配對碼，所以需要開啟它——而且只在需要的那一小段時間：找到配對碼後或一分鐘後，服務會自行關閉以節省電力。NFX 通常會自己開啟它，這需要 WRITE_SECURE_SETTINGS 權限，而全新安裝還沒有這個權限。\n\n在下一畫面開啟它、在「手動」下自己輸入配對碼，或者授予一次權限：\n\nadb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="dialog_adb_pairing_accessibility_navigate">請依照以下步驟開始配對：\n- 進入「開發人員選項」\n- 啟用「USB 偵錯」與「無線偵錯」\n- 點選「無線偵錯」左側\n- 點擊「使用配對碼配對裝置」。 NFX 將自動檢測配對碼。</string>
     <string name="adb_pairing_requires_multi_window">請先進入分割畫面模式。</string>
     <string name="adb_pairing_requires_multi_window_reason">系統需求配對對話框始終可見。只有使用分割畫面模式才能讓此應用程式和系統對話方塊同時可見。</string>
     <string name="adb_error_key_store">無法產生無線偵錯密鑰。\n這可能是因為此裝置的金鑰庫機制已損壞。</string>
     <string name="adb_error_stop_tcp">無法透過 TCP 停止 ADB</string>
     <string name="adb_pair_required">請先進行配對步驟。</string>
     <string name="enable">啟用</string>
-    <string name="auto_pair_instructions">免輸碼配對：\n\n1. 開發人員選項 → 無線偵錯\n2. 使用配對碼配對裝置\n\nShizuku 會直接從那個對話方塊讀取配對碼和連接埠並自行啟動。配對完成前請保持對話方塊開啟。</string>
+    <string name="auto_pair_instructions">免輸碼配對：\n\n1. 開發人員選項 → 無線偵錯\n2. 使用配對碼配對裝置\n\nNFX 會直接從那個對話方塊讀取配對碼和連接埠並自行啟動。配對完成前請保持對話方塊開啟。</string>
     <string name="auto_pair_manual">手動</string>
     <string name="development_settings">開發人員選項</string>
     <string name="notification_settings">通知設定</string>
-    <string name="adb_pairing_tutorial_content_notification">一則來自 Shizuku 的通知將協助你完成配對。</string>
+    <string name="adb_pairing_tutorial_content_notification">一則來自 NFX 的通知將協助你完成配對。</string>
     <string name="adb_pairing_tutorial_content_steps">進入「開發人員選項」，然後啟用「USB 偵錯」和「無線偵錯」。</string>
     <string name="adb_pairing_tutorial_content_enter_pairing_code">點選「無線偵錯」左側，然後點選「使用配對碼配對裝置」。輸入通知中的代碼以完成配對。</string>
-    <string name="adb_pairing_tutorial_content_notification_blocked">配對過程需要你與 Shizuku 的通知互動。請允許 Shizuku 發布通知。</string>
+    <string name="adb_pairing_tutorial_content_notification_blocked">配對過程需要你與 NFX 的通知互動。請允許 NFX 發布通知。</string>
     <string name="adb_pairing_tutorial_content_miui">MIUI 使用者可能需要在系統設定中從「通知管理」-「通知顯示設定」將通知樣式切換為「原生樣式」。</string>
     <string name="adb_pairing_tutorial_content_miui_2">否則，你可能無法在通知中輸入配對碼。</string>
-    <string name="adb_pairing_tutorial_content_finish">回到 Shizuku 並啟動 Shizuku。</string>
-    <string name="adb_pairing_tutorial_content_network">Shizuku 需要存取本地網路。這受網路權限控制。</string>
-    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">某些系統（例如 MIUI）會禁止應用在不可見時存取網路，即使該應用程式使用了前景服務。請在這些系統上為 Shizuku 關閉電池最佳化功能。</string>
+    <string name="adb_pairing_tutorial_content_finish">回到 NFX 並啟動 NFX。</string>
+    <string name="adb_pairing_tutorial_content_network">NFX 需要存取本地網路。這受網路權限控制。</string>
+    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">某些系統（例如 MIUI）會禁止應用在不可見時存取網路，即使該應用程式使用了前景服務。請在這些系統上為 NFX 關閉電池最佳化功能。</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[透過 Root 啟動]]></string>
-    <string name="home_root_description"><![CDATA[如果你正在使用 Magisk，可以嘗試使用 %1$s。對於 root 使用者，它最終會取代 Shizuku。請注意，現有應用程式需要稍作修改才能使用 %2$s。]]></string>
+    <string name="home_root_description"><![CDATA[如果你正在使用 Magisk，可以嘗試使用 %1$s。對於 root 使用者，它最終會取代 NFX。請注意，現有應用程式需要稍作修改才能使用 %2$s。]]></string>
     <string name="home_root_button_start">啟動</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -100,12 +100,12 @@
     <!-- Home - Adb permissions limited -->
     <!-- Home - Dialogs -->
     <string name="home_dialog_reboot_required_title">需要重啟</string>
-    <string name="home_dialog_reboot_required_message">請重新啟動裝置，以便 Shizuku 正常運作。</string>
+    <string name="home_dialog_reboot_required_message">請重新啟動裝置，以便 NFX 正常運作。</string>
     <string name="home_dialog_duplicate_app_detected_title">檢測到重複的應用程式</string>
     <string name="home_dialog_duplicate_app_detected_message">此應用程式的另一個版本已安裝在你的裝置上。若要繼續，請解除安裝所有重複版本並重新啟動你的裝置。</string>
     <!-- The same two states, said on the Home screen instead of in a dialog that only exits. Shizuku works either way; what is affected is what other apps find when they look Shizuku up. -->
-    <string name="home_permission_owned_by">應用程式透過 Shizuku 的權限來尋找它，而 Android 顯示 %1$s 宣告了該權限——這可能是 Shizuku 的一個分身或殘留。在解除安裝該分身並重新啟動裝置之前，這些應用程式會一直請求它。</string>
-    <string name="home_permission_not_registered">應用程式透過 Shizuku 的權限來尋找它，但 Android 尚未註冊該權限——重新安裝後可能出現此情況，重新啟動裝置即可解決。Shizuku 本身不受影響，但其他應用程式可能找不到它。</string>
+    <string name="home_permission_owned_by">應用程式透過 NFX 的權限來尋找它，而 Android 顯示 %1$s 宣告了該權限——這可能是 NFX 的一個分身或殘留。在解除安裝該分身並重新啟動裝置之前，這些應用程式會一直請求它。</string>
+    <string name="home_permission_not_registered">應用程式透過 NFX 的權限來尋找它，但 Android 尚未註冊該權限——重新安裝後可能出現此情況，重新啟動裝置即可解決。NFX 本身不受影響，但其他應用程式可能找不到它。</string>
     <string name="home_dialog_button_exit">退出</string>
     <!-- Application management -->
     <string name="app_management_dialog_adb_is_limited_title">ADB 權限受限</string>
@@ -113,7 +113,7 @@
     <string name="app_management_toggle_all">切換全部</string>
     <string name="app_management_search_hint">搜尋應用程式</string>
     <string name="app_management_sort">排序</string>
-    <string name="apps_needs_shizuku">啟動 Shizuku 後才能檢視應用程式</string>
+    <string name="apps_needs_shizuku">啟動 NFX 後才能檢視應用程式</string>
     <string name="apps_empty">沒有要顯示的應用程式</string>
     <string name="apps_filter_empty">沒有符合篩選條件的應用程式</string>
     <string name="apps_filter_all">全部</string>
@@ -176,7 +176,7 @@
     <string name="tab_activities">活動啟動器</string>
     <string name="tab_power">電源</string>
     <string name="power_description">不按手機按鍵即可重新啟動或關閉螢幕。</string>
-    <string name="power_needs_shizuku">請先啟動 Shizuku 再使用這些選項。</string>
+    <string name="power_needs_shizuku">請先啟動 NFX 再使用這些選項。</string>
     <string name="power_reboot">重新啟動</string>
     <string name="power_reboot_summary">重新啟動手機。</string>
     <string name="power_reboot_confirm">手機將立即重新啟動。未儲存的工作會遺失。</string>
@@ -195,15 +195,15 @@
     <string name="power_confirm">繼續</string>
     <string name="power_soft_reboot">軟重新啟動</string>
     <string name="power_soft_reboot_summary">只重新啟動 Android 系統而不重新啟動核心。需要 root。</string>
-    <string name="power_soft_reboot_confirm">Android 將重新啟動。所有應用程式和系統介面會關閉再重新開啟，但手機本身不會重新啟動。之後你可能需要重新啟動 Shizuku。</string>
+    <string name="power_soft_reboot_confirm">Android 將重新啟動。所有應用程式和系統介面會關閉再重新開啟，但手機本身不會重新啟動。之後你可能需要重新啟動 NFX。</string>
     <string name="power_restart_system_ui">重新啟動系統介面</string>
     <string name="power_restart_system_ui_summary">重新啟動狀態列、導覽列和通知面板。需要 root。</string>
     <string name="power_needs_root">需要 root，但此裝置未 root。</string>
-    <string name="power_needs_shizuku_rooted">Shizuku 未執行。僅軟重新啟動可用。</string>
+    <string name="power_needs_shizuku_rooted">NFX 未執行。僅軟重新啟動可用。</string>
     <string name="power_failed">無法執行 %1$s</string>
     <string name="tab_display">顯示</string>
     <string name="display_description">變更螢幕解析度、像素密度和重新整理率。如果螢幕變得難以使用，點選設定旁邊的重設。</string>
-    <string name="display_needs_shizuku">啟動 Shizuku 後才能檢視或變更這些設定。</string>
+    <string name="display_needs_shizuku">啟動 NFX 後才能檢視或變更這些設定。</string>
     <string name="display_resolution">解析度</string>
     <string name="display_resolution_summary">螢幕尺寸（寬 × 高，單位像素）。改變的是系統繪製螢幕的方式，不是實體顯示器。</string>
     <string name="display_density">像素密度</string>
@@ -226,7 +226,7 @@
     <string name="activities_exported">已匯出</string>
     <string name="activities_not_exported">未匯出</string>
     <string name="activities_empty">此應用程式未宣告任何活動。</string>
-    <string name="activities_needs_shizuku">Shizuku 未執行，而只有它才能啟動應用程式私有的活動。</string>
+    <string name="activities_needs_shizuku">NFX 未執行，而只有它才能啟動應用程式私有的活動。</string>
     <string name="activities_refused">無法啟動此活動。</string>
     <string name="activities_long_press">長按一行檢視整個名稱。</string>
     <string name="activities_detail_package">應用包名</string>
@@ -325,7 +325,7 @@
     <string name="device_uptime">執行時間</string>
     <string name="device_memory">記憶體</string>
     <string name="device_storage">儲存</string>
-    <string name="device_shizuku">Shizuku</string>
+    <string name="device_shizuku">NFX</string>
     <string name="device_server">伺服器</string>
     <string name="device_start_method">啟動方式</string>
     <string name="device_transport">連線方式</string>
@@ -364,7 +364,7 @@
     <string name="log_capture_waiting">正在記錄。尚未記錄到日誌。</string>
     <string name="log_capture_empty">還沒有任何記錄。</string>
     <string name="log_capture_jump">最新崩潰</string>
-    <string name="log_capture_needs_shizuku">記錄裝置日誌需要 Shizuku：讀取其他應用程式的日誌是 shell 特權，本應用程式借用的正是 shell。</string>
+    <string name="log_capture_needs_shizuku">記錄裝置日誌需要 NFX：讀取其他應用程式的日誌是 shell 特權，本應用程式借用的正是 shell。</string>
     <string name="log_capture_stopped_size">日誌記錄已停止：已達到大小限制。</string>
     <string name="log_capture_stopped_time">日誌記錄已停止：已達到時間限制。</string>
     <string name="log_capture_stopped_ended">日誌記錄已停止：日誌串流已結束。</string>
@@ -380,7 +380,7 @@
     <string name="permissions_dump">讀取應用程式退出原因</string>
     <string name="permissions_dump_summary">讓隱藏功能判斷應用程式是已關閉，還是僅在背景執行。</string>
     <string name="home_other_methods">其他啟動方法</string>
-    <string name="home_hiding_active_note">Shizuku 可能會在隱藏應用程式開啟時停止，因為隱藏可能會關閉偵錯連線。Shizuku 將在應用程式關閉時再次啟動。</string>
+    <string name="home_hiding_active_note">NFX 可能會在隱藏應用程式開啟時停止，因為隱藏可能會關閉偵錯連線。NFX 將在應用程式關閉時再次啟動。</string>
     <string name="hiding_vpn_client_none">未選擇：選擇 VPN 應用程式</string>
     <string name="hiding_notification_channel">隱藏</string>
     <string name="hiding_notification_title">設定已隱藏</string>
@@ -392,9 +392,9 @@
     <string name="hiding_resume">恢復隱藏</string>
     <string name="hiding_start_again">重新開始</string>
     <string name="hiding_notification_stopped_title">隱藏已停止</string>
-    <string name="hiding_notification_stopped_text">Shizuku 未執行，隱藏功能無法偵測目前開啟的應用程式。所有已隱藏的設定均已還原。</string>
-    <string name="hiding_carries_session_wireless">未套用：Shizuku 正在使用無線偵錯，隱藏它會停止 Shizuku。</string>
-    <string name="hiding_carries_session_usb">未套用：Shizuku 正在使用 USB 偵錯，隱藏它會停止 Shizuku。</string>
+    <string name="hiding_notification_stopped_text">NFX 未執行，隱藏功能無法偵測目前開啟的應用程式。所有已隱藏的設定均已還原。</string>
+    <string name="hiding_carries_session_wireless">未套用：NFX 正在使用無線偵錯，隱藏它會停止 NFX。</string>
+    <string name="hiding_carries_session_usb">未套用：NFX 正在使用 USB 偵錯，隱藏它會停止 NFX。</string>
     <string name="tab_settings">設定</string>
     <string name="home_status_transport_label">連線方式</string>
     <string name="home_status_started_with">當前</string>
@@ -490,8 +490,8 @@
     <string name="modules_action_short">操作</string>
     <string name="modules_service_short">服務</string>
     <string name="modules_service_running_short">執行中</string>
-    <string name="modules_summary">使用社群模組為 Shizuku 新增功能</string>
-    <string name="modules_warning">模組本質上是別人的 shell 指令碼，它透過 Shizuku 執行並擁有與 Shizuku 相同的權限。只安裝你信任的模組，並仔細閱讀它要執行的命令。</string>
+    <string name="modules_summary">使用社群模組為 NFX 新增功能</string>
+    <string name="modules_warning">模組本質上是別人的 shell 指令碼，它透過 NFX 執行並擁有與 NFX 相同的權限。只安裝你信任的模組，並仔細閱讀它要執行的命令。</string>
     <string name="modules_none">尚未安裝任何模組。</string>
     <string name="modules_search">搜尋模組</string>
     <string name="modules_no_match">沒有符合的模組。</string>
@@ -510,7 +510,7 @@
     <string name="modules_delete_confirm">刪除 %1$s？</string>
     <string name="modules_delete_confirm_message">該模組及其目錄中的所有內容都會被刪除，包括日誌。</string>
     <string name="modules_review_title">執行此命令？</string>
-    <string name="modules_review_message">%1$s 要求 Shizuku 執行：</string>
+    <string name="modules_review_message">%1$s 要求 NFX 執行：</string>
     <string name="modules_review_approve">執行</string>
     <string name="modules_result_title">%1$s</string>
     <string name="modules_result_exit">結束碼 %1$d</string>
@@ -526,22 +526,22 @@
     <string name="intents_title">Intent</string>
     <string name="about_package">應用包名</string>
     <string name="check_for_updates_now">立即檢查</string>
-    <string name="start_failed">無法啟動 Shizuku</string>
-    <string name="start_failed_write_secure_settings">沒有 WRITE_SECURE_SETTINGS 權限，Shizuku 無法開啟無線偵錯。請在開發人員選項 &gt; 無線偵錯中自行開啟，或用 <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b> 授予該權限。Shizuku 執行後會自己保住這個權限，所以只需一次。</string>
+    <string name="start_failed">無法啟動 NFX</string>
+    <string name="start_failed_write_secure_settings">沒有 WRITE_SECURE_SETTINGS 權限，NFX 無法開啟無線偵錯。請在開發人員選項 &gt; 無線偵錯中自行開啟，或用 <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b> 授予該權限。NFX 執行後會自己保住這個權限，所以只需一次。</string>
     <string name="action_open_wireless_debugging">無線偵錯</string>
-    <string name="start_failed_unsupported">此裝置不支援在背景啟動 Shizuku</string>
+    <string name="start_failed_unsupported">此裝置不支援在背景啟動 NFX</string>
     <string name="start_failed_wifi_required">請連線 Wi-Fi 網路，否則系統會關閉無線偵錯。也可以用下面的 ADB 命令從電腦啟動。</string>
     <string name="start_failed_binder_went_away">服務啟動後隨即停止，現在還無法使用。當伺服器隨著啟動所經過的那個應用程式一起被撤下時會發生這種情況——負載啟動它之後就是這麼做的。請重試啟動。</string>
     <string name="start_failed_no_port">未找到無線偵錯連接埠。請確保啟用無線偵錯並連線 Wi-Fi。</string>
-    <string name="start_failed_no_port_no_permission">未找到無線偵錯連接埠，且缺少 WRITE_SECURE_SETTINGS 權限時 Shizuku 無法開啟無線偵錯：<b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>。您也可以透過 USB 偵錯啟動 Shizuku，其後會自行取得該權限。</string>
+    <string name="start_failed_no_port_no_permission">未找到無線偵錯連接埠，且缺少 WRITE_SECURE_SETTINGS 權限時 NFX 無法開啟無線偵錯：<b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>。您也可以透過 USB 偵錯啟動 NFX，其後會自行取得該權限。</string>
     <string name="start_failed_no_auth">在此網路上不允許進行無線偵錯。再次配對裝置。</string>
     <string name="action_dismiss">關閉</string>
     <string name="action_connect_wifi">連線</string>
     <string name="action_pair">配對</string>
     <string name="start_failed_pairing_required">此裝置尚未完成無線偵錯配對。請重新配對。</string>
     <string name="start_failed_connection_lost">ADB 連線在啟動時已關閉，請重試。</string>
-    <string name="start_failed_usb_no_port">沒有已開啟的本地 ADB 連接埠——Android 每次重啟都會清除它，重新開啟需要借用一次連線。連線 Wi-Fi 後 Shizuku 會透過無線偵錯重新開啟；也可以在電腦上執行 <b>adb tcpip 5555</b>，或將啟動方式設為 <b>無 Wi-Fi 啟動</b> 改由無線偵錯啟動。</string>
-    <string name="start_failed_root_unavailable">此裝置不再有 root，Shizuku 無法透過 root 啟動。請選擇其他啟動方式。</string>
+    <string name="start_failed_usb_no_port">沒有已開啟的本地 ADB 連接埠——Android 每次重啟都會清除它，重新開啟需要借用一次連線。連線 Wi-Fi 後 NFX 會透過無線偵錯重新開啟；也可以在電腦上執行 <b>adb tcpip 5555</b>，或將啟動方式設為 <b>無 Wi-Fi 啟動</b> 改由無線偵錯啟動。</string>
+    <string name="start_failed_root_unavailable">此裝置不再有 root，NFX 無法透過 root 啟動。請選擇其他啟動方式。</string>
     <string name="start_failed_system_needs_app">系統啟動方式必須在應用程式內使用。</string>
     <string name="start_failed_system_no_exploit">此裝置沒有搭載三星 FOTA agent（com.sdet.fotaagent），而那是系統啟動方式唯一能利用的元件，這裡沒有可用來提權的東西。請將系統啟動方式切換為自訂命令：應用程式會給出你這臺裝置上確實有的提權方式所對應的命令。</string>
     <string name="start_failed_no_binder">服務在一分鐘內沒有出現。前後兩段各有一份日誌：啟動器記在 ShizukuServiceStarter 下，交接記在 BinderSender 下。用只過濾這兩個標籤的 logcat 閱讀器，可以看出啟動器是否 fork 出了伺服器、伺服器是否請求過 binder。</string>
@@ -559,7 +559,7 @@
     <string name="settings_theme_system">跟隨系統</string>
     <string name="settings_theme_light">淺色</string>
     <string name="settings_theme_dark">深色</string>
-    <string name="intents_description">自動化應用程式可以透過這些廣播控制 Shizuku。必須在 \"auth\" extra 中傳入身份驗證令牌。</string>
+    <string name="intents_description">自動化應用程式可以透過這些廣播控制 NFX。必須在 \"auth\" extra 中傳入身份驗證令牌。</string>
     <string name="intents_require_token">要求身份驗證令牌</string>
     <string name="intents_require_token_summary">啟動和停止意圖需要下面的令牌。關閉此功能以便在沒有令牌的情況下傳送它們。</string>
     <string name="intents_token">身份驗證令牌</string>
@@ -577,7 +577,7 @@
     <string name="intents_values">供自動化應用程式使用</string>
     <string name="intents_package">套件名稱</string>
     <string name="intents_action_for">%1$s 操作</string>
-    <string name="home_battery_warning">Shizuku 可能在背景被系統終止，請允許其忽略電池最佳化。</string>
+    <string name="home_battery_warning">NFX 可能在背景被系統終止，請允許其忽略電池最佳化。</string>
     <string name="batch_selected_count">已選擇 %1$d</string>
     <string name="app_management_action_select_all">全選</string>
     <string name="app_management_action_grant">授權</string>
@@ -591,22 +591,22 @@
     <string name="action_undo">復原</string>
     <!-- Terminal -->
     <string name="terminal_tutorial_miui">使用者反映 MIUI 破壞了匯出功能所使用的儲存存取框架。</string>
-    <string name="terminal_tutorial_miui_2">如果你使用的是 MIUI 系統，則可能需要從 Shizuku 的 APK 的 assets 資料夾中提取該檔案。</string>
+    <string name="terminal_tutorial_miui_2">如果你使用的是 MIUI 系統，則可能需要從 NFX 的 APK 的 assets 資料夾中提取該檔案。</string>
     <string name="terminal_tutorial_1">點選以將檔案匯出至新的資料夾。</string>
     <string name="terminal_tutorial_1_description">將匯出兩個檔案： %1$s 和 %2$s。如果所選資料夾中已存在這些檔案，則會將其刪除。</string>
     <string name="terminal_tutorial_2">使用終端應用程式將檔案複製到其私有檔案目錄。</string>
     <string name="terminal_tutorial_2_description">提示：如果你的終端應用程式的主目錄（~）位於私有檔案目錄中，將檔案放在那裡就可以直接運行 %1$s 而無需輸入路徑。\n\n否則，你可以在終端應用程式的 %3$s 設定檔中為 %2$s 建立一個別名。</string>
     <string name="terminal_tutorial_3">使用以下命令開啟 shell：</string>
     <!-- Stealth -->
-    <string name="stealth_description">對檢測到 Shizuku 安裝便拒絕執行的應用程式隱藏 Shizuku。會匯出一個使用不同套件名稱的分身供你安裝。</string>
-    <string name="stealth_warning_compatibility">一些使用 Shizuku 的應用程式可能在隱藏時無法工作，因為它們試圖檢測 Shizuku 是否已安裝。</string>
-    <string name="stealth_warning_compatibility_2">你可以暫時取消隱藏 Shizuku 作為替代方案，這會以原套件名稱安裝一個佔位應用程式。使用完畢後，可以重新隱藏 Shizuku。</string>
-    <string name="stealth_warning_compatibility_3">點按此卡片可複製一段程式碼，發給應用程式開發人員，他們的「已安裝 Shizuku」檢測在 Shizuku 隱藏後就能正常工作。</string>
-    <string name="stealth_warning_detection">即使隱藏 Shizuku，部分應用程式仍可能偵測到它。</string>
-    <string name="stealth_info_reconfigure">安裝隱藏版本後，你需要重新配對並重新配置 Shizuku。</string>
+    <string name="stealth_description">對檢測到 NFX 安裝便拒絕執行的應用程式隱藏 NFX。會匯出一個使用不同套件名稱的分身供你安裝。</string>
+    <string name="stealth_warning_compatibility">一些使用 NFX 的應用程式可能在隱藏時無法工作，因為它們試圖檢測 NFX 是否已安裝。</string>
+    <string name="stealth_warning_compatibility_2">你可以暫時取消隱藏 NFX 作為替代方案，這會以原套件名稱安裝一個佔位應用程式。使用完畢後，可以重新隱藏 NFX。</string>
+    <string name="stealth_warning_compatibility_3">點按此卡片可複製一段程式碼，發給應用程式開發人員，他們的「已安裝 NFX」檢測在 NFX 隱藏後就能正常工作。</string>
+    <string name="stealth_warning_detection">即使隱藏 NFX，部分應用程式仍可能偵測到它。</string>
+    <string name="stealth_info_reconfigure">安裝隱藏版本後，你需要重新配對並重新配置 NFX。</string>
     <string name="stealth_info_rish">Rish 使用者：安裝隱藏版本後重新匯出檔案。</string>
     <string name="stealth_info_intents">Intent 使用者：請用新套件名稱更新你的 Intent。</string>
-    <string name="stealth_info_update">使用隱藏版本時，必須透過應用程式內更新 Shizuku。</string>
+    <string name="stealth_info_update">使用隱藏版本時，必須透過應用程式內更新 NFX。</string>
     <string name="stealth_package_name">應用包名（可選）</string>
     <string name="stealth_package_name_helper_text">如果留空，隨機字尾將新增到套件名稱中。</string>
     <string name="stealth_error_ends_with_period">套件名稱不能以句點結尾。</string>
@@ -617,19 +617,19 @@
     <string name="stealth_display_name_helper_text">在啟動器和應用程式清單中顯示為分身的名稱。留空則分身保持本應用程式的名稱。</string>
     <string name="stealth_error_display_name_too_long">不能超過 %1$d 個字元。</string>
     <string name="stealth_uninstall_required">需要解除安裝</string>
-    <string name="stealth_uninstall_message">系統現在會提示你解除安裝 Shizuku。之後再安裝分身。</string>
+    <string name="stealth_uninstall_message">系統現在會提示你解除安裝 NFX。之後再安裝分身。</string>
     <string name="stealth_uninstall">解除安裝</string>
     <string name="stealth_hide">隱藏</string>
     <string name="stealth_unhide">取消隱藏（含佔位）</string>
-    <string name="stealth_stub_note">取消隱藏時會在 Shizuku 原套件名稱處建立一個小型佔位應用程式，讓尋找它的應用程式仍能正常運作。佔位應用程式會將請求轉發給隱藏後的 Shizuku，它不是第二個副本。重新隱藏時會移除佔位應用程式。</string>
+    <string name="stealth_stub_note">取消隱藏時會在 NFX 原套件名稱處建立一個小型佔位應用程式，讓尋找它的應用程式仍能正常運作。佔位應用程式會將請求轉發給隱藏後的 NFX，它不是第二個副本。重新隱藏時會移除佔位應用程式。</string>
     <!-- Settings -->
     <string name="settings_start_on_boot">開機時啟動</string>
     <string name="settings_use_system_color">使用系統主題色彩</string>
     <string name="settings_use_system_color_summary">使用系統配色</string>
     <string name="settings_watchdog">看門狗</string>
-    <string name="settings_watchdog_summary">如果 Shizuku 崩潰，則自動重新啟動</string>
+    <string name="settings_watchdog_summary">如果 NFX 崩潰，則自動重新啟動</string>
     <string name="settings_auto_disable_wireless_debugging">關閉無線偵錯</string>
-    <string name="settings_auto_disable_wireless_debugging_summary">Shizuku 停止時關閉無線偵錯。</string>
+    <string name="settings_auto_disable_wireless_debugging_summary">NFX 停止時關閉無線偵錯。</string>
     <string name="settings_start_method">預設啟動方式</string>
     <string name="settings_start_method_root_unavailable">此裝置無法使用 root，將改用無線偵錯啟動。</string>
     <string name="start_method_wireless_no_network">無 Wi-Fi</string>
@@ -639,47 +639,47 @@
     <string name="start_method_root">Root</string>
     <string name="transport_adb">adb</string>
     <string name="settings_adb_without_developer_options">關閉開發人員選項</string>
-    <string name="settings_adb_without_developer_options_summary">關閉開發人員選項，但保留 Shizuku 需要的 ADB 設定。Shizuku 會繼續執行，這些設定會在每次重啟後還原。</string>
+    <string name="settings_adb_without_developer_options_summary">關閉開發人員選項，但保留 NFX 需要的 ADB 設定。NFX 會繼續執行，這些設定會在每次重啟後還原。</string>
     <string name="start_failed_developer_options_off">開發人員選項已關閉，因為啟用了無開發人員選項的 ADB</string>
     <string name="action_turn_on_developer_options">開啟開發人員選項</string>
     <string name="toast_developer_options_required">關閉無開發人員選項的 ADB</string>
     <string name="settings_adb_without_developer_options_confirm_title">關閉開發人員選項？</string>
-    <string name="settings_adb_without_developer_options_confirm_message">重啟後，Shizuku 會繼續執行並還原其 ADB 設定。你將無法開啟開發人員選項來更改 USB 或無線偵錯設定，也無法配對新裝置。要關閉開發人員選項嗎？</string>
+    <string name="settings_adb_without_developer_options_confirm_message">重啟後，NFX 會繼續執行並還原其 ADB 設定。你將無法開啟開發人員選項來更改 USB 或無線偵錯設定，也無法配對新裝置。要關閉開發人員選項嗎？</string>
     <string name="settings_adb_without_developer_options_confirm">關閉</string>
-    <string name="settings_adb_without_developer_options_failed">Shizuku 無法更改設定。請先在權限頁面授予 WRITE_SECURE_SETTINGS。</string>
+    <string name="settings_adb_without_developer_options_failed">NFX 無法更改設定。請先在權限頁面授予 WRITE_SECURE_SETTINGS。</string>
     <string name="settings_wait_for_wifi">等待 Wi-Fi</string>
-    <string name="settings_wait_for_wifi_summary">Shizuku 自動重啟時會等待不按流量計費的 Wi-Fi 連線。</string>
+    <string name="settings_wait_for_wifi_summary">NFX 自動重啟時會等待不按流量計費的 Wi-Fi 連線。</string>
     <string name="settings_unavailable_while_forcing_wireless">開啟「不使用 Wi-Fi 啟動」時，此選項無法使用。</string>
     <string name="settings_force_wireless_debugging">不使用 Wi-Fi 啟動（實驗性）</string>
-    <string name="settings_force_wireless_debugging_summary">嘗試在沒有 Wi-Fi 或 USB 偵錯的情況下啟動 Shizuku。這也會關閉 Wi-Fi 等候和自動無線偵錯功能。</string>
+    <string name="settings_force_wireless_debugging_summary">嘗試在沒有 Wi-Fi 或 USB 偵錯的情況下啟動 NFX。這也會關閉 Wi-Fi 等候和自動無線偵錯功能。</string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
-    <string name="settings_needs_write_secure_settings">需要 WRITE_SECURE_SETTINGS 權限。先啟動一次 Shizuku，它會自行取得該權限，然後再回來。</string>
+    <string name="settings_needs_write_secure_settings">需要 WRITE_SECURE_SETTINGS 權限。先啟動一次 NFX，它會自行取得該權限，然後再回來。</string>
     <string name="state_on">開啟</string>
     <string name="state_off">關閉</string>
     <string name="settings_persist_adb_port">重啟後保留 ADB 連接埠</string>
-    <string name="settings_persist_adb_port_summary">每次重新啟動後保持 ADB 連接埠開啟，讓 Shizuku 無需 Wi-Fi 或熱點即可啟動。</string>
+    <string name="settings_persist_adb_port_summary">每次重新啟動後保持 ADB 連接埠開啟，讓 NFX 無需 Wi-Fi 或熱點即可啟動。</string>
     <string name="settings_persist_adb_port_ok">ADB 連接埠將在重啟後保持開啟</string>
-    <string name="settings_persist_adb_port_refused">Android 拒絕了此操作。Shizuku 必須以 root 或 system 使用者執行。</string>
-    <string name="settings_persist_adb_port_unavailable">首先啟動 Shizuku。此設定只能透過 Shizuku 更改。</string>
+    <string name="settings_persist_adb_port_refused">Android 拒絕了此操作。NFX 必須以 root 或 system 使用者執行。</string>
+    <string name="settings_persist_adb_port_unavailable">首先啟動 NFX。此設定只能透過 NFX 更改。</string>
     <string name="settings_system_start_method">系統啟動方法</string>
     <string name="settings_system_start_method_exploit">三星（FOTA agent）</string>
     <string name="settings_system_start_method_custom">自訂命令</string>
     <string name="home_system_title">透過系統 UID 啟動</string>
-    <string name="home_system_summary">以 system 使用者（UID 1000）而不是 adb 身份執行 Shizuku：僅限三星，透過其韌體內建的 FOTA agent 實現</string>
-    <string name="home_adb_command_summary">在電腦上透過 ADB 啟動 Shizuku。點按以複製命令</string>
+    <string name="home_system_summary">以 system 使用者（UID 1000）而不是 adb 身份執行 NFX：僅限三星，透過其韌體內建的 FOTA agent 實現</string>
+    <string name="home_adb_command_summary">在電腦上透過 ADB 啟動 NFX。點按以複製命令</string>
     <string name="settings_tcp_mode">TCP 模式</string>
-    <string name="settings_tcp_mode_summary">"讓 Shizuku 能在沒有 Wi-Fi 的情況下重新開始。（Shizuku 自重新開機後應該啟動過一次）"</string>
+    <string name="settings_tcp_mode_summary">"讓 NFX 能在沒有 Wi-Fi 的情況下重新開始。（NFX 自重新開機後應該啟動過一次）"</string>
     <string name="settings_tcp_mode_dialog_close_port">"\"TCP 連接埠將立即關閉。你需要連線 Wi-Fi 才能重新啟用 TCP 模式。是否繼續？\""</string>
     <string name="settings_tcp_mode_close_wireless">未關閉：無線偵錯開啟中，關閉連接埠會使它停止。重新啟動手機後連接埠會自動關閉。</string>
     <string name="settings_tcp_mode_close_usb_off">未關閉：USB 偵錯已關閉。請開啟後再試。</string>
     <string name="settings_tcp_mode_close_nothing">沒有已開啟的 TCP 連接埠。</string>
     <string name="settings_restart_dialog_title">需要重啟</string>
-    <string name="settings_restart_dialog_message">Shizuku 需要重啟才能套用此設定。</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>需要 Wi-Fi。Shizuku 會在背景繼續運作並等待 Wi-Fi 連線，連線成功後才會重新啟動。</b>]]></string>
+    <string name="settings_restart_dialog_message">NFX 需要重啟才能套用此設定。</string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>需要 Wi-Fi。NFX 會在背景繼續運作並等待 Wi-Fi 連線，連線成功後才會重新啟動。</b>]]></string>
     <string name="settings_tcp_port">TCP 連接埠</string>
     <string name="settings_auto_disable_usb_debugging">關閉 USB 偵錯</string>
-    <string name="settings_auto_disable_usb_debugging_summary">停止 Shizuku 時關閉 USB 偵錯</string>
+    <string name="settings_auto_disable_usb_debugging_summary">停止 NFX 時關閉 USB 偵錯</string>
     <string name="settings_language">語言</string>
     <string name="settings_language_system">系統預設</string>
     <string name="settings_black_night_theme">Amoled 純黑主題</string>
@@ -687,7 +687,7 @@
     <string name="settings_update_stable">穩定版</string>
     <string name="settings_update_beta">開發版</string>
     <string name="settings_permissions">權限</string>
-    <string name="settings_permissions_summary">檢視 Shizuku 所需權限及授權狀態</string>
+    <string name="settings_permissions_summary">檢視 NFX 所需權限及授權狀態</string>
     <string name="permissions_allowed">已允許</string>
     <string name="permissions_action_allow">允許</string>
     <string name="permissions_action_settings">設定</string>
@@ -697,17 +697,11 @@
     <string name="permissions_nearby">附近裝置</string>
     <string name="permissions_nearby_summary">在你的網路上查詢無線偵錯連接埠。</string>
     <string name="permissions_write_secure_settings">寫入安全設定</string>
-    <string name="permissions_write_secure_settings_summary">讓 Shizuku 開啟無線偵錯。只有 ADB 可以授予此權限。</string>
+    <string name="permissions_write_secure_settings_summary">讓 NFX 開啟無線偵錯。只有 ADB 可以授予此權限。</string>
     <string name="permissions_accessibility">無障礙服務</string>
     <string name="permissions_accessibility_summary">自動讀取配對碼。</string>
-    <string name="permissions_battery_summary">防止 Android 在背景終止 Shizuku。</string>
-    <string name="settings_help">幫助</string>
-    <string name="settings_translate">參與翻譯</string>
-    <string name="settings_translate_note">在 Crowdin 上翻譯這個應用程式。</string>
-    <string name="crowdin_url">https://crowdin.com/project/Shizuku-Next</string>
+    <string name="permissions_battery_summary">防止 Android 在背景終止 NFX。</string>
     <string name="settings_report_bug">回報錯誤</string>
-    <string name="settings_contributors">貢獻者</string>
-    <string name="settings_contributors_hint">拖曳瀏覽 · 雙指縮放 · 點按查看詳情</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
       so the singular is read more often than the plural is.
@@ -737,14 +731,6 @@
     <string name="settings_legacy_pairing">傳統配對</string>
     <string name="settings_legacy_pairing_summary">在對話方塊中輸入配對碼，而不是在通知中輸入</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">首先，請執行以下操作：</string>
-    <string name="bug_report_dialog_update">請檢查你是否正在使用^1。</string>
-    <string name="bug_report_dialog_link_update">最新版本</string>
-    <string name="bug_report_dialog_wiki">閱讀 ^1，並遵循其中相關的排查步驟。</string>
-    <string name="bug_report_dialog_link_wiki">wiki</string>
-    <string name="bug_report_dialog_issues">請先搜尋^1，確認你的問題是否已被回報。</string>
-    <string name="bug_report_dialog_link_issues">已有的 issue</string>
-    <string name="bug_report_dialog_method">請在 ^1 上提交 issue。</string>
     <string name="bug_report_dialog_log_note">如果問題需要日誌，請分享並附上下方的完整日誌。</string>
     <string name="bug_report_dialog_share_log">分享日誌</string>
     <!-- Snackbar -->
@@ -766,7 +752,7 @@
     <string name="update_success">更新完成</string>
     <string name="update_failed">更新失敗</string>
     <!-- Toast -->
-    <string name="toast_pairing_timeout">Shizuku 配對服務超時</string>
+    <string name="toast_pairing_timeout">NFX 配對服務超時</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme">主題</string>
     <string name="dark_theme_off">始終使用淺色主題</string>
@@ -786,7 +772,7 @@
     <string name="notification_adb_pairing_stop_searching">停止尋找</string>
     <string name="notification_adb_pairing_working_title">正在進行配對</string>
     <string name="notification_adb_pairing_succeed_title">配對成功</string>
-    <string name="notification_adb_pairing_succeed_text">你現在可以啟動 Shizuku 服務了。</string>
+    <string name="notification_adb_pairing_succeed_text">你現在可以啟動 NFX 服務了。</string>
     <string name="notification_adb_pairing_failed_title">配對失敗</string>
     <string name="notification_adb_pairing_retry">重試</string>
     <string name="notification_auth_missing_title">需要身份驗證令牌</string>
@@ -794,8 +780,8 @@
     <string name="notification_auth_invalid_title">無效的身份驗證令牌</string>
     <string name="notification_auth_invalid_message">請確保 Intent 中的令牌與應用程式內「檢視 Intent」處顯示的一致。</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">使用 Shizuku</string>
-    <string name="permission_description">允許應用程式使用 Shizuku。</string>
+    <string name="permission_label">使用 NFX</string>
+    <string name="permission_description">允許應用程式使用 NFX。</string>
     <string name="permission_warning_template"><![CDATA[要允許<b>%1$s</b>%2$s 嗎？]]></string>
     <string name="grant_dialog_button_allow_always">一律允許</string>
     <string name="grant_dialog_button_deny">"拒絕"</string>
@@ -803,27 +789,27 @@
     <string name="starter">啟動器</string>
     <string name="start_with_root_failed">未授予 Root 權限或是此裝置沒有 Root，因此無法啟動服務。</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">正在啟動 Shizuku……</string>
+    <string name="wadb_notification_title">正在啟動 NFX……</string>
     <string name="wadb_notification_wifi_required">等待 Wi-Fi 連線後再繼續</string>
     <string name="wadb_notification_retry">等待重試</string>
-    <string name="wadb_notification_connecting">使用無線 ADB 啟動 Shizuku</string>
+    <string name="wadb_notification_connecting">使用無線 ADB 啟動 NFX</string>
     <string name="wadb_notification_waiting_for_unlock">解鎖裝置以繼續</string>
     <string name="wadb_notification_forcing_wireless">保持無線偵錯開啟</string>
-    <string name="wadb_error_title">裝置重新啟動後無法啟動 Shizuku</string>
+    <string name="wadb_error_title">裝置重新啟動後無法啟動 NFX</string>
     <string name="wadb_error_notify_dev">點選以向開發人員回報此問題。</string>
     <string name="wadb_permission_error_notification_title">權限錯誤</string>
-    <string name="wadb_permission_error_notification_content">Shizuku 需要 WRITE_SECURE_SETTINGS 權限才能開啟無線偵錯。點選以瞭解如何授予此權限。</string>
+    <string name="wadb_permission_error_notification_content">NFX 需要 WRITE_SECURE_SETTINGS 權限才能開啟無線偵錯。點選以瞭解如何授予此權限。</string>
     <!-- Shell -->
     <string name="shell_title">終端</string>
-    <string name="shell_backend_shizuku">Shizuku</string>
+    <string name="shell_backend_shizuku">NFX</string>
     <string name="shell_backend_root">Root</string>
-    <string name="shell_backend_shizuku_status">Shizuku，uid %1$d</string>
+    <string name="shell_backend_shizuku_status">NFX，uid %1$d</string>
     <string name="shell_backend_root_status">Root，uid 0</string>
     <string name="shell_backend_offline">沒有可用的命令執行器</string>
-    <string name="shell_needs_a_backend">啟動 Shizuku，或在已 root 的裝置上選擇 Root：兩者之一負責執行命令。Shizuku 停止時 Root 也能用。</string>
-    <string name="shell_intro">以 Shizuku 執行時的 uid 執行（adb 下是 2000，root 下是 0），所以它能觸及該 uid 能觸及的一切：/sdcard、/system，以及 root 下的應用程式資料。它開啟在 /sdcard，一次執行一條命令；背後沒有 tty，需要終端的程式（nano、ssh 互動提示）在這裡無法執行。</string>
+    <string name="shell_needs_a_backend">啟動 NFX，或在已 root 的裝置上選擇 Root：兩者之一負責執行命令。NFX 停止時 Root 也能用。</string>
+    <string name="shell_intro">以 NFX 執行時的 uid 執行（adb 下是 2000，root 下是 0），所以它能觸及該 uid 能觸及的一切：/sdcard、/system，以及 root 下的應用程式資料。它開啟在 /sdcard，一次執行一條命令；背後沒有 tty，需要終端的程式（nano、ssh 互動提示）在這裡無法執行。</string>
     <string name="shell_root_granted">Root 可用：以 uid 0 執行命令。</string>
-    <string name="shell_root_refused">Root 授權遭拒，將改用 Shizuku 執行命令。請授予此應用程式 root 權限後再使用 Root。</string>
+    <string name="shell_root_refused">Root 授權遭拒，將改用 NFX 執行命令。請授予此應用程式 root 權限後再使用 Root。</string>
     <string name="shell_search">搜尋</string>
     <string name="shell_search_hint">查詢</string>
     <string name="shell_search_position">%1$d / %2$d</string>
@@ -867,10 +853,10 @@
     <string name="shell_quick_force_stop">強行停止</string>
     <string name="shell_adb_prefix_dropped">已在裝置上執行：adb shell 字首是你在電腦上才會輸入的。</string>
     <string name="shell_adb_host_devices">那列出的是連線到電腦的裝置。這裡就是裝置本身，沒有可列的：`pm list packages` 列出的才是它上面安裝的應用程式。</string>
-    <string name="shell_adb_host_install">安裝屬於那條命令在電腦一側的職責。在這裡，同樣的工作是 <b>pm install /path/to/app.apk</b>，像其他命令一樣透過 Shizuku 執行。</string>
+    <string name="shell_adb_host_install">安裝屬於那條命令在電腦一側的職責。在這裡，同樣的工作是 <b>pm install /path/to/app.apk</b>，像其他命令一樣透過 NFX 執行。</string>
     <string name="shell_adb_host_transfer">那條命令需要一端是電腦。在裝置上，檔案用 <b>cp</b> 移動，路徑就是這個 shell 能觸及的路徑。</string>
     <string name="shell_adb_host_generic">那是 adb 在電腦上執行的那一半，在裝置內部它無事可做。請在這裡直接執行裝置端的命令：<b>adb shell ps</b> 和 <b>ps</b> 是一回事。</string>
-    <string name="shell_adb_host_help">這是裝置自身的 shell，不是電腦上的 adb：命令以 Shizuku 的 uid 執行，一次執行一條。可以從 <b>pm list packages</b>、<b>dumpsys battery</b> 或輸入框上方的命令庫開始。</string>
+    <string name="shell_adb_host_help">這是裝置自身的 shell，不是電腦上的 adb：命令以 NFX 的 uid 執行，一次執行一條。可以從 <b>pm list packages</b>、<b>dumpsys battery</b> 或輸入框上方的命令庫開始。</string>
     <string name="shell_paste">貼上命令</string>
     <string name="shell_paste_empty">剪貼簿上沒有要貼上的內容。</string>
     <string name="shell_jump_to_newest">跳轉到最新輸出</string>
@@ -886,13 +872,13 @@
     <!-- Watchdog -->
     <string name="watchdog_running">看門狗正在執行</string>
     <string name="watchdog_turn_off">關閉</string>
-    <string name="watchdog_shizuku_crashed_title">Shizuku 最近崩潰了</string>
-    <string name="watchdog_shizuku_crashed_text">看門狗已重新啟動 Shizuku。點選以查看預防崩潰的方法。</string>
+    <string name="watchdog_shizuku_crashed_title">NFX 最近崩潰了</string>
+    <string name="watchdog_shizuku_crashed_text">看門狗已重新啟動 NFX。點選以查看預防崩潰的方法。</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">關閉警報</string>
-    <string name="watchdog_shizuku_recovered_title">Shizuku 已恢復執行</string>
-    <string name="watchdog_shizuku_recovered_text">Shizuku 自行停止後，看門狗已將其重新啟動。</string>
-    <string name="watchdog_given_up_title">無法啟動 Shizuku</string>
-    <string name="watchdog_given_up_text">已嘗試啟動 Shizuku %1$d 次，都沒有成功。在問題解決之前，再次啟動也無濟於事。</string>
+    <string name="watchdog_shizuku_recovered_title">NFX 已恢復執行</string>
+    <string name="watchdog_shizuku_recovered_text">NFX 自行停止後，看門狗已將其重新啟動。</string>
+    <string name="watchdog_given_up_title">無法啟動 NFX</string>
+    <string name="watchdog_given_up_text">已嘗試啟動 NFX %1$d 次，都沒有成功。在問題解決之前，再次啟動也無濟於事。</string>
     <string name="watchdog_given_up_action_start">啟動</string>
     <string name="watchdog_not_running_title">看門狗未執行</string>
     <string name="watchdog_not_running_text">Android 不允許它自行啟動。點按可重新啟動。</string>
@@ -901,13 +887,13 @@
     <string name="off">關閉</string>
     <string name="dialog_cannot_open_browser_title">無法啟動瀏覽器</string>
     <string name="toast_copied_to_clipboard">已複製到剪貼簿</string>
-    <string name="accessibility_service_description">無需輸入配對碼即可完成無線偵錯配對。\n\nShizuku 會從系統的「與裝置配對」畫面讀取配對碼和連接埠，完成配對並自行啟動。在電視（例如 Android 14+）上，無障礙服務會自動完成整個流程，並在找到配對碼後關閉。</string>
+    <string name="accessibility_service_description">無需輸入配對碼即可完成無線偵錯配對。\n\nNFX 會從系統的「與裝置配對」畫面讀取配對碼和連接埠，完成配對並自行啟動。在電視（例如 Android 14+）上，無障礙服務會自動完成整個流程，並在找到配對碼後關閉。</string>
     <!-- Messages for legacy -->
-    <string name="dialog_legacy_not_support_title">%1$s 不支援新版 Shizuku</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[舊版 Shizuku 已於 2019 年 3 月被棄用。此外，舊版 Shizuku 無法在較新版本的 Android 系統上工作。<p>請要求 <b>%1$s</b> 的開發人員進行更新。]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s 正在要求舊版 Shizuku</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> 支援新版 Shizuku，但它正在要求舊版 Shizuku。這可能是因為 Shizuku 未在執行，請在 Shizuku 應用程式內檢查。<p>舊版 Shizuku 已於 2019 年 3 月被棄用。]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">開啟 Shizuku</string>
+    <string name="dialog_legacy_not_support_title">%1$s 不支援新版 NFX</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[舊版 NFX 已於 2019 年 3 月被棄用。此外，舊版 NFX 無法在較新版本的 Android 系統上工作。<p>請要求 <b>%1$s</b> 的開發人員進行更新。]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s 正在要求舊版 NFX</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> 支援新版 NFX，但它正在要求舊版 NFX。這可能是因為 NFX 未在執行，請在 NFX 應用程式內檢查。<p>舊版 NFX 已於 2019 年 3 月被棄用。]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">開啟 NFX</string>
     <string name="wadb_notification_attempt_now">重試</string>
     <!-- Manage tab -->
     <string name="tab_manage">應用程式操作</string>
@@ -925,7 +911,7 @@
     <string name="permissions_phantom">背景程序</string>
     <string name="permissions_phantom_summary">Android 12 以上版本可能會在應用程式關閉後停止該應用程式啟動的程序，開機啟動的伺服器也可能因此停止。此設定影響整台裝置，可能需要重啟才能生效。</string>
     <string name="permissions_action_deny">拒絕</string>
-    <string name="permissions_phantom_failed">無法更改。需要 Shizuku 或 WRITE_SECURE_SETTINGS 權限。</string>
+    <string name="permissions_phantom_failed">無法更改。需要 NFX 或 WRITE_SECURE_SETTINGS 權限。</string>
     <string name="manage_status_removed">已移除，資料保留</string>
     <string name="manage_status_disabled">已停用</string>
     <string name="manage_status_suspended">暫停</string>
@@ -939,7 +925,7 @@
     <string name="app_section_actions">行動</string>
     <string name="app_section_battery">電池</string>
     <string name="app_section_info">資訊</string>
-    <string name="app_permissions_note">只有保護級別包含 development 的權限和危險權限可以透過 adb 更改；其餘的無論 Shizuku 多受信任，平台都會拒絕，所以那些行的開關保持關閉。</string>
+    <string name="app_permissions_note">只有保護級別包含 development 的權限和危險權限可以透過 adb 更改；其餘的無論 NFX 多受信任，平台都會拒絕，所以那些行的開關保持關閉。</string>
     <string name="app_permissions_none">此應用程式沒有系統權限。</string>
     <string name="app_permission_locked">%1$s，無法透過 ADB 更改</string>
     <string name="app_permission_granted">已授權</string>
@@ -949,7 +935,7 @@
     <string name="app_grant_confirm_ok">授權</string>
     <string name="app_action_failed">Android 拒絕了此操作。沒有任何更改。</string>
     <string name="app_ops_note">應用程式操作是系統底層實際參考的機制，adb 可以更改下面這些。少數能力屬於系統設定中的特殊存取權限而非應用程式操作——所有檔案存取、使用情況存取、精確鬧鐘、修改系統設定——任何應用程式都改不了它們。</string>
-    <string name="app_ops_needs_shizuku">啟動 Shizuku 後才能讀取和更改應用程式操作。</string>
+    <string name="app_ops_needs_shizuku">啟動 NFX 後才能讀取和更改應用程式操作。</string>
     <string name="app_op_background">背景執行</string>
     <string name="app_op_background_note">選擇「拒絕」後，將禁止此應用程式在背景執行。</string>
     <string name="app_op_any_background">開機自啟</string>
@@ -1003,7 +989,7 @@
     <string name="app_confirm_disable">停用 %1$s？它會停止執行，直到你重新啟用。</string>
     <string name="app_confirm_clear_data">刪除 %1$s 的所有資料？此操作無法撤銷。</string>
     <string name="app_confirm_uninstall">為此使用者移除 %1$s？其資料會保留。</string>
-    <string name="app_battery_needs_shizuku">啟動 Shizuku 後才能更改電池設定。</string>
+    <string name="app_battery_needs_shizuku">啟動 NFX 後才能更改電池設定。</string>
     <string name="app_battery_bucket">待機分組</string>
     <string name="app_battery_pick_title">待機分組</string>
     <string name="app_bucket_active">不受限制</string>
@@ -1023,7 +1009,7 @@
     <string name="app_battery_unrestricted">忽略電池最佳化</string>
     <string name="app_battery_unrestricted_note">允許此應用程式在 Doze 模式下保持活動，但會增加耗電。</string>
     <string name="app_section_network">網路</string>
-    <string name="app_network_needs_shizuku">啟動 Shizuku 後才能更改此應用程式的網路存取設定。</string>
+    <string name="app_network_needs_shizuku">啟動 NFX 後才能更改此應用程式的網路存取設定。</string>
     <string name="app_network_unsupported">此裝置不支援此功能所需的防火牆。</string>
     <string name="app_network_block">封鎖網路存取</string>
     <string name="app_network_block_note">平台會丟棄它的流量。</string>
@@ -1036,7 +1022,7 @@
     <string name="lab_state_off">關</string>
     <string name="lab_state_unavailable">無法使用</string>
     <!-- The switches in the shade and on the home screen that are not about one app. -->
-    <string name="lab_switch_service">Shizuku 服務</string>
+    <string name="lab_switch_service">NFX 服務</string>
     <string name="lab_switch_hiding">隱藏</string>
     <string name="lab_switch_watchdog">看門狗</string>
     <!-- The three platform settings themselves, and the hiding switches that are about the same
@@ -1079,7 +1065,7 @@
     <string name="wifi_passwords_copy">複製密碼</string>
     <string name="wifi_passwords_none">無密碼</string>
     <string name="wifi_passwords_empty">沒有已儲存的網路。</string>
-    <string name="wifi_passwords_needs_shizuku">Shizuku 未執行，沒有 shell 可以用來讀取已儲存的網路。</string>
+    <string name="wifi_passwords_needs_shizuku">NFX 未執行，沒有 shell 可以用來讀取已儲存的網路。</string>
     <string name="wifi_passwords_failed">Wi-Fi 服務沒有回應，詳情請看日誌。</string>
     <string name="wifi_passwords_unsupported">讀取已儲存的網路需要 Android 9 以上版本，從該版本起才能存取隱藏的 Wi-Fi 服務。</string>
     <string name="wifi_passwords_search_hint">搜尋網路</string>
@@ -1128,7 +1114,7 @@
     <string name="files_show_hidden">顯示隱藏檔案</string>
     <string name="files_hide_hidden">不顯示隱藏檔案</string>
     <string name="files_failed">無法列出 %1$s 的內容：沒有 shell 存取權限，或資料夾不存在。</string>
-    <string name="files_needs_shizuku">Shizuku 未執行，無法讀取檔案。</string>
+    <string name="files_needs_shizuku">NFX 未執行，無法讀取檔案。</string>
     <string name="files_preview_binary">這不是文字檔，無法顯示。</string>
     <string name="files_preview_failed">無法讀取此檔案。</string>
     <string name="files_preview_truncated">僅顯示檔案開頭的部分。</string>

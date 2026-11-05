@@ -2,8 +2,11 @@ package moe.shizuku.manager.settings
 
 import android.app.Dialog
 import android.app.NotificationManager
+import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.DialogInterface
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.fragment.app.DialogFragment
@@ -12,11 +15,9 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import kotlinx.coroutines.launch
 import moe.shizuku.manager.R
 import moe.shizuku.manager.databinding.BugReportDialogBinding
-import moe.shizuku.manager.ktx.asLink
-import moe.shizuku.manager.ktx.applyTemplateArgs
-import moe.shizuku.manager.utils.CustomTabsHelper
 import moe.shizuku.manager.utils.shareAppLog
 import moe.shizuku.manager.worker.AdbStartWorker
+import rikka.core.util.ClipboardUtils
 
 class BugReportDialog : DialogFragment() {
 
@@ -26,41 +27,33 @@ class BugReportDialog : DialogFragment() {
         val context = requireContext()
         binding = BugReportDialogBinding.inflate(layoutInflater)
 
-        // Releases and issues are this fork's; the wiki belongs to the fork this is based on,
-        // because it documents the behaviour that came from there.
-        val updateLink = getString(R.string.bug_report_dialog_link_update)
-            .asLink("https://github.com/seandyadryan/GPS-changer-Shizuku-Pro/releases/latest")
-
-        val wikiLink = getString(R.string.bug_report_dialog_link_wiki)
-            .asLink("https://github.com/thedjchi/Shizuku/wiki#troubleshooting")
-
-        val issuesLink = getString(R.string.bug_report_dialog_link_issues)
-            .asLink("https://github.com/seandyadryan/GPS-changer-Shizuku-Pro/issues")
-
         binding.apply {
-            updateText.applyTemplateArgs(updateLink)
-            wikiText.applyTemplateArgs(wikiLink)
-            issuesText.applyTemplateArgs(issuesLink)
-            methodText.applyTemplateArgs("GitHub")
+            reportEmail.text = REPORT_EMAIL
             shareLog.setOnClickListener { shareLog() }
         }
 
         return MaterialAlertDialogBuilder(context)
             .setTitle(R.string.settings_report_bug)
             .setView(binding.root)
-            // The chooser, not the blank composer: the repository's own templates ask for the
-            // things a report needs, in the order they are needed, and a form is easier to fill
-            // than an empty box. What the app used to do - put a block of machine text and a
-            // sentence at the top of a new issue - only produced reports that read like a
-            // template and still said nothing about what went wrong, so nothing is pre-filled
-            // any more, not even a title.
-            .setPositiveButton("GitHub") { _, _ ->
-                CustomTabsHelper.launchUrlOrCopy(context, ISSUES_NEW)
+            .setPositiveButton(R.string.bug_report_email_open) { _, _ ->
+                openEmail(context)
             }
             .setNeutralButton(android.R.string.cancel) { dialog, _ ->
                 dialog.cancel()
             }
             .create()
+    }
+
+    private fun openEmail(context: Context) {
+        val subject = context.getString(R.string.bug_report_email_subject, context.getString(R.string.app_name))
+        val intent = Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:$REPORT_EMAIL?subject=${Uri.encode(subject)}"))
+        try {
+            context.startActivity(intent)
+        } catch (_: ActivityNotFoundException) {
+            val copied = ClipboardUtils.put(context, REPORT_EMAIL)
+            val message = if (copied) R.string.bug_report_email_copied else R.string.bug_report_email_unavailable
+            Toast.makeText(context, message, Toast.LENGTH_LONG).show()
+        }
     }
 
     /**
@@ -92,7 +85,6 @@ class BugReportDialog : DialogFragment() {
     }
 
     private companion object {
-        /** The repository's issue templates, which is where a report should start. */
-        const val ISSUES_NEW = "https://github.com/seandyadryan/GPS-changer-Shizuku-Pro/issues/new/choose"
+        const val REPORT_EMAIL = "seandyadryan2@gmail.com"
     }
 }

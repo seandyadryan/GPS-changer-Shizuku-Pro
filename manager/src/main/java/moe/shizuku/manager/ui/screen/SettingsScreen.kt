@@ -5,11 +5,8 @@ import android.content.Intent
 import android.os.Build
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.fillMaxSize
@@ -19,7 +16,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -33,10 +29,7 @@ import androidx.compose.material.icons.outlined.DarkMode
 import androidx.compose.material.icons.outlined.DeveloperMode
 import androidx.compose.material.icons.outlined.Devices
 import androidx.compose.material.icons.outlined.Info
-import androidx.compose.material.icons.outlined.KeyboardArrowDown
-import androidx.compose.material.icons.outlined.KeyboardArrowUp
 import androidx.compose.material.icons.outlined.Link
-import androidx.compose.material.icons.outlined.MenuBook
 import androidx.compose.material.icons.outlined.MonitorHeart
 import androidx.compose.material.icons.outlined.NetworkCheck
 import androidx.compose.material.icons.outlined.Numbers
@@ -57,16 +50,10 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.Surface
 import moe.shizuku.manager.ui.component.PillButton
 import moe.shizuku.manager.ui.component.PillButtonQuiet
 import moe.shizuku.manager.ui.component.ChoiceRow
-import moe.shizuku.manager.ui.component.Contributor
-import moe.shizuku.manager.ui.component.ContributorCredits
-import moe.shizuku.manager.ui.component.ContributorDetailsDialog
-import moe.shizuku.manager.ui.component.ContributorWall
 import moe.shizuku.manager.ui.component.ExpressiveSwitch
-import moe.shizuku.manager.ui.component.SegmentedCard
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import android.widget.Toast
@@ -77,11 +64,9 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
@@ -109,7 +94,6 @@ import moe.shizuku.manager.start.applyAdbWithoutDeveloperOptions
 import moe.shizuku.manager.start.restoreDeveloperOptions
 import moe.shizuku.manager.start.startMethodLabelRes
 import moe.shizuku.manager.utils.AppLocale
-import moe.shizuku.manager.utils.CustomTabsHelper
 import moe.shizuku.manager.utils.EnvironmentUtils
 import moe.shizuku.manager.utils.SettingsHelper
 import moe.shizuku.manager.utils.ShizukuStateMachine
@@ -218,14 +202,11 @@ fun SettingsScreen(bottomPadding: Dp, onOpenDetail: (Detail) -> Unit, onOpenAcco
     var tcpPortDialog by remember { mutableStateOf(false) }
     var systemStartDialog by remember { mutableStateOf(false) }
     var updateDialog by remember { mutableStateOf(false) }
-    var selectedContributor by remember { mutableStateOf<Contributor?>(null) }
     // The wall is folded away until somebody asks for it. It is a credit rather than a setting, and
     // it is heavier than everything else on this screen put together - a hundred and forty faces,
     // each with its own layer - which is what made scrolling past it cost three times what the rest
     // of the list costs. Remembered across a rotation, so a wall that was opened stays open, and not
     // across a restart: somebody who opened it once is not asking for it every time.
-    var creditsOpen by rememberSaveable { mutableStateOf(false) }
-    val contributors = rememberContributors()
 
     // Whether the experiment can write the setting it is made of, which is what decides if it
     // is offered at all. It arrives without this screen being told - a running Shizuku grants
@@ -874,19 +855,6 @@ fun SettingsScreen(bottomPadding: Dp, onOpenDetail: (Detail) -> Unit, onOpenAcco
                     item {
                         SegmentedListItem(
                             centerSlots = true,
-                            leadingContent = { SettingsIcon(Icons.Outlined.MenuBook) },
-                            headlineContent = { Text(stringResource(R.string.settings_help)) },
-                            trailingContent = {
-                                Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null)
-                            },
-                            onClick = {
-                                CustomTabsHelper.launchUrlOrCopy(context, context.getString(R.string.help_url))
-                            }
-                        )
-                    }
-                    item {
-                        SegmentedListItem(
-                            centerSlots = true,
                             leadingContent = { SettingsIcon(Icons.Outlined.BugReport) },
                             headlineContent = { Text(stringResource(R.string.settings_report_bug)) },
                             trailingContent = {
@@ -896,68 +864,6 @@ fun SettingsScreen(bottomPadding: Dp, onOpenDetail: (Detail) -> Unit, onOpenAcco
                                 context.startActivity(Intent(context, BugReportDialogActivity::class.java))
                             }
                         )
-                    }
-                    item {
-                        SegmentedListItem(
-                            centerSlots = true,
-                            leadingContent = { SettingsIcon(Icons.Outlined.Translate) },
-                            headlineContent = {
-                                Text(stringResource(R.string.settings_translate))
-                            },
-                            // The note says where the translating happens, because the row leads
-                            // out of the app rather than to another screen of it.
-                            supportingContent = {
-                                Text(stringResource(R.string.settings_translate_note))
-                            },
-                            trailingContent = {
-                                Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null)
-                            },
-                            onClick = {
-                                CustomTabsHelper.launchUrlOrCopy(
-                                    context,
-                                    context.getString(R.string.crowdin_url)
-                                )
-                            }
-                        )
-                    }
-                }
-            }
-            // Nothing to credit is better than an empty card: a build with no snapshot at all - an
-            // asset that failed to make it in - simply has no credits section.
-            if (contributors.isNotEmpty()) {
-                // The heading and the card are separate items so the list's own spacing sits
-                // between them; inside one item the badge came to rest on the card's edge.
-                //
-                // The heading is also what opens the card, so the wall is not composed at all until
-                // it is asked for: folding it away is what keeps it out of scrolling somebody else
-                // came here to do. The badge carries the number either way, so a closed section
-                // still says who is being credited.
-                item {
-                    SettingsSectionHeader(
-                        titleRes = R.string.settings_contributors,
-                        badge = contributors.size.toString(),
-                        expanded = creditsOpen,
-                        onClick = { creditsOpen = !creditsOpen }
-                    )
-                }
-                if (creditsOpen) {
-                    item {
-                        SegmentedCard {
-                            Column(
-                                modifier = Modifier.padding(18.dp),
-                                verticalArrangement = Arrangement.spacedBy(14.dp)
-                            ) {
-                                ContributorWall(
-                                    contributors = contributors,
-                                    onSelect = { selectedContributor = it }
-                                )
-                                Text(
-                                    text = stringResource(R.string.settings_contributors_hint),
-                                    style = MaterialTheme.typography.bodySmall,
-                                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                                )
-                            }
-                        }
                     }
                 }
             }
@@ -969,13 +875,6 @@ fun SettingsScreen(bottomPadding: Dp, onOpenDetail: (Detail) -> Unit, onOpenAcco
                 modifier = Modifier.align(Alignment.BottomEnd)
             )
         }
-    }
-
-    selectedContributor?.let { contributor ->
-        ContributorDetailsDialog(
-            contributor = contributor,
-            onDismiss = { selectedContributor = null }
-        )
     }
 
     restartAction?.let { action ->
@@ -1292,78 +1191,15 @@ private fun closePortMessage(context: Context, outcome: AdbStarter.CloseOutcome)
         else -> context.getString(R.string.adb_error_stop_tcp)
     }
 
-/**
- * Section title above a settings card, so the list reads as deliberate groups.
- *
- * With [onClick] the title is also the control that opens the card it belongs to, and [expanded]
- * says which way it is: the two go together, because a card that is worth keeping closed has to say
- * what it is and how to open it without being drawn. The label names the action rather than the
- * state - "Collapse" while it is open is what the tap will do - so a reader who cannot see the
- * chevron still knows.
- */
 @Composable
-private fun SettingsSectionHeader(
-    @StringRes titleRes: Int,
-    badge: String? = null,
-    expanded: Boolean? = null,
-    onClick: (() -> Unit)? = null
-) {
-    Row(
-        modifier = Modifier
-            .fillMaxWidth()
-            .then(
-                if (onClick == null) {
-                    Modifier
-                } else {
-                    Modifier.clickable(
-                        role = Role.Button,
-                        onClickLabel = stringResource(
-                            if (expanded == true) R.string.shell_collapse else R.string.shell_expand
-                        ),
-                        onClick = onClick
-                    )
-                }
-            )
-            .padding(start = 16.dp, top = 12.dp, end = 16.dp),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(8.dp)
-    ) {
-        Text(
-            text = stringResource(titleRes),
-            style = MaterialTheme.typography.labelLarge,
-            fontWeight = FontWeight.SemiBold,
-            color = MaterialTheme.colorScheme.primary
-        )
-        // How many people the wall is holding, beside the title, so the number is read rather than
-        // counted off the faces.
-        badge?.let {
-            Surface(
-                shape = CircleShape,
-                color = MaterialTheme.colorScheme.surfaceContainerHighest
-            ) {
-                Text(
-                    text = it,
-                    style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.primary,
-                    modifier = Modifier.padding(horizontal = 8.dp, vertical = 2.dp)
-                )
-            }
-        }
-        if (expanded != null) {
-            Spacer(Modifier.weight(1f))
-            Icon(
-                imageVector = if (expanded) {
-                    Icons.Outlined.KeyboardArrowUp
-                } else {
-                    Icons.Outlined.KeyboardArrowDown
-                },
-                // Nothing of its own to say: the label above already names the action.
-                contentDescription = null,
-                tint = MaterialTheme.colorScheme.primary,
-                modifier = Modifier.size(20.dp)
-            )
-        }
-    }
+private fun SettingsSectionHeader(@StringRes titleRes: Int) {
+    Text(
+        text = stringResource(titleRes),
+        style = MaterialTheme.typography.labelLarge,
+        fontWeight = FontWeight.SemiBold,
+        color = MaterialTheme.colorScheme.primary,
+        modifier = Modifier.fillMaxWidth().padding(start = 16.dp, top = 12.dp, end = 16.dp)
+    )
 }
 
 /**
@@ -1381,26 +1217,6 @@ private fun SettingsIcon(icon: ImageVector) {
         tint = MaterialTheme.colorScheme.onSurfaceVariant,
         modifier = Modifier.size(24.dp)
     )
-}
-
-/**
- * The credits to draw, and the fetch that keeps them current.
- *
- * The shipped snapshot is read synchronously, so the wall is never empty on the frame it first
- * appears; the published copy is fetched behind it - at most once a day - and the wall redraws if
- * it arrives. A failed fetch leaves the wall exactly as it was, which is why nothing here reports
- * an error: a credits screen is not worth interrupting anyone over.
- */
-@Composable
-private fun rememberContributors(): List<Contributor> {
-    val context = LocalContext.current
-    var contributors by remember(context) {
-        mutableStateOf(ContributorCredits.initial(context))
-    }
-    LaunchedEffect(context) {
-        ContributorCredits.refresh(context)?.let { contributors = it }
-    }
-    return contributors
 }
 
 private fun needsBatteryPrompt(context: android.content.Context): Boolean =

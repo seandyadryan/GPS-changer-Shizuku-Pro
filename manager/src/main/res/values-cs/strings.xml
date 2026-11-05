@@ -55,7 +55,7 @@
     <string name="dialog_adb_pairing_discovery">Hledání zařízení pro párování</string>
     <string name="dialog_adb_pairing_paring_code">Kód pro párování</string>
     <string name="paring_code_is_wrong">Chybný kód pro párování.</string>
-    <string name="cannot_connect_port">Nelze se připojit k bezdrátové ladicí službě.\n\nUjistěte se prosím, že je Shizuku na bílé listině ve všech firewallech, blokovačích reklam, VPN nebo podobných aplikacích, které mohou omezovat přístup k síti.</string>
+    <string name="cannot_connect_port">Nelze se připojit k bezdrátové ladicí službě.\n\nUjistěte se prosím, že je NFX na bílé listině ve všech firewallech, blokovačích reklam, VPN nebo podobných aplikacích, které mohou omezovat přístup k síti.</string>
     <string name="dialog_adb_pairing_message">Párování zahajte provedením následujících kroků:\n- Přejděte do sekce „Možnosti pro vývojáře“\n- Povolte „Ladění USB“ a „Bezdrátové ladění“\n- Klepněte na levou stranu sekce „Bezdrátové ladění“\n- Klepněte na „Spárovat zařízení s párovacím kódem“\n- Zadejte párovací kód z oznámení</string>
     <!-- Goes after dialog_adb_pairing_accessibility_enable in the same dialog: what the greyed-out
          row means, and both ways to open it. The App info menu is the only one available on a
@@ -63,29 +63,29 @@
          outside the app, and both are named because either reader may be the one holding it. -->
     <string name="dialog_adb_pairing_accessibility_permission">Android blokuje tento přepínač pro aplikace nainstalované mimo obchod s aplikacemi. Povolte ^ 1 aplikaci zapnout službu usnadnění přístupu. Na seznamu přístupů je zobrazeno jako \"Ovládáno omezeným nastavením\".\n\nOtevřete informace o aplikaci a vyberte možnost \"Povolit omezená nastavení\" z menu, nebo to spusťte na počítači:\n\n^2\n\nFungují obě možnosti. Přepínač bude fungovat později.</string>
     <string name="dialog_adb_pairing_open_app_info">Informace o aplikaci</string>
-    <string name="dialog_adb_pairing_accessibility_navigate">Párování spusťte provedením následujících kroků:\n- Přejděte do sekce „Možnosti pro vývojáře“\n- Povolte „Ladění USB“ a „Bezdrátové ladění“\n- Klepněte na levou stranu sekce „Bezdrátové ladění“\n- Klepněte na „Spárovat zařízení s párovacím kódem“. Shizuku automaticky detekuje párovací kód.</string>
+    <string name="dialog_adb_pairing_accessibility_navigate">Párování spusťte provedením následujících kroků:\n- Přejděte do sekce „Možnosti pro vývojáře“\n- Povolte „Ladění USB“ a „Bezdrátové ladění“\n- Klepněte na levou stranu sekce „Bezdrátové ladění“\n- Klepněte na „Spárovat zařízení s párovacím kódem“. NFX automaticky detekuje párovací kód.</string>
     <string name="adb_pairing_requires_multi_window">Nejprve prosím přejděte do režimu rozdělené obrazovky (více oken).</string>
     <string name="adb_pairing_requires_multi_window_reason">Systém vyžaduje, aby byl dialog pro párování vždy viditelný. Použití režimu rozdělené obrazovky je jediný způsob, jak zajistit, aby tato aplikace a dialogové okno systému byly viditelné současně.</string>
     <string name="adb_error_key_store">Nelze vygenerovat klíč pro bezdrátové ladění.\nMůže to být způsobeno chybou mechanismu úložiště klíčů v tomto zařízení.</string>
     <string name="adb_error_stop_tcp">Nepodařilo se zastavit ADB přes TCP</string>
     <string name="adb_pair_required">Nejprve projděte krok párování.</string>
     <string name="enable">Zapnout</string>
-    <string name="auto_pair_instructions">Párovat bez zadání kódu:\n\n1. Možnosti vývojáře → Bezdrátové ladění\n2. Párovat zařízení s párovacím kódem\n\nShizuku čte kód a portuje přímo z tohoto dialogového okna a spustí se. Ponechat dialogové okno otevřené, dokud neskončí párování.</string>
+    <string name="auto_pair_instructions">Párovat bez zadání kódu:\n\n1. Možnosti vývojáře → Bezdrátové ladění\n2. Párovat zařízení s párovacím kódem\n\nNFX čte kód a portuje přímo z tohoto dialogového okna a spustí se. Ponechat dialogové okno otevřené, dokud neskončí párování.</string>
     <string name="auto_pair_manual">Ruční</string>
     <string name="development_settings">Možnosti vývojářů</string>
     <string name="notification_settings">Nastavení oznámení</string>
-    <string name="adb_pairing_tutorial_content_notification">Notifikace od Shizuku vám pomůže dokončit párování.</string>
+    <string name="adb_pairing_tutorial_content_notification">Notifikace od NFX vám pomůže dokončit párování.</string>
     <string name="adb_pairing_tutorial_content_steps">Přejděte do části „Možnosti pro vývojáře“ a poté povolte „Ladění USB“ a „Bezdrátové ladění“.</string>
     <string name="adb_pairing_tutorial_content_enter_pairing_code">Klepněte na levou stranu „Bezdrátové ladění“ a poté klepněte na „Spárovat zařízení s párovacím kódem“. Zadejte kód z oznámení pro dokončení párování.</string>
-    <string name="adb_pairing_tutorial_content_notification_blocked">Proces párování vyžaduje interakci s oznámením od Shizuku. Prosím povolte Shizuku posílat oznámení.</string>
+    <string name="adb_pairing_tutorial_content_notification_blocked">Proces párování vyžaduje interakci s oznámením od NFX. Prosím povolte NFX posílat oznámení.</string>
     <string name="adb_pairing_tutorial_content_miui">Uživatelé MIUI možná budou muset přepnout styl oznámení na \"Android\" z \"Oznámení\" - \"Lišta Oznámení\" v nastavení systému.</string>
     <string name="adb_pairing_tutorial_content_miui_2">Jinak se vám nemusí podařit zadat párovací kód z oznámení.</string>
-    <string name="adb_pairing_tutorial_content_finish">Vraťte se do Shizuku a začněte Shizuku.</string>
-    <string name="adb_pairing_tutorial_content_network">Shizuku potřebuje přístup k místní síti. Je řízen síťovými oprávněními.</string>
-    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Některé systémy (například MIUI) neumožňují aplikacím přístup k síti, když nejsou viditelné, a to i v případě, že aplikace používá službu v popředí. V takových systémech prosím vypněte funkce optimalizace baterie pro aplikaci Shizuku.</string>
+    <string name="adb_pairing_tutorial_content_finish">Vraťte se do NFX a začněte NFX.</string>
+    <string name="adb_pairing_tutorial_content_network">NFX potřebuje přístup k místní síti. Je řízen síťovými oprávněními.</string>
+    <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Některé systémy (například MIUI) neumožňují aplikacím přístup k síti, když nejsou viditelné, a to i v případě, že aplikace používá službu v popředí. V takových systémech prosím vypněte funkce optimalizace baterie pro aplikaci NFX.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[Start (pro rootovaná zařízení)]]></string>
-    <string name="home_root_description"><![CDATA[Pokud používáte Magisk, můžete zkusit %1$s. Pro uživatele root nakonec nahradí Shizuku. Upozorňujeme, že stávající aplikace se musí trochu změnit, aby mohly používat %2$s.]]></string>
+    <string name="home_root_description"><![CDATA[Pokud používáte Magisk, můžete zkusit %1$s. Pro uživatele root nakonec nahradí NFX. Upozorňujeme, že stávající aplikace se musí trochu změnit, aby mohly používat %2$s.]]></string>
     <string name="home_root_button_start">Spustit</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -100,7 +100,7 @@
     <!-- Home - Adb permissions limited -->
     <!-- Home - Dialogs -->
     <string name="home_dialog_reboot_required_title">Vyžadován restart</string>
-    <string name="home_dialog_reboot_required_message">Pro správnou funkci Shizuku je vyžadován restart zařízení. Chcete-li pokračovat, restartujte zařízení.</string>
+    <string name="home_dialog_reboot_required_message">Pro správnou funkci NFX je vyžadován restart zařízení. Chcete-li pokračovat, restartujte zařízení.</string>
     <string name="home_dialog_duplicate_app_detected_title">Detekována duplicitní aplikace</string>
     <string name="home_dialog_duplicate_app_detected_message">Jiná verze této aplikace je nainstalována na vašem zařízení. Chcete-li pokračovat, odinstalujte prosím všechny duplicitní verze a restartujte zařízení.</string>
     <!-- The same two states, said on the Home screen instead of in a dialog that only exits. Shizuku works either way; what is affected is what other apps find when they look Shizuku up. -->
@@ -111,7 +111,7 @@
     <string name="app_management_toggle_all">Přepínat vše</string>
     <string name="app_management_search_hint">Hledat aplikace</string>
     <string name="app_management_sort">Seřadit</string>
-    <string name="apps_needs_shizuku">Spustit Shizuku pro zobrazení aplikací</string>
+    <string name="apps_needs_shizuku">Spustit NFX zobrazení aplikací</string>
     <string name="apps_empty">Žádné aplikace k zobrazení</string>
     <string name="apps_filter_empty">Žádné aplikace v tomto filtru</string>
     <string name="apps_filter_all">Vše</string>
@@ -174,7 +174,7 @@
     <string name="tab_activities">Aktivity spouštěč</string>
     <string name="tab_power">Napájení</string>
     <string name="power_description">Restartovat nebo vypnout obrazovku bez použití tlačítek telefonu.</string>
-    <string name="power_needs_shizuku">Nejprve spusťte Shizuku pro použití těchto možností.</string>
+    <string name="power_needs_shizuku">Nejprve spusťte NFX použití těchto možností.</string>
     <string name="power_reboot">Restartovat</string>
     <string name="power_reboot_summary">Restartovat telefon.</string>
     <string name="power_reboot_confirm">Telefon se nyní restartuje. Neuložená práce bude ztracena.</string>
@@ -197,7 +197,7 @@
     <string name="activities_exported">Exportováno</string>
     <string name="activities_not_exported">Neexportováno</string>
     <string name="activities_empty">Tato aplikace neprohlašuje žádné aktivity.</string>
-    <string name="activities_needs_shizuku">Shizuku není spuštěn a pouze může spustit aktivitu, kterou aplikace udržuje sám.</string>
+    <string name="activities_needs_shizuku">NFX není spuštěn a pouze může spustit aktivitu, kterou aplikace udržuje sám.</string>
     <string name="activities_refused">Aktivitu nelze spustit.</string>
     <string name="activities_long_press">Dlouhým stiskem řádku zobrazíte celé jméno.</string>
     <string name="activities_detail_package">Balík</string>
@@ -295,7 +295,7 @@
     <string name="device_uptime">Doba provozu</string>
     <string name="device_memory">Paměť</string>
     <string name="device_storage">Úložiště</string>
-    <string name="device_shizuku">Shizuku</string>
+    <string name="device_shizuku">NFX</string>
     <string name="device_server">Server</string>
     <string name="device_start_method">Založil</string>
     <string name="device_transport">Přeprava</string>
@@ -333,7 +333,7 @@
     <string name="log_capture_waiting">Nahrávání. Zatím nebylo nic zaznamenáno.</string>
     <string name="log_capture_empty">Zatím nebylo nic zaznamenáno.</string>
     <string name="log_capture_jump">Nejnovější pád</string>
-    <string name="log_capture_needs_shizuku">Záznam protokolu zařízení potřebuje Shizuku: čtení protokolu jiné aplikace je oprávnění shell a tato aplikace si vypůjčuje shell.</string>
+    <string name="log_capture_needs_shizuku">Záznam protokolu zařízení potřebuje NFX: čtení protokolu jiné aplikace je oprávnění shell a tato aplikace si vypůjčuje shell.</string>
     <string name="log_capture_stopped_size">Nahrávání zastaveno: dosáhlo limitu velikosti.</string>
     <string name="log_capture_stopped_time">Nahrávání zastaveno: dosáhlo časového limitu.</string>
     <string name="log_capture_stopped_ended">Nahrávání zastaveno: stream protokolu skončil.</string>
@@ -345,11 +345,11 @@
     <string name="log_session_busy">%1$s je stále zaznamenáván.</string>
     <string name="log_session_running">nahrávání</string>
     <string name="permissions_usage_access">Přístup k použití</string>
-    <string name="permissions_usage_access_summary">Skryje seznamy, které aplikace je otevřena. Uděleno Shizuku nebo v nastavení přístupu k použití Androidu.</string>
+    <string name="permissions_usage_access_summary">Skryje seznamy, které aplikace je otevřena. Uděleno NFX nebo v nastavení přístupu k použití Androidu.</string>
     <string name="permissions_dump">Příčiny pro čtení ukončení aplikace</string>
     <string name="permissions_dump_summary">Skrývající seznamy říkají, kdy je aplikace uzavřena namísto běhu na pozadí. Uděleno Šizukem.</string>
     <string name="home_other_methods">Jiné počáteční metody</string>
-    <string name="home_hiding_active_note">Shizuku se může zastavit, když je otevřena skrytá aplikace, protože skrytí může vypnout připojení k ladění. Shizuku se znovu spustí, když je aplikace uzavřena.</string>
+    <string name="home_hiding_active_note">NFX se může zastavit, když je otevřena skrytá aplikace, protože skrytí může vypnout připojení k ladění. NFX se znovu spustí, když je aplikace uzavřena.</string>
     <string name="hiding_vpn_client_none">Nevybráno: vyberte VPN aplikaci</string>
     <string name="hiding_notification_channel">Skrývat</string>
     <string name="hiding_notification_title">Nastavení jsou skrytá</string>
@@ -361,9 +361,9 @@
     <string name="hiding_resume">Pokračovat</string>
     <string name="hiding_start_again">Začít znovu</string>
     <string name="hiding_notification_stopped_title">Skrývání zastaveno</string>
-    <string name="hiding_notification_stopped_text">Shizuku není spuštěn, takže skrytí nemůže zjistit, která aplikace je otevřená. Všechna skrytá nastavení byla obnovena.</string>
-    <string name="hiding_carries_session_wireless">Není použito: Shizuku používá bezdrátové ladění, takže jeho skrytí by zastavilo Šizuku.</string>
-    <string name="hiding_carries_session_usb">Není použito: Shizuku používá ladění USB, takže jeho skrytí by zastavilo Šizuku.</string>
+    <string name="hiding_notification_stopped_text">NFX není spuštěn, takže skrytí nemůže zjistit, která aplikace je otevřená. Všechna skrytá nastavení byla obnovena.</string>
+    <string name="hiding_carries_session_wireless">Není použito: NFX používá bezdrátové ladění, takže jeho skrytí by zastavilo Šizuku.</string>
+    <string name="hiding_carries_session_usb">Není použito: NFX používá ladění USB, takže jeho skrytí by zastavilo Šizuku.</string>
     <string name="tab_settings">Nastavení</string>
     <string name="home_status_transport_label">Přeprava</string>
     <string name="home_status_started_with">Aktuální</string>
@@ -453,8 +453,8 @@
     <string name="action_pair">Pár</string>
     <string name="start_failed_pairing_required">Toto zařízení není spárováno pro bezdrátové ladění. Znovu ho spárovat.</string>
     <string name="start_failed_connection_lost">ADB připojení bylo při spouštění uzavřeno. Zkuste to znovu.</string>
-    <string name="start_failed_usb_no_port">Žádný lokální ADB port není otevřený Android jej vyčistí při každém restartu a k jeho znovuotevření potřebuje připojení k půjčce. Připojení k Wi-Fi a Shizuku jej znovu otevře přes bezdrátové ladění, spusťte <b>adb tcpip 5555</b> z počítače, nebo zvolte <b>Spustit bez Wi-Fi</b> jako způsob startu pro spuštění přes bezdrátové ladění.</string>
-    <string name="start_failed_root_unavailable">Root již není na tomto zařízení k dispozici, takže Shizuku nemůže začínat přes root. Vyberte jinou metodu spuštění.</string>
+    <string name="start_failed_usb_no_port">Žádný lokální ADB port není otevřený Android jej vyčistí při každém restartu a k jeho znovuotevření potřebuje připojení k půjčce. Připojení k Wi-Fi a NFX jej znovu otevře přes bezdrátové ladění, spusťte <b>adb tcpip 5555</b> z počítače, nebo zvolte <b>Spustit bez Wi-Fi</b> jako způsob startu pro spuštění přes bezdrátové ladění.</string>
+    <string name="start_failed_root_unavailable">Root již není na tomto zařízení k dispozici, takže NFX nemůže začínat přes root. Vyberte jinou metodu spuštění.</string>
     <string name="start_failed_system_needs_app">Metoda startu systému musí být spuštěna z aplikace.</string>
     <string name="start_failed_system_no_exploit">Toto zařízení neodesílá agenta Samsung FOTA (com.sdet. otaagent), který je jedinou komponentou, kterou systém může použít jako startovací metodu, takže zde není nic co eskalovat. Přepněte metodu startu systému na vlastní příkaz: aplikace vám ukáže, co má běžet s eskalací, kterou vaše zařízení má.</string>
     <string name="start_failed_no_binder">Služba se neobjevila během minuty. Obě poloviny vedou log: startér pod ShizukuServiceStarter a předání pod BinderSender. Čtečka logcat filtrovaná do těchto dvou ukazuje, zda se startér dostal až k vytvoření serveru, a zda server někdy požádal o binder.</string>
@@ -472,7 +472,7 @@
     <string name="settings_theme_system">Sledovat systém</string>
     <string name="settings_theme_light">Světlý</string>
     <string name="settings_theme_dark">Tmavý</string>
-    <string name="intents_description">Automatizační aplikace mohou ovládat Shizuku pomocí těchto vysílání. Autentizační token musí být předán v extra \"autentizace\".</string>
+    <string name="intents_description">Automatizační aplikace mohou ovládat NFX pomocí těchto vysílání. Autentizační token musí být předán v extra \"autentizace\".</string>
     <string name="intents_require_token">Vyžaduje ověřovací token</string>
     <string name="intents_require_token_summary">Začátek a zastavení záměru vyžaduje níže uvedený token. Vypněte tento token pro odeslání bez tokenu.</string>
     <string name="intents_token">Auth token</string>
@@ -499,22 +499,22 @@
     <string name="action_undo">Zpět</string>
     <!-- Terminal -->
     <string name="terminal_tutorial_miui">Uživatelé hlásili, že MIUI narušuje rámec pro přístup k úložišti (Storage Access Framework), který používá funkce exportu.</string>
-    <string name="terminal_tutorial_miui_2">Pokud používáte MIUI, budete možná muset soubor extrahovat ze složky assets v APK souboru Shizuku.</string>
+    <string name="terminal_tutorial_miui_2">Pokud používáte MIUI, budete možná muset soubor extrahovat ze složky assets v APK souboru NFX.</string>
     <string name="terminal_tutorial_1">Exportujte soubory do nové složky.</string>
     <string name="terminal_tutorial_1_description">Budou exportovány dva soubory: %1$s a %2$s. Pokud soubory již ve vybrané složce existují, budou smazány.</string>
     <string name="terminal_tutorial_2">Pomocí terminálové aplikace zkopírujte soubory do jejího soukromého adresáře souborů.</string>
     <string name="terminal_tutorial_2_description">Tip: Pokud se domovský adresář (~) vaší terminálové aplikace nachází v adresáři soukromých souborů, umístění souborů tam vám umožní spustit %1$s bez zápisu cesty.\n\nV opačném případě můžete vytvořit alias pro %2$s v konfiguračním souboru %3$s vaší terminálové aplikace.</string>
     <string name="terminal_tutorial_3">Otevřete shell pomocí následujícího příkazu:</string>
     <!-- Stealth -->
-    <string name="stealth_description">Skrýt Shizuku v aplikacích, které odmítají spustit, když je nainstalován. Pro instalaci se exportuje klon s jiným názvem balíčku.</string>
+    <string name="stealth_description">Skrýt NFX v aplikacích, které odmítají spustit, když je nainstalován. Pro instalaci se exportuje klon s jiným názvem balíčku.</string>
     <string name="stealth_warning_compatibility">Některé aplikace, které používají Šizuku, nemusí fungovat, když je Šizuku skrytý, protože se snaží zjistit, zda je Šizuku nainstalován.</string>
-    <string name="stealth_warning_compatibility_2">Jako řešení můžete dočasně odkrýt Šizuku, který nainstaluje stub s původním názvem balíčku. Po dokončení můžete Shizuku znovu skrýt.</string>
-    <string name="stealth_warning_compatibility_3">Klepnutím na tuto kartu zkopírujete snippet, který můžete odeslat vývojáři, aby jejich kontrola \"Shizuku nainstalována\" fungovala, když je Shizuku skrytý.</string>
-    <string name="stealth_warning_detection">Některé aplikace mohou stále detekovat Shizuku, i když jsou skryté.</string>
-    <string name="stealth_info_reconfigure">Po instalaci skryté verze budete muset opravit a znovu nakonfigurovat Shizuku.</string>
+    <string name="stealth_warning_compatibility_2">Jako řešení můžete dočasně odkrýt Šizuku, který nainstaluje stub s původním názvem balíčku. Po dokončení můžete NFX znovu skrýt.</string>
+    <string name="stealth_warning_compatibility_3">Klepnutím na tuto kartu zkopírujete snippet, který můžete odeslat vývojáři, aby jejich kontrola \"NFX nainstalována\" fungovala, když je NFX skrytý.</string>
+    <string name="stealth_warning_detection">Některé aplikace mohou stále detekovat NFX, i když jsou skryté.</string>
+    <string name="stealth_info_reconfigure">Po instalaci skryté verze budete muset opravit a znovu nakonfigurovat NFX.</string>
     <string name="stealth_info_rish">Rish uživatelé: znovu exportovat soubory po instalaci skryté verze.</string>
     <string name="stealth_info_intents">Inteligentní uživatelé: Aktualizujte své záměry s názvem nového balíčku.</string>
-    <string name="stealth_info_update">Při používání skryté verze musíte aktualizovat Shizuku přes aplikaci, protože má jiný podpis.</string>
+    <string name="stealth_info_update">Při používání skryté verze musíte aktualizovat NFX přes aplikaci, protože má jiný podpis.</string>
     <string name="stealth_package_name">Název balíčku (volitelné)</string>
     <string name="stealth_package_name_helper_text">Ponecháte-li prázdné, bude do názvu balíčku přidána náhodná přípona.</string>
     <string name="stealth_error_ends_with_period">Název balíčku nemůže končit s určitým obdobím.</string>
@@ -530,9 +530,9 @@
     <string name="settings_use_system_color">Použít barvu systémového motivu</string>
     <string name="settings_use_system_color_summary">Postupujte podle palety systému</string>
     <string name="settings_watchdog">Hlídací pes</string>
-    <string name="settings_watchdog_summary">Automaticky restartovat Shizuku v případě pádu</string>
+    <string name="settings_watchdog_summary">Automaticky restartovat NFX v případě pádu</string>
     <string name="settings_auto_disable_wireless_debugging">Zakázat bezdrátové ladění</string>
-    <string name="settings_auto_disable_wireless_debugging_summary">Vypnout bezdrátové ladění při zastavení Shizuku.</string>
+    <string name="settings_auto_disable_wireless_debugging_summary">Vypnout bezdrátové ladění při zastavení NFX.</string>
     <string name="settings_start_method">Výchozí metoda startu</string>
     <string name="settings_start_method_root_unavailable">Toto zařízení nemá root, takže se začíná vracet k bezdrátovému ladění.</string>
     <string name="start_method_wireless_no_network">Bez Wi-Fi</string>
@@ -542,43 +542,43 @@
     <string name="start_method_root">Root</string>
     <string name="transport_adb">adb</string>
     <string name="settings_adb_without_developer_options">Zakázat možnosti vývojáře</string>
-    <string name="settings_adb_without_developer_options_summary">Vypne možnosti vývojáře, ale udržuje ADB nastavení Shizuku potřebuje. Shizuku bude fungovat a tato nastavení budou obnovena po každém restartu.</string>
+    <string name="settings_adb_without_developer_options_summary">Vypne možnosti vývojáře, ale udržuje ADB nastavení NFX potřebuje. NFX bude fungovat a tato nastavení budou obnovena po každém restartu.</string>
     <string name="start_failed_developer_options_off">Vývojářské možnosti jsou vypnuty, protože je povoleno ADB bez možností Vývojáře</string>
     <string name="action_turn_on_developer_options">Zapnout možnosti vývojáře</string>
     <string name="toast_developer_options_required">Vypnout ADB bez možností vývojáře</string>
     <string name="settings_adb_without_developer_options_confirm_title">Vypnout možnosti vývojáře?</string>
-    <string name="settings_adb_without_developer_options_confirm_message">Shizuku bude fungovat a po restartu obnoví nastavení ADB. Nebudete moci otevřít možnosti vývojáře pro změnu nastavení USB nebo bezdrátového ladění nebo pro párování nového zařízení. Vypnout vývojářské možnosti?</string>
+    <string name="settings_adb_without_developer_options_confirm_message">NFX bude fungovat a po restartu obnoví nastavení ADB. Nebudete moci otevřít možnosti vývojáře pro změnu nastavení USB nebo bezdrátového ladění nebo pro párování nového zařízení. Vypnout vývojářské možnosti?</string>
     <string name="settings_adb_without_developer_options_confirm">Vypnout</string>
-    <string name="settings_adb_without_developer_options_failed">Shizuku se nepodařilo změnit nastavení. Nejprve udělte WRITE_SECURE_SETTINGS na stránce s oprávněními.</string>
+    <string name="settings_adb_without_developer_options_failed">NFX se nepodařilo změnit nastavení. Nejprve udělte WRITE_SECURE_SETTINGS na stránce s oprávněními.</string>
     <string name="settings_wait_for_wifi">Čekat na Wi-Fi</string>
-    <string name="settings_wait_for_wifi_summary">Automatický Shizuku restartuje čeká na neomezené Wi-Fi připojení.</string>
+    <string name="settings_wait_for_wifi_summary">Automatický NFX restartuje čeká na neomezené Wi-Fi připojení.</string>
     <string name="settings_unavailable_while_forcing_wireless">Nedostupné, když je zapnutý start bez Wi-Fi.</string>
     <string name="settings_force_wireless_debugging">Spustit bez Wi-Fi (experimentální)</string>
-    <string name="settings_force_wireless_debugging_summary">Snaží se spustit Shizuku bez ladění Wi-Fi nebo USB. To také vypne čekání na Wi-Fi a automatické bezdrátové ladění.</string>
+    <string name="settings_force_wireless_debugging_summary">Snaží se spustit NFX bez ladění Wi-Fi nebo USB. To také vypne čekání na Wi-Fi a automatické bezdrátové ladění.</string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
     <string name="state_on">Zapnuto</string>
     <string name="state_off">Vypnuto</string>
     <string name="settings_persist_adb_port">Zachovat ADB port po restartu</string>
-    <string name="settings_persist_adb_port_summary">Udržuje ADB port otevřený po každém restartu, takže Shizuku může začít bez Wi-Fi nebo hotspotu.</string>
+    <string name="settings_persist_adb_port_summary">Udržuje ADB port otevřený po každém restartu, takže NFX může začít bez Wi-Fi nebo hotspotu.</string>
     <string name="settings_persist_adb_port_ok">ADB port zůstane otevřen po restartu</string>
-    <string name="settings_persist_adb_port_refused">Android to odmítl. Shizuku musí být spuštěn jako root nebo jako uživatel systému.</string>
+    <string name="settings_persist_adb_port_refused">Android to odmítl. NFX musí být spuštěn jako root nebo jako uživatel systému.</string>
     <string name="settings_persist_adb_port_unavailable">Nejprve spusťte Šizuku. Toto nastavení lze změnit pouze přes Šizuku.</string>
     <string name="settings_system_start_method">Metoda startu systému</string>
     <string name="settings_system_start_method_exploit">Samsung (FOTA agent)</string>
     <string name="settings_system_start_method_custom">Vlastní příkaz</string>
     <string name="home_system_title">Spustit přes systémové UID</string>
-    <string name="home_system_summary">Spustit Shizuku jako systémový uživatel (UID 1000) místo jako adb: pouze Samsung prostřednictvím FOTA agenta postaví loď</string>
-    <string name="home_adb_command_summary">Spustit Shizuku z počítače přes ADB. Klepnutím zkopírujete příkaz</string>
+    <string name="home_system_summary">Spustit NFX jako systémový uživatel (UID 1000) místo jako adb: pouze Samsung prostřednictvím FOTA agenta postaví loď</string>
+    <string name="home_adb_command_summary">Spustit NFX z počítače přes ADB. Klepnutím zkopírujete příkaz</string>
     <string name="settings_tcp_mode">TCP režim</string>
-    <string name="settings_tcp_mode_summary">"Umožňuje Shizuku restartovat bez Wi-Fi. (Shizuku musela od restartu začít jednou)"</string>
+    <string name="settings_tcp_mode_summary">"Umožňuje NFX restartovat bez Wi-Fi. (NFX musela od restartu začít jednou)"</string>
     <string name="settings_tcp_mode_dialog_close_port">"Port TCP bude okamžitě uzavřen. Pro opětovné zapnutí režimu TCP budete potřebovat Wi-Fi. Pokračovat?"</string>
     <string name="settings_restart_dialog_title">Vyžadován restart</string>
-    <string name="settings_restart_dialog_message">Aby se toto nastavení projevilo, je nutné restartovat Shizuku.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Je vyžadováno připojení k Wi-Fi. Shizuku bude pokračovat v běhu a počká na připojení k Wi-Fi, než se restartuje na pozadí.</b>]]></string>
+    <string name="settings_restart_dialog_message">Aby se toto nastavení projevilo, je nutné restartovat NFX.</string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Je vyžadováno připojení k Wi-Fi. NFX bude pokračovat v běhu a počká na připojení k Wi-Fi, než se restartuje na pozadí.</b>]]></string>
     <string name="settings_tcp_port">TCP port</string>
     <string name="settings_auto_disable_usb_debugging">Zakázat ladění USB</string>
-    <string name="settings_auto_disable_usb_debugging_summary">Zakázat ladění USB při zastavení Shizuku</string>
+    <string name="settings_auto_disable_usb_debugging_summary">Zakázat ladění USB při zastavení NFX</string>
     <string name="settings_language">Jazyk</string>
     <string name="settings_language_system">Výchozí nastavení systému</string>
     <string name="settings_black_night_theme">Motiv černé noci</string>
@@ -586,7 +586,7 @@
     <string name="settings_update_stable">Stabilní</string>
     <string name="settings_update_beta">Dev</string>
     <string name="settings_permissions">Práva</string>
-    <string name="settings_permissions_summary">Co Shizuku potřebuje a co je povoleno</string>
+    <string name="settings_permissions_summary">Co NFX potřebuje a co je povoleno</string>
     <string name="permissions_allowed">Povoleno</string>
     <string name="permissions_action_allow">Povolit</string>
     <string name="permissions_action_settings">Nastavení</string>
@@ -596,11 +596,10 @@
     <string name="permissions_nearby">Zařízení v blízkosti</string>
     <string name="permissions_nearby_summary">Nalezne bezdrátový debugging port na vaší síti.</string>
     <string name="permissions_write_secure_settings">Zápis bezpečného nastavení</string>
-    <string name="permissions_write_secure_settings_summary">Umožňuje Shizuku zapnout bezdrátové ladění. Pouze ADB může udělit toto oprávnění.</string>
+    <string name="permissions_write_secure_settings_summary">Umožňuje NFX zapnout bezdrátové ladění. Pouze ADB může udělit toto oprávnění.</string>
     <string name="permissions_accessibility">Služba přístupnosti</string>
     <string name="permissions_accessibility_summary">Automaticky čte párovací kód.</string>
     <string name="permissions_battery_summary">Zastaví Android od zabíjení Šizuku na pozadí.</string>
-    <string name="settings_help">Pomoc</string>
     <string name="settings_report_bug">Nahlásit chybu</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
@@ -618,13 +617,6 @@
     <string name="settings_legacy_pairing">Legacy párování</string>
     <string name="settings_legacy_pairing_summary">Zadejte párovací kód do dialogu místo oznámení</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">Nejprve prosím proveďte následující:</string>
-    <string name="bug_report_dialog_update">Zkontrolujte, zda používáte ^1.</string>
-    <string name="bug_report_dialog_link_update">nejnovější verze</string>
-    <string name="bug_report_dialog_wiki">Přečtěte si ^1 a postupujte podle všech příslušných kroků pro řešení problémů.</string>
-    <string name="bug_report_dialog_link_wiki">wiki</string>
-    <string name="bug_report_dialog_issues">Prohledejte všechny ^1 a zjistěte, zda vaše chyba již byla nahlášena.</string>
-    <string name="bug_report_dialog_link_issues">existující problémy</string>
     <!-- Snackbar -->
     <string name="snackbar_battery_optimization_settings">Pro použití této funkce prosím vypněte optimalizaci baterie.</string>
     <string name="snackbar_action_fix">Opravit</string>
@@ -644,7 +636,7 @@
     <string name="update_success">Aktualizace dokončena</string>
     <string name="update_failed">Aktualizace se nezdařila</string>
     <!-- Toast -->
-    <string name="toast_pairing_timeout">Časový limit párovací služby Shizuku vypršel.</string>
+    <string name="toast_pairing_timeout">Časový limit párovací služby NFX vypršel.</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme">Téma</string>
     <string name="dark_theme_off">Vždy světlé</string>
@@ -664,7 +656,7 @@
     <string name="notification_adb_pairing_stop_searching">Přestaňte hledat</string>
     <string name="notification_adb_pairing_working_title">Párování probíhá</string>
     <string name="notification_adb_pairing_succeed_title">Párování bylo úspěšné</string>
-    <string name="notification_adb_pairing_succeed_text">Nyní můžete spustit službu Shizuku.</string>
+    <string name="notification_adb_pairing_succeed_text">Nyní můžete spustit službu NFX.</string>
     <string name="notification_adb_pairing_failed_title">Párování selhalo</string>
     <string name="notification_adb_pairing_retry">Zkusit znovu</string>
     <string name="notification_auth_missing_title">Auth token je vyžadován</string>
@@ -672,8 +664,8 @@
     <string name="notification_auth_invalid_title">Neplatný ověřovací token</string>
     <string name="notification_auth_invalid_message">Ujistěte se, že token ve vašem záměru odpovídá toku, který se v aplikaci zobrazuje pod \"Zobrazit záměry\".</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">přístup k Shizuku</string>
-    <string name="permission_description">povolí aplikaci používat systémová rozhraní API s vyššími oprávněními (Shizuku).</string>
+    <string name="permission_label">přístup k NFX</string>
+    <string name="permission_description">povolí aplikaci používat systémová rozhraní API s vyššími oprávněními (NFX).</string>
     <string name="permission_warning_template"><![CDATA[Povolit aplikaci </b>%1$s</b> %2$s\?]]></string>
     <string name="grant_dialog_button_allow_always">Povolit vždy</string>
     <string name="grant_dialog_button_deny">"Zakázat"</string>
@@ -681,7 +673,7 @@
     <string name="starter">Spouštěč</string>
     <string name="start_with_root_failed">Službu nelze spustit, protože není uděleno oprávnění k rootu nebo toto zařízení není rootováno.</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">Startování Shizuku…</string>
+    <string name="wadb_notification_title">Startování NFX…</string>
     <string name="wadb_notification_wifi_required">Čekání na připojení k Wi-Fi před pokračováním</string>
     <string name="wadb_notification_retry">Čekání na opakování</string>
     <string name="wadb_notification_connecting">Spouštění Šizuku s bezdrátovým ADB</string>
@@ -690,18 +682,18 @@
     <string name="wadb_error_title">Chyba při startu při startu</string>
     <string name="wadb_error_notify_dev">Klepněte pro upozornění vývojáře.</string>
     <string name="wadb_permission_error_notification_title">Chyba oprávnění</string>
-    <string name="wadb_permission_error_notification_content">Shizuku potřebuje WRITE_SECURE_SETTINGS začít na startu. Klepněte a zjistěte, jak ji udělit.</string>
+    <string name="wadb_permission_error_notification_content">NFX potřebuje WRITE_SECURE_SETTINGS začít na startu. Klepněte a zjistěte, jak ji udělit.</string>
     <!-- Shell -->
     <string name="shell_title">Střelivo</string>
-    <string name="shell_backend_shizuku">Shizuku</string>
+    <string name="shell_backend_shizuku">NFX</string>
     <string name="shell_backend_root">Root</string>
     <string name="shell_backend_shizuku_status">Šizuku, uid %1$d</string>
     <string name="shell_backend_root_status">Root, uid 0</string>
     <string name="shell_backend_offline">Žádný běh příkazu není aktivní</string>
-    <string name="shell_needs_a_backend">Spustit Shizuku, nebo vybrat Root na rootovaném zařízení: jeden ze dvou běží na příkazy. Root funguje s Shizuku zastaven.</string>
-    <string name="shell_intro">Spustí jako uid Shizuku běží jako (2000 přes adb, 0 s rootem), aby dosáhla všeho, co uid může: /sdcard, /system a data aplikace s rootem. Otevírá se v /sdcard, jeden příkaz najednou; bez odstínu, programy, které potřebují terminál (nano, ssh prompt) zde nebudou běžet.</string>
+    <string name="shell_needs_a_backend">Spustit NFX, nebo vybrat Root na rootovaném zařízení: jeden ze dvou běží na příkazy. Root funguje s NFX zastaven.</string>
+    <string name="shell_intro">Spustí jako uid NFX běží jako (2000 přes adb, 0 s rootem), aby dosáhla všeho, co uid může: /sdcard, /system a data aplikace s rootem. Otevírá se v /sdcard, jeden příkaz najednou; bez odstínu, programy, které potřebují terminál (nano, ssh prompt) zde nebudou běžet.</string>
     <string name="shell_root_granted">Root je k dispozici: příkazy spuštěné jako uid 0.</string>
-    <string name="shell_root_refused">Root přístup byl odepřen, takže příkazy budou používat Shizuku. Povolte root aplikaci přístup k používání Rootu.</string>
+    <string name="shell_root_refused">Root přístup byl odepřen, takže příkazy budou používat NFX. Povolte root aplikaci přístup k používání Rootu.</string>
     <string name="shell_search">Hledat</string>
     <string name="shell_search_hint">Najít</string>
     <string name="shell_search_position">%1$d z %2$d</string>
@@ -745,10 +737,10 @@
     <string name="shell_quick_force_stop">Vynutit zastavení</string>
     <string name="shell_adb_prefix_dropped">Ano na zařízení: prefix adb shell je to, co byste mohli napsat na počítači.</string>
     <string name="shell_adb_host_devices">Seznam zařízení připojených k počítači. Toto je zařízení, takže není nic na seznamu: `pm packes` je to, co je na něm nainstalováno.</string>
-    <string name="shell_adb_host_install">Instalace patří na stranu počítače tohoto příkazu. Zde je stejná úloha <b>pm nainstalovat /path/to/app. pk</b>, běžet přes Shizuku jako jakýkoli jiný příkaz.</string>
+    <string name="shell_adb_host_install">Instalace patří na stranu počítače tohoto příkazu. Zde je stejná úloha <b>pm nainstalovat /path/to/app. pk</b>, běžet přes NFX jako jakýkoli jiný příkaz.</string>
     <string name="shell_adb_host_transfer">Ta potřebuje počítač na jednom konci. Na zařízení jsou soubory přesunuty s <b>cp</b>a cesty jsou takové, na které může tento shell dosáhnout.</string>
     <string name="shell_adb_host_generic">To je polovina adb, která běží na počítači a nemá nic co dělat zevnitř. Spustit příkaz zařízení samotný zde: <b>adb shell ps</b> a <b>ps</b> jsou totéž.</string>
-    <string name="shell_adb_host_help">Toto je shell samotného zařízení místo adb na počítači: příkazy spuštěné tak, jak uid Shizuku běží jako: jeden najednou. Začněte s balíčky <b>pm seznamem</b>, <b>dumpsys baterie</b> nebo knihovnou nad vstupem.</string>
+    <string name="shell_adb_host_help">Toto je shell samotného zařízení místo adb na počítači: příkazy spuštěné tak, jak uid NFX běží jako: jeden najednou. Začněte s balíčky <b>pm seznamem</b>, <b>dumpsys baterie</b> nebo knihovnou nad vstupem.</string>
     <string name="shell_paste">Vložit příkaz</string>
     <string name="shell_paste_empty">Ve schránce není nic k vložení.</string>
     <string name="shell_jump_to_newest">Přejít na nejnovější výstup</string>
@@ -764,10 +756,10 @@
     <!-- Watchdog -->
     <string name="watchdog_running">Watchdog běží</string>
     <string name="watchdog_turn_off">Vypnout</string>
-    <string name="watchdog_shizuku_crashed_title">Shizuku nedávno havarovala</string>
+    <string name="watchdog_shizuku_crashed_title">NFX nedávno havarovala</string>
     <string name="watchdog_shizuku_crashed_text">Watchdog službu znovu spustil. Klepněte a zjistěte o možných řešeních, jak předejít budoucím pádům.</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">Vypnout upozornění</string>
-    <string name="watchdog_shizuku_recovered_title">Shizuku je znovu spuštěn</string>
+    <string name="watchdog_shizuku_recovered_title">NFX je znovu spuštěn</string>
     <string name="watchdog_shizuku_recovered_text">Watchdog to znovu spustil poté, co se zastavil sám.</string>
     <string name="watchdog_given_up_action_start">Spustit</string>
     <!-- Misc -->
@@ -775,13 +767,13 @@
     <string name="off">Vypnuto</string>
     <string name="dialog_cannot_open_browser_title">Prohlížeč nelze spustit</string>
     <string name="toast_copied_to_clipboard">Zkopírováno do schránky</string>
-    <string name="accessibility_service_description">Podporuje párování zařízení (např. televizorů s Androidem 14+), kde nelze používat oznámení nebo rozdělenou obrazovku.\n\nUmožňuje Shizuku extrahovat párovací kód z obrazovky pro ladění bezdrátového ladění. Jakmile najdete párovací kód, deaktivuje se.</string>
+    <string name="accessibility_service_description">Podporuje párování zařízení (např. televizorů s Androidem 14+), kde nelze používat oznámení nebo rozdělenou obrazovku.\n\nUmožňuje NFX extrahovat párovací kód z obrazovky pro ladění bezdrátového ladění. Jakmile najdete párovací kód, deaktivuje se.</string>
     <!-- Messages for legacy -->
-    <string name="dialog_legacy_not_support_title">%1$s nepodporuje moderní Shizuku</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[Podpora starší verze Shizuku je od března 2019. Starší verze Shizuku také nefunguje na novějších systémech Android. <p> O aktualizaci požádejte vývojáře <b>%1$s </b>.]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s vyžaduje starší Shizuku</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s </b> má podporu pro moderní Shizuku, ale vyžaduje starší Shizuku. Mohlo by to být proto, že Shizuku není spuštěno, zkontrolujte aplikaci Shizuku. <p> Podpora staršího Shizuku je od března 2019 ukončena.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">Otevřít Shizuku</string>
+    <string name="dialog_legacy_not_support_title">%1$s nepodporuje moderní NFX</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[Podpora starší verze NFX je od března 2019. Starší verze NFX také nefunguje na novějších systémech Android. <p> O aktualizaci požádejte vývojáře <b>%1$s </b>.]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s vyžaduje starší NFX</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s </b> má podporu pro moderní NFX, ale vyžaduje starší NFX. Mohlo by to být proto, že NFX není spuštěno, zkontrolujte aplikaci NFX. <p> Podpora staršího NFX je od března 2019 ukončena.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Otevřít NFX</string>
     <string name="wadb_notification_attempt_now">Zkusit znovu</string>
     <!-- Manage tab -->
     <string name="tab_manage">Operace aplikací</string>
@@ -819,7 +811,7 @@
     <string name="app_grant_confirm_ok">Udělit</string>
     <string name="app_action_failed">Android to odmítl. Nic se nezměnilo.</string>
     <string name="app_ops_note">App ops jsou to, co platforma sama konzultuje a adb může změnit níže uvedené aplikace. Několik možností je speciální přístup v nastavení systému, než aby aplikace povolila přístup k souborům, přístup k používání, přesné budíky, změna nastavení systému a žádná aplikace je nemůže změnit.</string>
-    <string name="app_ops_needs_shizuku">Spusťte Shizuku pro čtení a změnu aplikací.</string>
+    <string name="app_ops_needs_shizuku">Spusťte NFX čtení a změnu aplikací.</string>
     <string name="app_op_background">Spustit na pozadí</string>
     <string name="app_op_background_note">Zakázat mu běh na pozadí.</string>
     <string name="app_op_any_background">Automatické spuštění při spuštění</string>
@@ -873,7 +865,7 @@
     <string name="app_confirm_disable">Zakázat %1$s? Přestane běžet, dokud jej znovu nepovolíte.</string>
     <string name="app_confirm_clear_data">Odstranit všechna data pro %1$s? Tuto akci nelze vrátit zpět.</string>
     <string name="app_confirm_uninstall">Odstranit %1$s pro tohoto uživatele? Jeho data jsou uložena.</string>
-    <string name="app_battery_needs_shizuku">Spustit Shizuku pro změnu nastavení baterie.</string>
+    <string name="app_battery_needs_shizuku">Spustit NFX změnu nastavení baterie.</string>
     <string name="app_battery_bucket">Pohotovostní kbelík</string>
     <string name="app_battery_pick_title">Pohotovostní kbelík</string>
     <string name="app_bucket_active">Neomezené</string>
@@ -893,7 +885,7 @@
     <string name="app_battery_unrestricted">Ignorovat optimalizaci baterie</string>
     <string name="app_battery_unrestricted_note">It was very close to Doze, but use more battery.</string>
     <string name="app_section_network">Síť</string>
-    <string name="app_network_needs_shizuku">Spusťte Shizuku pro změnu toho, čeho může aplikace dosáhnout.</string>
+    <string name="app_network_needs_shizuku">Spusťte NFX změnu toho, čeho může aplikace dosáhnout.</string>
     <string name="app_network_unsupported">Toto zařízení nenabízí firewall to potřebuje.</string>
     <string name="app_network_block">Blokovat přístup k síti</string>
     <string name="app_network_block_note">Platforma ztrácí svůj provoz.</string>

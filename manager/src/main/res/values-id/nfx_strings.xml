@@ -1,4 +1,9 @@
 <resources>
+    <string name="bug_report_email_recipient">Kirim laporan melalui email</string>
+    <string name="bug_report_email_open">Buka email</string>
+    <string name="bug_report_email_subject">Laporan bug %1$s</string>
+    <string name="bug_report_email_copied">Aplikasi email tidak ditemukan. Alamat laporan telah disalin.</string>
+    <string name="bug_report_email_unavailable">Aplikasi email tidak ditemukan.</string>
     <string name="nfx_login_hint">Masuk untuk menggunakan alat lokasi Anda.</string>
     <string name="nfx_login_id">Nomor HP atau nama pengguna admin</string>
     <string name="nfx_phone">Nomor HP</string>

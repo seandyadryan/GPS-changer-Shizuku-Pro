@@ -57,7 +57,7 @@
     <string name="dialog_adb_pairing_discovery">جاري البحث على جهاز للإقران</string>
     <string name="dialog_adb_pairing_paring_code">كود الاقتران</string>
     <string name="paring_code_is_wrong">رمز الاقتران خاطئ.</string>
-    <string name="cannot_connect_port">لا يمكن الاتصال بخدمة \"تصحيح الأخطاء اللاسلكية\". \n\nيرجى التأكد من إدراج Shizuku في القائمة البيضاء لجميع جدران الحماية، أو تطبيقات حظر الإعلانات، أو VPN، أو التطبيقات المماثلة التي يمكنها تقييد الوصول إلى الشبكة.</string>
+    <string name="cannot_connect_port">لا يمكن الاتصال بخدمة \"تصحيح الأخطاء اللاسلكية\". \n\nيرجى التأكد من إدراج NFX في القائمة البيضاء لجميع جدران الحماية، أو تطبيقات حظر الإعلانات، أو VPN، أو التطبيقات المماثلة التي يمكنها تقييد الوصول إلى الشبكة.</string>
     <string name="dialog_adb_pairing_message">يرجى بدء عملية الاقتران من خلال تنفيذ الخطوات التالية:
 
 \n- انتقل إلى \"خيارات المطور\"\n- قم بتمكين \"تصحيح أخطاء USB\" و\"تصحيح الأخطاء اللاسلكية\" \n- انقر على الجانب الأيسر من \"تصحيح الأخطاء اللاسلكية\"\n- انقر على \"إقران الجهاز برمز الإقران\"\n- أدخل رمز الاقتران في الإشعار</string>
@@ -69,7 +69,7 @@
     <string name="dialog_adb_pairing_open_app_info"></string>
     <string name="dialog_adb_pairing_accessibility_enable"></string>
     <string name="dialog_adb_pairing_accessibility_navigate">يرجى بدء عملية الاقتران من خلال تنفيذ
-الخطوات التالية:\n- انتقل إلى \"خيارات المطور\"\n- قم بتمكين \"تصحيح أخطاء USB\" و\"تصحيح الأخطاء اللاسلكية\"\n- انقر على الجانب الأيسر من \"تصحيح الأخطاء اللاسلكية\"\n- انقر على\"إقران الجهاز برمز الاقتران\". سيكتشف Shizuku رمز الاقتران تلقائيًا.</string>
+الخطوات التالية:\n- انتقل إلى \"خيارات المطور\"\n- قم بتمكين \"تصحيح أخطاء USB\" و\"تصحيح الأخطاء اللاسلكية\"\n- انقر على الجانب الأيسر من \"تصحيح الأخطاء اللاسلكية\"\n- انقر على\"إقران الجهاز برمز الاقتران\". سيكتشف NFX رمز الاقتران تلقائيًا.</string>
     <string name="adb_pairing_requires_multi_window">الرجاء إدخال وضع تقسيم الشاشة متعدد النوافذ أولاً.</string>
     <string name="adb_pairing_requires_multi_window_reason">يتطلب النظام أن يكون مربع حوار الاقتران
 مرئيًا دائمًا. استخدام وضع تقسيم الشاشة هو الطريقة الوحيدة لإظهار هذا التطبيق ومربع حوار النظام في آنٍ واحد.</string>
@@ -77,13 +77,13 @@
     <string name="adb_error_stop_tcp">فشل في إيقاف ADB عبر TCP</string>
     <string name="adb_pair_required">يرجى المرور بخطوة الاقتران أولاً.</string>
     <string name="enable">يُمكَِن</string>
-    <string name="auto_pair_instructions">الاقتران دون كتابة رمز:\\n\\n1. خيارات المطوّر ← تصحيح الأخطاء اللاسلكي\\n2. إقران الجهاز باستخدام رمز الاقتران\\n\\nيقرأ Shizuku الرمز والمنفذ مباشرةً من مربع الحوار ويبدأ تشغيل نفسه. اترك مربع الحوار مفتوحًا حتى يكتمل الاقتران.
+    <string name="auto_pair_instructions">الاقتران دون كتابة رمز:\\n\\n1. خيارات المطوّر ← تصحيح الأخطاء اللاسلكي\\n2. إقران الجهاز باستخدام رمز الاقتران\\n\\nيقرأ NFX الرمز والمنفذ مباشرةً من مربع الحوار ويبدأ تشغيل نفسه. اترك مربع الحوار مفتوحًا حتى يكتمل الاقتران.
 </string>
     <string name="auto_pair_manual">يدوي
 </string>
     <string name="development_settings">خيارات للمطور</string>
     <string name="notification_settings">إعداد الإشعارات</string>
-    <string name="adb_pairing_tutorial_content_notification">سيساعدك إشعار من Shizuku على إكمال
+    <string name="adb_pairing_tutorial_content_notification">سيساعدك إشعار من NFX على إكمال
         الاقتران.</string>
     <string name="adb_pairing_tutorial_content_steps">انتقل إلى \"خيارات المطور\"، ثم قم بتمكين
         \"تصحيح أخطاء USB\" و\"تصحيح أخطاء اللاسلكي\".</string>
@@ -91,20 +91,20 @@
         الأخطاء اللاسلكية\"، ثم انقر على \"إقران الجهاز برمز الاقتران\". أدخل الرمز في الإشعار
         لإكمال عملية الاقتران.</string>
     <string name="adb_pairing_tutorial_content_notification_blocked">تحتاج عملية الاقتران إلى
-        التفاعل مع إشعار من Shizuku. يرجى السماح لشيزوكو بنشر الإخطارات.</string>
+        التفاعل مع إشعار من NFX. يرجى السماح لNFX بنشر الإخطارات.</string>
     <string name="adb_pairing_tutorial_content_miui">قد يحتاج مستخدمو MIUI إلى تبديل نمط الإعلام إلى
         \"Android\" من \"Notification\" - \"Notification Shade\" في إعدادات النظام.</string>
     <string name="adb_pairing_tutorial_content_miui_2">وإلا، فقد لا تتمكن من إدخال رمز الاقتران من
         الإشعار.</string>
-    <string name="adb_pairing_tutorial_content_finish">ارجع إلى شيزوكو وابدأ في شيزوكو.</string>
-    <string name="adb_pairing_tutorial_content_network">يحتاج شيزوكو إلى الوصول إلى الشبكة المحلية.
+    <string name="adb_pairing_tutorial_content_finish">ارجع إلى NFX وابدأ في NFX.</string>
+    <string name="adb_pairing_tutorial_content_network">يحتاج NFX إلى الوصول إلى الشبكة المحلية.
         يتم التحكم به من خلال أذونات الشبكة.</string>
     <string name="adb_pairing_tutorial_content_network_limation_not_foreground">بعض الأنظمة (مثل
         MIUI) تمنع التطبيقات من الوصول إلى الشبكة عند عدم ظهورها، حتى لو كانت تستخدم خدمة الواجهة
-        الأمامية. يُرجى تعطيل ميزات تحسين أداء البطارية لتطبيق Shizuku على هذه الأنظمة.</string>
+        الأمامية. يُرجى تعطيل ميزات تحسين أداء البطارية لتطبيق NFX على هذه الأنظمة.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[ابدأ (للأجهزة التي لديها صلاحيه الجذر)]]></string>
-    <string name="home_root_description"><![CDATA[إذا كنت تستخدم Magisk، يمكنك تجربة %1$s. بالنسبة لمستخدمي الجذر، سيحل هذا الخيار محل Shizuku في نهاية المطاف. ملاحظة: تحتاج التطبيقات الحالية إلى تغيير بسيط لاستخدام %2$s.]]></string>
+    <string name="home_root_description"><![CDATA[إذا كنت تستخدم Magisk، يمكنك تجربة %1$s. بالنسبة لمستخدمي الجذر، سيحل هذا الخيار محل NFX في نهاية المطاف. ملاحظة: تحتاج التطبيقات الحالية إلى تغيير بسيط لاستخدام %2$s.]]></string>
     <string name="home_root_button_start">البدء بالتشغيل</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -122,16 +122,16 @@
     <!-- Home - Dialogs -->
     <string name="home_dialog_reboot_required_title">يلزم إعادة التشغيل
 </string>
-    <string name="home_dialog_reboot_required_message">يلزم إعادة تشغيل الجهاز لكي يعمل Shizuku بشكل صحيح. للمتابعة، يُرجى إعادة تشغيل جهازك.
+    <string name="home_dialog_reboot_required_message">يلزم إعادة تشغيل الجهاز لكي يعمل NFX بشكل صحيح. للمتابعة، يُرجى إعادة تشغيل جهازك.
 </string>
     <string name="home_dialog_duplicate_app_detected_title">تم اكتشاف تطبيق مكرر
 </string>
     <string name="home_dialog_duplicate_app_detected_message">يوجد إصدار آخر من هذا التطبيق مثبت على جهازك. للمتابعة، يُرجى إزالة تثبيت جميع النسخ المكررة وإعادة تشغيل جهازك.
 </string>
     <!-- The same two states, said on the Home screen instead of in a dialog that only exits. Shizuku works either way; what is affected is what other apps find when they look Shizuku up. -->
-    <string name="home_permission_owned_by">تبحث التطبيقات عن Shizuku باستخدام إذنه، ويشير Android إلى أن %1$s يعلن عن هذا الإذن، ما يعني أنه نسخة من Shizuku أو بقايا منها. ستستمر هذه التطبيقات في طلب الإذن من هذه النسخة حتى يتم إلغاء تثبيتها وإعادة تشغيل الجهاز.
+    <string name="home_permission_owned_by">تبحث التطبيقات عن NFX باستخدام إذنه، ويشير Android إلى أن %1$s يعلن عن هذا الإذن، ما يعني أنه نسخة من NFX أو بقايا منها. ستستمر هذه التطبيقات في طلب الإذن من هذه النسخة حتى يتم إلغاء تثبيتها وإعادة تشغيل الجهاز.
 </string>
-    <string name="home_permission_not_registered">تبحث التطبيقات عن Shizuku باستخدام إذنه، لكن Android لم يسجّله بعد، وقد يحدث ذلك بعد إعادة تثبيت التطبيق ويستمر حتى إعادة تشغيل الجهاز. لن يتأثر Shizuku نفسه، لكن قد لا تتمكن التطبيقات الأخرى من العثور عليه.
+    <string name="home_permission_not_registered">تبحث التطبيقات عن NFX باستخدام إذنه، لكن Android لم يسجّله بعد، وقد يحدث ذلك بعد إعادة تثبيت التطبيق ويستمر حتى إعادة تشغيل الجهاز. لن يتأثر NFX نفسه، لكن قد لا تتمكن التطبيقات الأخرى من العثور عليه.
 </string>
     <string name="home_dialog_button_exit">خروج</string>
     <!-- Application management -->
@@ -141,7 +141,7 @@
     <string name="app_management_search_hint">البحث عن التطبيقات
 </string>
     <string name="app_management_sort">ترتيب</string>
-    <string name="apps_needs_shizuku">Start Shizuku to see apps</string>
+    <string name="apps_needs_shizuku">Start NFX to see apps</string>
     <string name="apps_empty">لا توجد تطبيقات لعرضها
 </string>
     <string name="apps_filter_empty">لا توجد تطبيقات تطابق عامل التصفية ده
@@ -214,7 +214,7 @@
 </string>
     <string name="tab_power"></string>
     <string name="power_description">أعد تشغيل الهاتف أو أطفئ الشاشة دون استخدام أزرار الهاتف.</string>
-    <string name="power_needs_shizuku">شغل شيزوكو أولا لإستخدام هذه الخيارات.</string>
+    <string name="power_needs_shizuku">شغل NFX أولا لإستخدام هذه الخيارات.</string>
     <string name="power_reboot">إعادة التشغيل</string>
     <string name="power_reboot_summary">إعادة تشغيل الهاتف.</string>
     <string name="power_reboot_confirm">سوف يتم إعادة تشغيل الهاتف الآن. ستفقد أي أعمال غير محفوظة.</string>
@@ -233,15 +233,15 @@
     <string name="power_confirm">متابعة</string>
     <string name="power_soft_reboot">إعادة تشغيل خفيفة\سريع</string>
     <string name="power_soft_reboot_summary">إعادة تشغيل نظام أندرويد دون إعادة تشغيل النواة Kernel. يتطلب صلاحيات الروت.</string>
-    <string name="power_soft_reboot_confirm">سيُعاد تشغيل نظام أندرويد. ستُغلق جميع التطبيقات واجهة المستخدم للنظام ثم تُفتح مجدداً، لكن الهاتف نفسه لن يُعاد تشغيله. قد تحتاج إلى تشغيل Shizuku مرة أخرى بعد ذلك.</string>
+    <string name="power_soft_reboot_confirm">سيُعاد تشغيل نظام أندرويد. ستُغلق جميع التطبيقات واجهة المستخدم للنظام ثم تُفتح مجدداً، لكن الهاتف نفسه لن يُعاد تشغيله. قد تحتاج إلى تشغيل NFX مرة أخرى بعد ذلك.</string>
     <string name="power_restart_system_ui">إعادة تشغيل واجهة النظام</string>
     <string name="power_restart_system_ui_summary">إعادة تشغيل شريط الحالة، وشريط التنقل، وستارة الإشعارات. يتطلب صلاحيات الروت.</string>
     <string name="power_needs_root">الروت مطلوب، لكن هذا الجهاز لا يحتوى على روت.</string>
-    <string name="power_needs_shizuku_rooted">تطبيق Shizuku لا يعمل. يتوفر فقط إعادة التشغيل السريع (Soft reboot).</string>
+    <string name="power_needs_shizuku_rooted">تطبيق NFX لا يعمل. يتوفر فقط إعادة التشغيل السريع (Soft reboot).</string>
     <string name="power_failed">تعذر تنفيذ %1$s</string>
     <string name="tab_display">الشاشة</string>
     <string name="display_description">غيّر دقة الشاشة وكثافتها ومعدل التحديث. إذا أصبح استخدام الشاشة صعبًا، فانقر على «إعادة الضبط» بجانب زر الإعداد.</string>
-    <string name="display_needs_shizuku">شغّل شيزوكو لعرض أو تعديل هذه الإعدادات.</string>
+    <string name="display_needs_shizuku">شغّل NFX لعرض أو تعديل هذه الإعدادات.</string>
     <string name="display_resolution">الدقة</string>
     <string name="display_resolution_summary">حجم الشاشة بالبكسل (العرض × الارتفاع). يغيّر هذا حجم ما يرسمه النظام على الشاشة، وليس الشاشة الفعلية نفسها.</string>
     <string name="display_density">الكثافة</string>
@@ -264,7 +264,7 @@
     <string name="activities_exported">تم التصدير</string>
     <string name="activities_not_exported">لم يتم التصدير</string>
     <string name="activities_empty">لا يُصرّح هذا التطبيق عن أي أنشطة</string>
-    <string name="activities_needs_shizuku">تطبيق Shizuku لا يعمل، وهو الوحيد القادر على بدء نشاط (Activity) احتفظ به التطبيق لنفسه.</string>
+    <string name="activities_needs_shizuku">تطبيق NFX لا يعمل، وهو الوحيد القادر على بدء نشاط (Activity) احتفظ به التطبيق لنفسه.</string>
     <string name="activities_refused">تعذر بدء النشاط.</string>
     <string name="activities_long_press">اضغط مطولاً على الصف لرؤية الاسم بالكامل.</string>
     <string name="activities_detail_package">الحزمة</string>
@@ -372,7 +372,7 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="device_uptime">مدة التشغيل</string>
     <string name="device_memory">الذاكرة</string>
     <string name="device_storage">التخزين</string>
-    <string name="device_shizuku">شيزوكو</string>
+    <string name="device_shizuku">NFX</string>
     <string name="device_server">الخادم</string>
     <string name="device_start_method">بدء بواسطة</string>
     <string name="device_transport">طريقة الاتصال
@@ -439,7 +439,7 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
 </string>
     <string name="log_capture_jump">أحدث انهيار للتطبيق
 </string>
-    <string name="log_capture_needs_shizuku">يتطلب تسجيل سجل الجهاز استخدام Shizuku، لأن قراءة سجلات التطبيقات الأخرى تتطلب صلاحيات Shell، وهذا التطبيق يستعير هذه الصلاحيات.
+    <string name="log_capture_needs_shizuku">يتطلب تسجيل سجل الجهاز استخدام NFX، لأن قراءة سجلات التطبيقات الأخرى تتطلب صلاحيات Shell، وهذا التطبيق يستعير هذه الصلاحيات.
 </string>
     <string name="log_capture_stopped_size">توقف التسجيل بسبب الوصول إلى الحد الأقصى للحجم.
 </string>
@@ -458,14 +458,14 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
 </string>
     <string name="permissions_usage_access">إذن الوصول إلى بيانات الاستخدام
 </string>
-    <string name="permissions_usage_access_summary">يتيح لقوائم الإخفاء معرفة التطبيق المفتوح حاليًا. يُمنح هذا الإذن عبر Shizuku أو من إعدادات الوصول إلى بيانات الاستخدام في Android.
+    <string name="permissions_usage_access_summary">يتيح لقوائم الإخفاء معرفة التطبيق المفتوح حاليًا. يُمنح هذا الإذن عبر NFX أو من إعدادات الوصول إلى بيانات الاستخدام في Android.
 </string>
     <string name="permissions_dump">قراءة أسباب إغلاق التطبيقات
 </string>
-    <string name="permissions_dump_summary">يتيح لقوائم الإخفاء معرفة وقت إغلاق التطبيق بدلًا من اعتباره يعمل في الخلفية فقط. يُمنح هذا الإذن عبر Shizuku.
+    <string name="permissions_dump_summary">يتيح لقوائم الإخفاء معرفة وقت إغلاق التطبيق بدلًا من اعتباره يعمل في الخلفية فقط. يُمنح هذا الإذن عبر NFX.
 </string>
     <string name="home_other_methods">طرق التشغيل الأخري </string>
-    <string name="home_hiding_active_note">قد تتوقف خدمة Shizuku عند فتح تطبيق مخفي، لأن الإخفاء قد يؤدي إلى قطع اتصال تصحيح الأخطاء. وستعمل Shizuku مجددًا عند إغلاق التطبيق.
+    <string name="home_hiding_active_note">قد تتوقف خدمة NFX عند فتح تطبيق مخفي، لأن الإخفاء قد يؤدي إلى قطع اتصال تصحيح الأخطاء. وستعمل NFX مجددًا عند إغلاق التطبيق.
 </string>
     <string name="hiding_vpn_client_none">لم يتم الاختيار: اختر تطبيق vpn</string>
     <string name="hiding_notification_channel">اخفاء</string>
@@ -478,9 +478,9 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="hiding_resume">إستئناف</string>
     <string name="hiding_start_again">ابدأ من جديد</string>
     <string name="hiding_notification_stopped_title">الاخفاء متوقف</string>
-    <string name="hiding_notification_stopped_text">تطبيق Shizuku لا يعمل، لذا لا يمكن لخاصية الإخفاء رصد التطبيق المفتوح حالياً. تمت استعادة جميع الإعدادات المخفية.</string>
-    <string name="hiding_carries_session_wireless">غير مُطبَّق: يستخدم تطبيق Shizuku ميزة تصحيح الأخطاء عبر الشبكة اللاسلكية، لذا فإن إخفاءه سيؤدي إلى توقف Shizuku عن العمل.</string>
-    <string name="hiding_carries_session_usb">غير مُطبَّق: يستخدم تطبيق Shizuku ميزة \"تصحيح أخطاء USB، لذا فإن إخفاءها سيؤدي إلى توقف Shizuku عن العمل.</string>
+    <string name="hiding_notification_stopped_text">تطبيق NFX لا يعمل، لذا لا يمكن لخاصية الإخفاء رصد التطبيق المفتوح حالياً. تمت استعادة جميع الإعدادات المخفية.</string>
+    <string name="hiding_carries_session_wireless">غير مُطبَّق: يستخدم تطبيق NFX ميزة تصحيح الأخطاء عبر الشبكة اللاسلكية، لذا فإن إخفاءه سيؤدي إلى توقف NFX عن العمل.</string>
+    <string name="hiding_carries_session_usb">غير مُطبَّق: يستخدم تطبيق NFX ميزة \"تصحيح أخطاء USB، لذا فإن إخفاءها سيؤدي إلى توقف NFX عن العمل.</string>
     <string name="tab_settings">الاعدادات</string>
     <string name="home_status_transport_label">نقل</string>
     <string name="home_status_started_with">حالي</string>
@@ -611,27 +611,27 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="tools_battery">تحسين البطارية</string>
     <string name="about_package">الحزمة</string>
     <string name="check_for_updates_now">التحقق من توافر تحديثات</string>
-    <string name="start_failed">تعذر بدء تشغيل Shizuku</string>
-    <string name="start_failed_write_secure_settings">لا يمكن لـ Shizuku تبديل التصحيح اللاسلكي دون إذن WRITE_SECURE_SETTINGS. قم بتشغيله بنفسك تحت خيارات المطور &gt; التصحيح اللاسلكي، أو منح الإذن عن طريق <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. وبمجرد تشغيل Shizuku فإنه يحتفظ بهذا الإذن نفسه، لذا فهذا أمر غير متكرر.</string>
+    <string name="start_failed">تعذر بدء تشغيل NFX</string>
+    <string name="start_failed_write_secure_settings">لا يمكن لـ NFX تبديل التصحيح اللاسلكي دون إذن WRITE_SECURE_SETTINGS. قم بتشغيله بنفسك تحت خيارات المطور &gt; التصحيح اللاسلكي، أو منح الإذن عن طريق <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. وبمجرد تشغيل NFX فإنه يحتفظ بهذا الإذن نفسه، لذا فهذا أمر غير متكرر.</string>
     <string name="action_open_wireless_debugging">تصحيح الأخطاء عن طريق الشبكه اللاسلكية</string>
     <string name="start_failed_unsupported">الجهاز لا يدعم التشغيل ف الخلفيه</string>
     <string name="start_failed_wifi_required">فشل البدء تاكد من اتصالك بشبكه لاسلكيه \"WI-FI\" و تشغيل تحسين الاخطاء عن طريق الشبكه اللاسلكيه. او حاول التشغيل عن طريق جهاز حاسوب باستخدام ادوات \"ADB\".</string>
     <string name="start_failed_no_port">لم يتم العثور على منفذ \"التصحيح اللاسلكي\" تأكد من أن \"التصحيح اللاسلكي\" مفعل، وأن الانترنت متصل.</string>
-    <string name="start_failed_no_port_no_permission">لم يتم العثور على منفذ التصحيح اللاسلكي، ولا يمكن لـ Shizuku تفعيل التصحيح اللاسلكي بدون صلاحية WRITE_SECURE_SETTINGS: <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. أو قم بتشغيل Shizuku عبر \"USB Debugging\" مرة واحدة لكي يمنح نفسه الصلاحية بعد ذلك.</string>
+    <string name="start_failed_no_port_no_permission">لم يتم العثور على منفذ التصحيح اللاسلكي، ولا يمكن لـ NFX تفعيل التصحيح اللاسلكي بدون صلاحية WRITE_SECURE_SETTINGS: <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. أو قم بتشغيل NFX عبر \"USB Debugging\" مرة واحدة لكي يمنح نفسه الصلاحية بعد ذلك.</string>
     <string name="start_failed_no_auth">\"التصحيح اللاسلكي\" غير مسموح على هذه الشبكة. أقرن الجهاز مرة اخرى.</string>
     <string name="action_dismiss">تجاهل</string>
     <string name="action_connect_wifi">اتصل</string>
     <string name="action_pair">أقرن</string>
     <string name="start_failed_pairing_required">هذا الجهاز غير مقرن بـ \"التصحيح اللاسلكي\"، أقرنه مجددا.</string>
     <string name="start_failed_connection_lost">أُغلق اتصال ADB أثناء البدء. أعد المحاولة.</string>
-    <string name="start_failed_usb_no_port">لم يتم فتح أي منفذ ADB محلي. يقوم نظام أندرويد بإغلاقه عند كل إعادة تشغيل، وإعادة فتحه تتطلب اتصالاً مؤقتاً. اتصل بشبكة الإنترنت وسيقوم Shizuku بإعادة فتحه عبر \"التصحيح اللاسلكي\"، أو قم بتشغيل <b>adb tcpip 5555</b> من الكمبيوتر، أو اختر <b>البدء بدون Wi-Fi</b> كطريقة تشغيل؛ لتبدأ عبر \"التصحيح اللاسلكي\" بدلاً من ذلك.</string>
+    <string name="start_failed_usb_no_port">لم يتم فتح أي منفذ ADB محلي. يقوم نظام أندرويد بإغلاقه عند كل إعادة تشغيل، وإعادة فتحه تتطلب اتصالاً مؤقتاً. اتصل بشبكة الإنترنت وسيقوم NFX بإعادة فتحه عبر \"التصحيح اللاسلكي\"، أو قم بتشغيل <b>adb tcpip 5555</b> من الكمبيوتر، أو اختر <b>البدء بدون Wi-Fi</b> كطريقة تشغيل؛ لتبدأ عبر \"التصحيح اللاسلكي\" بدلاً من ذلك.</string>
     <string name="settings_section_wireless">تصحيح الأخطاء عن طريق الشبكه اللاسلكية</string>
     <string name="intents_start">البدء بالتشغيل</string>
     <string name="intents_package">الحزمة</string>
     <!-- Terminal -->
     <string name="terminal_tutorial_miui">أبلغ المستخدمون أن MIUI يكسر إطار عمل الوصول إلى التخزين، والذي تستخدمه وظيفة التصدير.</string>
     <string name="terminal_tutorial_miui_2">إذا كنت تستخدم MIUI، فقد تحتاج إلى استخراج الملف من مجلد
-        الأصول في ملف APK الخاص بـ Shizuku.</string>
+        الأصول في ملف APK الخاص بـ NFX.</string>
     <string name="terminal_tutorial_1">تصدير الملفات إلى مجلد جديد.</string>
     <string name="terminal_tutorial_1_description">سيتم تصدير ملفين: %1$s و %2$s. إذا كانت الملفات
         موجودة بالفعل في المجلد المحدد، فسيتم حذفها.</string>
@@ -644,7 +644,7 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <!-- Stealth -->
     <string name="stealth_info_rish">Rish users: re-export the files after installing the hidden version.</string>
     <string name="stealth_info_intents">Intent users: update your intents with the new package name.</string>
-    <string name="stealth_info_update">You must update Shizuku through the app when using the hidden version because it has a different signature.</string>
+    <string name="stealth_info_update">You must update NFX through the app when using the hidden version because it has a different signature.</string>
     <string name="stealth_package_name">Package name (optional)</string>
     <string name="stealth_package_name_helper_text">If left empty, a random suffix will be added to the package name.</string>
     <string name="stealth_error_ends_with_period">Package name cannot end with a period.</string>
@@ -655,12 +655,12 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="stealth_display_name_helper_text">Shown as the name of the copy in the launcher and the app list. Left empty, the copy keeps the name of this app.</string>
     <string name="stealth_error_display_name_too_long">Keep it to %1$d characters or fewer.</string>
     <string name="stealth_uninstall_required">Uninstall required</string>
-    <string name="stealth_uninstall_message">The system will now prompt you to uninstall Shizuku. Then, install the clone.</string>
+    <string name="stealth_uninstall_message">The system will now prompt you to uninstall NFX. Then, install the clone.</string>
     <!-- Settings -->
     <string name="settings_start_on_boot">التشغيل تلقائيًا عند بدء تشغيل الجهاز
 </string>
     <string name="settings_watchdog">مراقب النظام</string>
-    <string name="settings_watchdog_summary">إعادة تشغيل Shizuku تلقائيًا في حالة تعطله</string>
+    <string name="settings_watchdog_summary">إعادة تشغيل NFX تلقائيًا في حالة تعطله</string>
     <string name="settings_auto_disable_wireless_debugging">إيقاف تصحيح الأخطاء اللاسلكي
 </string>
     <string name="transport_adb">adb</string>
@@ -669,15 +669,15 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
     <string name="settings_persist_adb_port_ok">سيبقى ADB Port مفتوحًا بعد اعادة التشغيل</string>
-    <string name="settings_persist_adb_port_refused">لم يسمح اندوريد بذلك، يجب تشغيل شيزوكو كـ \"روت\" أو \"مستخدم نظام\".</string>
+    <string name="settings_persist_adb_port_refused">لم يسمح اندوريد بذلك، يجب تشغيل NFX كـ \"روت\" أو \"مستخدم نظام\".</string>
     <string name="settings_tcp_mode">وضع TCP</string>
-    <string name="settings_tcp_mode_summary">"يسمح لـ Shizuku بإعادة التشغيل دون اتصال Wi-Fi. (يجب
-        أن يكون Shizuku قد بدأ مرة واحدة بعد إعادة التشغيل)"</string>
+    <string name="settings_tcp_mode_summary">"يسمح لـ NFX بإعادة التشغيل دون اتصال Wi-Fi. (يجب
+        أن يكون NFX قد بدأ مرة واحدة بعد إعادة التشغيل)"</string>
     <string name="settings_tcp_mode_dialog_close_port">"سيتم إغلاق منفذ TCP فورًا. ستحتاج إلى اتصال
         Wi-Fi لإعادة تشغيل وضع TCP. هل تريد المتابعة؟"</string>
     <string name="settings_restart_dialog_title">مطلوب إعادة التشغيل</string>
-    <string name="settings_restart_dialog_message">يجب على Shizuku إعادة التشغيل لتطبيق هذا الإعداد.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>يتطلب اتصالاً لاسلكياً. سيستمر شيزوكو بالعمل وينتظر اتصالاً لاسلكياً قبل إعادة التشغيل في الخلفية.</b>]]></string>
+    <string name="settings_restart_dialog_message">يجب على NFX إعادة التشغيل لتطبيق هذا الإعداد.</string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>يتطلب اتصالاً لاسلكياً. سيستمر NFX بالعمل وينتظر اتصالاً لاسلكياً قبل إعادة التشغيل في الخلفية.</b>]]></string>
     <string name="settings_tcp_port">منفذ TCP</string>
     <string name="settings_auto_disable_usb_debugging">إيقاف تصحيح أخطاء USB
 </string>
@@ -686,7 +686,6 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="settings_black_night_theme_summary">استخدام خلفية سوداء بالكامل في الوضع الداكن
 </string>
     <string name="permissions_action_settings">الاعدادات</string>
-    <string name="settings_help">مساعده</string>
     <string name="settings_report_bug">الإبلاغ عن خطأ</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
@@ -704,22 +703,13 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="settings_legacy_pairing">الاقتران القديم</string>
     <string name="settings_legacy_pairing_summary">أدخل رمز الاقتران في مربع حوار بدلاً من الإشعار</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">أولاً، يرجى القيام بما يلي:</string>
-    <string name="bug_report_dialog_update">تأكد من أنك تستخدم ^1.</string>
-    <string name="bug_report_dialog_link_update">أحدث إصدار</string>
-    <string name="bug_report_dialog_wiki">اقرأ ^1 واتبع جميع خطوات استكشاف الأخطاء وإصلاحها ذات
-        الصلة.</string>
-    <string name="bug_report_dialog_link_wiki">ويكي</string>
-    <string name="bug_report_dialog_issues">ابحث في جميع ^1 لمعرفة ما إذا تم الإبلاغ عن الخطأ الخاص
-        بك بالفعل.</string>
-    <string name="bug_report_dialog_link_issues">المشكلات القائمة</string>
     <!-- Snackbar -->
     <string name="snackbar_battery_optimization_settings">يرجى تعطيل تحسين البطارية لاستخدام هذه
         الميزة.</string>
     <string name="snackbar_action_fix">اصلاح</string>
     <!-- Updates -->
     <!-- Toast -->
-    <string name="toast_pairing_timeout">انتهت مهلة خدمة إقران شيزوكو.</string>
+    <string name="toast_pairing_timeout">انتهت مهلة خدمة إقران NFX.</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme_off">الوضع الفاتح دائمًا</string>
     <string name="dark_theme_on">الوضع الداكن دائمًا</string>
@@ -734,12 +724,12 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="notification_adb_pairing_stop_searching">توقف عن البحث</string>
     <string name="notification_adb_pairing_working_title">الاقتران قيد التقدم</string>
     <string name="notification_adb_pairing_succeed_title">تم الاقتران بنجاح</string>
-    <string name="notification_adb_pairing_succeed_text">يمكنك بدء خدمة Shizuku الآن.</string>
+    <string name="notification_adb_pairing_succeed_text">يمكنك بدء خدمة NFX الآن.</string>
     <string name="notification_adb_pairing_failed_title">فشل الاقتران</string>
     <string name="notification_adb_pairing_retry">أعد المحاولة</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">الوصول إلى Shizuku</string>
-    <string name="permission_description">اسمح للتطبيق باستخدام Shizuku.</string>
+    <string name="permission_label">الوصول إلى NFX</string>
+    <string name="permission_description">اسمح للتطبيق باستخدام NFX.</string>
     <string name="permission_warning_template"><![CDATA[هل تريد السماح لـ <b>%1$s</b> بـ %2$s؟]]></string>
     <string name="grant_dialog_button_allow_always">السماح في كل وقت</string>
     <string name="grant_dialog_button_deny">"منع"</string>
@@ -747,13 +737,13 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="starter">مفتاح التشغيل</string>
     <string name="start_with_root_failed">لا يمكن بدء الخدمة لأنه لم يتم منح إذن الجذر (الروت) أو قد يكون هذا الجهاز ليس مزوّدًا بحق الوصول إلى الجذر (الروت).</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">بدء شيزوكو…</string>
+    <string name="wadb_notification_title">بدء NFX…</string>
     <string name="wadb_notification_wifi_required">في انتظار اتصال Wi-Fi قبل المتابعة</string>
     <string name="wadb_notification_retry">في انتظار إعادة المحاولة</string>
     <string name="wadb_error_title">حدث خطأ أثناء بدء التشغيل</string>
     <string name="wadb_error_notify_dev">انقر هنا لإعلام المطور.</string>
     <string name="wadb_permission_error_notification_title">خطأ في الإذن</string>
-    <string name="wadb_permission_error_notification_content">يحتاج شيزوكو إلى WRITE_SECURE_SETTINGS
+    <string name="wadb_permission_error_notification_content">يحتاج NFX إلى WRITE_SECURE_SETTINGS
         للبدء عند بدء التشغيل. انقر لمعرفة كيفية تفعيله.</string>
     <!-- Shell -->
     <string name="shell_title">واجهة الأوامر (Shell)
@@ -761,7 +751,7 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <!-- Watchdog -->
     <string name="watchdog_running">مراقب النظام يعمل</string>
     <string name="watchdog_turn_off">إيقاف التشغيل</string>
-    <string name="watchdog_shizuku_crashed_title">تحطمت شيزوكو مؤخرًا</string>
+    <string name="watchdog_shizuku_crashed_title">تحطمت NFX مؤخرًا</string>
     <string name="watchdog_shizuku_crashed_text">أعاد برنامج المراقبة تشغيل الخدمة. انقر لمعرفة
         المزيد عن الحلول الممكنة لمنع الأعطال المستقبلية.</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">إيقاف التنبيهات</string>
@@ -771,14 +761,14 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="toast_copied_to_clipboard">تم نسخها إلى الحافظة</string>
     <string name="accessibility_service_description">يوفر دعمًا للاقتران للأجهزة (مثل أجهزة
         التلفزيون التي تعمل بنظام أندرويد 14+) التي لا يمكن فيها استخدام الإشعارات أو تقسيم
-        الشاشة.\n\nيُمكّن شيزوكو من استخراج رمز الاقتران من شاشة اقتران تصحيح أخطاء الشبكة
+        الشاشة.\n\nيُمكّن NFX من استخراج رمز الاقتران من شاشة اقتران تصحيح أخطاء الشبكة
         اللاسلكية. سيُعطّل تلقائيًا بمجرد العثور على رمز الاقتران.</string>
     <!-- Messages for legacy -->
-    <string name="dialog_legacy_not_support_title">%1$s لا يدعم النسخة الحديثة من Shizuku</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[تم إهمال Legacy Shizuku منذ آذار (مارس) 2019. أيضًا ، لا يعمل Shizuku القديم على أنظمة Android الأحدث. <p> يُرجى مطالبة مطور <b> %1$s </b> بالتحديث.]]></string>
-    <string name="dialog_requesting_legacy_title">يطلب %1$s تطبيق Shizuku القديم</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[يحتوي <b> %1$s </b> على دعم Shizuku الحديث ، لكنه يتطلب شيزوكو القديم. قد يكون هذا بسبب عدم تشغيل Shizuku ، يرجى التحقق في تطبيق Shizuku. <p> تم إيقاف Legacy Shizuku منذ آذار (مارس) 2019.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">افتح Shizuku</string>
+    <string name="dialog_legacy_not_support_title">%1$s لا يدعم النسخة الحديثة من NFX</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[تم إهمال Legacy NFX منذ آذار (مارس) 2019. أيضًا ، لا يعمل NFX القديم على أنظمة Android الأحدث. <p> يُرجى مطالبة مطور <b> %1$s </b> بالتحديث.]]></string>
+    <string name="dialog_requesting_legacy_title">يطلب %1$s تطبيق NFX القديم</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[يحتوي <b> %1$s </b> على دعم NFX الحديث ، لكنه يتطلب NFX القديم. قد يكون هذا بسبب عدم تشغيل NFX ، يرجى التحقق في تطبيق NFX. <p> تم إيقاف Legacy NFX منذ آذار (مارس) 2019.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">افتح NFX</string>
     <string name="wadb_notification_attempt_now">أعد المحاولة</string>
     <!-- Manage tab -->
     <string name="manage_search_hint">البحث عن التطبيقات</string>
@@ -804,7 +794,7 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="app_battery_unrestricted">تجاهل تحسين البطارية</string>
     <string name="app_battery_unrestricted_note">يتيح له البقاء نشطًا أثناء وضع السكون (Doze)، لكنه يستهلك المزيد من البطارية.</string>
     <string name="app_section_network">الشبكة</string>
-    <string name="app_network_needs_shizuku">قم بتشغيل Shizuku لتغيير ما يمكن للتطبيق الوصول إليه.</string>
+    <string name="app_network_needs_shizuku">قم بتشغيل NFX لتغيير ما يمكن للتطبيق الوصول إليه.</string>
     <string name="app_network_unsupported">لا يوفر هذا الجهاز جدار الحماية (Firewall) الذي يحتاجه هذا الإجراء.</string>
     <string name="app_network_block">حظر الوصول إلى الشبكة</string>
     <string name="app_network_block_note">يقوم النظام بحظر حركة البيانات الخاصة به.</string>
@@ -852,7 +842,7 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="wifi_passwords_copy">نسخ كلمة المرور</string>
     <string name="wifi_passwords_none">لا توجد كلمة مرور</string>
     <string name="wifi_passwords_empty">لا توجد شبكات محفوظة.</string>
-    <string name="wifi_passwords_needs_shizuku">تطبيق Shizuku لا يعمل، لذا لا توجد بيئة أوامر (Shell) لقراءة الشبكات المحفوظة.</string>
+    <string name="wifi_passwords_needs_shizuku">تطبيق NFX لا يعمل، لذا لا توجد بيئة أوامر (Shell) لقراءة الشبكات المحفوظة.</string>
     <string name="wifi_passwords_failed">لم تستجب خدمة الواي فاي. يحتوي السجل على التفاصيل.</string>
     <string name="wifi_passwords_unsupported">تتطلب قراءة الشبكات المحفوظة نظام أندرويد 9 أو أحدث، حيث يمكن الوصول لخدمة الواي فاي المخفية بدءاً من هذا الإصدار.</string>
     <string name="wifi_passwords_search_hint">البحث عن شبكات</string>
@@ -901,7 +891,7 @@ intent:#Intent;action=android.intent.action.VIEW;data=https://example.com;end
     <string name="files_show_hidden">إظهار الملفات المخفية</string>
     <string name="files_hide_hidden">إخفاء الملفات المخفية</string>
     <string name="files_failed">تعذر سرد محتويات %1$s. لا يوجد وصول (Shell)، أو أن المجلد مفقود.</string>
-    <string name="files_needs_shizuku">تطبيق Shizuku لا يعمل، لذا لا يمكن قراءة الملفات.</string>
+    <string name="files_needs_shizuku">تطبيق NFX لا يعمل، لذا لا يمكن قراءة الملفات.</string>
     <string name="files_preview_binary">هذا ليس ملفًا نصيًا، لذا لا يمكن عرضه.</string>
     <string name="files_preview_failed">تعذر قراءة هذا الملف.</string>
     <string name="files_preview_truncated">يتم عرض بداية الملف فقط.</string>

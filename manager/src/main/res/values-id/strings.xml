@@ -58,7 +58,7 @@
     <string name="dialog_adb_pairing_paring_code">Kode penghubung</string>
     <string name="paring_code_is_wrong">Kode penghubung tidak sesuai.</string>
     <string name="cannot_connect_port">Tidak dapat terhubung ke layanan debugging
-        nirkabel.\n\nPastikan Shizuku masuk daftar putih di semua firewall, pemblokir iklan, VPN,
+        nirkabel.\n\nPastikan NFX masuk daftar putih di semua firewall, pemblokir iklan, VPN,
         atau aplikasi serupa yang dapat membatasi akses jaringan.</string>
     <string name="dialog_adb_pairing_message">Silakan mulai memasangkan dengan melakukan
         langkah-langkah berikut:\n- Arahkan ke \"Opsi Pengembang\"\n- Aktifkan \"Debugging USB\" dan
@@ -74,7 +74,7 @@
     <string name="dialog_adb_pairing_accessibility_navigate">Silakan mulai pemasangan dengan
         melakukan langkah-langkah berikut:\n- Buka \"Opsi Pengembang\"\n- Aktifkan \"Debugging USB\"
         dan \"Debugging Nirkabel\"\n- Ketuk sisi kiri \"Debugging Nirkabel\"\n- Ketuk \"Pasangkan
-        perangkat dengan kode pemasangan.\" Shizuku akan secara otomatis mendeteksi kode pemasangan.</string>
+        perangkat dengan kode pemasangan.\" NFX akan secara otomatis mendeteksi kode pemasangan.</string>
     <string name="adb_pairing_requires_multi_window">Harap pindah ke mode layar pisah (split-screen)
         terlebih dahulu.</string>
     <string name="adb_pairing_requires_multi_window_reason">Sistem mengharuskan dialog pemasangan
@@ -85,11 +85,11 @@
     <string name="adb_error_stop_tcp">Gagal menghentikan ADB melalui TCP</string>
     <string name="adb_pair_required">Harap lakukan penyambungan terlebih dahulu.</string>
     <string name="enable">Memungkinkan</string>
-    <string name="auto_pair_instructions">Pair without typing a code:\n\n1. Developer options → Wireless debugging\n2. Pair device with pairing code\n\nShizuku reads the code and port straight from that dialog and starts itself. Keep the dialog open until pairing finishes.</string>
+    <string name="auto_pair_instructions">Pair without typing a code:\n\n1. Developer options → Wireless debugging\n2. Pair device with pairing code\n\nNFX reads the code and port straight from that dialog and starts itself. Keep the dialog open until pairing finishes.</string>
     <string name="auto_pair_manual">Manual</string>
     <string name="development_settings">Pilihan pengembang</string>
     <string name="notification_settings">Pengaturan notifikasi</string>
-    <string name="adb_pairing_tutorial_content_notification">Notifikasi dari Shizuku akan membantu
+    <string name="adb_pairing_tutorial_content_notification">Notifikasi dari NFX akan membantu
         Anda untuk menyelesaikan pemasangan.</string>
     <string name="adb_pairing_tutorial_content_steps">Arahkan ke \"Opsi Pengembang\", lalu aktifkan
         \"Debugging USB\" dan \"Debugging Nirkabel\".</string>
@@ -97,23 +97,23 @@
         Nirkabel\", lalu ketuk \"Pasangkan perangkat dengan kode pemasangan\". Masukkan kode
         tersebut ke notifikasi untuk menyelesaikan pemasangan.</string>
     <string name="adb_pairing_tutorial_content_notification_blocked">Proses penyambungan membutuhkan
-        Anda untuk berinteraksi dengan notifikasi dari Shizuku. Mohon izinkan Shizuku untuk mengirim
+        Anda untuk berinteraksi dengan notifikasi dari NFX. Mohon izinkan NFX untuk mengirim
         pemberitahuan.</string>
     <string name="adb_pairing_tutorial_content_miui">Pengguna MIUI mungkin perlu mengubah gaya
         pemberitahuan ke \"Android\" dari \"Pemberitahuan\" - \"Bayangan pemberitahuan\" di
         pengaturan sistem.</string>
     <string name="adb_pairing_tutorial_content_miui_2">Jika tidak, Anda mungkin tidak dapat
         memasukkan kode pemasangan dari notifikasi.</string>
-    <string name="adb_pairing_tutorial_content_finish">Kembali ke Shizuku dan mulai Shizuku.</string>
-    <string name="adb_pairing_tutorial_content_network">Shizuku perlu mengakses jaringan lokal.
+    <string name="adb_pairing_tutorial_content_finish">Kembali ke NFX dan mulai NFX.</string>
+    <string name="adb_pairing_tutorial_content_network">NFX perlu mengakses jaringan lokal.
         Jaringan ini dikontrol oleh izin jaringan.</string>
     <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Beberapa sistem
         (seperti MIUI) melarang aplikasi mengakses jaringan saat tidak terlihat, meskipun aplikasi
         tersebut menggunakan layanan latar depan. Harap nonaktifkan fitur pengoptimalan baterai
-        untuk Shizuku pada sistem tersebut.</string>
+        untuk NFX pada sistem tersebut.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[Mulai (untuk perangkat dengan root)]]></string>
-    <string name="home_root_description"><![CDATA[Jika Anda menggunakan Magisk, Anda bisa mencoba %1$s. Bagi pengguna root, Magisk nantinya akan menggantikan Shizuku. Perlu diketahui, aplikasi yang sudah ada perlu sedikit diubah agar dapat menggunakan %2$s.]]></string>
+    <string name="home_root_description"><![CDATA[Jika Anda menggunakan Magisk, Anda bisa mencoba %1$s. Bagi pengguna root, Magisk nantinya akan menggantikan NFX. Perlu diketahui, aplikasi yang sudah ada perlu sedikit diubah agar dapat menggunakan %2$s.]]></string>
     <string name="home_root_button_start">Mulai</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -125,12 +125,12 @@
     <!-- Home - Adb permissions limited -->
     <!-- Home - Dialogs -->
     <string name="home_dialog_reboot_required_title">Reboot required</string>
-    <string name="home_dialog_reboot_required_message">A device reboot is required for Shizuku to work properly. To continue, please reboot your device.</string>
+    <string name="home_dialog_reboot_required_message">A device reboot is required for NFX to work properly. To continue, please reboot your device.</string>
     <string name="home_dialog_duplicate_app_detected_title">Duplicate app detected</string>
     <string name="home_dialog_duplicate_app_detected_message">Another version of this app is installed on your device. To continue, please uninstall all duplicate versions and reboot your device.</string>
     <!-- The same two states, said on the Home screen instead of in a dialog that only exits. Shizuku works either way; what is affected is what other apps find when they look Shizuku up. -->
-    <string name="home_permission_owned_by">Apps look Shizuku up by its permission, and Android says %1$s declares it - a copy of Shizuku, or what is left of one. Those apps will ask that one until it is uninstalled and the device is rebooted.</string>
-    <string name="home_permission_not_registered">Apps look Shizuku up by its permission, and Android has not registered it yet, which a reinstall can leave behind until the device is rebooted. Shizuku itself is unaffected; other apps may not find it.</string>
+    <string name="home_permission_owned_by">Apps look NFX up by its permission, and Android says %1$s declares it - a copy of NFX, or what is left of one. Those apps will ask that one until it is uninstalled and the device is rebooted.</string>
+    <string name="home_permission_not_registered">Apps look NFX up by its permission, and Android has not registered it yet, which a reinstall can leave behind until the device is rebooted. NFX itself is unaffected; other apps may not find it.</string>
     <string name="home_dialog_button_exit">Exit</string>
     <!-- Application management -->
     <string name="app_management_dialog_adb_is_limited_title">Izin adb terbatas</string>
@@ -138,7 +138,7 @@
     <string name="app_management_toggle_all">Beralih semua</string>
     <string name="app_management_search_hint">Search apps</string>
     <string name="app_management_sort">Sort</string>
-    <string name="apps_needs_shizuku">Start Shizuku to see apps</string>
+    <string name="apps_needs_shizuku">Start NFX to see apps</string>
     <string name="apps_empty">No apps to show</string>
     <string name="apps_filter_empty">No apps in this filter</string>
     <string name="apps_filter_all">All</string>
@@ -201,7 +201,7 @@
     <string name="tab_activities">Peluncur aktifitas</string>
     <string name="tab_power">Daya</string>
     <string name="power_description">Mulai ulang atau matikan layar tanpa menggunakan tombol ponsel.</string>
-    <string name="power_needs_shizuku">Jalankan Shizuku terlebih dahulu untuk menggunakan opsi ini.</string>
+    <string name="power_needs_shizuku">Jalankan NFX terlebih dahulu untuk menggunakan opsi ini.</string>
     <string name="power_reboot">Menyalakan ulang</string>
     <string name="power_reboot_summary">Mulai ulang telepon.</string>
     <string name="power_reboot_confirm">Telepon akan dinyalakan ulang sekarang. Pekerjaan yang tidak disimpan akan hilang.</string>
@@ -220,15 +220,15 @@
     <string name="power_confirm">Lanjutkan</string>
     <string name="power_soft_reboot">Reboot lunak</string>
     <string name="power_soft_reboot_summary">Mulai ulang Android tanpa memulai ulang kernel. Memerlukan akses root.</string>
-    <string name="power_soft_reboot_confirm">Android akan memulai ulang. Semua aplikasi dan antarmuka sistem akan ditutup lalu dibuka kembali, namun ponsel itu sendiri tidak akan memulai ulang. Anda mungkin perlu menjalankan Shizuku kembali setelahnya.</string>
+    <string name="power_soft_reboot_confirm">Android akan memulai ulang. Semua aplikasi dan antarmuka sistem akan ditutup lalu dibuka kembali, namun ponsel itu sendiri tidak akan memulai ulang. Anda mungkin perlu menjalankan NFX kembali setelahnya.</string>
     <string name="power_restart_system_ui">Mulai ulang sistem UI</string>
     <string name="power_restart_system_ui_summary">Mulai ulang bilah status, bilah navigasi, dan panel notifikasi. Memerlukan akses root.</string>
     <string name="power_needs_root">Akses root diperlukan, tetapi perangkat ini belum di-root.</string>
-    <string name="power_needs_shizuku_rooted">Shizuku tidak berjalan. Hanya tersedia opsi mulai ulang lunak.</string>
+    <string name="power_needs_shizuku_rooted">NFX tidak berjalan. Hanya tersedia opsi mulai ulang lunak.</string>
     <string name="power_failed">Tidak bisa menjalankan %1$s</string>
     <string name="tab_display">Tampilan</string>
     <string name="display_description">Ubah resolusi, kerapatan, dan kecepatan penyegaran layar. Jika layar menjadi sulit digunakan, ketuk Atur ulang di samping pengaturan tersebut.</string>
-    <string name="display_needs_shizuku">Jalankan Shizuku untuk melihat atau mengubah pengaturan ini.</string>
+    <string name="display_needs_shizuku">Jalankan NFX untuk melihat atau mengubah pengaturan ini.</string>
     <string name="display_resolution">Resolusi</string>
     <string name="display_resolution_summary">Ukuran layar dalam piksel (lebar x tinggi). Pengaturan ini mengubah seberapa besar sistem menggambar tampilan layar, bukan ukuran fisik layarnya.</string>
     <string name="display_density">Kerapatan</string>
@@ -251,7 +251,7 @@
     <string name="activities_exported">Diekspor</string>
     <string name="activities_not_exported">Tidak diekspor</string>
     <string name="activities_empty">Aplikasi ini menyatakan tidak ada aktivitas.</string>
-    <string name="activities_needs_shizuku">Shizuku tidak berjalan, dan hanya Shizuku yang dapat memulai aktivitas yang disembunyikan oleh aplikasi tersebut.</string>
+    <string name="activities_needs_shizuku">NFX tidak berjalan, dan hanya NFX yang dapat memulai aktivitas yang disembunyikan oleh aplikasi tersebut.</string>
     <string name="activities_refused">Aktivitas tidak dapat dimulai.</string>
     <string name="activities_long_press">Tekan lama pada suatu baris untuk melihat keseluruhan nama.</string>
     <string name="activities_detail_package">Paket</string>
@@ -350,7 +350,7 @@ Tetapi ini bukan bagian API Android, jadi membikin yang lain tidak mempunyainya.
     <string name="device_uptime">Waktu aktif</string>
     <string name="device_memory">Memori</string>
     <string name="device_storage">Penyimpanan</string>
-    <string name="device_shizuku">Shizuku</string>
+    <string name="device_shizuku">NFX</string>
     <string name="device_server">Server</string>
     <string name="device_start_method">Dimulai dari</string>
     <string name="device_transport">Transport</string>
@@ -389,7 +389,7 @@ Tetapi ini bukan bagian API Android, jadi membikin yang lain tidak mempunyainya.
     <string name="log_capture_waiting">Merekam. Tidak ada catatan sama sekali.</string>
     <string name="log_capture_empty">Belum ada yang direkam.</string>
     <string name="log_capture_jump">Kerusakan terkini</string>
-    <string name="log_capture_needs_shizuku">Merekam log perangkat memerlukan Shizuku: membaca log aplikasi lain merupakan hak akses *shell*, dan aplikasi ini meminjam akses *shell* tersebut.</string>
+    <string name="log_capture_needs_shizuku">Merekam log perangkat memerlukan NFX: membaca log aplikasi lain merupakan hak akses *shell*, dan aplikasi ini meminjam akses *shell* tersebut.</string>
     <string name="log_capture_stopped_size">Rekaman dihentikan: batas ukuran telah tercapai.</string>
     <string name="log_capture_stopped_time">Rekaman dihentikan: batas waktu telah tercapai.</string>
     <string name="log_capture_stopped_ended">Perekaman dihentikan: aliran log berakhir</string>
@@ -401,11 +401,11 @@ Tetapi ini bukan bagian API Android, jadi membikin yang lain tidak mempunyainya.
     <string name="log_session_busy">%1$s masih direkam</string>
     <string name="log_session_running"></string>
     <string name="permissions_usage_access">Usage access</string>
-    <string name="permissions_usage_access_summary">Lets hiding lists see which app is open. Granted by Shizuku or in Android\'s Usage access settings.</string>
+    <string name="permissions_usage_access_summary">Lets hiding lists see which app is open. Granted by NFX or in Android\'s Usage access settings.</string>
     <string name="permissions_dump">Read app exit reasons</string>
-    <string name="permissions_dump_summary">Lets hiding lists tell when an app is closed instead of just running in the background. Granted by Shizuku.</string>
+    <string name="permissions_dump_summary">Lets hiding lists tell when an app is closed instead of just running in the background. Granted by NFX.</string>
     <string name="home_other_methods">Other start methods</string>
-    <string name="home_hiding_active_note">Shizuku may stop while a hidden app is opened because hiding might turn off the debugging connection. Shizuku starts again when the app is closed.</string>
+    <string name="home_hiding_active_note">NFX may stop while a hidden app is opened because hiding might turn off the debugging connection. NFX starts again when the app is closed.</string>
     <string name="hiding_vpn_client_none">Not chosen: select the VPN app</string>
     <string name="hiding_notification_channel">Hiding</string>
     <string name="hiding_notification_title">Settings are hidden</string>
@@ -417,9 +417,9 @@ Tetapi ini bukan bagian API Android, jadi membikin yang lain tidak mempunyainya.
     <string name="hiding_resume">Resume</string>
     <string name="hiding_start_again">Mulai lagi</string>
     <string name="hiding_notification_stopped_title">Hiding stopped</string>
-    <string name="hiding_notification_stopped_text">Shizuku is not running, so hiding cannot detect which app is open. All hidden settings have been restored.</string>
-    <string name="hiding_carries_session_wireless">Not applied: Shizuku uses wireless debugging, so hiding it would stop Shizuku.</string>
-    <string name="hiding_carries_session_usb">Not applied: Shizuku uses USB debugging, so hiding it would stop Shizuku.</string>
+    <string name="hiding_notification_stopped_text">NFX is not running, so hiding cannot detect which app is open. All hidden settings have been restored.</string>
+    <string name="hiding_carries_session_wireless">Not applied: NFX uses wireless debugging, so hiding it would stop NFX.</string>
+    <string name="hiding_carries_session_usb">Not applied: NFX uses USB debugging, so hiding it would stop NFX.</string>
     <string name="tab_settings">Settings</string>
     <string name="home_status_transport_label">Transport</string>
     <string name="home_status_started_with">Current</string>
@@ -468,7 +468,7 @@ Tetapi ini bukan bagian API Android, jadi membikin yang lain tidak mempunyainya.
     <string name="terminal_tutorial_miui">Pengguna telah melaporkan bahwa MIUI merusak Storage
         Access Framework yang digunakan oleh fungsi ekspor.</string>
     <string name="terminal_tutorial_miui_2">Jika Anda menggunakan MIUI, Anda mungkin harus
-        mengekstrak file dari folder aset di APK Shizuku.</string>
+        mengekstrak file dari folder aset di APK NFX.</string>
     <string name="terminal_tutorial_1">Ekspor file ke folder baru.</string>
     <string name="terminal_tutorial_1_description">Dua berkas akan diekspor: %1$s dan %2$s. Jika
         berkas tersebut sudah ada di folder yang dipilih, berkas tersebut akan dihapus.</string>
@@ -483,26 +483,25 @@ Tetapi ini bukan bagian API Android, jadi membikin yang lain tidak mempunyainya.
     <!-- Settings -->
     <string name="settings_start_on_boot">Mulai saat boot</string>
     <string name="settings_watchdog">Penjaga</string>
-    <string name="settings_watchdog_summary">Mulai ulang Shizuku secara otomatis jika macet</string>
+    <string name="settings_watchdog_summary">Mulai ulang NFX secara otomatis jika macet</string>
     <string name="transport_adb">adb</string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
     <string name="settings_tcp_mode">modus TCP</string>
-    <string name="settings_tcp_mode_summary">"Memungkinkan Shizuku untuk memulai ulang tanpa Wi-Fi.
-        (Shizuku harus sudah memulai sekali sejak di-reboot)"</string>
+    <string name="settings_tcp_mode_summary">"Memungkinkan NFX untuk memulai ulang tanpa Wi-Fi.
+        (NFX harus sudah memulai sekali sejak di-reboot)"</string>
     <string name="settings_tcp_mode_dialog_close_port">"Port TCP akan segera ditutup. Anda
         memerlukan Wi-Fi untuk mengaktifkan kembali mode TCP. Lanjutkan?"</string>
     <string name="settings_restart_dialog_title">Diperlukan Restart</string>
-    <string name="settings_restart_dialog_message">Shizuku perlu memulai ulang untuk menerapkan
+    <string name="settings_restart_dialog_message">NFX perlu memulai ulang untuk menerapkan
         pengaturan ini.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Wi-Fi diperlukan. Shizuku akan terus berjalan dan menunggu koneksi Wi-Fi sebelum memulai ulang di latar belakang.</b>]]></string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Wi-Fi diperlukan. NFX akan terus berjalan dan menunggu koneksi Wi-Fi sebelum memulai ulang di latar belakang.</b>]]></string>
     <string name="settings_tcp_port">Pelabuhan TCP</string>
     <string name="settings_language">Bahasa</string>
     <string name="settings_black_night_theme">Tema hitam gelap</string>
     <string name="settings_black_night_theme_summary">Gunakan tema hitam gelap jika mode malam
         diaktifkan</string>
     <string name="permissions_action_settings">Settings</string>
-    <string name="settings_help">Membantu</string>
     <string name="settings_report_bug">Laporkan bug</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
@@ -521,21 +520,13 @@ Tetapi ini bukan bagian API Android, jadi membikin yang lain tidak mempunyainya.
     <string name="settings_legacy_pairing_summary">Masukkan kode pemasangan dalam dialog, bukan
         notifikasi</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">Pertama, mohon lakukan hal berikut:</string>
-    <string name="bug_report_dialog_update">Pastikan Anda menggunakan ^1.</string>
-    <string name="bug_report_dialog_link_update">versi terbaru</string>
-    <string name="bug_report_dialog_wiki">Bacalah poin ^1 dan ikuti semua langkah pemecahan masalah
-        yang relevan.</string>
-    <string name="bug_report_dialog_issues">Telusuri semua ^1 untuk melihat apakah bug Anda sudah
-        dilaporkan.</string>
-    <string name="bug_report_dialog_link_issues">masalah yang ada</string>
     <!-- Snackbar -->
     <string name="snackbar_battery_optimization_settings">Nonaktifkan pengoptimalan baterai untuk
         menggunakan fitur ini.</string>
     <string name="snackbar_action_fix">Memperbaiki</string>
     <!-- Updates -->
     <!-- Toast -->
-    <string name="toast_pairing_timeout">Layanan pemasangan Shizuku telah habis waktunya.</string>
+    <string name="toast_pairing_timeout">Layanan pemasangan NFX telah habis waktunya.</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme_off">Selalu terang</string>
     <string name="dark_theme_on">Selalu gelap</string>
@@ -550,13 +541,13 @@ Tetapi ini bukan bagian API Android, jadi membikin yang lain tidak mempunyainya.
     <string name="notification_adb_pairing_stop_searching">Berhenti mencari</string>
     <string name="notification_adb_pairing_working_title">Penyambungan dalam proses</string>
     <string name="notification_adb_pairing_succeed_title">Penyambungan berhasil</string>
-    <string name="notification_adb_pairing_succeed_text">Anda dapat memulai layanan Shizuku
+    <string name="notification_adb_pairing_succeed_text">Anda dapat memulai layanan NFX
         sekarang.</string>
     <string name="notification_adb_pairing_failed_title">Penyambungan gagal</string>
     <string name="notification_adb_pairing_retry">Ulangi</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">mengakses Shizuku</string>
-    <string name="permission_description">Izinkan aplikasi menggunakan Shizuku.</string>
+    <string name="permission_label">mengakses NFX</string>
+    <string name="permission_description">Izinkan aplikasi menggunakan NFX.</string>
     <string name="permission_warning_template"><![CDATA[Izinkan <b>%1$s</b> untuk %2$s\?]]></string>
     <string name="grant_dialog_button_allow_always">Selalu izinkan</string>
     <string name="grant_dialog_button_deny">"Tolak"</string>
@@ -565,20 +556,20 @@ Tetapi ini bukan bagian API Android, jadi membikin yang lain tidak mempunyainya.
     <string name="start_with_root_failed">Layanan tidak bisa dimulai karena aplikasi tidak mendapat
         izin root atau perangkat tidak memiliki akses root.</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">Memulai Shizuku…</string>
+    <string name="wadb_notification_title">Memulai NFX…</string>
     <string name="wadb_notification_wifi_required">Menunggu koneksi Wi-Fi sebelum melanjutkan</string>
     <string name="wadb_notification_retry">Menunggu untuk mencoba lagi</string>
     <string name="wadb_error_title">Kesalahan saat memulai saat boot</string>
     <string name="wadb_error_notify_dev">Ketuk untuk memberi tahu pengembang.</string>
     <string name="wadb_permission_error_notification_title">Kesalahan Izin</string>
-    <string name="wadb_permission_error_notification_content">Shizuku membutuhkan
+    <string name="wadb_permission_error_notification_content">NFX membutuhkan
         WRITE_SECURE_SETTINGS untuk memulai saat boot. Ketuk untuk mempelajari cara memberikannya.</string>
     <!-- Shell -->
     <string name="shell_title">Shell</string>
     <!-- Watchdog -->
     <string name="watchdog_running">Watchdog sedang berjalan</string>
     <string name="watchdog_turn_off">Mematikan</string>
-    <string name="watchdog_shizuku_crashed_title">Shizuku baru saja jatuh</string>
+    <string name="watchdog_shizuku_crashed_title">NFX baru saja jatuh</string>
     <string name="watchdog_shizuku_crashed_text">Watchdog telah memulai kembali layanan. Ketuk untuk
         mempelajari kemungkinan perbaikan guna mencegah kerusakan di masa mendatang.</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">Matikan Peringatan</string>
@@ -588,15 +579,15 @@ Tetapi ini bukan bagian API Android, jadi membikin yang lain tidak mempunyainya.
     <string name="toast_copied_to_clipboard">Disalin ke papan klip</string>
     <string name="accessibility_service_description">Menyediakan dukungan pemasangan untuk perangkat
         (misalnya, TV yang menjalankan Android 14+) yang tidak dapat menggunakan notifikasi atau
-        layar terpisah.\n\nMemungkinkan Shizuku untuk mengekstrak kode pemasangan dari layar
+        layar terpisah.\n\nMemungkinkan NFX untuk mengekstrak kode pemasangan dari layar
         pemasangan debugging nirkabel. Perangkat akan menonaktifkan dirinya sendiri setelah kode
         pemasangan ditemukan.</string>
     <!-- Messages for legacy -->
-    <string name="dialog_legacy_not_support_title">%1$s tidak mendukung Shizuku modern</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[Shizuku Kuno sudah dihentikan sejak Maret 2019. Selain itu, Shizuku kuno tidak bisa bekerja pada sistem Android yang lebih baru.<p>Coba minta kepada pengembang dari <b>%1$s</b> untuk memperbarui aplikasinya.]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s meminta akses Shizuku kuno</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> memiliki dukungan Shizuku modern, namun meminta akses Shizuku kuno. Hal ini bisa terjadi karena Shizuku tidak aktif, harap periksa di aplikasi Shizuku. <p>Shizuku Kuno sudah dihentikan sejak Maret 2019.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">Buka Shizuku</string>
+    <string name="dialog_legacy_not_support_title">%1$s tidak mendukung NFX modern</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[NFX Kuno sudah dihentikan sejak Maret 2019. Selain itu, NFX kuno tidak bisa bekerja pada sistem Android yang lebih baru.<p>Coba minta kepada pengembang dari <b>%1$s</b> untuk memperbarui aplikasinya.]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s meminta akses NFX kuno</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> memiliki dukungan NFX modern, namun meminta akses NFX kuno. Hal ini bisa terjadi karena NFX tidak aktif, harap periksa di aplikasi NFX. <p>NFX Kuno sudah dihentikan sejak Maret 2019.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Buka NFX</string>
     <string name="wadb_notification_attempt_now">Ulangi</string>
     <!-- Manage tab -->
     <string name="manage_search_hint">Search apps</string>

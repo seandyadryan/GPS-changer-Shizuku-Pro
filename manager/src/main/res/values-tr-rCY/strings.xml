@@ -32,7 +32,7 @@
     <string name="dialog_adb_pairing_paring_code">Eşleşme kodu</string>
     <string name="paring_code_is_wrong">Eşleme kodu yanlış.</string>
     <string name="cannot_connect_port">Kablosuz hata ayıklama servisine bağlanılamıyor.\n\nLütfen
-        Shizuku\'nun ağ erişimini kısıtlayabilen tüm güvenlik duvarı, reklam engelleme, VPN veya
+        NFX\'nun ağ erişimini kısıtlayabilen tüm güvenlik duvarı, reklam engelleme, VPN veya
         benzeri uygulamalarda beyaz listeye alındığından emin olun.</string>
     <string name="dialog_adb_pairing_message">Lütfen aşağıdaki adımları uygulayarak eşleştirmeyi
         başlatın:\n- \"Geliştirici Seçenekleri\"ne gidin\n- \"USB hata ayıklama\" ve \"Kablosuz hata
@@ -46,7 +46,7 @@
     <string name="dialog_adb_pairing_accessibility_navigate">Lütfen aşağıdaki adımları uygulayarak
         eşleştirmeyi başlatın:\n- \"Geliştirici Seçenekleri\"ne gidin\n- \"USB hata ayıklama\" ve
         \"Kablosuz hata ayıklama\"yı etkinleştirin\n- \"Kablosuz hata ayıklama\"nın sol tarafına
-        dokunun\n- \"Cihazı eşleştirme koduyla eşleştir\"e dokunun. Shizuku eşleştirme kodunu
+        dokunun\n- \"Cihazı eşleştirme koduyla eşleştir\"e dokunun. NFX eşleştirme kodunu
         otomatik olarak algılayacaktır.</string>
     <string name="adb_pairing_requires_multi_window">Lütfen önce bölünmüş ekran (çoklu pencere)
         moduna girin.</string>
@@ -58,35 +58,35 @@
     <string name="adb_error_stop_tcp">TCP üzerinden ADB durdurulamadı</string>
     <string name="adb_pair_required">Lütfen önce eşleştirme adımını uygulayın.</string>
     <string name="enable">Etkinleştir</string>
-    <string name="auto_pair_instructions">Kod yazmadan eşleştirin:\n\n1. Geliştirici seçenekleri → Kablosuz hata ayıklama\n2. Cihazı eşleme koduyla eşleştir\n\nShizuku, kodu ve portu doğrudan o pencereden okur ve kendini otomatik başlatır. Eşleşme tamamlanana kadar pencereyi açık tutun.</string>
+    <string name="auto_pair_instructions">Kod yazmadan eşleştirin:\n\n1. Geliştirici seçenekleri → Kablosuz hata ayıklama\n2. Cihazı eşleme koduyla eşleştir\n\nNFX, kodu ve portu doğrudan o pencereden okur ve kendini otomatik başlatır. Eşleşme tamamlanana kadar pencereyi açık tutun.</string>
     <string name="auto_pair_manual">Manuel</string>
     <string name="development_settings">Geliştirici seçenekleri</string>
     <string name="notification_settings">Bildirim seçenekleri</string>
-    <string name="adb_pairing_tutorial_content_notification">Shizuku’dan bir bildirim eşleştirmeyi
+    <string name="adb_pairing_tutorial_content_notification">NFX’dan bir bildirim eşleştirmeyi
         tamamlamanıza yardım edecek.</string>
     <string name="adb_pairing_tutorial_content_steps">\"Geliştirici Seçenekleri\"ne gidin, ardından
         \"USB hata ayıklama\" ve \"Kablosuz hata ayıklama\"yı etkinleştirin.</string>
     <string name="adb_pairing_tutorial_content_enter_pairing_code">\"Kablosuz hata ayıklama\"nın sol
         tarafına dokunun, ardından \"Cihazı eşleştirme koduyla eşleştir\" seçeneğine dokunun.
         Eşleştirmeyi tamamlamak için bildirimdeki kodu girin.</string>
-    <string name="adb_pairing_tutorial_content_notification_blocked">Eşleştirme işlemi, Shizuku\'dan
-        gelen bir bildirimle etkileşim kurmanızı gerektirir. Lütfen Shizuku\'nun bildirim
+    <string name="adb_pairing_tutorial_content_notification_blocked">Eşleştirme işlemi, NFX\'dan
+        gelen bir bildirimle etkileşim kurmanızı gerektirir. Lütfen NFX\'nun bildirim
         göndermesine izin verin.</string>
     <string name="adb_pairing_tutorial_content_miui">MIUI kullanıcılarının sistem ayarlarında
         \"Bildirim\" - \"Bildirim gölgesi\"nden bildirim stilini \"Android\" olarak değiştirmeleri
         gerekebilir.</string>
     <string name="adb_pairing_tutorial_content_miui_2">Aksi takdirde, bildirimden eşleştirme kodunu
         giremeyebilirsiniz.</string>
-    <string name="adb_pairing_tutorial_content_finish">Shizuku\'ya geri dön ve Shizuku\'yu başlat.</string>
-    <string name="adb_pairing_tutorial_content_network">Shizuku\'nun yerel ağa erişmesi gerekiyor.
+    <string name="adb_pairing_tutorial_content_finish">NFX\'ya geri dön ve NFX\'yu başlat.</string>
+    <string name="adb_pairing_tutorial_content_network">NFX\'nun yerel ağa erişmesi gerekiyor.
         Ağ izniyle kontrol edilir.</string>
     <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Bazı sistemler
         (örneğin MIUI), uygulamaların görünmediği durumlarda ağa erişmesini yasaklar, uygulama ön
-        plan hizmeti kullansa bile. Lütfen bu tür sistemlerde Shizuku için pil optimizasyon
+        plan hizmeti kullansa bile. Lütfen bu tür sistemlerde NFX için pil optimizasyon
         özelliklerini devre dışı bırakın.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[Başlat (rootlu cihazlar için)]]></string>
-    <string name="home_root_description"><![CDATA[Magisk kullanıyorsanız, %1$skomutunu deneyebilirsiniz. Kök kullanıcılar için, sonunda Shizuku\'nun yerini alacaktır. Mevcut uygulamaların %2$skomutunu kullanabilmesi için biraz değişiklik yapılması gerektiğini unutmayın.]]></string>
+    <string name="home_root_description"><![CDATA[Magisk kullanıyorsanız, %1$skomutunu deneyebilirsiniz. Kök kullanıcılar için, sonunda NFX\'nun yerini alacaktır. Mevcut uygulamaların %2$skomutunu kullanabilmesi için biraz değişiklik yapılması gerektiğini unutmayın.]]></string>
     <string name="home_root_button_start">Başlat</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -99,7 +99,7 @@
     <!-- Home - Adb permissions limited -->
     <!-- Home - Dialogs -->
     <string name="home_dialog_reboot_required_title">Yeniden başlatma gerekli</string>
-    <string name="home_dialog_reboot_required_message">Shizuku\'nun düzgün çalışabilmesi için cihazın yeniden başlatılması gerekiyor. Devam etmek için lütfen cihazınızı yeniden başlatın.</string>
+    <string name="home_dialog_reboot_required_message">NFX\'nun düzgün çalışabilmesi için cihazın yeniden başlatılması gerekiyor. Devam etmek için lütfen cihazınızı yeniden başlatın.</string>
     <string name="home_dialog_duplicate_app_detected_title">Çift uygulama tespit edildi</string>
     <string name="home_dialog_duplicate_app_detected_message">Cihazınızda bu uygulamanın başka bir sürümü yüklü. Devam etmek için lütfen tüm çift sürümleri kaldırın ve cihazınızı yeniden başlatın.</string>
     <!-- The same two states, said on the Home screen instead of in a dialog that only exits. Shizuku works either way; what is affected is what other apps find when they look Shizuku up. -->
@@ -110,7 +110,7 @@
     <string name="app_management_toggle_all">Tümünü aç/kapat</string>
     <string name="app_management_search_hint">Uygulamalarda ara</string>
     <string name="app_management_sort">Sırala</string>
-    <string name="apps_needs_shizuku">Uygulamaları görmek için Shizuku\'yu başlatın</string>
+    <string name="apps_needs_shizuku">Uygulamaları görmek için NFX\'yu başlatın</string>
     <string name="apps_empty">Gösterilecek uygulama yok</string>
     <string name="apps_filter_empty">Bu filtreyle eşleşen uygulama bulunamadı</string>
     <string name="apps_filter_all">Tümü</string>
@@ -173,7 +173,7 @@
     <string name="activities_exported">Dışarı aktarıldı</string>
     <string name="activities_not_exported">Dışarı aktarılmadı</string>
     <string name="activities_empty">Bu uygulamanın hiçbir etkinliği yok gibi görünüyor.</string>
-    <string name="activities_needs_shizuku">Shizuku çalışmıyor ve uygulamanın kendine özel tuttuğu bir etkinliği yalnızca Shizuku başlatabilir.</string>
+    <string name="activities_needs_shizuku">NFX çalışmıyor ve uygulamanın kendine özel tuttuğu bir etkinliği yalnızca NFX başlatabilir.</string>
     <string name="activities_refused">Etkinlik başlatılamadı.</string>
     <string name="activities_long_press">Tam adını görmek için bir satıra uzun basın.</string>
     <string name="activities_detail_package">Paket</string>
@@ -248,7 +248,7 @@
     <string name="intents_title">Intent\'ler</string>
     <string name="about_package">Paket</string>
     <string name="check_for_updates_now">Şimdi denetle</string>
-    <string name="start_failed">Shizuku başlatılamadı</string>
+    <string name="start_failed">NFX başlatılamadı</string>
     <string name="action_open_wireless_debugging">Kablosuz hata ayıklama</string>
     <string name="start_failed_unsupported">Bu cihaz bunu arka planda başlatamıyor</string>
     <string name="start_failed_wifi_required">Bir Wi-Fi ağına bağlanın; sistem, bir Wi-Fi ağı olmadan kablosuz hata ayıklamayı kapatır. Veya aşağıdaki ADB komutunu kullanarak bir bilgisayardan başlatın.</string>
@@ -260,8 +260,8 @@
     <string name="action_pair">Eşleştir</string>
     <string name="start_failed_pairing_required">Bu cihaz kablosuz hata ayıklama için eşleştirilmemiş. Tekrar eşleştirin.</string>
     <string name="start_failed_connection_lost">Başlatılırken ADB bağlantısı kesildi. Tekrar deneyin.</string>
-    <string name="start_failed_usb_no_port">Yerel ADB portu açık değil. Android her yeniden başlatmada bunu sıfırlar ve tekrar açılması için geçici bir bağlantı kullanması gerekir. Wi-Fi\'a bağlandığınızda Shizuku bunu kablosuz hata ayıklama üzerinden tekrar açacaktır; bir bilgisayardan <b>adb tcpip 5555</b> komutunu çalıştırın veya bunun yerine kablosuz hata ayıklama üzerinden başlatmak için başlatma yöntemi olarak <b>Wi-Fi olmadan başlat</b> seçeneğini seçin.</string>
-    <string name="start_failed_root_unavailable">Bu cihazda artık Root erişimi mevcut değil, bu nedenle Shizuku Root üzerinden başlatılamıyor. Başka bir başlatma yöntemi seçin.</string>
+    <string name="start_failed_usb_no_port">Yerel ADB portu açık değil. Android her yeniden başlatmada bunu sıfırlar ve tekrar açılması için geçici bir bağlantı kullanması gerekir. Wi-Fi\'a bağlandığınızda NFX bunu kablosuz hata ayıklama üzerinden tekrar açacaktır; bir bilgisayardan <b>adb tcpip 5555</b> komutunu çalıştırın veya bunun yerine kablosuz hata ayıklama üzerinden başlatmak için başlatma yöntemi olarak <b>Wi-Fi olmadan başlat</b> seçeneğini seçin.</string>
+    <string name="start_failed_root_unavailable">Bu cihazda artık Root erişimi mevcut değil, bu nedenle NFX Root üzerinden başlatılamıyor. Başka bir başlatma yöntemi seçin.</string>
     <string name="start_failed_system_needs_app">Sistem başlatma yöntemi uygulama içinden başlatılmalı.</string>
     <string name="start_failed_system_no_exploit">Bu cihazda, sistem başlatma yönteminin kullanabileceği tek bileşen olan Samsung FOTA aracı (com.sdet.fotaagent) bulunmuyor; bu nedenle burada yetki yükseltmesi yapılabilecek bir şey yok. Sistem başlatma yöntemini Özel komut olarak değiştirin: uygulama, cihazınızın sahip olduğu bir yetki yükseltmeyle ne çalıştırmanız gerektiğini gösterecek.</string>
     <string name="start_failed_no_binder">Servis bir dakika içinde görünmedi. Her iki taraf da log tutar: ShizukuServiceStarter altındaki başlatıcı ve BinderSender altındaki devir işlemi. Bu ikisine göre filtrelenmiş bir logcat okuyucusu, başlatıcının sunucuyu fork etme aşamasına kadar ulaşıp ulaşmadığını ve sunucunun binder talep edip etmediğini gösterir.</string>
@@ -279,7 +279,7 @@
     <string name="settings_theme_system">Sisteme Uy</string>
     <string name="settings_theme_light">Açık</string>
     <string name="settings_theme_dark">Koyu</string>
-    <string name="intents_description">Otomasyon uygulamaları bu broadcast\'ler ile Shizuku\'yu kontrol edebilir. Auth token\'ı \"auth\" extra\'sı içinde iletilmeli.</string>
+    <string name="intents_description">Otomasyon uygulamaları bu broadcast\'ler ile NFX\'yu kontrol edebilir. Auth token\'ı \"auth\" extra\'sı içinde iletilmeli.</string>
     <string name="intents_require_token">Auth token\'ı zorunlu kıl</string>
     <string name="intents_require_token_summary">Başlatma ve durdurma Intent\'leri aşağıdaki token\'a ihtiyaç duyar. Bunları token olmadan göndermek için bu seçeneği kapatın.</string>
     <string name="intents_token">Auth token\'i</string>
@@ -292,7 +292,7 @@
     <string name="intents_watchdog_toggle">Watchdog durumunu değiştir</string>
     <string name="intents_adb_command">Bilgisayar ile başlat</string>
     <string name="intents_package">Paket</string>
-    <string name="home_battery_warning">Shizuku arka planda sonlandırılabilir. Pil optimizasyonlarını yoksaymasına izin verin.</string>
+    <string name="home_battery_warning">NFX arka planda sonlandırılabilir. Pil optimizasyonlarını yoksaymasına izin verin.</string>
     <string name="batch_selected_count">%1$d seçildi</string>
     <string name="app_management_action_select_all">Tümünü seç</string>
     <string name="app_management_action_grant">İzin Ver</string>
@@ -307,7 +307,7 @@
     <!-- Terminal -->
     <string name="terminal_tutorial_miui">Kullanıcılar, MIUI\'nin dışa aktarma işlevi tarafından
         kullanılan Depolama Erişim Çerçevesini bozduğunu bildirdi.</string>
-    <string name="terminal_tutorial_miui_2">Eğer MIUI kullanıyorsanız, dosyayı Shizuku\'nun
+    <string name="terminal_tutorial_miui_2">Eğer MIUI kullanıyorsanız, dosyayı NFX\'nun
         APK\'sındaki varlıklar klasöründen çıkarmanız gerekebilir.</string>
     <string name="terminal_tutorial_1">Dosyaları yeni bir klasöre aktarın.</string>
     <string name="terminal_tutorial_1_description">İki dosya dışa aktarılacak: %1$s ve %2$s.
@@ -320,15 +320,15 @@
         dosyasında %2$s için bir takma ad oluşturabilirsiniz.</string>
     <string name="terminal_tutorial_3">Aşağıdaki komutla bir kabuk açın:</string>
     <!-- Stealth -->
-    <string name="stealth_description">Shizuku\'yu, yüklü olduğunda çalışmayı reddeden uygulamalardan gizleyin. Yüklemeniz için farklı bir paket adına sahip bir kopya dışa aktarılır.</string>
-    <string name="stealth_warning_compatibility">Shizuku\'yu kullanan bazı uygulamalar, Shizuku\'nun yüklü olup olmadığını tespit etmeye çalıştıklarından Shizuku gizlendiğinde çalışmayabilir.</string>
-    <string name="stealth_warning_compatibility_2">Geçici bir çözüm olarak Shizuku\'nun gizlemesini kaldırabilirsiniz; bu işlem orijinal paket adına sahip bir stub yükler. İşiniz bittiğinde Shizuku\'yu tekrar gizleyebilirsiniz.</string>
-    <string name="stealth_warning_compatibility_3">Shizuku gizlendiğinde \"Shizuku yüklü\" kontrolünün çalışabilmesi için geliştiriciye gönderebileceğiniz bir kod parçacığını kopyalamak üzere bu karta dokunun.</string>
-    <string name="stealth_warning_detection">Gizlenmiş olsa bile bazı uygulamalar Shizuku\'yu hâlâ tespit edebilir.</string>
-    <string name="stealth_info_reconfigure">Gizli sürümü yükledikten sonra Shizuku\'yu yeniden eşleştirmeniz ve yeniden yapılandırmanız gerekecektir.</string>
+    <string name="stealth_description">NFX\'yu, yüklü olduğunda çalışmayı reddeden uygulamalardan gizleyin. Yüklemeniz için farklı bir paket adına sahip bir kopya dışa aktarılır.</string>
+    <string name="stealth_warning_compatibility">NFX\'yu kullanan bazı uygulamalar, NFX\'nun yüklü olup olmadığını tespit etmeye çalıştıklarından NFX gizlendiğinde çalışmayabilir.</string>
+    <string name="stealth_warning_compatibility_2">Geçici bir çözüm olarak NFX\'nun gizlemesini kaldırabilirsiniz; bu işlem orijinal paket adına sahip bir stub yükler. İşiniz bittiğinde NFX\'yu tekrar gizleyebilirsiniz.</string>
+    <string name="stealth_warning_compatibility_3">NFX gizlendiğinde \"NFX yüklü\" kontrolünün çalışabilmesi için geliştiriciye gönderebileceğiniz bir kod parçacığını kopyalamak üzere bu karta dokunun.</string>
+    <string name="stealth_warning_detection">Gizlenmiş olsa bile bazı uygulamalar NFX\'yu hâlâ tespit edebilir.</string>
+    <string name="stealth_info_reconfigure">Gizli sürümü yükledikten sonra NFX\'yu yeniden eşleştirmeniz ve yeniden yapılandırmanız gerekecektir.</string>
     <string name="stealth_info_rish">Rish kullanıcıları: Gizli sürümü yükledikten sonra dosyaları yeniden dışa aktarın.</string>
     <string name="stealth_info_intents">Intent kullanıcıları: Intent\'lerinizi yeni paket adıyla güncelleyin.</string>
-    <string name="stealth_info_update">Gizli sürümü kullanırken Shizuku\'yu uygulama içinden güncellemeniz gerekir; çünkü farklı bir imzaya sahiptir.</string>
+    <string name="stealth_info_update">Gizli sürümü kullanırken NFX\'yu uygulama içinden güncellemeniz gerekir; çünkü farklı bir imzaya sahiptir.</string>
     <string name="stealth_package_name">Paket adı (isteğe bağlı)</string>
     <string name="stealth_package_name_helper_text">Boş bırakılırsa, paket adına rastgele bir sonek eklenir.</string>
     <string name="stealth_error_ends_with_period">Paket adı noktayla bitemez.</string>
@@ -336,16 +336,16 @@
     <string name="stealth_error_needs_two_segments">Paket adı en az iki bölümden oluşmalı.</string>
     <string name="stealth_error_segment_starts_with_number">Bölümler bir sayıyla başlayamaz.</string>
     <string name="stealth_uninstall_required">Kaldırılması gerekli</string>
-    <string name="stealth_uninstall_message">Sistem şimdi Shizuku\'yu kaldırmanızı isteyecektir. Ardından klonu yükleyin.</string>
+    <string name="stealth_uninstall_message">Sistem şimdi NFX\'yu kaldırmanızı isteyecektir. Ardından klonu yükleyin.</string>
     <string name="stealth_uninstall">Kaldır</string>
     <string name="stealth_hide">Gizle</string>
     <!-- Settings -->
     <string name="settings_start_on_boot">Önyüklemede başla</string>
     <string name="settings_use_system_color">Sistem teması rengini kullan</string>
     <string name="settings_watchdog">Bekçi köpeği</string>
-    <string name="settings_watchdog_summary">Çökerse Shizuku\'yu otomatik olarak yeniden başlat</string>
+    <string name="settings_watchdog_summary">Çökerse NFX\'yu otomatik olarak yeniden başlat</string>
     <string name="settings_auto_disable_wireless_debugging">Kablosuz hata ayıklamayı devre dışı bırak</string>
-    <string name="settings_auto_disable_wireless_debugging_summary">Shizuku durduğunda Kablosuz hata ayıklamayı kapat.</string>
+    <string name="settings_auto_disable_wireless_debugging_summary">NFX durduğunda Kablosuz hata ayıklamayı kapat.</string>
     <string name="settings_start_method">Varsayılan başlatma yöntemi</string>
     <string name="settings_start_method_root_unavailable">Bu cihazda root erişimi olmadığı için başlatma işlemi kablosuz hata ayıklamaya yönlendiriliyor.</string>
     <string name="start_method_wireless_no_network">Wi-Fi olmadan</string>
@@ -355,53 +355,53 @@
     <string name="start_method_root">Root</string>
     <string name="transport_adb">adb</string>
     <string name="settings_adb_without_developer_options">Geliştirici seçeneklerini devre dışı bırak</string>
-    <string name="settings_adb_without_developer_options_summary">Geliştirici seçeneklerini kapatır ancak Shizuku\'nun ihtiyaç duyduğu ADB ayarlarını korur. Shizuku çalışmaya devam eder ve bu ayarlar her yeniden başlatmadan sonra yeniden yüklenir.</string>
+    <string name="settings_adb_without_developer_options_summary">Geliştirici seçeneklerini kapatır ancak NFX\'nun ihtiyaç duyduğu ADB ayarlarını korur. NFX çalışmaya devam eder ve bu ayarlar her yeniden başlatmadan sonra yeniden yüklenir.</string>
     <string name="start_failed_developer_options_off">Geliştirici seçenekleri kapalı çünkü Geliştirici seçenekleri olmadan ADB etkinleştirildi</string>
     <string name="action_turn_on_developer_options">Geliştirici seçeneklerini aç</string>
     <string name="toast_developer_options_required">Geliştirici seçenekleri olmadan ADB\'yi kapat</string>
     <string name="settings_adb_without_developer_options_confirm_title">Geliştirici seçenekleri kapatılsın mı?</string>
-    <string name="settings_adb_without_developer_options_confirm_message">Shizuku çalışmaya devam edecek ve yeniden başlatmanın ardından ADB ayarlarını geri yükleyecektir. USB veya kablosuz hata ayıklama ayarlarını değiştirmek ya da yeni bir cihaz eşleştirmek için Geliştirici seçeneklerini açamayacaksınız. Geliştirici seçenekleri kapatılsın mı?</string>
+    <string name="settings_adb_without_developer_options_confirm_message">NFX çalışmaya devam edecek ve yeniden başlatmanın ardından ADB ayarlarını geri yükleyecektir. USB veya kablosuz hata ayıklama ayarlarını değiştirmek ya da yeni bir cihaz eşleştirmek için Geliştirici seçeneklerini açamayacaksınız. Geliştirici seçenekleri kapatılsın mı?</string>
     <string name="settings_adb_without_developer_options_confirm">Kapat</string>
-    <string name="settings_adb_without_developer_options_failed">Shizuku ayarları değiştiremedi. Önce izinler sayfasından WRITE_SECURE_SETTINGS iznini verin.</string>
+    <string name="settings_adb_without_developer_options_failed">NFX ayarları değiştiremedi. Önce izinler sayfasından WRITE_SECURE_SETTINGS iznini verin.</string>
     <string name="settings_wait_for_wifi">Wi-Fi için bekle</string>
-    <string name="settings_wait_for_wifi_summary">Otomatik Shizuku yeniden başlatmaları için kotasız bir Wi-Fi bağlantısı beklenir.</string>
+    <string name="settings_wait_for_wifi_summary">Otomatik NFX yeniden başlatmaları için kotasız bir Wi-Fi bağlantısı beklenir.</string>
     <string name="settings_unavailable_while_forcing_wireless">Wi-Fi olmadan başlatma seçeneği açıkken kullanılamaz.</string>
     <string name="settings_force_wireless_debugging">Wi-Fi olmadan başlat (deneysel)</string>
-    <string name="settings_force_wireless_debugging_summary">Wi-Fi veya USB hata ayıklama kullanılmadan Shizuku başlatılmaya çalışılır. Bu işlem, Wi-Fi bekleme süresini ve otomatik kablosuz hata ayıklamayı da devre dışı bırakır.</string>
+    <string name="settings_force_wireless_debugging_summary">Wi-Fi veya USB hata ayıklama kullanılmadan NFX başlatılmaya çalışılır. Bu işlem, Wi-Fi bekleme süresini ve otomatik kablosuz hata ayıklamayı da devre dışı bırakır.</string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
     <string name="state_on">Açık</string>
     <string name="state_off">Kapalı</string>
     <string name="settings_persist_adb_port">Yeniden başlatma sonrasında ADB portunu koru</string>
-    <string name="settings_persist_adb_port_summary">Her yeniden başlatmadan sonra ADB portunu açık tutar, böylece Shizuku Wi-Fi veya kişisel erişim noktası olmadan başlatılabilir.</string>
+    <string name="settings_persist_adb_port_summary">Her yeniden başlatmadan sonra ADB portunu açık tutar, böylece NFX Wi-Fi veya kişisel erişim noktası olmadan başlatılabilir.</string>
     <string name="settings_persist_adb_port_ok">Yeniden başlatma sonrasında ADB portu açık kalır</string>
-    <string name="settings_persist_adb_port_refused">Android bu eylemi reddetti. Shizuku, root veya sistem kullanıcısı olarak çalışmalıdır.</string>
-    <string name="settings_persist_adb_port_unavailable">Önce Shizuku\'yu başlatın. Bu ayar yalnızca Shizuku üzerinden değiştirilebilir.</string>
+    <string name="settings_persist_adb_port_refused">Android bu eylemi reddetti. NFX, root veya sistem kullanıcısı olarak çalışmalıdır.</string>
+    <string name="settings_persist_adb_port_unavailable">Önce NFX\'yu başlatın. Bu ayar yalnızca NFX üzerinden değiştirilebilir.</string>
     <string name="settings_system_start_method">Sistem başlatma yöntemi</string>
     <string name="settings_system_start_method_exploit">Samsung (FOTA agent)</string>
     <string name="settings_system_start_method_custom">Özel komut</string>
     <string name="home_system_title">Sistem UID ile başlat</string>
-    <string name="home_system_summary">Shizuku\'yu adb yerine sistem kullanıcısı (UID 1000) olarak çalıştırın: Yalnızca Samsung, bu sürümlerle birlikte gelen FOTA aracısı üzerinden</string>
-    <string name="home_adb_command_summary">Shizuku\'yu bir bilgisayardan ADB üzerinden başlatın. Komutu kopyalamak için dokunun</string>
+    <string name="home_system_summary">NFX\'yu adb yerine sistem kullanıcısı (UID 1000) olarak çalıştırın: Yalnızca Samsung, bu sürümlerle birlikte gelen FOTA aracısı üzerinden</string>
+    <string name="home_adb_command_summary">NFX\'yu bir bilgisayardan ADB üzerinden başlatın. Komutu kopyalamak için dokunun</string>
     <string name="settings_tcp_mode">TCP modu</string>
-    <string name="settings_tcp_mode_summary">"Shizuku'nun Wi-Fi olmadan yeniden başlatılmasına izin
-        verir. (Shizuku'nun yeniden başlatıldıktan sonra bir kez başlatılmış olması gerekir)"</string>
+    <string name="settings_tcp_mode_summary">"NFX'nun Wi-Fi olmadan yeniden başlatılmasına izin
+        verir. (NFX'nun yeniden başlatıldıktan sonra bir kez başlatılmış olması gerekir)"</string>
     <string name="settings_tcp_mode_dialog_close_port">"TCP portu hemen kapatılacaktır. TCP modunu
         tekrar açmak için Wi-Fi'ye ihtiyacınız olacak. Devam edilsin mi?"</string>
     <string name="settings_restart_dialog_title">Yeniden Başlatma Gerekli</string>
-    <string name="settings_restart_dialog_message">Shizuku\'nun bu ayarı uygulayabilmesi için
+    <string name="settings_restart_dialog_message">NFX\'nun bu ayarı uygulayabilmesi için
         yeniden başlatması gerekiyor.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Wi-Fi zorunlu. Shizuku çalışmaya devam edecek ve Wi-Fi bağlantısını bekleyecek, sonra arka planda yeniden başlatacak.</b>]]></string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Wi-Fi zorunlu. NFX çalışmaya devam edecek ve Wi-Fi bağlantısını bekleyecek, sonra arka planda yeniden başlatacak.</b>]]></string>
     <string name="settings_tcp_port">TCP bağlantı noktası</string>
     <string name="settings_auto_disable_usb_debugging">USB hata ayıklamayı devre dışı bırak</string>
-    <string name="settings_auto_disable_usb_debugging_summary">Shizuku durdurulduğunda USB hata ayıklamasını devre dışı bırak</string>
+    <string name="settings_auto_disable_usb_debugging_summary">NFX durdurulduğunda USB hata ayıklamasını devre dışı bırak</string>
     <string name="settings_language">Dil</string>
     <string name="settings_black_night_theme">Siyah gece teması</string>
     <string name="settings_black_night_theme_summary">Gece modu etkinse saf siyah temasını kullanın</string>
     <string name="settings_update_stable">Kararlı</string>
     <string name="settings_update_beta">Dev</string>
     <string name="settings_permissions">İzinler</string>
-    <string name="settings_permissions_summary">Shizuku\'nun gereksinimleri ve izin verilenler</string>
+    <string name="settings_permissions_summary">NFX\'nun gereksinimleri ve izin verilenler</string>
     <string name="permissions_allowed">İzin verilenler</string>
     <string name="permissions_action_allow">İzin Ver</string>
     <string name="permissions_action_settings">Ayarlar</string>
@@ -411,11 +411,10 @@
     <string name="permissions_nearby">Yakınlardaki cihazlar</string>
     <string name="permissions_nearby_summary">Ağınızdaki kablosuz hata ayıklama portunu bulur.</string>
     <string name="permissions_write_secure_settings">Güvenli sistem ayarlarını değiştir</string>
-    <string name="permissions_write_secure_settings_summary">Shizuku\'nun kablosuz hata ayıklamayı açmasını sağlar. Bu izni yalnızca ADB verebilir.</string>
+    <string name="permissions_write_secure_settings_summary">NFX\'nun kablosuz hata ayıklamayı açmasını sağlar. Bu izni yalnızca ADB verebilir.</string>
     <string name="permissions_accessibility">Erişilebilirlik hizmeti</string>
     <string name="permissions_accessibility_summary">Eşleştirme kodunu otomatik olarak okur.</string>
-    <string name="permissions_battery_summary">Android\'in Shizuku\'yu arka planda sonlandırmasını engeller.</string>
-    <string name="settings_help">Yardım</string>
+    <string name="permissions_battery_summary">Android\'in NFX\'yu arka planda sonlandırmasını engeller.</string>
     <string name="settings_report_bug">Bir hata bildirin</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
@@ -432,15 +431,6 @@
     <string name="settings_legacy_pairing_summary">Eşleştirme kodunu bildirim yerine bir iletişim
         kutusuna girin</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">Öncelikle lütfen aşağıdakileri yapın:</string>
-    <string name="bug_report_dialog_update">^1 operatörünü kullandığınızdan emin olun.</string>
-    <string name="bug_report_dialog_link_update">en son sürüm</string>
-    <string name="bug_report_dialog_wiki">^1 numaralı metni okuyun ve ilgili tüm sorun giderme
-        adımlarını izleyin.</string>
-    <string name="bug_report_dialog_link_wiki">viki</string>
-    <string name="bug_report_dialog_issues">Hatanızın daha önce bildirilip bildirilmediğini görmek
-        için ^1 numaralı tüm kayıtları inceleyin.</string>
-    <string name="bug_report_dialog_link_issues">mevcut sorunlar</string>
     <!-- Snackbar -->
     <string name="snackbar_battery_optimization_settings">Bu özelliği kullanmak için lütfen pil
         optimizasyonunu devre dışı bırakın.</string>
@@ -461,7 +451,7 @@
     <string name="update_success">Güncelleme başarılı</string>
     <string name="update_failed">Güncelleme başarısız</string>
     <!-- Toast -->
-    <string name="toast_pairing_timeout">Shizuku eşleştirme servisi zaman doldu.</string>
+    <string name="toast_pairing_timeout">NFX eşleştirme servisi zaman doldu.</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme">Tema</string>
     <string name="dark_theme_off">Her zaman hafif</string>
@@ -481,7 +471,7 @@
     <string name="notification_adb_pairing_stop_searching">Aramayı durdur</string>
     <string name="notification_adb_pairing_working_title">Eşleştirme devam ediyor</string>
     <string name="notification_adb_pairing_succeed_title">Eşleştirme başarılı</string>
-    <string name="notification_adb_pairing_succeed_text">Shizuku hizmetini şimdi başlatabilirsiniz.</string>
+    <string name="notification_adb_pairing_succeed_text">NFX hizmetini şimdi başlatabilirsiniz.</string>
     <string name="notification_adb_pairing_failed_title">Eşleştirme başarısız</string>
     <string name="notification_adb_pairing_retry">Yeniden dene</string>
     <string name="notification_auth_missing_title">Auth token\'ı gerekli</string>
@@ -489,8 +479,8 @@
     <string name="notification_auth_invalid_title">Auth token\'ı geçersiz</string>
     <string name="notification_auth_invalid_message">Intent\'inizdeki token\'ın, uygulamadaki \"Intent\'leri görüntüle\" altında gösterilenle eşleştiğinden emin olun.</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">Shizuku’ya erişim</string>
-    <string name="permission_description">Uygulamanın Shizuku’yu kullanmasına izin verin.</string>
+    <string name="permission_label">NFX’ya erişim</string>
+    <string name="permission_description">Uygulamanın NFX’yu kullanmasına izin verin.</string>
     <string name="permission_warning_template"><![CDATA[<b>%1$s</b> uygulamasına %2$s için izin verilsin mi\?]]></string>
     <string name="grant_dialog_button_allow_always">Her zaman izin ver</string>
     <string name="grant_dialog_button_deny">"Reddet"</string>
@@ -499,28 +489,28 @@
     <string name="start_with_root_failed">Root izni verilmediği veya bu aygıtın rootlu olmadığı için
         hizmet başlatılamıyor.</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">Shizuku\'ya Başlarken…</string>
+    <string name="wadb_notification_title">NFX\'ya Başlarken…</string>
     <string name="wadb_notification_wifi_required">Devam etmeden önce Wi-Fi bağlantısı bekleniyor</string>
     <string name="wadb_notification_retry">Yeniden denemeyi bekliyor.</string>
-    <string name="wadb_notification_connecting">Kablosuz ADB ile Shizuku başlatılıyor</string>
+    <string name="wadb_notification_connecting">Kablosuz ADB ile NFX başlatılıyor</string>
     <string name="wadb_notification_waiting_for_unlock">Devam etmek için cihazın kilidini açın</string>
     <string name="wadb_notification_forcing_wireless">Kablosuz hata ayıklama açık tutuluyor</string>
     <string name="wadb_error_title">Önyükleme sırasında hata oluştu</string>
     <string name="wadb_error_notify_dev">Geliştiriciyi bilgilendirmek için dokunun.</string>
     <string name="wadb_permission_error_notification_title">İzin Hatası</string>
-    <string name="wadb_permission_error_notification_content">Shizuku\'nun önyükleme sırasında
+    <string name="wadb_permission_error_notification_content">NFX\'nun önyükleme sırasında
         WRITE_SECURE_SETTINGS ayarına ihtiyacı var. Nasıl izin vereceğinizi öğrenmek için dokunun.</string>
     <!-- Shell -->
     <string name="shell_title">Shell</string>
-    <string name="shell_backend_shizuku">Shizuku</string>
+    <string name="shell_backend_shizuku">NFX</string>
     <string name="shell_backend_root">Root</string>
-    <string name="shell_backend_shizuku_status">Shizuku, uid %1$d</string>
+    <string name="shell_backend_shizuku_status">NFX, uid %1$d</string>
     <string name="shell_backend_root_status">Root, uid 0</string>
     <string name="shell_backend_offline">Aktif bir komut çalıştırıcı yok</string>
-    <string name="shell_needs_a_backend">Shizuku\'yu başlatın veya root\'lu bir cihazda Root\'u seçin: Komutları bu ikisinden biri çalıştırır. Root, Shizuku durdurulmuş olsa bile çalışır.</string>
-    <string name="shell_intro">Shizuku\'nun çalıştığı Uid ile çalışır (Adb üzerinde 2000, root ile 0). Böylece bu Uid\'nin erişebildiği her yere ulaşabilir: /sdcard, /system ve root yetkisiyle uygulama verileri. /sdcard konumunda, her defasında tek bir komut çalışacak şekilde açılır; Tty desteği olmadığı için terminal gerektiren programlar (nano, Ssh istemi gibi) burada çalışmaz.</string>
+    <string name="shell_needs_a_backend">NFX\'yu başlatın veya root\'lu bir cihazda Root\'u seçin: Komutları bu ikisinden biri çalıştırır. Root, NFX durdurulmuş olsa bile çalışır.</string>
+    <string name="shell_intro">NFX\'nun çalıştığı Uid ile çalışır (Adb üzerinde 2000, root ile 0). Böylece bu Uid\'nin erişebildiği her yere ulaşabilir: /sdcard, /system ve root yetkisiyle uygulama verileri. /sdcard konumunda, her defasında tek bir komut çalışacak şekilde açılır; Tty desteği olmadığı için terminal gerektiren programlar (nano, Ssh istemi gibi) burada çalışmaz.</string>
     <string name="shell_root_granted">Root mevcut: Komutlar uid 0 olarak çalışır.</string>
-    <string name="shell_root_refused">Root erişimi reddedildi, bu nedenle komutlar Shizuku\'yu kullanacak. Root\'u kullanmak için bu uygulamaya root erişimi verin.</string>
+    <string name="shell_root_refused">Root erişimi reddedildi, bu nedenle komutlar NFX\'yu kullanacak. Root\'u kullanmak için bu uygulamaya root erişimi verin.</string>
     <string name="shell_search">Ara</string>
     <string name="shell_search_hint">Bul</string>
     <string name="shell_search_position">%1$d / %2$d</string>
@@ -564,10 +554,10 @@
     <string name="shell_quick_force_stop">Zorla durdur</string>
     <string name="shell_adb_prefix_dropped">Cihazda çalıştırıldı: adb shell ön eki, bilgisayarda yazacağınız kısımdır.</string>
     <string name="shell_adb_host_devices">Bu komut bir bilgisayara bağlı cihazları listeler. Burası cihazın kendisidir, bu nedenle listelenecek bir şey yoktur: Cihazda yüklü olanları `pm list packages` komutu gösterir.</string>
-    <string name="shell_adb_host_install">Yükleme işlemi, o komutun bilgisayar tarafına aittir. Burada aynı iş, diğer tüm komutlar gibi Shizuku üzerinden çalıştırılan <b>pm install /path/to/app.apk</b> komutudur.</string>
+    <string name="shell_adb_host_install">Yükleme işlemi, o komutun bilgisayar tarafına aittir. Burada aynı iş, diğer tüm komutlar gibi NFX üzerinden çalıştırılan <b>pm install /path/to/app.apk</b> komutudur.</string>
     <string name="shell_adb_host_transfer">Bu işlem için bir bilgisayar gereklidir. Cihazda dosyalar <b>cp</b> ile taşınır ve yollar bu shell\'in erişebildiği alanlardır.</string>
     <string name="shell_adb_host_generic">Bu, adb\'nin bilgisayarda çalışan kısmıdır ve cihaz içinden işlem yapabileceği bir şey yoktur. Bunun yerine doğrudan cihaz komutunu burada çalıştırın: <b>adb shell ps</b> ve <b>ps</b> aynı şeydir.</string>
-    <string name="shell_adb_host_help">​Bu, bilgisayardaki adb yerine cihazın kendi shell\'idir: Komutlar, Shizuku\'nun çalıştığı uid ile ve her seferinde tek bir komut olacak şekilde çalışır. <b>pm list packages</b>, <b>dumpsys battery</b> veya giriş alanının üzerindeki Kütüphane ile başlayın.</string>
+    <string name="shell_adb_host_help">​Bu, bilgisayardaki adb yerine cihazın kendi shell\'idir: Komutlar, NFX\'nun çalıştığı uid ile ve her seferinde tek bir komut olacak şekilde çalışır. <b>pm list packages</b>, <b>dumpsys battery</b> veya giriş alanının üzerindeki Kütüphane ile başlayın.</string>
     <string name="shell_paste">Bir komut yapıştırın</string>
     <string name="shell_paste_empty">Panoda yapıştırılacak bir şey yok.</string>
     <string name="shell_jump_to_newest">En yeni çıktıya atla</string>
@@ -583,11 +573,11 @@
     <!-- Watchdog -->
     <string name="watchdog_running">Bekçi köpeği çalışıyor</string>
     <string name="watchdog_turn_off">Devre Dışı Bırak</string>
-    <string name="watchdog_shizuku_crashed_title">Shizuku yakın zamanda çöktü</string>
+    <string name="watchdog_shizuku_crashed_title">NFX yakın zamanda çöktü</string>
     <string name="watchdog_shizuku_crashed_text">Bekçi köpeği hizmeti yeniden başlattı. Gelecekteki
         çökmeleri önlemek için olası çözümler hakkında bilgi edinmek için dokunun.</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">Uyarıları Kapat</string>
-    <string name="watchdog_shizuku_recovered_title">Shizuku yeniden çalışıyor</string>
+    <string name="watchdog_shizuku_recovered_title">NFX yeniden çalışıyor</string>
     <string name="watchdog_shizuku_recovered_text">Kendiliğinden durduktan sonra Watchdog onu tekrar başlattı.</string>
     <string name="watchdog_given_up_action_start">Başlat</string>
     <!-- Misc -->
@@ -597,14 +587,14 @@
     <string name="toast_copied_to_clipboard">Panoya kopyalandı</string>
     <string name="accessibility_service_description">Bildirimlerin veya bölünmüş ekranın
         kullanılamadığı cihazlar (örneğin, Android 14+ çalıştıran TV\'ler) için eşleştirme desteği
-        sağlar.\n\nShizuku\'nun eşleştirme kodunu kablosuz hata ayıklama eşleştirme ekranından
+        sağlar.\n\nNFX\'nun eşleştirme kodunu kablosuz hata ayıklama eşleştirme ekranından
         çıkarmasını sağlar. Eşleştirme kodu bulunduğunda kendini devre dışı bırakır.</string>
     <!-- Messages for legacy -->
-    <string name="dialog_legacy_not_support_title">%1$s, yeni Shizuku’yu desteklemiyor</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[Eski Shizuku, Mart 2019’dan beri kullanımdan kaldırılmıştır. Ayrıca, eski Shizuku yeni Android sistemlerinde çalışmaz. <p>Lütfen<b>%1$s</b> geliştiricisinden güncelleme yapmasını isteyin.]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s, mevcut Shizuku gerektiriyor</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> yeni Shizuku desteğine sahip ama eski Shizuku talep ediyor. Bu Shizuku çalışmadığı zaman meydana gelir, lütfen Shizuku uygulamasını kontrol edin.<p>Eski Shizuku uygulaması Mart 2019’da kullanımdan kaldırılmıştır.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">Shizuku’yu aç</string>
+    <string name="dialog_legacy_not_support_title">%1$s, yeni NFX’yu desteklemiyor</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[Eski NFX, Mart 2019’dan beri kullanımdan kaldırılmıştır. Ayrıca, eski NFX yeni Android sistemlerinde çalışmaz. <p>Lütfen<b>%1$s</b> geliştiricisinden güncelleme yapmasını isteyin.]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s, mevcut NFX gerektiriyor</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> yeni NFX desteğine sahip ama eski NFX talep ediyor. Bu NFX çalışmadığı zaman meydana gelir, lütfen NFX uygulamasını kontrol edin.<p>Eski NFX uygulaması Mart 2019’da kullanımdan kaldırılmıştır.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">NFX’yu aç</string>
     <string name="wadb_notification_attempt_now">Yeniden dene</string>
     <!-- Manage tab -->
     <string name="tab_manage">Uyg. eylemleri</string>
@@ -632,7 +622,7 @@
     <string name="app_section_actions">Eylemler</string>
     <string name="app_section_battery">Pil</string>
     <string name="app_section_info">Bilgi</string>
-    <string name="app_permissions_note">Adb üzerinden yalnızca koruma düzeyi \"development\" içeren veya tehlikeli olan izinler değiştirilebilir; Shizuku ne kadar güvenilir olursa olsun platform geri kalanını reddeder, bu nedenle bu satırlardaki anahtarlar kapalı kalır.</string>
+    <string name="app_permissions_note">Adb üzerinden yalnızca koruma düzeyi \"development\" içeren veya tehlikeli olan izinler değiştirilebilir; NFX ne kadar güvenilir olursa olsun platform geri kalanını reddeder, bu nedenle bu satırlardaki anahtarlar kapalı kalır.</string>
     <string name="app_permissions_none">Bu uygulamanın sistem izni yok.</string>
     <string name="app_permission_locked">%1$s, ADB üzerinden değiştirilemez</string>
     <string name="app_permission_granted">İzin verildi</string>
@@ -642,7 +632,7 @@
     <string name="app_grant_confirm_ok">İzin Ver</string>
     <string name="app_action_failed">Android bu işlemi reddetti. Hiçbir şey değişmedi.</string>
     <string name="app_ops_note">Uyg. eylemleri, platformun bizzat danıştığı denetimlerdir ve Adb aşağıdakileri değiştirebilir. Tüm dosyalara erişim, kullanım erişimi, tam alarmlar ve sistem ayarlarını değiştirme gibi bazı yetkiler ise Uyg. Eylemleri yerine sistem ayarlarındaki özel erişim altındadır; bunları hiçbir uygulama değiştiremez.</string>
-    <string name="app_ops_needs_shizuku">Uyg. eylemleri değerlerini okumak ve değiştirmek için Shizuku\'yu başlatın.</string>
+    <string name="app_ops_needs_shizuku">Uyg. eylemleri değerlerini okumak ve değiştirmek için NFX\'yu başlatın.</string>
     <string name="app_op_background">Arka planda çalışma</string>
     <string name="app_op_background_note">Reddetmek, arka planda çalışmasını durdurur.</string>
     <string name="app_op_any_background">Başlangıçta otomatik başlat</string>
@@ -696,7 +686,7 @@
     <string name="app_confirm_disable">%1$s devre dışı bırakılsın mı? Siz tekrar etkinleştirene dek çalışmayı durdurur.</string>
     <string name="app_confirm_clear_data">%1$s için tüm veriler silinsin mi? Bu işlem geri alınamaz.</string>
     <string name="app_confirm_uninstall">​%1$s bu kullanıcı için kaldırılsın mı? Verileri korunur.</string>
-    <string name="app_battery_needs_shizuku">Pil ayarlarını değiştirmek için Shizuku\'yu başlatın.</string>
+    <string name="app_battery_needs_shizuku">Pil ayarlarını değiştirmek için NFX\'yu başlatın.</string>
     <string name="app_battery_bucket">Bekleme grubu</string>
     <string name="app_battery_pick_title">Bekleme grubu</string>
     <string name="app_bucket_active">Kısıtlamasız</string>
@@ -716,7 +706,7 @@
     <string name="app_battery_unrestricted">​Pil optimizasyonunu yoksay</string>
     <string name="app_battery_unrestricted_note">Doze modunda etkin kalmasını sağlar, ancak daha fazla pil tüketir.</string>
     <string name="app_section_network">Ağ</string>
-    <string name="app_network_needs_shizuku">Bir uygulamanın nelere erişebileceğini değiştirmek için Shizuku\'yu başlatın.</string>
+    <string name="app_network_needs_shizuku">Bir uygulamanın nelere erişebileceğini değiştirmek için NFX\'yu başlatın.</string>
     <string name="app_network_unsupported">Bu cihaz, bunun ihtiyaç duyduğu güvenlik duvarını desteklemiyor.</string>
     <string name="app_network_block">Ağ erişimini engelle</string>
     <string name="app_network_block_note">Platform trafiğini keser.</string>

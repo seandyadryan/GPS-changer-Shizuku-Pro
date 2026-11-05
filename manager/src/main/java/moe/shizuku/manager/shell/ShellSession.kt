@@ -152,7 +152,7 @@ class ShellSession {
 
     private fun runThroughShizuku(script: String, sink: (ShellLine) -> Unit): Int {
         if (!ShizukuStateMachine.isRunning()) {
-            sink(ShellLine("Shizuku is not running.", ShellLine.Kind.ERROR))
+            sink(ShellLine("NFX is not running.", ShellLine.Kind.ERROR))
             return -1
         }
         return try {

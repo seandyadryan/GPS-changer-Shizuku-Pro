@@ -57,7 +57,7 @@
     <string name="dialog_adb_pairing_discovery">Se caută serviciul de asociere</string>
     <string name="dialog_adb_pairing_paring_code">Cod de asociere</string>
     <string name="paring_code_is_wrong">Codul de asociere este greșit.</string>
-    <string name="cannot_connect_port">Nu se poate stabili conexiunea la serviciul de depanare wireless.\n\nAsigură-te că aplicația Shizuku se află pe lista albă a tuturor aplicațiilor de tip firewall, blocare a reclamelor, VPN sau a altor aplicații similare care pot restricționa accesul la rețea.</string>
+    <string name="cannot_connect_port">Nu se poate stabili conexiunea la serviciul de depanare wireless.\n\nAsigură-te că aplicația NFX se află pe lista albă a tuturor aplicațiilor de tip firewall, blocare a reclamelor, VPN sau a altor aplicații similare care pot restricționa accesul la rețea.</string>
     <string name="dialog_adb_pairing_message">Începe procesul de asociere urmând pașii de mai jos:\n- Accesează „Opțiuni pentru dezvoltatori”\n- Activează „Depanare USB” și „Depanare wireless”\n- Atinge partea stângă a opțiunii „Depanare wireless”\n- Atinge „Asociere dispozitiv cu un cod de asociere”\n- Introdu codul de asociere din notificare</string>
     <!-- Goes after dialog_adb_pairing_accessibility_enable in the same dialog: what the greyed-out
          row means, and both ways to open it. The App info menu is the only one available on a
@@ -65,8 +65,8 @@
          outside the app, and both are named because either reader may be the one holding it. -->
     <string name="dialog_adb_pairing_accessibility_permission">Android blochează acest comutator pentru aplicațiile instalate din afara unui magazin de aplicații. Permite aplicației ^1 să activeze serviciul de accesibilitate. Lista de accesibilitate arată acest lucru ca \"Controlat de setarea restricționată\".\n\nDeschide Informații despre aplicație și selectează „Permite setări restricționate” din meniu sau rulează pe un computer:\n\n^2\n\nOricare opţiune funcţionează. Comutatorul va funcționa ulterior.</string>
     <string name="dialog_adb_pairing_open_app_info">Informații aplicație</string>
-    <string name="dialog_adb_pairing_accessibility_enable">Împerecherea automată citește codul din dialogul de sistem prin serviciul de accesibilitate Shizuku, așa că trebuie activat și numai atât timp cât este necesar: serviciul se oprește automat odată ce codul este găsit sau după un minut pentru a economisi energie. În mod normal, Shizuku o activează singur, iar acest lucru necesită permisiunea WRITE_SECURE_SETTINGS, care nu a fost încă acordată la o instalare nouă.\n\nActivează pe ecranul următor, introdu codul în secțiunea Manual sau acordă permisiunea o singură dată:\n\nadb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</string>
-    <string name="dialog_adb_pairing_accessibility_navigate">Începe procesul de asociere urmând pașii de mai jos:\n- Accesează „Opțiuni pentru dezvoltatori”\n- Activează „Depanare USB” și „Depanare wireless”\n- Atinge partea stângă a opțiunii „Depanare wireless”\n- Atinge „Asociază dispozitivul cu codul de asociere”. Shizuku va detecta automat codul de asociere.</string>
+    <string name="dialog_adb_pairing_accessibility_enable">Împerecherea automată citește codul din dialogul de sistem prin serviciul de accesibilitate NFX, așa că trebuie activat și numai atât timp cât este necesar: serviciul se oprește automat odată ce codul este găsit sau după un minut pentru a economisi energie. În mod normal, NFX o activează singur, iar acest lucru necesită permisiunea WRITE_SECURE_SETTINGS, care nu a fost încă acordată la o instalare nouă.\n\nActivează pe ecranul următor, introdu codul în secțiunea Manual sau acordă permisiunea o singură dată:\n\nadb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</string>
+    <string name="dialog_adb_pairing_accessibility_navigate">Începe procesul de asociere urmând pașii de mai jos:\n- Accesează „Opțiuni pentru dezvoltatori”\n- Activează „Depanare USB” și „Depanare wireless”\n- Atinge partea stângă a opțiunii „Depanare wireless”\n- Atinge „Asociază dispozitivul cu codul de asociere”. NFX va detecta automat codul de asociere.</string>
     <string name="adb_pairing_requires_multi_window">Intră mai întâi în modul ecran divizat
         (ferestre multiple).</string>
     <string name="adb_pairing_requires_multi_window_reason">Sistemul cere ca dialogul de împerechere
@@ -76,31 +76,31 @@
     <string name="adb_error_stop_tcp">Nu s-a putut opri ADB prin TCP</string>
     <string name="adb_pair_required">Parcurge mai întâi procesul de asociere.</string>
     <string name="enable">Permite</string>
-    <string name="auto_pair_instructions">Asociază fără a scrie un cod:\n\n1. Opțiuni de dezvoltare → Depanare fără fir\n2. Dispozitivul de împerechere cu codul\n\nShizuku citește codul și portul direct din acel dialog și pornește singur. Păstrează dialogul deschis până la finalizarea împerecherii.</string>
+    <string name="auto_pair_instructions">Asociază fără a scrie un cod:\n\n1. Opțiuni de dezvoltare → Depanare fără fir\n2. Dispozitivul de împerechere cu codul\n\nNFX citește codul și portul direct din acel dialog și pornește singur. Păstrează dialogul deschis până la finalizarea împerecherii.</string>
     <string name="auto_pair_manual">Manual</string>
     <string name="development_settings">Opțiuni dezvoltator</string>
     <string name="notification_settings">Opțiuni de notificare</string>
-    <string name="adb_pairing_tutorial_content_notification">O notificare de la Shizuku te va ajuta
+    <string name="adb_pairing_tutorial_content_notification">O notificare de la NFX te va ajuta
         să finalizezi asocierea.</string>
     <string name="adb_pairing_tutorial_content_steps">Navighează la „Opțiuni pentru dezvoltatori”, apoi activează „Depanare USB” și „Depanare wireless”.</string>
     <string name="adb_pairing_tutorial_content_enter_pairing_code">Atinge partea stângă a opțiunii „Depanare wireless”, apoi atinge „Asocierea dispozitivului cu codul de asociere”. Introdu codul din notificare pentru a finaliza asocierea.</string>
     <string name="adb_pairing_tutorial_content_notification_blocked">Procesul de asociere necesită
-        să interacționarea cu o notificare de la Shizuku. Permite lui Shizuku să afișeze notificări.</string>
+        să interacționarea cu o notificare de la NFX. Permite lui NFX să afișeze notificări.</string>
     <string name="adb_pairing_tutorial_content_miui">Este posibil ca utilizatorii MIUI să fie
         nevoiți să schimbe stilul de notificare la „Android” în „Notificări” - „Panou de notificare”
         în setările sistemului.</string>
     <string name="adb_pairing_tutorial_content_miui_2">Altfel, este posibil să nu poți introduce
         codul de împerechere din notificare.</string>
-    <string name="adb_pairing_tutorial_content_finish">Întoarce-te la Shizuku și începe Shizuku.</string>
-    <string name="adb_pairing_tutorial_content_network">Shizuku trebuie să acceseze rețeaua locală.
+    <string name="adb_pairing_tutorial_content_finish">Întoarce-te la NFX și începe NFX.</string>
+    <string name="adb_pairing_tutorial_content_network">NFX trebuie să acceseze rețeaua locală.
         Este controlat de permisiunea rețelei.</string>
     <string name="adb_pairing_tutorial_content_network_limation_not_foreground">Unele sisteme (cum
         ar fi MIUI) interpermit accesul aplicațiilor la rețea atunci când nu sunt vizibile, chiar
         dacă aplicația folosește un serviciu de prim-plan. Vă rugăm să dezactivați funcțiile de
-        optimizare a bateriei pentru Shizuku pe astfel de sisteme.</string>
+        optimizare a bateriei pentru NFX pe astfel de sisteme.</string>
     <!-- Home - Root -->
     <string name="home_root_title"><![CDATA[Pornire (pentru dispozitive root-ate)]]></string>
-    <string name="home_root_description"><![CDATA[Dacă folosești Magisk, poți încerca %1$s. Pentru utilizatorii root, acesta va înlocui în cele din urmă Shizuku. Reține că aplicațiile existente trebuie să se modifice puțin pentru a utiliza %2$s.]]></string>
+    <string name="home_root_description"><![CDATA[Dacă folosești Magisk, poți încerca %1$s. Pentru utilizatorii root, acesta va înlocui în cele din urmă NFX. Reține că aplicațiile existente trebuie să se modifice puțin pentru a utiliza %2$s.]]></string>
     <string name="home_root_button_start">Pornește</string>
     <!-- Home - Application management -->
     <plurals name="home_app_management_authorized_apps_count">
@@ -114,12 +114,12 @@
     <!-- Home - Adb permissions limited -->
     <!-- Home - Dialogs -->
     <string name="home_dialog_reboot_required_title">Repornire necesară</string>
-    <string name="home_dialog_reboot_required_message">Pentru ca Shizuku să funcționeze corect, este necesară o repornire a dispozitivului. Pentru a continua, reporniți dispozitivul.</string>
+    <string name="home_dialog_reboot_required_message">Pentru ca NFX să funcționeze corect, este necesară o repornire a dispozitivului. Pentru a continua, reporniți dispozitivul.</string>
     <string name="home_dialog_duplicate_app_detected_title">Aplicație duplicat detectată</string>
     <string name="home_dialog_duplicate_app_detected_message">O altă versiune a acestei aplicații este instalată pe dispozitivul dvs. Pentru a continua, vă rugăm să dezinstalați toate versiunile duplicat și să reporniți dispozitivul.</string>
     <!-- The same two states, said on the Home screen instead of in a dialog that only exits. Shizuku works either way; what is affected is what other apps find when they look Shizuku up. -->
-    <string name="home_permission_owned_by">Aplicațiile caută Shizuku pe baza permisiunii sale, iar Android indică faptul că %1$s o declară – o copie a aplicației Shizuku sau ceea ce a mai rămas din ea. Aceste aplicații vor solicita permisiunea respectivă până când aplicația va fi dezinstalată și dispozitivul va fi repornit.</string>
-    <string name="home_permission_not_registered">Aplicațiile caută Shizuku pe baza permisiunii sale, iar Android nu a înregistrat-o încă, situație care poate persista după o reinstalare până la repornirea dispozitivului. Aplicația Shizuku în sine nu este afectată; este posibil ca alte aplicații să nu o găsească.</string>
+    <string name="home_permission_owned_by">Aplicațiile caută NFX pe baza permisiunii sale, iar Android indică faptul că %1$s o declară – o copie a aplicației NFX sau ceea ce a mai rămas din ea. Aceste aplicații vor solicita permisiunea respectivă până când aplicația va fi dezinstalată și dispozitivul va fi repornit.</string>
+    <string name="home_permission_not_registered">Aplicațiile caută NFX pe baza permisiunii sale, iar Android nu a înregistrat-o încă, situație care poate persista după o reinstalare până la repornirea dispozitivului. Aplicația NFX în sine nu este afectată; este posibil ca alte aplicații să nu o găsească.</string>
     <string name="home_dialog_button_exit">Ieșire</string>
     <!-- Application management -->
     <string name="app_management_dialog_adb_is_limited_title">Permisiunea adb este limitată</string>
@@ -127,7 +127,7 @@
     <string name="app_management_toggle_all">Comutare toate</string>
     <string name="app_management_search_hint">Căutare aplicații</string>
     <string name="app_management_sort">Sortează</string>
-    <string name="apps_needs_shizuku">Pornește Shizuku pentru a vedea aplicațiile</string>
+    <string name="apps_needs_shizuku">Pornește NFX pentru a vedea aplicațiile</string>
     <string name="apps_empty">Nicio aplicație de afișat</string>
     <string name="apps_filter_empty">Nicio aplicație în acest filtru</string>
     <string name="apps_filter_all">Toate</string>
@@ -190,7 +190,7 @@
     <string name="tab_activities">Lansator activități</string>
     <string name="tab_power">Alimentare</string>
     <string name="power_description">Repornește sau oprește ecranul fără a folosi butoanele telefonului.</string>
-    <string name="power_needs_shizuku">Pornește Shizuku mai întâi pentru a utiliza aceste opțiuni.</string>
+    <string name="power_needs_shizuku">Pornește NFX mai întâi pentru a utiliza aceste opțiuni.</string>
     <string name="power_reboot">Repornește</string>
     <string name="power_reboot_summary">Repornește telefonul.</string>
     <string name="power_reboot_confirm">Telefonul se va reporni acum. Lucrările nesalvate se vor pierde.</string>
@@ -209,15 +209,15 @@
     <string name="power_confirm">Continuă</string>
     <string name="power_soft_reboot">Repornire rapidă</string>
     <string name="power_soft_reboot_summary">Repornire Android fără a reporni nucleul. Este necesar accesul root.</string>
-    <string name="power_soft_reboot_confirm">Android va reporni. Toate aplicațiile și interfața de sistem se vor închide și redeschide, dar telefonul în sine nu va reporni. S-ar putea să fie necesar să pornești Shizuku după aceea.</string>
+    <string name="power_soft_reboot_confirm">Android va reporni. Toate aplicațiile și interfața de sistem se vor închide și redeschide, dar telefonul în sine nu va reporni. S-ar putea să fie necesar să pornești NFX după aceea.</string>
     <string name="power_restart_system_ui">Repornire interfață de sistem</string>
     <string name="power_restart_system_ui_summary">Repornește bara de stare, bara de navigare și panoul de notificări. Este necesar accesul root.</string>
     <string name="power_needs_root">Accesul root este necesar, dar acest dispozitiv nu este root-at.</string>
-    <string name="power_needs_shizuku_rooted">Shizuku nu rulează. Este disponibilă doar repornirea rapidă.</string>
+    <string name="power_needs_shizuku_rooted">NFX nu rulează. Este disponibilă doar repornirea rapidă.</string>
     <string name="power_failed">Nu s-a putut rula %1$s</string>
     <string name="tab_display">Afișaj</string>
     <string name="display_description">Modifică rezoluția ecranului, densitatea și rata de reîmprospătare. Dacă ecranul devine greu de utilizat, atinge butonul „Resetează” de lângă setare.</string>
-    <string name="display_needs_shizuku">Pornește Shizuku pentru a vizualiza sau modifica aceste setări.</string>
+    <string name="display_needs_shizuku">Pornește NFX pentru a vizualiza sau modifica aceste setări.</string>
     <string name="display_resolution">Rezoluție</string>
     <string name="display_resolution_summary">Dimensiunea ecranului în pixeli (lățime x înălțime). Aceasta determină dimensiunea cu care sistemul afișează ecranul, nu dimensiunea fizică a afișajului.</string>
     <string name="display_density">Densitate</string>
@@ -240,7 +240,7 @@
     <string name="activities_exported">Exportat</string>
     <string name="activities_not_exported">Nu este exportat</string>
     <string name="activities_empty">Această aplicație declară că nu există activități.</string>
-    <string name="activities_needs_shizuku">Shizuku nu rulează și numai poate începe o activitate pe care aplicația și-a păstrat-o.</string>
+    <string name="activities_needs_shizuku">NFX nu rulează și numai poate începe o activitate pe care aplicația și-a păstrat-o.</string>
     <string name="activities_refused">Activitatea nu a putut fi pornită.</string>
     <string name="activities_long_press">Apasă lung un rând pentru a vedea întregul nume.</string>
     <string name="activities_detail_package">Pachet</string>
@@ -342,7 +342,7 @@
     <string name="device_uptime">Timp de funcționare</string>
     <string name="device_memory">Memorie</string>
     <string name="device_storage">Stocare</string>
-    <string name="device_shizuku">Shizuku</string>
+    <string name="device_shizuku">NFX</string>
     <string name="device_server">Server</string>
     <string name="device_start_method">Pornit de</string>
     <string name="device_transport">Transport</string>
@@ -381,7 +381,7 @@
     <string name="log_capture_waiting">Înregistrare. Nimic nu a fost înregistrat încă.</string>
     <string name="log_capture_empty">Nimic nu a fost încă înregistrat.</string>
     <string name="log_capture_jump">Ultimul accident</string>
-    <string name="log_capture_needs_shizuku">Înregistrarea jurnalului dispozitivului are nevoie de Shizuku: citirea jurnalului altei aplicații este un privilegiu de shell și această aplicație împrumută scoica.</string>
+    <string name="log_capture_needs_shizuku">Înregistrarea jurnalului dispozitivului are nevoie de NFX: citirea jurnalului altei aplicații este un privilegiu de shell și această aplicație împrumută scoica.</string>
     <string name="log_capture_stopped_size">Înregistrare oprită: a atins limita de dimensiune.</string>
     <string name="log_capture_stopped_time">Înregistrarea s-a oprit: a atins limita de timp.</string>
     <string name="log_capture_stopped_ended">Înregistrare oprită: fluxul de jurnal s-a terminat.</string>
@@ -393,11 +393,11 @@
     <string name="log_session_busy">%1$s este încă înregistrat.</string>
     <string name="log_session_running">înregistrare</string>
     <string name="permissions_usage_access">Acces de utilizare</string>
-    <string name="permissions_usage_access_summary">Permite listelor ascunse să vadă ce aplicație este deschisă. Acces acordat de Shizuku sau în setările de acces la Utilizare ale Android.</string>
+    <string name="permissions_usage_access_summary">Permite listelor ascunse să vadă ce aplicație este deschisă. Acces acordat de NFX sau în setările de acces la Utilizare ale Android.</string>
     <string name="permissions_dump">Citește motivele ieșirii aplicației</string>
-    <string name="permissions_dump_summary">Permite listelor de ascundere să indice când o aplicație este închisă, în loc să ruleze doar în fundal. Acordat de Shizuku.</string>
+    <string name="permissions_dump_summary">Permite listelor de ascundere să indice când o aplicație este închisă, în loc să ruleze doar în fundal. Acordat de NFX.</string>
     <string name="home_other_methods">Alte metode de pornire</string>
-    <string name="home_hiding_active_note">Shizuku se poate opri în timp ce o aplicație ascunsă este deschisă, deoarece ascunderea poate opri conexiunea de depanare. Shizuku începe din nou când aplicația este închisă.</string>
+    <string name="home_hiding_active_note">NFX se poate opri în timp ce o aplicație ascunsă este deschisă, deoarece ascunderea poate opri conexiunea de depanare. NFX începe din nou când aplicația este închisă.</string>
     <string name="hiding_vpn_client_none">Nu este ales: selectează aplicația VPN</string>
     <string name="hiding_notification_channel">Ascuns</string>
     <string name="hiding_notification_title">Setările sunt ascunse</string>
@@ -409,9 +409,9 @@
     <string name="hiding_resume">Continuă</string>
     <string name="hiding_start_again">Începe din nou</string>
     <string name="hiding_notification_stopped_title">Ascundere oprită</string>
-    <string name="hiding_notification_stopped_text">Shizuku nu rulează, deci ascunderea nu poate detecta ce aplicație este deschisă. Toate setările ascunse au fost restaurate.</string>
-    <string name="hiding_carries_session_wireless">Nu se aplică: Shizuku utilizează depanarea fără fir, deci ascunderea acesteia ar opri Shizuku.</string>
-    <string name="hiding_carries_session_usb">Nu se aplică: Shizuku folosește depanarea USB, deci ascunderea acesteia ar opri Shizuku.</string>
+    <string name="hiding_notification_stopped_text">NFX nu rulează, deci ascunderea nu poate detecta ce aplicație este deschisă. Toate setările ascunse au fost restaurate.</string>
+    <string name="hiding_carries_session_wireless">Nu se aplică: NFX utilizează depanarea fără fir, deci ascunderea acesteia ar opri NFX.</string>
+    <string name="hiding_carries_session_usb">Nu se aplică: NFX folosește depanarea USB, deci ascunderea acesteia ar opri NFX.</string>
     <string name="tab_settings">Setări</string>
     <string name="home_status_transport_label">Transport</string>
     <string name="home_status_started_with">Curent</string>
@@ -507,8 +507,8 @@
     <string name="modules_action_short">Acțiune</string>
     <string name="modules_service_short">Serviciu</string>
     <string name="modules_service_running_short">Rulează</string>
-    <string name="modules_summary">Adaugă caracteristici la Shizuku cu module din comunitate</string>
-    <string name="modules_warning">Un modul este un script shell creat de altcineva, care se execută prin Shizuku cu aceleași drepturi de acces pe care le are Shizuku. Instalează doar ceea ce consideri de încredere și citește cu atenție comenzile pe care ți se cere să le execuți.</string>
+    <string name="modules_summary">Adaugă caracteristici la NFX cu module din comunitate</string>
+    <string name="modules_warning">Un modul este un script shell creat de altcineva, care se execută prin NFX cu aceleași drepturi de acces pe care le are NFX. Instalează doar ceea ce consideri de încredere și citește cu atenție comenzile pe care ți se cere să le execuți.</string>
     <string name="modules_none">Nici un modul instalat încă.</string>
     <string name="modules_search">Caută module</string>
     <string name="modules_no_match">Niciun modul nu corespunde cu asta.</string>
@@ -527,7 +527,7 @@
     <string name="modules_delete_confirm">Ștergi %1$s?</string>
     <string name="modules_delete_confirm_message">Modulul și tot ce se află în directorul său sunt eliminate, jurnalele sunt incluse.</string>
     <string name="modules_review_title">Rulezi această comandă?</string>
-    <string name="modules_review_message">%1$s a cerut lui Shizuku să ruleze:</string>
+    <string name="modules_review_message">%1$s a cerut lui NFX să ruleze:</string>
     <string name="modules_review_approve">Rulează</string>
     <string name="modules_result_title">%1$s</string>
     <string name="modules_result_exit">Cod ieșire %1$d</string>
@@ -543,22 +543,22 @@
     <string name="intents_title">Intenții</string>
     <string name="about_package">Pachet</string>
     <string name="check_for_updates_now">Verifică acum</string>
-    <string name="start_failed">Nu s-a putut porni Shizuku</string>
-    <string name="start_failed_write_secure_settings">Shizuku nu poate activa depanarea wireless fără permisiunea WRITE_SECURE_SETTINGS. Activează manual în Opțiuni pentru dezvoltatori &gt; Remedierea erorilor wireless sau acordă permisiunea cu comanda <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. Odată ce Shizuku rulează, aplicația păstrează această permisiune, așa că această operațiune trebuie efectuată o singură dată.</string>
+    <string name="start_failed">Nu s-a putut porni NFX</string>
+    <string name="start_failed_write_secure_settings">NFX nu poate activa depanarea wireless fără permisiunea WRITE_SECURE_SETTINGS. Activează manual în Opțiuni pentru dezvoltatori &gt; Remedierea erorilor wireless sau acordă permisiunea cu comanda <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. Odată ce NFX rulează, aplicația păstrează această permisiune, așa că această operațiune trebuie efectuată o singură dată.</string>
     <string name="action_open_wireless_debugging">Depanare fără fir</string>
     <string name="start_failed_unsupported">Acest dispozitiv nu îl poate porni în fundal</string>
     <string name="start_failed_wifi_required">Conectează-te la o rețea Wi-Fi, sistemul dezactivează depanarea fără precedent. Sau pornește de la un computer folosind comanda ADB de mai jos.</string>
     <string name="start_failed_binder_went_away">Serviciul a fost pornit şi apoi oprit din nou, deci nimic nu poate fi folosit încă. Acest lucru se întâmplă atunci când serverul este retras cu aplicaţia prin care a trecut pornirea, ceea ce face sarcina utilă după ce a început-o. Încearcă din nou începutul.</string>
     <string name="start_failed_no_port">Nu a fost găsit niciun port de depanare wireless. Asigurați-vă că este activat depanarea wireless și că Wi-Fi este conectat.</string>
-    <string name="start_failed_no_port_no_permission">Nu s-a găsit niciun port de depanare wireless, iar Shizuku nu poate activa depanarea wireless fără permisiunea WRITE_SECURE_SETTINGS: <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. Sau pornește Shizuku prin depanarea USB după ce își acordă singur această permisiune.</string>
+    <string name="start_failed_no_port_no_permission">Nu s-a găsit niciun port de depanare wireless, iar NFX nu poate activa depanarea wireless fără permisiunea WRITE_SECURE_SETTINGS: <b>adb shell pm grant %1$s android.permission.WRITE_SECURE_SETTINGS</b>. Sau pornește NFX prin depanarea USB după ce își acordă singur această permisiune.</string>
     <string name="start_failed_no_auth">Depanarea fără fir nu este permisă pe această rețea. Asociază dispozitivul din nou.</string>
     <string name="action_dismiss">Renunță</string>
     <string name="action_connect_wifi">Conectare</string>
     <string name="action_pair">Asociază</string>
     <string name="start_failed_pairing_required">Acest dispozitiv nu este asociat pentru depanare wireless. Asociază-l din nou.</string>
     <string name="start_failed_connection_lost">Conexiunea ADB s-a închis la pornire. Încearcă din nou.</string>
-    <string name="start_failed_usb_no_port">Nici un port ADB local nu este deschis Android la fiecare repornire și redeschiderea are nevoie de o conexiune pentru a împrumuta. Conectați-vă la Wi-Fi și Shizuku îl va redeschide prin depanare wireless, rulați <b>adb tcpip 5555</b> de pe un computer, sau alege <b>Pornește fără Wi-Fi</b> ca metodă de început pentru a porni prin depanare wireless.</string>
-    <string name="start_failed_root_unavailable">Accesul la rădăcină nu mai este disponibil pe acest dispozitiv, deci Shizuku nu poate porni. Alege o altă metodă de pornire.</string>
+    <string name="start_failed_usb_no_port">Nici un port ADB local nu este deschis Android la fiecare repornire și redeschiderea are nevoie de o conexiune pentru a împrumuta. Conectați-vă la Wi-Fi și NFX îl va redeschide prin depanare wireless, rulați <b>adb tcpip 5555</b> de pe un computer, sau alege <b>Pornește fără Wi-Fi</b> ca metodă de început pentru a porni prin depanare wireless.</string>
+    <string name="start_failed_root_unavailable">Accesul la rădăcină nu mai este disponibil pe acest dispozitiv, deci NFX nu poate porni. Alege o altă metodă de pornire.</string>
     <string name="start_failed_system_needs_app">Metoda de pornire a sistemului trebuie să fie pornită din aplicație.</string>
     <string name="start_failed_system_no_exploit">Acest dispozitiv nu livrează agentul Samsung FOTA (com.sdet. otaagent), care este singura componentă pe care o poate folosi metoda de pornire a sistemului, astfel încât nu este nimic de mărit cu aici. Comutați metoda de pornire a sistemului la comandă personalizată: aplicația vă va arăta ce să rulați cu o escaladare pe care o are dispozitivul dvs.</string>
     <string name="start_failed_no_binder">Serviciul nu a apărut într-un minut. Ambele jumătăţi păstrează un log: porneşterii de la ShizukuServiceStarter şi predarea sub BinderSender. Un cititor de logcat filtrat la cele două arată dacă începătorul a ajuns până la forjarea serverului, și dacă serverul a cerut vreodată un lider.</string>
@@ -576,7 +576,7 @@
     <string name="settings_theme_system">Urmărește sistemul</string>
     <string name="settings_theme_light">Luminoasă</string>
     <string name="settings_theme_dark">Întunecată</string>
-    <string name="intents_description">Aplicațiile de automatizare pot controla Shizuku cu aceste emisiuni. Tokenul de autorizare trebuie să fie transmis în plus în \"auth\".</string>
+    <string name="intents_description">Aplicațiile de automatizare pot controla NFX cu aceste emisiuni. Tokenul de autorizare trebuie să fie transmis în plus în \"auth\".</string>
     <string name="intents_require_token">Necesită token-ul de autentificare</string>
     <string name="intents_require_token_summary">Pornirea și oprirea intențiilor necesită jetonul de mai jos. Dezactivează această opțiune pentru a le trimite fără un jeton.</string>
     <string name="intents_token">Jeton de autentificare</string>
@@ -594,7 +594,7 @@
     <string name="intents_values">Pentru aplicații automatizate</string>
     <string name="intents_package">Pachet</string>
     <string name="intents_action_for">Acțiune %1$s</string>
-    <string name="home_battery_warning">Shizuku ar putea fi închis în fundal. Permite-i să ignore optimizările bateriei.</string>
+    <string name="home_battery_warning">NFX ar putea fi închis în fundal. Permite-i să ignore optimizările bateriei.</string>
     <string name="batch_selected_count">%1$d selectat</string>
     <string name="app_management_action_select_all">Selectează tot</string>
     <string name="app_management_action_grant">Acordă</string>
@@ -608,22 +608,22 @@
     <string name="action_undo">Anulează</string>
     <!-- Terminal -->
     <string name="terminal_tutorial_miui">Utilizatorii au raportat că MIUI încalcă Storage Access Framework, ce este utilizat de funcția de export.</string>
-    <string name="terminal_tutorial_miui_2">Dacă folosești MIUI, este posibil să fie nevoie să extragi fișierul din dosarul de resurse din APK-ul lui Shizuku.</string>
+    <string name="terminal_tutorial_miui_2">Dacă folosești MIUI, este posibil să fie nevoie să extragi fișierul din dosarul de resurse din APK-ul lui NFX.</string>
     <string name="terminal_tutorial_1">Atinge pentru a exporta fișierele într-un dosar nou.</string>
     <string name="terminal_tutorial_1_description">Vor fi exportate două fișiere: %1$s și %2$s. Dacă fișierele există deja în folderul selectat, acestea vor fi șterse.</string>
     <string name="terminal_tutorial_2">Folosește aplicația de terminal pentru a copia fișierele în directorul său privat de fișiere.</string>
     <string name="terminal_tutorial_2_description">Sfat: Dacă directorul principal (~) al aplicației terminale se află în directorul de fișiere private, plasarea fișierelor acolo va permite rularea %1$s fără a scrie calea.\n\nÎn caz contrar, poți crea un alias pentru %2$s în fișierul de configurare %3$s al aplicației terminale.</string>
     <string name="terminal_tutorial_3">Deschide un shell cu următoarea comandă:</string>
     <!-- Stealth -->
-    <string name="stealth_description">Ascunde Shizuku din aplicațiile care refuză să ruleze atunci când este instalat. O clonă cu alt nume de pachet este exportată pentru a fi instalată.</string>
-    <string name="stealth_warning_compatibility">Este posibil ca unele aplicații care folosesc Shizuku să nu funcționeze atunci când Shizuku este ascuns, deoarece încearcă să detecteze dacă Shizuku este instalat.</string>
-    <string name="stealth_warning_compatibility_2">Ca soluție alternativă, poți reafișa temporar Shizuku, ceea ce instalează un stub cu numele original al pachetului. După ce ai terminat, poți ascunde din nou Shizuku.</string>
-    <string name="stealth_warning_compatibility_3">Atinge acest card pentru a copia un snippet de cod pe care îl poți trimite dezvoltatorului astfel încât verificarea \"Shizuku instalat\" să funcționeze atunci când Shizuku este ascuns.</string>
-    <string name="stealth_warning_detection">Este posibil ca unele aplicații să poată detecta Shizuku chiar și atunci când sunt ascunse.</string>
-    <string name="stealth_info_reconfigure">Va trebui să reîmperechezi și să reconfigurezi Shizuku după instalarea versiunii ascunse.</string>
+    <string name="stealth_description">Ascunde NFX din aplicațiile care refuză să ruleze atunci când este instalat. O clonă cu alt nume de pachet este exportată pentru a fi instalată.</string>
+    <string name="stealth_warning_compatibility">Este posibil ca unele aplicații care folosesc NFX să nu funcționeze atunci când NFX este ascuns, deoarece încearcă să detecteze dacă NFX este instalat.</string>
+    <string name="stealth_warning_compatibility_2">Ca soluție alternativă, poți reafișa temporar NFX, ceea ce instalează un stub cu numele original al pachetului. După ce ai terminat, poți ascunde din nou NFX.</string>
+    <string name="stealth_warning_compatibility_3">Atinge acest card pentru a copia un snippet de cod pe care îl poți trimite dezvoltatorului astfel încât verificarea \"NFX instalat\" să funcționeze atunci când NFX este ascuns.</string>
+    <string name="stealth_warning_detection">Este posibil ca unele aplicații să poată detecta NFX chiar și atunci când sunt ascunse.</string>
+    <string name="stealth_info_reconfigure">Va trebui să reîmperechezi și să reconfigurezi NFX după instalarea versiunii ascunse.</string>
     <string name="stealth_info_rish">Utilizatori Rish: reexportați fișierele după instalarea versiunii ascunse.</string>
     <string name="stealth_info_intents">Utilizatori cu intenție: actualizați-vă intențiile cu noul nume de pachet.</string>
-    <string name="stealth_info_update">Trebuie să actualizezi Shizuku prin aplicație atunci când folosești versiunea ascunsă, deoarece are o semnătură diferită.</string>
+    <string name="stealth_info_update">Trebuie să actualizezi NFX prin aplicație atunci când folosești versiunea ascunsă, deoarece are o semnătură diferită.</string>
     <string name="stealth_package_name">Numele pachetului (opțional)</string>
     <string name="stealth_package_name_helper_text">Dacă este lăsat gol, un sufix aleatoriu va fi adăugat la numele pachetului.</string>
     <string name="stealth_error_ends_with_period">Numele pachetului nu se poate termina cu o perioadă.</string>
@@ -634,19 +634,19 @@
     <string name="stealth_display_name_helper_text">Se afișează ca nume al copiei în lansator și în lista de aplicații. Dacă se lasă necompletat, copia păstrează numele acestei aplicații.</string>
     <string name="stealth_error_display_name_too_long">Păstrează-l la %1$d caractere sau mai puțin.</string>
     <string name="stealth_uninstall_required">Dezinstalare necesară</string>
-    <string name="stealth_uninstall_message">Sistemul va solicita acum dezinstalarea Shizuku. Apoi, instalarea clonei.</string>
+    <string name="stealth_uninstall_message">Sistemul va solicita acum dezinstalarea NFX. Apoi, instalarea clonei.</string>
     <string name="stealth_uninstall">Dezinstalează</string>
     <string name="stealth_hide">Ascunde</string>
     <string name="stealth_unhide">Reafișează cu stub</string>
-    <string name="stealth_stub_note">Comanda „Afișează” creează un mic „stub” la numele pachetului original al aplicației Shizuku, astfel încât aplicațiile care îl caută să poată funcționa în continuare. Acest „stub” redirecționează solicitările către aplicația Shizuku ascunsă. Nu este vorba de o a doua copie. Comanda „Ascunde” elimină acest „stub”.</string>
+    <string name="stealth_stub_note">Comanda „Afișează” creează un mic „stub” la numele pachetului original al aplicației NFX, astfel încât aplicațiile care îl caută să poată funcționa în continuare. Acest „stub” redirecționează solicitările către aplicația NFX ascunsă. Nu este vorba de o a doua copie. Comanda „Ascunde” elimină acest „stub”.</string>
     <!-- Settings -->
     <string name="settings_start_on_boot">Pornire automată</string>
     <string name="settings_use_system_color">Folosește culoarea temei de sistem</string>
     <string name="settings_use_system_color_summary">Urmează paleta sistemului</string>
     <string name="settings_watchdog">Watchdog</string>
-    <string name="settings_watchdog_summary">Repornește automat Shizuku dacă se blochează</string>
+    <string name="settings_watchdog_summary">Repornește automat NFX dacă se blochează</string>
     <string name="settings_auto_disable_wireless_debugging">Dezactivează depanarea fără fir</string>
-    <string name="settings_auto_disable_wireless_debugging_summary">Dezactivează depanarea wireless atunci când Shizuku se oprește.</string>
+    <string name="settings_auto_disable_wireless_debugging_summary">Dezactivează depanarea wireless atunci când NFX se oprește.</string>
     <string name="settings_start_method">Metoda de pornire implicită</string>
     <string name="settings_start_method_root_unavailable">Acest dispozitiv nu are acces la rădăcină, așa că revine la depanarea fără fir.</string>
     <string name="start_method_wireless_no_network">Fără Wi-Fi</string>
@@ -656,48 +656,48 @@
     <string name="start_method_root">Rădăcină</string>
     <string name="transport_adb">adb</string>
     <string name="settings_adb_without_developer_options">Dezactivează opțiunile pentru dezvoltatori</string>
-    <string name="settings_adb_without_developer_options_summary">Oprește opțiunile dezvoltatorului dar menține setările ADB de care are nevoie Shizuku. Shizuku va continua să funcționeze, iar aceste setări vor fi restaurate după fiecare repornire.</string>
+    <string name="settings_adb_without_developer_options_summary">Oprește opțiunile dezvoltatorului dar menține setările ADB de care are nevoie NFX. NFX va continua să funcționeze, iar aceste setări vor fi restaurate după fiecare repornire.</string>
     <string name="start_failed_developer_options_off">Opțiunile pentru dezvoltatori sunt dezactivate deoarece ADB fără opțiuni pentru dezvoltatori este activat</string>
     <string name="action_turn_on_developer_options">Activează opțiunile pentru dezvoltatori</string>
     <string name="toast_developer_options_required">Dezactivează ADB fără opțiuni pentru dezvoltatori</string>
     <string name="settings_adb_without_developer_options_confirm_title">Opriți opțiunile pentru dezvoltatori?</string>
-    <string name="settings_adb_without_developer_options_confirm_message">Shizuku va continua să lucreze și își va restaura setările ADB după o repornire. Nu vei putea deschide opțiunile de dezvoltator pentru a schimba setările de depanare USB sau wireless sau pentru a asocia un dispozitiv nou. Dezactivezi opțiunile de dezvoltator?</string>
+    <string name="settings_adb_without_developer_options_confirm_message">NFX va continua să lucreze și își va restaura setările ADB după o repornire. Nu vei putea deschide opțiunile de dezvoltator pentru a schimba setările de depanare USB sau wireless sau pentru a asocia un dispozitiv nou. Dezactivezi opțiunile de dezvoltator?</string>
     <string name="settings_adb_without_developer_options_confirm">Oprește</string>
-    <string name="settings_adb_without_developer_options_failed">Shizuku nu a putut modifica setările. Acordă mai întâi WRITE_SECURE_SETTINGS pe pagina de permisiuni.</string>
+    <string name="settings_adb_without_developer_options_failed">NFX nu a putut modifica setările. Acordă mai întâi WRITE_SECURE_SETTINGS pe pagina de permisiuni.</string>
     <string name="settings_wait_for_wifi">Așteaptă Wi-Fi</string>
-    <string name="settings_wait_for_wifi_summary">Shizuku repornește automat în așteptarea unei conexiuni Wi-Fi nelimitate.</string>
+    <string name="settings_wait_for_wifi_summary">NFX repornește automat în așteptarea unei conexiuni Wi-Fi nelimitate.</string>
     <string name="settings_unavailable_while_forcing_wireless">Indisponibil cât timp este activată opțiunea Pornire fără Wi-Fi.</string>
     <string name="settings_force_wireless_debugging">Pornește fără Wi-Fi (experimental)</string>
-    <string name="settings_force_wireless_debugging_summary">Încearcă să pornească Shizuku fără depanare Wi-Fi sau USB. Aceasta dezactivează și așteptarea Wi-Fi și depanarea automată wireless.</string>
+    <string name="settings_force_wireless_debugging_summary">Încearcă să pornească NFX fără depanare Wi-Fi sau USB. Aceasta dezactivează și așteptarea Wi-Fi și depanarea automată wireless.</string>
     <!-- One wording for every switch that is nothing but a settings write, so they all say the
          same thing about the permission the write needs. -->
-    <string name="settings_needs_write_secure_settings">Necesită permisiunea WRITE_SECURE_SETTINGS. Pornește Shizuku o dată pentru a o acorda, apoi revino.</string>
+    <string name="settings_needs_write_secure_settings">Necesită permisiunea WRITE_SECURE_SETTINGS. Pornește NFX o dată pentru a o acorda, apoi revino.</string>
     <string name="state_on">Activat</string>
     <string name="state_off">Dezactivat</string>
     <string name="settings_persist_adb_port">Păstrează portul ADB după repornire</string>
-    <string name="settings_persist_adb_port_summary">Menține portul ADB deschis după fiecare repornire, astfel încât Shizuku să poată porni fără Wi-Fi sau un hotspot.</string>
+    <string name="settings_persist_adb_port_summary">Menține portul ADB deschis după fiecare repornire, astfel încât NFX să poată porni fără Wi-Fi sau un hotspot.</string>
     <string name="settings_persist_adb_port_ok">Portul ADB va rămâne deschis după repornire</string>
-    <string name="settings_persist_adb_port_refused">Android a refuzat acest lucru. Shizuku trebuie să ruleze ca root sau ca utilizator de sistem.</string>
-    <string name="settings_persist_adb_port_unavailable">Pornește Shizuku mai întâi. Această setare poate fi schimbată doar prin Shizuku.</string>
+    <string name="settings_persist_adb_port_refused">Android a refuzat acest lucru. NFX trebuie să ruleze ca root sau ca utilizator de sistem.</string>
+    <string name="settings_persist_adb_port_unavailable">Pornește NFX mai întâi. Această setare poate fi schimbată doar prin NFX.</string>
     <string name="settings_system_start_method">Metoda de pornire a sistemului</string>
     <string name="settings_system_start_method_exploit">Samsung (agent FOTA)</string>
     <string name="settings_system_start_method_custom">Comandă personalizată</string>
     <string name="home_system_title">Pornește prin UID sistem</string>
-    <string name="home_system_summary">Rulează Shizuku ca utilizator de sistem (UID 1000) în loc de adb: Doar Samsung, prin agentul FOTA sunt livrate acele versiuni</string>
-    <string name="home_adb_command_summary">Pornește Shizuku de pe un calculator prin ADB. Atinge pentru a copia comanda</string>
+    <string name="home_system_summary">Rulează NFX ca utilizator de sistem (UID 1000) în loc de adb: Doar Samsung, prin agentul FOTA sunt livrate acele versiuni</string>
+    <string name="home_adb_command_summary">Pornește NFX de pe un calculator prin ADB. Atinge pentru a copia comanda</string>
     <string name="settings_tcp_mode">Mod TCP</string>
-    <string name="settings_tcp_mode_summary">"Permite repornirea sistemului Shizuku fără Wi-Fi. (Shizuku trebuie să fi pornit o dată de la repornire)"</string>
+    <string name="settings_tcp_mode_summary">"Permite repornirea sistemului NFX fără Wi-Fi. (NFX trebuie să fi pornit o dată de la repornire)"</string>
     <string name="settings_tcp_mode_dialog_close_port">"Portul TCP va fi închis imediat. Vei avea nevoie de Wi-Fi pentru a reactiva modul TCP. Continui?"</string>
     <string name="settings_tcp_mode_close_wireless">Neînchis: depanarea wireless este activată. Închiderea portului ar opri depanarea. Portul se va închide când telefonul repornește.</string>
     <string name="settings_tcp_mode_close_usb_off">Neînchis: Depanarea USB este dezactivată. Activeaz-o și încearcă din nou.</string>
     <string name="settings_tcp_mode_close_nothing">Niciun port TCP nu a fost deschis.</string>
     <string name="settings_restart_dialog_title">Repornire necesară</string>
-    <string name="settings_restart_dialog_message">Shizuku trebuie să repornească pentru a aplica
+    <string name="settings_restart_dialog_message">NFX trebuie să repornească pentru a aplica
         această setare.</string>
-    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Wi-Fi este necesar. Shizuku va continua să ruleze și va aștepta o conexiune Wi-Fi înainte de a reporni în fundal.</b>]]></string>
+    <string name="settings_restart_dialog_message_wifi_required"><![CDATA[<br><br><b>Wi-Fi este necesar. NFX va continua să ruleze și va aștepta o conexiune Wi-Fi înainte de a reporni în fundal.</b>]]></string>
     <string name="settings_tcp_port">Port TCP</string>
     <string name="settings_auto_disable_usb_debugging">Dezactivează depanarea USB</string>
-    <string name="settings_auto_disable_usb_debugging_summary">Dezactivează depanarea USB la oprirea Shizuku</string>
+    <string name="settings_auto_disable_usb_debugging_summary">Dezactivează depanarea USB la oprirea NFX</string>
     <string name="settings_language">Limba</string>
     <string name="settings_language_system">Implicit sistem</string>
     <string name="settings_black_night_theme">Negru Amoled</string>
@@ -705,7 +705,7 @@
     <string name="settings_update_stable">Stabil</string>
     <string name="settings_update_beta">În dezvoltare</string>
     <string name="settings_permissions">Permisiuni</string>
-    <string name="settings_permissions_summary">Ce are nevoie Shizuku și ce este permis</string>
+    <string name="settings_permissions_summary">Ce are nevoie NFX și ce este permis</string>
     <string name="permissions_allowed">Permis</string>
     <string name="permissions_action_allow">Permite</string>
     <string name="permissions_action_settings">Setări</string>
@@ -715,17 +715,11 @@
     <string name="permissions_nearby">Dispozitive în apropiere</string>
     <string name="permissions_nearby_summary">Găsește portul de depanare wireless în rețeaua ta.</string>
     <string name="permissions_write_secure_settings">Scrie setări securizate</string>
-    <string name="permissions_write_secure_settings_summary">Permite Shizuku să activeze depanarea wireless. Doar ADB poate acorda această permisiune.</string>
+    <string name="permissions_write_secure_settings_summary">Permite NFX să activeze depanarea wireless. Doar ADB poate acorda această permisiune.</string>
     <string name="permissions_accessibility">Serviciu de accesibilitate</string>
     <string name="permissions_accessibility_summary">Citește codul de împerechere automat.</string>
-    <string name="permissions_battery_summary">Oprește Android să închidă Shizuku în fundal.</string>
-    <string name="settings_help">Ajutor</string>
-    <string name="settings_translate">Participă în traducere</string>
-    <string name="settings_translate_note">Tradu aplicația pe Crowdin.</string>
-    <string name="crowdin_url">https://crowdin.com/project/Shizuku-Next</string>
+    <string name="permissions_battery_summary">Oprește Android să închidă NFX în fundal.</string>
     <string name="settings_report_bug">Raportează o eroare</string>
-    <string name="settings_contributors">Contribuitori</string>
-    <string name="settings_contributors_hint">Trage pentru a explora · Ciupește pentru a mări · Atinge pentru detalii</string>
     <!--
       A plural, not a plain string: most of the people on this wall are here for a single commit,
       so the singular is read more often than the plural is.
@@ -757,14 +751,6 @@
     <string name="settings_legacy_pairing">Împerechere moștenită</string>
     <string name="settings_legacy_pairing_summary">Introdu codul de asociere într-o casetă de dialog în loc de o notificare</string>
     <!-- Bug Report Dialog -->
-    <string name="bug_report_dialog_before_reporting">Mai întâi, te rugăm să faci următoarele:</string>
-    <string name="bug_report_dialog_update">Verifică dacă folosești ^1.</string>
-    <string name="bug_report_dialog_link_update">ultima versiune</string>
-    <string name="bug_report_dialog_wiki">Citește ^1 și urmează toți pașii de depanare relevanți.</string>
-    <string name="bug_report_dialog_link_wiki">wiki</string>
-    <string name="bug_report_dialog_issues">Caută prin toate ^1 pentru a vedea dacă eroarea ta a fost deja raportată.</string>
-    <string name="bug_report_dialog_link_issues">probleme existente</string>
-    <string name="bug_report_dialog_method">Te rugăm să trimiți o problemă pe ^1.</string>
     <string name="bug_report_dialog_log_note">Dacă problema necesită un jurnal, te rugăm să-l copiezi integral mai jos și să-l atașezi.</string>
     <string name="bug_report_dialog_share_log">Distribuie jurnalul</string>
     <!-- Snackbar -->
@@ -786,7 +772,7 @@
     <string name="update_success">Actualizare completă</string>
     <string name="update_failed">Actualizarea a eșuat</string>
     <!-- Toast -->
-    <string name="toast_pairing_timeout">Serviciul de pereche Shizuku expirat</string>
+    <string name="toast_pairing_timeout">Serviciul de pereche NFX expirat</string>
     <!-- Dark Mode Setting Override -->
     <string name="dark_theme">Temă</string>
     <string name="dark_theme_off">Întotdeauna luminoasă</string>
@@ -806,7 +792,7 @@
     <string name="notification_adb_pairing_stop_searching">Oprire căutare</string>
     <string name="notification_adb_pairing_working_title">Asociere în curs</string>
     <string name="notification_adb_pairing_succeed_title">Asociere reușită</string>
-    <string name="notification_adb_pairing_succeed_text">Poți porni serviciul Shizuku acum.</string>
+    <string name="notification_adb_pairing_succeed_text">Poți porni serviciul NFX acum.</string>
     <string name="notification_adb_pairing_failed_title">Asocierea eșuată</string>
     <string name="notification_adb_pairing_retry">Încearcă din nou</string>
     <string name="notification_auth_missing_title">Jeton de autentificare necesar</string>
@@ -814,8 +800,8 @@
     <string name="notification_auth_invalid_title">Jeton de autentificare greșit</string>
     <string name="notification_auth_invalid_message">Asigură-te că jetonul din intenția ta se potrivește cu cel afișat la \"Vizualizare intenții\" în aplicație.</string>
     <!-- Permission related, appears in system permission UI -->
-    <string name="permission_label">accesare Shizuku</string>
-    <string name="permission_description">Permite aplicației să folosească Shizuku.</string>
+    <string name="permission_label">accesare NFX</string>
+    <string name="permission_description">Permite aplicației să folosească NFX.</string>
     <string name="permission_warning_template"><![CDATA[Permiți <b>%1$s</b> să %2$s\?]]></string>
     <string name="grant_dialog_button_allow_always">Permite tot timpul</string>
     <string name="grant_dialog_button_deny">"Refuz"</string>
@@ -823,27 +809,27 @@
     <string name="starter">Începător</string>
     <string name="start_with_root_failed">Nu se poate porni serviciul deoarece permisiunea root nu este acordată sau acest dispozitiv nu este root-at.</string>
     <!-- WADB Starter -->
-    <string name="wadb_notification_title">Pornire Shizuku…</string>
+    <string name="wadb_notification_title">Pornire NFX…</string>
     <string name="wadb_notification_wifi_required">Se așteaptă Wi-Fi</string>
     <string name="wadb_notification_retry">Se așteaptă o nouă încercare</string>
-    <string name="wadb_notification_connecting">Pornește Shizuku prin ADB wireless</string>
+    <string name="wadb_notification_connecting">Pornește NFX prin ADB wireless</string>
     <string name="wadb_notification_waiting_for_unlock">Deblochează dispozitivul pentru a continua</string>
     <string name="wadb_notification_forcing_wireless">Păstrarea depanării fără fir</string>
     <string name="wadb_error_title">Eroare la pornire</string>
     <string name="wadb_error_notify_dev">Atinge pentru a notifica dezvoltatorul.</string>
     <string name="wadb_permission_error_notification_title">Eroare de permisiune</string>
-    <string name="wadb_permission_error_notification_content">Shizuku are nevoie de WRITE_SECURE_SETTINGS pentru a rula la pornire. Atinge pentru a afla cum să o acorzi.</string>
+    <string name="wadb_permission_error_notification_content">NFX are nevoie de WRITE_SECURE_SETTINGS pentru a rula la pornire. Atinge pentru a afla cum să o acorzi.</string>
     <!-- Shell -->
     <string name="shell_title">Terminal</string>
-    <string name="shell_backend_shizuku">Shizuku</string>
+    <string name="shell_backend_shizuku">NFX</string>
     <string name="shell_backend_root">Rădăcină</string>
-    <string name="shell_backend_shizuku_status">Shizuku, uid %1$d</string>
+    <string name="shell_backend_shizuku_status">NFX, uid %1$d</string>
     <string name="shell_backend_root_status">Root, uid 0</string>
     <string name="shell_backend_offline">Niciun executant de comenzi nu este activ</string>
-    <string name="shell_needs_a_backend">Pornește Shizuku sau alege Root pe un dispozitiv rootat: una dintre cele două execută comenzile. Root funcționează chiar și cu Shizuku oprit.</string>
-    <string name="shell_intro">Rulează ca uid-ul pe care Shizuku îl rulează ca (2000 peste adb, 0 cu root), deci ajunge la tot ce poate accesa acel uid: /sdcard, /system și app data cu root. Se deschide în /sdcard, câte o comandă pe rând; fără un tty în spate, programele care necesită un terminal (nano, un prompt ssh) nu vor rula aici.</string>
+    <string name="shell_needs_a_backend">Pornește NFX sau alege Root pe un dispozitiv rootat: una dintre cele două execută comenzile. Root funcționează chiar și cu NFX oprit.</string>
+    <string name="shell_intro">Rulează ca uid-ul pe care NFX îl rulează ca (2000 peste adb, 0 cu root), deci ajunge la tot ce poate accesa acel uid: /sdcard, /system și app data cu root. Se deschide în /sdcard, câte o comandă pe rând; fără un tty în spate, programele care necesită un terminal (nano, un prompt ssh) nu vor rula aici.</string>
     <string name="shell_root_granted">Root este disponibil: comenzile rulează ca uid 0.</string>
-    <string name="shell_root_refused">Accesul Root a fost interzis, astfel încât comenzile vor utiliza Shizuku. Acordă acestei aplicații acces root pentru a utiliza Root.</string>
+    <string name="shell_root_refused">Accesul Root a fost interzis, astfel încât comenzile vor utiliza NFX. Acordă acestei aplicații acces root pentru a utiliza Root.</string>
     <string name="shell_search">Căutare</string>
     <string name="shell_search_hint">Găsește</string>
     <string name="shell_search_position">%1$d de %2$d</string>
@@ -887,10 +873,10 @@
     <string name="shell_quick_force_stop">Oprire forțată</string>
     <string name="shell_adb_prefix_dropped">Rulează pe dispozitiv: prefixul shell adb este ceea ce ai tasta pe un computer.</string>
     <string name="shell_adb_host_devices">Aceasta listează dispozitivele conectate la un computer. Acesta este dispozitivul, deci nu există nimic de listat: `pm list packages` este ceea ce este instalat pe el.</string>
-    <string name="shell_adb_host_install">Instalarea aparține părții acelei comenzi de pe computer. Aici, aceeași sarcină este `<b>pm install /calea/către/aplicație.apk</b>`, executată prin Shizuku ca orice altă comandă.</string>
+    <string name="shell_adb_host_install">Instalarea aparține părții acelei comenzi de pe computer. Aici, aceeași sarcină este `<b>pm install /calea/către/aplicație.apk</b>`, executată prin NFX ca orice altă comandă.</string>
     <string name="shell_adb_host_transfer">Aceasta necesită un computer. Pe dispozitiv, fișierele sunt mutate cu <b>cp</b>, iar căile sunt cele pe care le poate atinge acest shell.</string>
     <string name="shell_adb_host_generic">Aceasta este jumătatea de adb care rulează pe un computer şi nu are nimic de acţionat din interiorul dispozitivului. Rulează chiar aici comanda dispozitivului: <b>adb shell ps</b> și <b>ps</b> sunt același lucru.</string>
-    <string name="shell_adb_host_help">Acesta este shell-ul dispozitivului în sine, nu adb pe un computer: comenzile rulează ca uid-ul sub care rulează Shizuku, una câte una. Începeți cu <b>pm list packages</b>, <b>dumpsys battery</b> sau Biblioteca de deasupra intrării.</string>
+    <string name="shell_adb_host_help">Acesta este shell-ul dispozitivului în sine, nu adb pe un computer: comenzile rulează ca uid-ul sub care rulează NFX, una câte una. Începeți cu <b>pm list packages</b>, <b>dumpsys battery</b> sau Biblioteca de deasupra intrării.</string>
     <string name="shell_paste">Lipește o comandă</string>
     <string name="shell_paste_empty">Nimic din clipboard de lipit.</string>
     <string name="shell_jump_to_newest">Salt la cea mai nouă ieșire</string>
@@ -906,13 +892,13 @@
     <!-- Watchdog -->
     <string name="watchdog_running">Watchdog-ul rulează</string>
     <string name="watchdog_turn_off">Oprește</string>
-    <string name="watchdog_shizuku_crashed_title">Shizuku s-a prăbușit recent</string>
+    <string name="watchdog_shizuku_crashed_title">NFX s-a prăbușit recent</string>
     <string name="watchdog_shizuku_crashed_text">Watchdog a repornit serviciul. Apasă pentru a afla despre posibile soluții pentru a preveni viitoare blocări.</string>
     <string name="watchdog_shizuku_crashed_action_turn_off_alerts">Dezactivează alertele</string>
-    <string name="watchdog_shizuku_recovered_title">Shizuku rulează din nou</string>
+    <string name="watchdog_shizuku_recovered_title">NFX rulează din nou</string>
     <string name="watchdog_shizuku_recovered_text">Watchdog a început din nou după ce s-a oprit de la sine.</string>
-    <string name="watchdog_given_up_title">Shizuku nu a putut fi pornit</string>
-    <string name="watchdog_given_up_text">Shizuku a fost pornit de %1$d ori și nu a revenit. Repornirea nu va ajuta până când nu se rezolvă motivul.</string>
+    <string name="watchdog_given_up_title">NFX nu a putut fi pornit</string>
+    <string name="watchdog_given_up_text">NFX a fost pornit de %1$d ori și nu a revenit. Repornirea nu va ajuta până când nu se rezolvă motivul.</string>
     <string name="watchdog_given_up_action_start">Pornește</string>
     <string name="watchdog_not_running_title">Watchdog-ul nu rulează</string>
     <string name="watchdog_not_running_text">Android nu permite pornirea automată. Atinge pentru a-l porni din nou.</string>
@@ -921,13 +907,13 @@
     <string name="off">Dezactivat</string>
     <string name="dialog_cannot_open_browser_title">Nu se poate porni browser-ul</string>
     <string name="toast_copied_to_clipboard">Copiat în clipboard</string>
-    <string name="accessibility_service_description">Oferă asistență pentru asocierea dispozitivelor (de exemplu, televizoare cu Android 14+) unde nu se pot utiliza notificările sau ecranul divizat.\n\nPermite Shizuku să extragă codul de asociere din ecranul de asociere pentru depanarea wireless. Se va dezactiva automat odată ce codul de asociere este găsit.</string>
+    <string name="accessibility_service_description">Oferă asistență pentru asocierea dispozitivelor (de exemplu, televizoare cu Android 14+) unde nu se pot utiliza notificările sau ecranul divizat.\n\nPermite NFX să extragă codul de asociere din ecranul de asociere pentru depanarea wireless. Se va dezactiva automat odată ce codul de asociere este găsit.</string>
     <!-- Messages for legacy -->
-    <string name="dialog_legacy_not_support_title">%1$s nu suportă Shizuku modern</string>
-    <string name="dialog_legacy_not_support_message"><![CDATA[Vechea versiune Shizuku a fost retrasă din martie 2019. De asemenea, vechea versiune Shizuku nu funcționează pe sisteme Android mai noi.<p>Cere dezvoltatorului <b>%1$s</b> să actualizeze.]]></string>
-    <string name="dialog_requesting_legacy_title">%1$s solicită Shizuku vechi</string>
-    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> are suport Shizuku modern, dar solicită Shizuku vechi. Acest lucru se poate datora faptului că Shizuku nu rulează, verifică în aplicația Shizuku.<p>Versiunea veche a Shizuku a fost retrasă din martie 2019.]]></string>
-    <string name="dialog_requesting_legacy_button_open_shizuku">Deschide Shizuku</string>
+    <string name="dialog_legacy_not_support_title">%1$s nu suportă NFX modern</string>
+    <string name="dialog_legacy_not_support_message"><![CDATA[Vechea versiune NFX a fost retrasă din martie 2019. De asemenea, vechea versiune NFX nu funcționează pe sisteme Android mai noi.<p>Cere dezvoltatorului <b>%1$s</b> să actualizeze.]]></string>
+    <string name="dialog_requesting_legacy_title">%1$s solicită NFX vechi</string>
+    <string name="dialog_requesting_legacy_message"><![CDATA[<b>%1$s</b> are suport NFX modern, dar solicită NFX vechi. Acest lucru se poate datora faptului că NFX nu rulează, verifică în aplicația NFX.<p>Versiunea veche a NFX a fost retrasă din martie 2019.]]></string>
+    <string name="dialog_requesting_legacy_button_open_shizuku">Deschide NFX</string>
     <string name="wadb_notification_attempt_now">Încearcă din nou</string>
     <!-- Manage tab -->
     <string name="tab_manage">Operațiuni aplicații</string>
@@ -945,7 +931,7 @@
     <string name="permissions_phantom">Procese de fundal</string>
     <string name="permissions_phantom_summary">Android 12 și versiunile ulterioare pot opri procesele pornite de o aplicație după închiderea aplicației. Acest lucru poate opri serverul după un start la pornire. Această setare afectează întregul dispozitiv și poate necesita o repornire.</string>
     <string name="permissions_action_deny">Refuză</string>
-    <string name="permissions_phantom_failed">Nu s-a putut modifica. Este necesară permisiunea Shizuku sau WRITE_SECURE_SETTINGS.</string>
+    <string name="permissions_phantom_failed">Nu s-a putut modifica. Este necesară permisiunea NFX sau WRITE_SECURE_SETTINGS.</string>
     <string name="manage_status_removed">Eliminat, date păstrate</string>
     <string name="manage_status_disabled">Dezactivat</string>
     <string name="manage_status_suspended">Suspendat</string>
@@ -959,7 +945,7 @@
     <string name="app_section_actions">Acțiuni</string>
     <string name="app_section_battery">Baterie</string>
     <string name="app_section_info">Informații</string>
-    <string name="app_permissions_note">Numai permisiunile a căror protecție include dezvoltarea sau cele periculoase pot fi schimbate prin intermediul anunțurilor; platforma refuză restul, oricât de încrezător ar fi Shizuku, astfel încât aceste rânduri nu mai sunt de încredere.</string>
+    <string name="app_permissions_note">Numai permisiunile a căror protecție include dezvoltarea sau cele periculoase pot fi schimbate prin intermediul anunțurilor; platforma refuză restul, oricât de încrezător ar fi NFX, astfel încât aceste rânduri nu mai sunt de încredere.</string>
     <string name="app_permissions_none">Această aplicație nu are permisiuni de sistem.</string>
     <string name="app_permission_locked">%1$s, nu poate fi schimbat prin ADB</string>
     <string name="app_permission_granted">Permisiune acordată</string>
@@ -969,7 +955,7 @@
     <string name="app_grant_confirm_ok">Acordă</string>
     <string name="app_action_failed">Android a refuzat asta. Nimic nu s-a schimbat.</string>
     <string name="app_ops_note">Platforma însăși consultă opțiunile App Operators, iar ADB le poate modifica pe cele de mai jos. Câteva capabilități sunt accesul special în setările de sistem, mai degrabă decât accesul la toate fișierele App Operators, accesul la utilizarea datelor, alarme exacte, modificarea setărilor de sistem, pe care nicio aplicație nu le poate modifica.</string>
-    <string name="app_ops_needs_shizuku">Pornește Shizuku ca să citească și să schimbe operațiunile aplicației.</string>
+    <string name="app_ops_needs_shizuku">Pornește NFX ca să citească și să schimbe operațiunile aplicației.</string>
     <string name="app_op_background">Rulează în fundal</string>
     <string name="app_op_background_note">Refuză să oprească rularea în fundal.</string>
     <string name="app_op_any_background">Pornește automat cu sistemul de operare</string>
@@ -1023,7 +1009,7 @@
     <string name="app_confirm_disable">Dezactivezi %1$s? Se oprește rularea până când o activezi din nou.</string>
     <string name="app_confirm_clear_data">Ștergi toate datele pentru %1$s? Acest lucru nu poate fi anulat.</string>
     <string name="app_confirm_uninstall">Elimini %1$s pentru acest utilizator? Datele sale sunt păstrate.</string>
-    <string name="app_battery_needs_shizuku">Pornește Shizuku pentru a schimba setările bateriei.</string>
+    <string name="app_battery_needs_shizuku">Pornește NFX pentru a schimba setările bateriei.</string>
     <string name="app_battery_bucket">Găleată în așteptare</string>
     <string name="app_battery_pick_title">Găleată în așteptare</string>
     <string name="app_bucket_active">Nerestricționat</string>
@@ -1043,7 +1029,7 @@
     <string name="app_battery_unrestricted">Ignoră optimizarea bateriei</string>
     <string name="app_battery_unrestricted_note">Las-o să rămână activă în timpul Doze, dar folosește mai multă baterie.</string>
     <string name="app_section_network">Rețea</string>
-    <string name="app_network_needs_shizuku">Pornește Shizuku pentru a schimba ce poate ajunge o aplicație.</string>
+    <string name="app_network_needs_shizuku">Pornește NFX pentru a schimba ce poate ajunge o aplicație.</string>
     <string name="app_network_unsupported">Acest dispozitiv nu oferă firewall-ul de care au nevoie.</string>
     <string name="app_network_block">Blochează accesul la rețea</string>
     <string name="app_network_block_note">Platforma reduce traficul.</string>
@@ -1056,7 +1042,7 @@
     <string name="lab_state_off">Dezactivat</string>
     <string name="lab_state_unavailable">Indisponibil</string>
     <!-- The switches in the shade and on the home screen that are not about one app. -->
-    <string name="lab_switch_service">Serviciul Shizuku</string>
+    <string name="lab_switch_service">Serviciul NFX</string>
     <string name="lab_switch_hiding">Ascuns</string>
     <string name="lab_switch_watchdog">Watchdog</string>
     <!-- The three platform settings themselves, and the hiding switches that are about the same
@@ -1099,7 +1085,7 @@
     <string name="wifi_passwords_copy">Copiază parola</string>
     <string name="wifi_passwords_none">Fără parolă</string>
     <string name="wifi_passwords_empty">Nicio rețea salvată.</string>
-    <string name="wifi_passwords_needs_shizuku">Shizuku nu rulează, deci nu există niciun shell pentru a citi rețelele salvate.</string>
+    <string name="wifi_passwords_needs_shizuku">NFX nu rulează, deci nu există niciun shell pentru a citi rețelele salvate.</string>
     <string name="wifi_passwords_failed">Serviciul Wi-Fi nu a răspuns. Jurnalul conține ceea ce scrie.</string>
     <string name="wifi_passwords_unsupported">Citirea rețelelor salvate necesită Android 9 sau o versiune ulterioară, de unde se poate accesa serviciul Wi-Fi ascuns.</string>
     <string name="wifi_passwords_search_hint">Căutare rețele</string>
@@ -1148,7 +1134,7 @@
     <string name="files_show_hidden">Afișează fișierele ascunse</string>
     <string name="files_hide_hidden">Ascunde fișiere ascunse</string>
     <string name="files_failed">%1$s nu a putut fi listat. Nu există acces shell sau dosarul lipsește.</string>
-    <string name="files_needs_shizuku">Shizuku nu rulează, deci fișierele nu pot fi citite.</string>
+    <string name="files_needs_shizuku">NFX nu rulează, deci fișierele nu pot fi citite.</string>
     <string name="files_preview_binary">Acesta nu este un fișier text, deci nu poate fi afișat.</string>
     <string name="files_preview_failed">Nu s-a putut citi acest fișier.</string>
     <string name="files_preview_truncated">Numai începutul fișierului este afișat.</string>

@@ -3,7 +3,7 @@ BASEDIR=$(dirname "$0")
 DEX="$BASEDIR"/rish_shizuku.dex
 
 if [ ! -f "$DEX" ]; then
-  echo "Cannot find $DEX, please check the tutorial in Shizuku app"
+  echo "Cannot find $DEX. See the terminal instructions in NFX Location PRO."
   exit 1
 fi
 
