@@ -117,6 +117,7 @@ import moe.shizuku.manager.ui.screen.LabsScreen
 import moe.shizuku.manager.ui.screen.LogScreen
 import moe.shizuku.manager.ui.screen.LabsToggleScreen
 import moe.shizuku.manager.ui.screen.ManageScreen
+import moe.shizuku.manager.ui.screen.MockLocationScreen
 import moe.shizuku.manager.ui.screen.CatalogKind
 import moe.shizuku.manager.ui.screen.CatalogScreen
 import moe.shizuku.manager.ui.screen.PermissionsScreen
@@ -144,6 +145,7 @@ enum class Detail(
 ) {
     APP_OPS,
     SHELL,
+    MOCK_LOCATION,
     FIREWALL(AppToggleFeature.FIREWALL),
     AUTOSTART(AppToggleFeature.AUTOSTART),
 
@@ -317,6 +319,7 @@ fun ShizukuApp(onOpenAccount: () -> Unit) {
                             )
 
                             Detail.SHELL -> ShellScreen(bottomPadding = 0.dp, onBack = { detail = null })
+                            Detail.MOCK_LOCATION -> MockLocationScreen(onBack = { detail = null })
                             // The six hiding modes are one tile in the grid, and this is what
                             // it opens: all of them, what each covers and whether it is on.
                             Detail.HIDING -> HidingScreen(

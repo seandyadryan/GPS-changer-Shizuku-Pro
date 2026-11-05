@@ -1,4 +1,20 @@
 <resources>
+    <string name="mock_location_title">Set Location</string>
+    <string name="mock_location_description">Send a mock location update to Android’s GPS, network, and fused providers. Apply again if an app needs a fresh update.</string>
+    <string name="mock_location_latitude">Latitude</string>
+    <string name="mock_location_longitude">Longitude</string>
+    <string name="mock_location_range">Enter a number between %1$d and %2$d.</string>
+    <string name="mock_location_apply">Apply mock location</string>
+    <string name="mock_location_restore">Restore real location</string>
+    <string name="mock_location_back">Back</string>
+    <string name="mock_location_applied">Android shows the mock point on all three providers.</string>
+    <string name="mock_location_unverified">Android accepted the commands. The mock point could not be verified for %1$s.</string>
+    <string name="mock_location_restored">Test providers removed. Open the target app to request a fresh location.</string>
+    <string name="mock_location_adb_required">Start NFX through Wireless Debugging or USB Debugging to use this tool.</string>
+    <string name="mock_location_enable_location">Turn on Location in Android settings, then try again.</string>
+    <string name="mock_location_failed">Android could not complete the location change.</string>
+    <string name="mock_location_retry_restore">A test provider may still be active. Try Restore real location again.</string>
+    <string name="mock_location_permission_restore_failed">Android could not restore Shell’s previous mock location permission.</string>
     <string name="bug_report_email_recipient">Send your report by email</string>
     <string name="bug_report_email_open">Open email</string>
     <string name="bug_report_email_subject">%1$s bug report</string>

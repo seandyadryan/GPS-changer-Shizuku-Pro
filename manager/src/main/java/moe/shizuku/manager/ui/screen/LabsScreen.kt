@@ -26,6 +26,7 @@ import androidx.compose.material.icons.outlined.DarkMode
 import androidx.compose.material.icons.outlined.PowerSettingsNew
 import androidx.compose.material.icons.outlined.Extension
 import androidx.compose.material.icons.outlined.FolderOpen
+import androidx.compose.material.icons.outlined.MyLocation
 import androidx.compose.material.icons.outlined.PhoneAndroid
 import androidx.compose.material.icons.outlined.Terminal
 import androidx.compose.material.icons.outlined.VisibilityOff
@@ -114,6 +115,7 @@ fun LabsScreen(bottomPadding: Dp, onOpenDetail: (Detail) -> Unit) {
     val entries = listOf(
         LabEntry(R.string.tab_manage, Icons.Outlined.AdminPanelSettings, Detail.APP_OPS),
         LabEntry(R.string.tab_shell, Icons.Outlined.Terminal, Detail.SHELL),
+        LabEntry(R.string.mock_location_title, Icons.Outlined.MyLocation, Detail.MOCK_LOCATION),
         LabEntry(
             AppToggleFeature.FIREWALL.titleRes,
             AppToggleFeature.FIREWALL.icon,

@@ -1,4 +1,20 @@
 <resources>
+    <string name="mock_location_title">Atur Lokasi</string>
+    <string name="mock_location_description">Kirim titik mock ke provider GPS, network, dan fused di Android. Terapkan lagi jika aplikasi memerlukan pembaruan lokasi.</string>
+    <string name="mock_location_latitude">Latitude</string>
+    <string name="mock_location_longitude">Longitude</string>
+    <string name="mock_location_range">Masukkan angka antara %1$d dan %2$d.</string>
+    <string name="mock_location_apply">Terapkan lokasi mock</string>
+    <string name="mock_location_restore">Kembalikan lokasi asli</string>
+    <string name="mock_location_back">Kembali</string>
+    <string name="mock_location_applied">Android menampilkan titik mock pada ketiga provider.</string>
+    <string name="mock_location_unverified">Android menerima perintah. Titik mock belum terverifikasi pada %1$s.</string>
+    <string name="mock_location_restored">Provider uji dihapus. Buka aplikasi target untuk meminta lokasi terbaru.</string>
+    <string name="mock_location_adb_required">Jalankan NFX lewat Debugging Nirkabel atau Debugging USB untuk memakai fitur ini.</string>
+    <string name="mock_location_enable_location">Aktifkan Lokasi di setelan Android, lalu coba lagi.</string>
+    <string name="mock_location_failed">Android gagal menyelesaikan perubahan lokasi.</string>
+    <string name="mock_location_retry_restore">Provider uji mungkin masih aktif. Coba Kembalikan lokasi asli lagi.</string>
+    <string name="mock_location_permission_restore_failed">Android gagal mengembalikan izin lokasi mock Shell sebelumnya.</string>
     <string name="bug_report_email_recipient">Kirim laporan melalui email</string>
     <string name="bug_report_email_open">Buka email</string>
     <string name="bug_report_email_subject">Laporan bug %1$s</string>

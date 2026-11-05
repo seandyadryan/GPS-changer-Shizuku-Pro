@@ -1,3 +1,3 @@
-- Nama NFX sekarang dipakai di layar, dialog, notifikasi, dan pesan aplikasi.
-- Contributors, Help, dan Participate in translation telah dihapus dari menu.
-- Report a bug membuka draf email ke `seandyadryan2@gmail.com`. Log dapat dibagikan secara terpisah.
+- Buka **Labs → Atur Lokasi**, isi latitude dan longitude, lalu pilih **Terapkan lokasi mock**. NFX mengirim koordinat ke provider GPS, network, dan fused serta memeriksa hasil dari Android.
+- Pilih **Kembalikan lokasi asli** untuk menghapus provider uji. Aktifkan Lokasi Android dan jalankan layanan NFX lewat Debugging Nirkabel atau Debugging USB sebelum memakai menu ini.
+- Tombol Terapkan mengirim satu pembaruan. Android menandai titik tersebut sebagai lokasi mock.
