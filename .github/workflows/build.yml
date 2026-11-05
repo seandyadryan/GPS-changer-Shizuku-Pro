@@ -65,7 +65,7 @@ jobs:
 
       - name: Install pinned Android toolchain
         run: |
-          sdkmanager 'platforms;android-36' 'build-tools;37.0.0' 'ndk;29.0.14206865' 'cmake;3.31.6'
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" 'platforms;android-36' 'build-tools;37.0.0' 'ndk;29.0.14206865' 'cmake;3.31.6'
           chmod +x gradlew
 
       - name: Test, lint and build release APK
